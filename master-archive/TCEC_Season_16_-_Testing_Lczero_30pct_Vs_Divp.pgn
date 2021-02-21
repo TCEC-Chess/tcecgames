@@ -13274,7 +13274,7 @@ Rcxd2 {d=4, sd=16, pd=Kh3, mt=2167, tl=3376, s=201045, n=483390, pv=Rcxd2 Nxd2, 
 [Round "5.3"]
 [White "LCZero30pct v0.22.0-nT40B.4-160"]
 [Black "LCZero v0.22.0-nT40B.4-160"]
-[Result "1/2-1/2"]
+[Result "0-1"]
 [BlackElo "3910"]
 [BlackTimeControl "1800+5"]
 [ECO "C42"]
