@@ -1,0 +1,2915 @@
+{
+   "Seasons": {
+      "1": {
+         "download": "TCEC_Season_1_full.pgn.zip",
+         "sub": [
+            {
+               "id": "s1division1",
+               "dno": "1",
+               "abb": "TCEC_Season_1_-_Division_1",
+               "url": "season=1&div=1",
+               "no": "1",
+               "menu": "Division 1"
+            },
+            {
+               "abb": "TCEC_Season_1_-_Division_2",
+               "menu": "Division 2",
+               "no": "1",
+               "url": "season=1&div=2",
+               "id": "s1division2",
+               "dno": "2"
+            },
+            {
+               "id": "s1division3",
+               "dno": "3",
+               "abb": "TCEC_Season_1_-_Division_3",
+               "menu": "Division 3",
+               "url": "season=1&div=3",
+               "no": "1"
+            },
+            {
+               "menu": "Superfinal",
+               "no": "1",
+               "url": "season=1&div=sf",
+               "abb": "TCEC_Season_1_-_Elite-Match",
+               "dno": "sf",
+               "id": "s1divisionsf"
+            }
+         ]
+      },
+      "2": {
+         "sub": [
+            {
+               "dno": "A",
+               "id": "s2divisiona",
+               "url": "season=2&div=a",
+               "no": "2",
+               "menu": "Division A",
+               "abb": "TCEC_Season_2_-_Division_A"
+            },
+            {
+               "dno": "B",
+               "id": "s2divisionb",
+               "url": "season=2&div=b",
+               "no": "2",
+               "menu": "Division B",
+               "abb": "TCEC_Season_2_-_Division_B"
+            },
+            {
+               "abb": "TCEC_Season_2_-_Division_C",
+               "menu": "Division C",
+               "url": "season=2&div=c",
+               "no": "2",
+               "id": "s2divisionc",
+               "dno": "C"
+            },
+            {
+               "id": "s2divisiond",
+               "dno": "D",
+               "abb": "TCEC_Season_2_-_Division_D",
+               "menu": "Division D",
+               "url": "season=2&div=d",
+               "no": "2"
+            },
+            {
+               "id": "s2divisione",
+               "dno": "E",
+               "abb": "TCEC_Season_2_-_Division_E",
+               "menu": "Division E",
+               "url": "season=2&div=e",
+               "no": "2"
+            },
+            {
+               "abb": "TCEC_Season_2_-_Division_F",
+               "menu": "Division F",
+               "no": "2",
+               "url": "season=2&div=f",
+               "id": "s2divisionf",
+               "dno": "F"
+            },
+            {
+               "abb": "TCEC_Season_2_-_Elite-Match",
+               "no": "2",
+               "url": "season=2&stage=sf",
+               "menu": "Superfinal",
+               "id": "s2divisionsf",
+               "dno": "sf"
+            }
+         ],
+         "download": "TCEC_Season_2_full.pgn.zip"
+      },
+      "3": {
+         "sub": [
+            {
+               "abb": "TCEC_Season_3_-_Stage_1",
+               "no": "3",
+               "url": "season=3&stage=1",
+               "menu": "Stage 1",
+               "id": "s3stage1",
+               "dno": "1"
+            },
+            {
+               "abb": "TCEC_Season_3_-_Stage_2a",
+               "url": "season=3&stage=2a",
+               "no": "3",
+               "menu": "Stage 2a",
+               "id": "s3stage2a",
+               "dno": "2a"
+            }
+         ],
+         "download": "TCEC_Season_3_full.pgn.zip"
+      },
+      "4": {
+         "download": "TCEC_Season_4_full.pgn.zip",
+         "sub": [
+            {
+               "url": "season=4&stage=1",
+               "no": "4",
+               "menu": "Stage 1",
+               "abb": "TCEC_Season_4_-_Stage_1",
+               "dno": "1",
+               "id": "s4stage1"
+            },
+            {
+               "abb": "TCEC_Season_4_-_Stage_2a",
+               "url": "season=4&stage=2a",
+               "no": "4",
+               "menu": "Stage 2a",
+               "id": "s4stage2a",
+               "dno": "2a"
+            },
+            {
+               "abb": "TCEC_Season_4_-_Stage_2b",
+               "no": "4",
+               "url": "season=4&stage=2b",
+               "menu": "Stage 2b",
+               "id": "s4stage2b",
+               "dno": "2b"
+            },
+            {
+               "id": "s4stage3",
+               "dno": "3",
+               "abb": "TCEC_Season_4_-_Stage_3",
+               "menu": "Stage 3",
+               "no": "4",
+               "url": "season=4&stage=3"
+            },
+            {
+               "id": "s4stage4",
+               "dno": "4",
+               "abb": "TCEC_Season_4_-_Stage_4",
+               "menu": "Stage 4",
+               "no": "4",
+               "url": "season=4&stage=4"
+            },
+            {
+               "id": "s4divisionsf",
+               "dno": "sf",
+               "abb": "TCEC_Season_4_-_Superfinal",
+               "no": "4",
+               "url": "season=4&div=sf",
+               "menu": "Superfinal"
+            }
+         ]
+      },
+      "5": {
+         "sub": [
+            {
+               "id": "s5stage1",
+               "dno": "1",
+               "abb": "TCEC_Season_5_-_Stage_1",
+               "no": "5",
+               "url": "season=5&stage=1",
+               "menu": "Stage 1"
+            },
+            {
+               "id": "s5stage2",
+               "dno": "2",
+               "abb": "TCEC_Season_5_-_Stage_2",
+               "no": "5",
+               "url": "season=5&stage=2",
+               "menu": "Stage 2"
+            },
+            {
+               "dno": "3",
+               "id": "s5stage3",
+               "menu": "Stage 3",
+               "no": "5",
+               "url": "season=5&stage=3",
+               "abb": "TCEC_Season_5_-_Stage_3"
+            },
+            {
+               "id": "s5stage4",
+               "dno": "4",
+               "abb": "TCEC_Season_5_-_Stage_4",
+               "no": "5",
+               "url": "season=5&stage=4",
+               "menu": "Stage 4"
+            },
+            {
+               "no": "5",
+               "url": "season=5&div=sf",
+               "menu": "Superfinal",
+               "abb": "TCEC_Season_5_-_Superfinal",
+               "dno": "sf",
+               "id": "s5divisionsf"
+            }
+         ],
+         "download": "TCEC_Season_5_full.pgn.zip"
+      },
+      "6": {
+         "download": "TCEC_Season_6_full.pgn.zip",
+         "sub": [
+            {
+               "no": "6",
+               "url": "season=6&stage=1a",
+               "menu": "Stage 1a",
+               "abb": "TCEC_Season_6_-_Stage_1a",
+               "dno": "1a",
+               "id": "s6stage1a"
+            },
+            {
+               "menu": "Stage 1b",
+               "url": "season=6&stage=1b",
+               "no": "6",
+               "abb": "TCEC_Season_6_-_Stage_1b",
+               "dno": "1b",
+               "id": "s6stage1b"
+            },
+            {
+               "id": "s6stage1c",
+               "dno": "1c",
+               "abb": "TCEC_Season_6_-_Stage_1c",
+               "menu": "Stage 1c",
+               "url": "season=6&stage=1c",
+               "no": "6"
+            },
+            {
+               "dno": "2",
+               "id": "s6stage2",
+               "menu": "Stage 2",
+               "no": "6",
+               "url": "season=6&stage=2",
+               "abb": "TCEC_Season_6_-_Stage_2"
+            },
+            {
+               "dno": "3",
+               "id": "s6stage3",
+               "no": "6",
+               "url": "season=6&stage=3",
+               "menu": "Stage 3",
+               "abb": "TCEC_Season_6_-_Stage_3"
+            },
+            {
+               "dno": "4",
+               "id": "s6stage4",
+               "menu": "Stage 4",
+               "no": "6",
+               "url": "season=6&stage=4",
+               "abb": "TCEC_Season_6_-_Stage_4"
+            },
+            {
+               "id": "s6divisionsf",
+               "dno": "sf",
+               "abb": "TCEC_Season_6_-_Superfinal",
+               "no": "6",
+               "url": "season=6&div=sf",
+               "menu": "Superfinal"
+            }
+         ]
+      },
+      "7": {
+         "sub": [
+            {
+               "url": "season=7&stage=1a",
+               "no": "7",
+               "menu": "Stage 1a",
+               "abb": "TCEC_Season_7_-_Stage_1a",
+               "dno": "1a",
+               "id": "s7stage1a"
+            },
+            {
+               "no": "7",
+               "url": "season=7&stage=1b",
+               "menu": "Stage 1b",
+               "abb": "TCEC_Season_7_-_Stage_1b",
+               "dno": "1b",
+               "id": "s7stage1b"
+            },
+            {
+               "dno": "2",
+               "id": "s7stage2",
+               "menu": "Stage 2",
+               "url": "season=7&stage=2",
+               "no": "7",
+               "abb": "TCEC_Season_7_-_Stage_2"
+            },
+            {
+               "abb": "TCEC_Season_7_-_Stage_3",
+               "menu": "Stage 3",
+               "url": "season=7&stage=3",
+               "no": "7",
+               "id": "s7stage3",
+               "dno": "3"
+            },
+            {
+               "dno": "4",
+               "id": "s7stage4",
+               "menu": "Stage 4",
+               "url": "season=7&stage=4",
+               "no": "7",
+               "abb": "TCEC_Season_7_-_Stage_4"
+            },
+            {
+               "abb": "TCEC_Season_7_-_Superfinal",
+               "menu": "Superfinal",
+               "no": "7",
+               "url": "season=7&div=sf",
+               "id": "s7divisionsf",
+               "dno": "sf"
+            }
+         ],
+         "download": "TCEC_Season_7_full.pgn.zip"
+      },
+      "8": {
+         "sub": [
+            {
+               "abb": "TCEC_Season_8_-_Stage_1a",
+               "no": "8",
+               "url": "season=8&stage=1a",
+               "menu": "Stage 1a",
+               "id": "s8stage1a",
+               "dno": "1a"
+            },
+            {
+               "id": "s8stage1b",
+               "dno": "1b",
+               "abb": "TCEC_Season_8_-_Stage_1b",
+               "no": "8",
+               "url": "season=8&stage=1b",
+               "menu": "Stage 1b"
+            },
+            {
+               "abb": "TCEC_Season_8_-_Stage_2",
+               "menu": "Stage 2",
+               "url": "season=8&stage=2",
+               "no": "8",
+               "id": "s8stage2",
+               "dno": "2"
+            },
+            {
+               "dno": "3",
+               "id": "s8stage3",
+               "menu": "Stage 3",
+               "no": "8",
+               "url": "season=8&stage=3",
+               "abb": "TCEC_Season_8_-_Stage_3"
+            },
+            {
+               "id": "s8divisionsf",
+               "dno": "sf",
+               "abb": "TCEC_Season_8_-_Superfinal",
+               "url": "season=8&div=sf",
+               "no": "8",
+               "menu": "Superfinal"
+            }
+         ],
+         "download": "TCEC_Season_8_full.pgn.zip"
+      },
+      "9": {
+         "sub": [
+            {
+               "dno": "1a",
+               "id": "s9stage1a",
+               "url": "season=9&stage=1a",
+               "no": "9",
+               "menu": "Stage 1a",
+               "abb": "TCEC_Season_9_-_Stage_1a"
+            },
+            {
+               "id": "s9stage1b",
+               "dno": "1b",
+               "abb": "TCEC_Season_9_-_Stage_1b",
+               "menu": "Stage 1b",
+               "no": "9",
+               "url": "season=9&stage=1b"
+            },
+            {
+               "menu": "Stage 2",
+               "no": "9",
+               "url": "season=9&stage=2",
+               "abb": "TCEC_Season_9_-_Stage_2",
+               "dno": "2",
+               "id": "s9stage2"
+            },
+            {
+               "dno": "3",
+               "id": "s9stage3",
+               "url": "season=9&stage=3",
+               "no": "9",
+               "menu": "Stage 3",
+               "abb": "TCEC_Season_9_-_Stage_3"
+            },
+            {
+               "abb": "TCEC_Season_9_-_Superfinal",
+               "no": "9",
+               "url": "season=9&div=sf",
+               "menu": "Superfinal",
+               "id": "s9divisionsf",
+               "dno": "sf"
+            },
+            {
+               "dno": "Rapid",
+               "abb": "TCEC_Season_9_-_Rapid",
+               "url": "season=9&div=rapid",
+               "no": "9",
+               "menu": "Rapid",
+               "id": "s9rapid"
+            }
+         ],
+         "download": "TCEC_Season_9_full.pgn.zip"
+      },
+      "10": {
+         "sub": [
+            {
+               "abb": "TCEC_Season_10_-_Stage_1",
+               "menu": "Stage 1",
+               "no": "10",
+               "url": "season=10&stage=1",
+               "id": "s10stage1",
+               "dno": "1"
+            },
+            {
+               "abb": "TCEC_Season_10_-_Stage_2",
+               "no": "10",
+               "url": "season=10&stage=2",
+               "menu": "Stage 2",
+               "id": "s10stage2",
+               "dno": "2"
+            },
+            {
+               "no": "10",
+               "url": "season=10&div=sf",
+               "menu": "Superfinal",
+               "abb": "TCEC_Season_10_-_Superfinal",
+               "dno": "sf",
+               "id": "s10divisionsf"
+            },
+            {
+               "menu": "Rapid",
+               "id": "s10divisionrapid",
+               "dno": "Rapid",
+               "no": "10",
+               "abb": "TCEC_Season_10_-_Rapid",
+               "url": "season=10&div=rapid"
+            },
+            {
+               "menu": "Blitz",
+               "no": "10",
+               "id": "s10divisionblitz",
+               "url": "season=10&div=blitz",
+               "dno": "Blitz",
+               "abb": "TCEC_Season_10_-_Blitz"
+            }
+         ],
+         "download": "TCEC_Season_10_full.pgn.zip"
+      },
+      "11": {
+         "download": "TCEC_Season_11_full.pgn.zip",
+         "sub": [
+            {
+               "abb": "TCEC_Season_11_-_Division_1",
+               "menu": "Division 1",
+               "no": "11",
+               "url": "season=11&div=1",
+               "id": "s11division1",
+               "dno": "1"
+            },
+            {
+               "id": "s11division2",
+               "dno": "2",
+               "abb": "TCEC_Season_11_-_Division_2",
+               "menu": "Division 2",
+               "url": "season=11&div=2",
+               "no": "11"
+            },
+            {
+               "abb": "TCEC_Season_11_-_Division_3",
+               "no": "11",
+               "url": "season=11&div=3",
+               "menu": "Division 3",
+               "id": "s11division3",
+               "dno": "3"
+            },
+            {
+               "menu": "Division 4",
+               "url": "season=11&div=4",
+               "no": "11",
+               "abb": "TCEC_Season_11_-_Division_4",
+               "dno": "4",
+               "id": "s11division4"
+            },
+            {
+               "id": "s11divisionp",
+               "dno": "P",
+               "abb": "TCEC_Season_11_-_Division_P",
+               "no": "11",
+               "url": "season=11&div=p",
+               "menu": "Division P"
+            },
+            {
+               "dno": "sf",
+               "id": "s11divisionsf",
+               "menu": "Superfinal",
+               "url": "season=11&div=sf",
+               "no": "11",
+               "abb": "TCEC_Season_11_-_Superfinal"
+            }
+         ]
+      },
+      "12": {
+         "download": "TCEC_Season_12_full.pgn.zip",
+         "sub": [
+            {
+               "id": "s12division1",
+               "dno": "1",
+               "abb": "TCEC_Season_12_-_Division_1",
+               "url": "season=12&div=1",
+               "no": "12",
+               "menu": "Division 1"
+            },
+            {
+               "dno": "2",
+               "id": "s12division2",
+               "menu": "Division 2",
+               "no": "12",
+               "url": "season=12&div=2",
+               "abb": "TCEC_Season_12_-_Division_2"
+            },
+            {
+               "menu": "Division 3",
+               "url": "season=12&div=3",
+               "no": "12",
+               "abb": "TCEC_Season_12_-_Division_3",
+               "dno": "3",
+               "id": "s12division3"
+            },
+            {
+               "dno": "4",
+               "id": "s12division4",
+               "no": "12",
+               "url": "season=12&div=4",
+               "menu": "Division 4",
+               "abb": "TCEC_Season_12_-_Division_4"
+            },
+            {
+               "abb": "TCEC_Season_12_-_Division_P",
+               "menu": "Division P",
+               "url": "season=12&div=p",
+               "no": "12",
+               "id": "s12divisionp",
+               "dno": "P"
+            },
+            {
+               "id": "s12divisionsf",
+               "dno": "sf",
+               "abb": "TCEC_Season_12_-_Superfinal",
+               "menu": "Superfinal",
+               "url": "season=12&div=sf",
+               "no": "12"
+            }
+         ]
+      },
+      "13": {
+         "sub": [
+            {
+               "dno": "1",
+               "id": "s13division1",
+               "menu": "Division 1",
+               "no": "13",
+               "url": "season=13&div=1",
+               "abb": "TCEC_Season_13_-_Division_1"
+            },
+            {
+               "id": "s13division2",
+               "dno": "2",
+               "abb": "TCEC_Season_13_-_Division_2",
+               "no": "13",
+               "url": "season=13&div=2",
+               "menu": "Division 2"
+            },
+            {
+               "url": "season=13&div=3",
+               "no": "13",
+               "menu": "Division 3",
+               "abb": "TCEC_Season_13_-_Division_3",
+               "dno": "3",
+               "id": "s13division3"
+            },
+            {
+               "dno": "4",
+               "id": "s13division4",
+               "menu": "Division 4",
+               "url": "season=13&div=4",
+               "no": "13",
+               "abb": "TCEC_Season_13_-_Division_4"
+            },
+            {
+               "abb": "TCEC_Season_13_-_Division_P",
+               "menu": "Division P",
+               "no": "13",
+               "url": "season=13&div=p",
+               "id": "s13divisionp",
+               "dno": "P"
+            },
+            {
+               "abb": "TCEC_Season_13_-_Superfinal",
+               "menu": "Superfinal",
+               "url": "season=13&div=sf",
+               "no": "13",
+               "id": "s13divisionsf",
+               "dno": "sf"
+            }
+         ],
+         "download": "TCEC_Season_13_full.pgn.zip"
+      },
+      "14": {
+         "download": "TCEC_Season_14_full.pgn.zip",
+         "sub": [
+            {
+               "id": "s14division1",
+               "dno": "4",
+               "abb": "TCEC_Season_14_-_Division_1",
+               "no": "14",
+               "url": "season=14&div=1",
+               "menu": "Division 1"
+            },
+            {
+               "abb": "TCEC_Season_14_-_Division_2",
+               "menu": "Division 2",
+               "url": "season=14&div=2",
+               "no": "14",
+               "id": "s14division2",
+               "dno": "3"
+            },
+            {
+               "dno": "2",
+               "id": "s14division3",
+               "url": "season=14&div=3",
+               "no": "14",
+               "menu": "Division 3",
+               "abb": "TCEC_Season_14_-_Division_3"
+            },
+            {
+               "dno": "1",
+               "id": "s14division4",
+               "menu": "Division 4",
+               "url": "season=14&div=4",
+               "no": "14",
+               "abb": "TCEC_Season_14_-_Division_4"
+            },
+            {
+               "url": "season=14&div=p",
+               "no": "14",
+               "menu": "Division P",
+               "abb": "TCEC_Season_14_-_Division_P",
+               "dno": "5",
+               "id": "s14divisionp"
+            },
+            {
+               "dno": "sf",
+               "id": "s14divisionsf",
+               "menu": "Superfinal",
+               "url": "season=14&div=sf",
+               "no": "14",
+               "abb": "TCEC_Season_14_-_Superfinal"
+            }
+         ]
+      },
+      "15": {
+         "download": "TCEC_Season_15_full.pgn.zip",
+         "fullpgn": "TCEC_Season_15_full.pgn",
+         "sub": [
+            {
+               "dno": "1",
+               "id": "s15division4a",
+               "menu": "Division 4a",
+               "url": "season=15&div=4a",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Division_4a"
+            },
+            {
+               "dno": "3",
+               "id": "s15division4b",
+               "menu": "Division 4b",
+               "url": "season=15&div=4b",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Division_4b"
+            },
+            {
+               "dno": "4",
+               "id": "s15division4a4bplayoff",
+               "menu": "Division 4 playoff",
+               "url": "season=15&div=4a4bplayoff",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Division_4_Playoff"
+            },
+            {
+               "dno": "5",
+               "id": "s15division3",
+               "menu": "Division 3",
+               "url": "season=15&div=3",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Division_3"
+            },
+            {
+               "dno": "7",
+               "id": "s15division2",
+               "menu": "Division 2",
+               "url": "season=15&div=2",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Division_2"
+            },
+            {
+               "dno": "8",
+               "id": "s15division1",
+               "menu": "Division 1",
+               "url": "season=15&div=1",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Division_1"
+            },
+            {
+               "no": "15",
+               "dno": "10",
+               "id": "s15divisioncup_testing",
+               "url": "season=15&div=cup_testing",
+               "abb": "TCEC_Season_15_-_Cup_testing",
+               "menu": "Cup_testing"
+            },
+            {
+               "dno": "9",
+               "id": "s15divisionp",
+               "menu": "Division P",
+               "url": "season=15&div=p",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Division_P"
+            },
+            {
+               "dno": "999",
+               "id": "s15divisionsf",
+               "menu": "Superfinal",
+               "url": "season=15&div=sf",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Superfinal"
+            },
+            {
+               "id": "s15divisionchampions",
+               "menu": "S15 Champions Bonus",
+               "url": "season=15&div=champions",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Champions_Bonus",
+               "dno": "1003"
+            },
+            {
+               "id": "s15divisionrapid",
+               "menu": "S15 Rapid Bonus",
+               "url": "season=15&div=rapid",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Rapid_Bonus",
+               "dno": "1007"
+            }
+         ]
+      },
+      "16": {
+         "download": "TCEC_Season_16_full.pgn.zip",
+         "fullpgn": "TCEC_Season_16_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s16divisiontesting_glaurung",
+               "menu": "Testing Glaurung vs Qualification",
+               "url": "season=16&div=testing_glaurung",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Testing_Glaurung_Vs_Qualification",
+               "dno": "0012"
+            },
+            {
+               "id": "s16divisiontesting_lczero1pct_qualification1",
+               "menu": "Testing Lczero 1pct Vs Qualification1",
+               "url": "season=16&div=testing_lczero1pct_qualification1",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Division_Testing_Lczero_1pct_Vs_Qualification1",
+               "dno": "0013"
+            },
+            {
+               "id": "s16divisiontesting6",
+               "menu": "Testing 6 ChessFighterNN",
+               "url": "season=16&div=testing6",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Division_Testing_6_ChessFighterNN",
+               "dno": "0017"
+            },
+            {
+               "id": "s16divisionbonuslczerocpu_part1",
+               "menu": "Bonus LCZero CPU vs Qualification What If part1",
+               "url": "season=16&div=bonuslczerocpu_part1",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Division_Bonus_Lczero_Cpu_Vs_Qualification_What_If_Part1",
+               "dno": "0021"
+            },
+            {
+               "id": "s16divisiontesting9_lczero1pct_qualification",
+               "menu": "Testing 9 Lczero 1pct Vs Qualification",
+               "url": "season=16&div=testing9_lczero1pct_qualification",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Division_Testing_9_Lczero_1pct_Vs_Qualification",
+               "dno": "0025"
+            },
+            {
+               "id": "s16divisionrevisitbonus",
+               "menu": "Revisit Bonus S12 Div4 Lczero Games",
+               "url": "season=16&div=revisitbonus",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Revisit_Bonus_S12_Div4_Lczero_Games",
+               "dno": "0029"
+            },
+            {
+               "id": "s16divisiontesting13",
+               "menu": "Testing 13 Lczero 1pct Vs Qualification",
+               "url": "season=16&div=testing13",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Testing_13_Lczero_1pct_Vs_Qualification",
+               "dno": "0033"
+            },
+            {
+               "id": "s16divisiontesting15",
+               "menu": "Testing 15 Lczero 1kn Vs Qualification",
+               "url": "season=16&div=testing15",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Testing_15_Lczero_1kn_Vs_Qualification",
+               "dno": "0037"
+            },
+            {
+               "id": "s16divisionql",
+               "menu": "Qualification League",
+               "url": "season=16&div=ql",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Qualification_League",
+               "dno": "1041"
+            },
+            {
+               "id": "s16divisiontestinglczero3pct_l2",
+               "menu": "Testing LCZero 3pct vs League 2",
+               "url": "season=16&div=testinglczero3pct_l2",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Division_Testing_LCZero_3pct_vs_League_2",
+               "dno": "0045"
+            },
+            {
+               "id": "s16divisionl2",
+               "menu": "League 2",
+               "url": "season=16&div=l2",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Division_League_2",
+               "dno": "1049"
+            },
+            {
+               "id": "s16divisionl2bonus",
+               "menu": "LCZeroCPU Vs League 2 Bonus",
+               "url": "season=16&div=l2bonus",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Lczerocpu_Vs_League_2_Bonus",
+               "dno": "0050"
+            },
+            {
+               "id": "s16divisionl1testing",
+               "menu": "Testing Lczero 10pct Vs League 1",
+               "url": "season=16&div=l1testing",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Testing_Lczero_10pct_Vs_League_1",
+               "dno": "0054"
+            },
+            {
+               "id": "s16divisionl1",
+               "menu": "League 1",
+               "url": "season=16&div=l1",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_League_1",
+               "dno": "1058"
+            },
+            {
+               "id": "s16divisionl1playoff",
+               "menu": "League 1 Playoff",
+               "url": "season=16&div=l1playoff",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_League_1_Playoff",
+               "dno": "1062"
+            },
+            {
+               "id": "s16divisionl1bonus",
+               "menu": "Lczerocpu Vs League 1 Bonus",
+               "url": "season=16&div=l1bonus",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Lczerocpu_Vs_League_1_Bonus",
+               "dno": "0066"
+            },
+            {
+               "id": "s16divisionptesting",
+               "menu": "Testing Lczero 30pct Vs Divp",
+               "url": "season=16&div=ptesting",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Testing_Lczero_30pct_Vs_Divp",
+               "dno": "0070"
+            },
+            {
+               "id": "s16divisionp",
+               "menu": "Division P",
+               "url": "season=16&div=p",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Division_P",
+               "dno": "1074"
+            },
+            {
+               "id": "s16divisioncpup",
+               "menu": "Bonus Cpu Division P",
+               "url": "season=16&div=cpup",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Bonus_Cpu_Division_P",
+	       "dno": "0078"
+            },
+            {
+               "id": "s16divisionsftesting",
+               "menu": "Testing StockfishNoobbook Vs Sufi",
+               "url": "season=16&div=sftesting",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Testing_Stockfishnoobbook_Vs_Sufi",
+               "dno": "0082"
+            },
+            {
+               "id": "s16divisionsf",
+               "menu": "Superfinal",
+               "url": "season=16&div=sf",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Superfinal",
+	       "dno": "1086"
+            },
+            {
+               "id": "s16divisionsfcpu",
+               "menu": "Bonus CPU Superfinal",
+               "url": "season=16&div=sfcpu",
+               "no": "16",
+	       "abb": "TCEC_Season_16_-_Bonus_Cpu_Superfinal",
+	       "dno": "0090"
+            },
+            {
+               "id": "s16divisionglaurungcup",
+               "menu": "Glaurung Cup 4 Test",
+               "url": "season=16&div=glaurungcup",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Glaurung_Cup_4_Test",
+	       "dno": "0094"
+            },
+            {
+               "id": "s16divisionfrcgpu",
+               "frc": 1,
+               "menu": "FRC GPU Bonus",
+               "url": "season=16&div=frcgpu",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Frc_Gpu_Bonus",
+               "dno": "1098"
+            },
+            {
+               "id": "s16divisionfrccpu2",
+               "frc": 1,
+               "menu": "FRC CPU League 2",
+               "url": "season=16&div=frccpu2",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Frc_Cpu_League_2",
+               "dno": "1102"
+            },
+            {
+               "id": "s16divisionfrccpu1test",
+               "frc": 1,
+               "menu": "FRC CPU League 1 Test",
+               "url": "season=16&div=frccpu1test",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Frc_Cpu_League_1_Test",
+               "dno": "0103"
+            },
+            {
+               "id": "s16divisionfrccpu2playoff",
+               "frc": 1,
+               "menu": "FRC CPU League 2 Playoff",
+               "url": "season=16&div=frccpu2playoff",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Frc_Cpu_League_2_Playoff",
+               "dno": "1104"
+            },
+            {
+               "id": "s16divisionfrccpu1",
+               "frc": 1,
+               "menu": "FRC CPU League 1",
+               "url": "season=16&div=frccpu1",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Frc_Cpu_League_1",
+               "dno": "1105"
+            },
+            {
+               "id": "s16divisionfrcsufi",
+               "frc": 1,
+               "menu": "FRC Sufi",
+               "url": "season=16&div=frcsufi",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Frc_Sufi",
+               "dno": "1106"
+            },
+            {
+               "id": "s16divisionvsob1",
+               "menu": "Viewer Submitted Openings Bonus 1",
+               "url": "season=16&div=vsob1",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_1",
+               "dno": "0107"
+            },
+            {
+               "id": "s16divisionlc0as",
+               "menu": "TCEC Season 16 - LCZero - AllieStein Bonus",
+               "url": "season=16&div=lc0as",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Lczero_-_Alliestein_Bonus",
+               "dno": "0108"
+            },
+            {
+               "id": "s16divisionvsob2",
+               "menu": "Viewer Submitted Openings Bonus 2",
+               "url": "season=16&div=vsob2",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_2",
+               "dno": "0109"
+            },
+            {
+               "id": "s16divisionvsob3",
+               "menu": "Viewer Submitted Openings Bonus 3",
+               "url": "season=16&div=vsob3",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_3",
+               "dno": "0110"
+            },
+            {
+               "id": "s16divisionvsob4",
+               "menu": "Viewer Submitted Openings Bonus 4",
+               "url": "season=16&div=vsob4",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_4",
+               "dno": "0111"
+            },
+            {
+               "id": "s16divisionvsob5",
+               "menu": "Viewer Submitted Openings Bonus 5",
+               "url": "season=16&div=vsob5",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_5",
+               "dno": "0112"
+            },
+            {
+               "id": "s16divisionvsob6",
+               "menu": "Viewer Submitted Openings Bonus 6",
+               "url": "season=16&div=vsob6",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_6",
+               "dno": "0113"
+            },
+            {
+               "id": "s16divisionvsob7",
+               "menu": "Viewer Submitted Openings Bonus 7",
+               "url": "season=16&div=vsob7",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_7",
+               "dno": "0114"
+            },
+            {
+               "id": "s16divisionvsob8",
+               "menu": "Viewer Submitted Openings Bonus 8",
+               "url": "season=16&div=vsob8",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_8",
+               "dno": "0115"
+            },
+            {
+               "id": "s16divisionvsob9",
+               "menu": "Viewer Submitted Openings Bonus 9",
+               "url": "season=16&div=vsob9",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_9",
+               "dno": "0116"
+            },
+            {
+               "id": "s16divisionvsob10",
+               "menu": "Viewer Submitted Openings Bonus 10",
+               "url": "season=16&div=vsob10",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_10",
+               "dno": "0117"
+            },
+            {
+               "id": "s16divisionvsob11",
+               "menu": "Viewer Submitted Openings Bonus 11",
+               "url": "season=16&div=vsob11",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_11",
+               "dno": "0118"
+            },
+            {
+               "id": "s16divisionvsob12",
+               "menu": "Viewer Submitted Openings Bonus 12",
+               "url": "season=16&div=vsob12",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_Viewer_Submitted_Openings_Bonus_12",
+               "dno": "0119"
+            },
+            {
+               "id": "s16divisiondivider",
+               "menu": "-= Testing and Bonus tournaments =-",
+               "url": "season=16&div=undefined",
+               "no": "16",
+               "abb": "TCEC_Season_16_-_None",
+               "dno": "0120"
+            }
+         ]
+      },
+      "17": {
+         "download": "TCEC_Season_17_full.pgn.zip",
+         "fullpgn": "TCEC_Season_17_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s17divisionvsob13",
+               "menu": "Viewer Submitted Openings Bonus 13",
+               "url": "season=17&div=vsob13",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Viewer_Submitted_Openings_Bonus_13",
+               "dno": "0001"
+            },
+            {
+               "id": "s17divisionvsob14",
+               "menu": "Viewer Submitted Openings Bonus 14",
+               "url": "season=17&div=vsob14",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Viewer_Submitted_Openings_Bonus_14",
+               "dno": "0002"
+            },
+            {
+               "id": "s17divisionvsob15glaurung",
+               "menu": "Viewer Submitted Openings Bonus 15 Glaurung",
+               "url": "season=17&div=vsob15glaurung",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Viewer_Submitted_Openings_Bonus_15_Glaurung",
+               "dno": "0003"
+            },
+            {
+               "id": "s17divisionvsob15glaurung2",
+               "menu": "Viewer Submitted Openings Bonus 15 Glaurung 2",
+               "url": "season=17&div=vsob15glaurung2",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Viewer_Submitted_Openings_Bonus_15_Glaurung_2",
+               "dno": "0004"
+            },
+            {
+               "id": "s17divisionvsob16pesto",
+               "menu": "Viewer Submitted Openings Bonus 16 PeSTO",
+               "url": "season=17&div=vsob16pesto",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Viewer_Submitted_Openings_Bonus_16_Pesto",
+               "dno": "0005"
+            },
+            {
+               "id": "s17divisionsfvsglaurung",
+               "menu": "Stockfish 0.1pct vs Glaurung test",
+               "url": "season=17&div=sfvsglaurung",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_0.1pct_Vs_Glaurung_Test",
+               "dno": "0006"
+            },
+            {
+               "id": "s17divisionvsob17sfql",
+               "menu": "VSOB17 Stockfish 0.3pct vs QL Test",
+               "url": "season=17&div=vsob17sfql",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Vsob17_Stockfish_0.3pct_Vs_Ql_Test",
+               "dno": "0007"
+            },
+            {
+               "id": "s17divisionqltest2",
+               "menu": "Testing 2 QL Minic Pirarucu",
+               "url": "season=17&div=qltest2",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Testing_2_Ql_Minic_Pirarucu",
+               "dno": "0008"
+            },
+            {
+               "id": "s17divisionqltest3",
+               "menu": "Testing 3 QL Minic",
+               "url": "season=17&div=qltest3",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Testing_3_Ql_Minic",
+               "dno": "0009"
+            },
+            {
+               "id": "s17divisionqltest4",
+               "menu": "Testing 4 QL Minic",
+               "url": "season=17&div=qltest4",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Testing_4_Ql_Minic",
+               "dno": "0010"
+            },
+            {
+               "id": "s17divisionql",
+               "menu": "Qualification League",
+               "url": "season=17&div=ql",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Qualification_League",
+               "dno": "1011"
+            },
+            {
+               "id": "s17divisionl2test1",
+               "menu": "Stockfish 1pct vs L2 Test 1",
+               "url": "season=17&div=l2test1",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_1pct_Vs_L2_Test_1",
+               "dno": "0012"
+            },
+            {
+               "id": "s17divisionl2test2",
+               "menu": "Stockfish 1pct vs L2 Test 2",
+               "url": "season=17&div=l2test2",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_1pct_Vs_L2_Test_2",
+               "dno": "0013"
+            },
+            {
+               "id": "s17divisionl2test3",
+               "menu": "Stockfish 1pct vs L2 Test 3",
+               "url": "season=17&div=l2test3",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_1pct_Vs_L2_Test_3",
+               "dno": "0014"
+            },
+            {
+               "id": "s17divisionl2test4",
+               "menu": "Stockfish 1pct vs L2 Test 4",
+               "url": "season=17&div=l2test4",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_1pct_Vs_L2_Test_4",
+               "dno": "0015"
+            },
+            {
+               "id": "s17divisionl2test5",
+               "menu": "Stockfish 1pct vs L2 Test 5",
+               "url": "season=17&div=l2test5",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_1pct_Vs_L2_Test_5",
+               "dno": "0016"
+            },
+            {
+               "id": "s17divisionl2",
+               "menu": "League 2",
+               "url": "season=17&div=l2",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_League_2",
+               "dno": "1017"
+            },
+            {
+               "id": "s17divisioncpul1test1",
+               "menu": "Stockfish 3pct vs CPU L1 Test 1",
+               "url": "season=17&div=cpul1test1",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_3pct_Vs_Cpu_L1_Test_1",
+               "dno": "0018"
+            },
+            {
+               "id": "s17divisioncpul1test2",
+               "menu": "Stockfish 3pct vs CPU L1 Test 2",
+               "url": "season=17&div=cpul1test2",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_3pct_Vs_Cpu_L1_Test_2",
+               "dno": "0019"
+            },
+            {
+               "id": "s17divisioncpul1redtest1",
+               "menu": "Stockfish 3pct vs CPU L1 Red Unofficial Test 1",
+               "url": "season=17&div=cpul1redtest1",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_3pct_Vs_Cpu_L1_Red_Unofficial_Test_1",
+               "dno": "0020"
+            },
+            {
+               "id": "s17divisioncpul1test3",
+               "menu": "Stockfish 3pct vs CPU L1 Test 3",
+               "url": "season=17&div=cpul1test3",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_3pct_Vs_Cpu_L1_Test_3",
+               "dno": "0021"
+            },
+            {
+               "id": "s17divisioncpul1test4",
+               "menu": "Stockfish 3pct vs CPU L1 Test 4",
+               "url": "season=17&div=cpul1test4",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_3pct_Vs_Cpu_L1_Test_4",
+               "dno": "0022"
+            },
+            {
+               "id": "s17divisioncpul1",
+               "menu": "CPU League 1",
+               "url": "season=17&div=cpul1",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Cpu_League_1",
+               "dno": "1023"
+            },
+            {
+               "id": "s17divisionfix1",
+               "menu": "CPU Fix update test and filler 1",
+               "url": "season=17&div=fix1",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Fix_Update_Test_And_Filler_1",
+               "dno": "0024"
+            },
+            {
+               "id": "s17divisionfix2",
+               "menu": "CPU Fix update test and filler 2",
+               "url": "season=17&div=fix2",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Fix_Update_Test_And_Filler_2",
+               "dno": "0025"
+            },
+            {
+               "id": "s17divisionfix3",
+               "menu": "CPU Fix update test and filler 3",
+               "url": "season=17&div=fix3",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Fix_Update_Test_And_Filler_3",
+               "dno": "0026"
+            },
+            {
+               "id": "s17divisionlc0cpuplayoff",
+               "menu": "LCZeroCPU Playoff Bonus",
+               "url": "season=17&div=lc0cpuplayoff",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Lczerocpu_Playoff_Bonus",
+               "dno": "0027"
+            },
+            {
+               "id": "s17divisionnotasufi",
+               "menu": "Not a SuFi Bonus",
+               "url": "season=17&div=notasufi",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_This_Is_Not_A_Sufi_Bonus",
+               "dno": "0028"
+            },
+            {
+               "id": "s17divisionplayoffscorpiotest1",
+               "menu": "Playoff ScorpioNN Test 1",
+               "url": "season=17&div=playoffscorpiotest1",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Playoff_Scorpionn_Test_1",
+               "dno": "0029"
+            },
+            {
+               "id": "s17divisionplayoffchessfightertest1",
+               "menu": "Playoff Chessfighter Test 1",
+               "url": "season=17&div=playoffchessfightertest1",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Playoff_Chessfighter_Test_1",
+               "dno": "0030"
+            },
+            {
+               "id": "s17divisionplayofffordivp",
+               "menu": "Playoff for DivP",
+               "url": "season=17&div=playofffordivp",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Playoff_For_Divp",
+               "dno": "1031"
+            },
+            {
+               "id": "s17divisiondivptest1",
+               "menu": "Stockfish 10pct vs DivP Test 1",
+               "url": "season=17&div=divptest1",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_10pct_Vs_Divp_Test_1",
+               "dno": "0032"
+            },
+            {
+               "id": "s17divisiondivptest2",
+               "menu": "Stockfish 10pct vs DivP Test 2",
+               "url": "season=17&div=divptest2",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_10pct_Vs_Divp_Test_2",
+               "dno": "0033"
+            },
+            {
+               "id": "s17divisiondivpeotest3",
+               "menu": "Glaurung vs DivP Eval Odds Test 3",
+               "url": "season=17&div=divpeotest3",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Glaurung_Vs_Divp_Eval_Odds_Test_3",
+               "dno": "0034"
+            },
+            {
+               "id": "s17divisionlagtest",
+               "menu": "Cuteseal Lag Elimination Test With Slow vCPU",
+               "url": "season=17&div=lagtest",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Cuteseal_Lag_Elimination_Test",
+               "dno": "0035"
+            },
+            {
+               "id": "s17divisionp",
+               "menu": "Division P",
+               "url": "season=17&div=p",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Division_P",
+               "dno": "1036"
+            },
+            {
+               "id": "s17divisionefshowdown",
+               "menu": "Ethereal-Fire Filler Showdown",
+               "url": "season=17&div=efshowdown",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Ethereal-fire_Filler_Showdown",
+               "dno": "0037"
+            },
+            {
+               "id": "s17divisiondivptest3",
+               "menu": "Stockfish 10pct vs DivP Test 3",
+               "url": "season=17&div=divptest3",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_10pct_Vs_Divp_Test_3",
+               "dno": "0038"
+            },
+            {
+               "id": "s17divisiondivptest4",
+               "menu": "Stockfish 10pct vs DivP Test 4",
+               "url": "season=17&div=divptest4",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Stockfish_10pct_Vs_Divp_Test_4",
+               "dno": "0039"
+            },
+            {
+               "id": "s17divisionsufitest",
+               "menu": "SuFi Testing",
+               "url": "season=17&div=sftest",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_SuFi_Testing",
+               "dno": "0040"
+            },
+            {
+               "id": "s17divisionsf",
+               "menu": "Superfinal",
+               "url": "season=17&div=sf",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Superfinal",
+	       "dno": "1041"
+            },
+            {
+               "id": "s17divisionlc0cpudivpg",
+               "menu": "LCZeroCPU vs DivP CPU Gauntlet",
+               "url": "season=17&div=lc0cpudivpg",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_Lczerocpu_Vs_Divp_Cpu",
+	       "dno": "0042"
+            },
+            {
+               "id": "s17divisiondivider",
+               "menu": "-= Testing and Bonus tournaments =-",
+               "url": "season=17&div=undefined",
+               "no": "17",
+               "abb": "TCEC_Season_17_-_None",
+               "dno": "0999"
+            }
+         ]
+      },
+      "18": {
+         "download": "TCEC_Season_18_full.pgn.zip",
+         "fullpgn": "TCEC_Season_18_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s18divisioncup5gput1",
+               "menu": "GPU Engine test1",
+               "url": "season=18&div=cup5gput1",
+               "no": "18",
+               "abb": "TCEC_Testing_18_-_Gpu_Engine_Test1",
+               "dno": "0001"
+            },
+            {
+               "id": "s18divisioncup5cput1",
+               "menu": "CPU Engine test1",
+               "url": "season=18&div=cup5cput1",
+               "no": "18",
+               "abb": "TCEC_Testing_18_-_Cpu_Engine_Test1",
+	       "dno": "0002"
+            },
+            {
+               "id": "s18divisionnotasufi",
+               "menu": "Not a SuFi Bonus",
+               "url": "season=18&div=notasufi",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_This_Is_Not_A_Sufi_Bonus",
+               "dno": "0003"
+            },
+            {
+               "id": "s18divisionqltest1",
+               "menu": "QL and L3 Testing 1",
+               "url": "season=18&div=qltest1",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Ql_And_L3_Testing_1",
+               "dno": "0004"
+            },
+            {
+               "id": "s18divisionqltest2",
+               "menu": "QL and L3 Testing 2",
+               "url": "season=18&div=qltest2",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Ql_And_L3_Testing_2",
+               "dno": "0005"
+            },
+            {
+               "id": "s18divisionqltest3",
+               "menu": "QL and L3 Testing 3",
+               "url": "season=18&div=qltest3",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Ql_And_L3_Testing_3",
+               "dno": "0006"
+            },
+            {
+               "id": "s18divisionql",
+               "menu": "Qualification League",
+               "url": "season=18&div=ql",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Qualification_League",
+               "dno": "1007"
+            },
+            {
+               "id": "s18divisionl3",
+               "menu": "League 3",
+               "url": "season=18&div=l3",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_League_3",
+               "dno": "1008"
+            },
+            {
+               "id": "s18divisionl2test1",
+               "menu": "L2 and L1 and Bonus Testing 1",
+               "url": "season=18&div=l2test1",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_L2_And_L1_And_Bonus_Testing_1",
+               "dno": "0009"
+            },
+            {
+               "id": "s18divisionl2weisstest2",
+               "menu": "Weiss Testing 2",
+               "url": "season=18&div=weisstest2",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Weiss_Testing_2",
+               "dno": "0010"
+            },
+            {
+               "id": "s18divisionl2",
+               "menu": "League 2",
+               "url": "season=18&div=l2",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_League_2",
+               "dno": "1011"
+            },
+            {
+               "id": "s18divisiongbb",
+               "menu": "Book Bonus",
+               "url": "season=18&div=bb",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Book_Bonus",
+               "dno": "0012"
+            },
+            {
+               "id": "s18divisiongbb2",
+               "menu": "Book Bonus 2",
+               "url": "season=18&div=bb2",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Book_Bonus_2",
+               "dno": "0013"
+            },
+            {
+               "id": "s18divisionl1",
+               "menu": "League 1",
+               "url": "season=18&div=l1",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_League_1",
+               "dno": "1014"
+            },
+            {
+               "id": "s18divisionptest1",
+               "menu": "Division P Test 1",
+               "url": "season=18&div=pt1",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Division_P_Test_1",
+               "dno": "0015"
+            },
+            {
+               "id": "s18divisionweisstest3",
+               "menu": "Weiss Testing 3",
+               "url": "season=18&div=weisstest3",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Weiss_Testing_3",
+               "dno": "0016"
+            },
+            {
+               "id": "s18divisionp",
+               "menu": "Division P",
+               "url": "season=18&div=p",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Division_P",
+               "dno": "1017"
+            },
+            {
+               "id": "s18divisionlc0cpudivpg",
+               "menu": "LCZeroCPU vs DivP CPU Gauntlet",
+               "url": "season=18&div=lc0cpudivpg",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Lczerocpu_Vs_Divp_Cpu",
+	       "dno": "0018"
+            },
+            {
+               "id": "s18divisionsftest1",
+               "menu": "Sufi Testing 1",
+               "url": "season=18&div=sftest1",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Sufi_Testing_1",
+	       "dno": "0019"
+            },
+            {
+               "id": "s18divisionsf",
+               "menu": "Superfinal",
+               "url": "season=18&div=sf",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Superfinal",
+	       "dno": "1020"
+            },
+            {
+               "id": "s18divisioncpusf",
+               "menu": "CPU Superfinal Bonus",
+               "url": "season=18&div=cpusf",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Cpu_Superfinal_Bonus",
+	       "dno": "0022"
+            },
+            {
+               "id": "s18divisionlccpuf",
+               "menu": "LCZeroCPU Filler Bonus",
+               "url": "season=18&div=lzcpuf",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Lczerocpu_Filler_Bonus",
+	       "dno": "0023"
+            },
+            {
+               "id": "s18divisiontop4t",
+               "menu": "Top4 Testing 1",
+               "url": "season=18&div=top4t",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Top4_Testing_1",
+	       "dno": "0024"
+            },
+            {
+               "id": "s18divisiontop4",
+               "menu": "Top Of The Top Bonus",
+               "url": "season=18&div=top4",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Top_of_The_Top_Bonus",
+	       "dno": "0025"
+            },
+            {
+               "id": "s18divisionnnueg",
+               "menu": "StockfishNNUE vs Top4",
+               "url": "season=18&div=nnueg",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Stockfishnnue_Vs_Top4",
+	       "dno": "0026"
+            },
+            {
+               "id": "s18divisioncup6test",
+               "menu": "Cup 6 Test",
+               "url": "season=18&div=cup6t",
+               "no": "18",
+               "abb": "TCEC_Cup_6_Test",
+	       "dno": "0027"
+            },
+            {
+               "id": "s18divisionchat2x2",
+               "menu": "Chat vs Chat Test2",
+               "url": "season=18&div=chat2x2",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Chat_Vs_Chat_Test2",
+               "dno": "0028"
+            },
+            {
+               "id": "s18divisionchatr2",
+               "menu": "Chat vs Almost Random Test2",
+               "url": "season=18&div=chatr2",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Chat_vs_Almost_Random_Test2",
+               "dno": "0029"
+            },
+            {
+               "id": "s18divisionchatsfd1",
+               "menu": "Chat vs Stockfish Depth 1",
+               "url": "season=18&div=chatsfd1",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_Chat_vs_Stockfish_Depth_1",
+               "dno": "0030"
+            },
+            {
+               "id": "s18divisiondivider",
+               "menu": "-= Testing and Bonus tournaments =-",
+               "url": "season=18&div=undefined",
+               "no": "18",
+               "abb": "TCEC_Season_18_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
+      "19": {
+         "download": "TCEC_Season_19_full.pgn.zip",
+         "fullpgn": "TCEC_Season_19_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s19divisionchatsfd1",
+               "menu": "Chat vs Stockfish Depth 1",
+               "url": "season=19&div=chatsfd1",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Chat_Vs_Stockfish_Depth_1",
+               "dno": "0001"
+            },
+            {
+               "id": "s19divisionchatsfd2",
+               "menu": "Chat vs Stockfish Depth 2",
+               "url": "season=19&div=chatsfd2",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Chat_Vs_Stockfish_Depth_2",
+               "dno": "0002"
+            },
+            {
+               "id": "s19divisionsf11top4",
+               "menu": "Stockfish 11 CCRL vs Top4 Calibration",
+               "url": "season=19&div=sf11top4",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Stockfish_11_Ccrl_Vs_Top4_Calibration",
+               "dno": "0003"
+            },
+            {
+               "id": "s19divisionchatsfd3",
+               "menu": "Chat vs Stockfish Depth 3",
+               "url": "season=19&div=chatsfd3",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Chat_Vs_Stockfish_Depth_3",
+               "dno": "0004"
+            },
+            {
+               "id": "s19divisionchatsfd4",
+               "menu": "Chat vs Stockfish Depth 4",
+               "url": "season=19&div=chatsfd4",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Chat_Vs_Stockfish_Depth_4",
+               "dno": "0005"
+            },
+            {
+               "id": "s19divisionsf11next16",
+               "menu": "Stockfish 11 CCRL Elo Calibration 2",
+               "url": "season=19&div=sf11next16",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Stockfish_11_Ccrl_Elo_Calibration_2",
+               "dno": "0006"
+            },
+            {
+               "id": "s19divisionnotasufi",
+               "menu": "Not a SuFi Bonus",
+               "url": "season=19&div=notasufi",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_This_Is_Not_A_Sufi_Bonus",
+               "dno": "0007"
+            },
+            {
+               "id": "s19divisionqll3t1",
+               "menu": "QL and L3 vs Glaurung Testing 1",
+               "url": "season=19&div=qll3t1",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Ql_And_L3_Vs_Glaurung_Testing_1",
+               "dno": "0008"
+            },
+            {
+               "id": "s19divisionqll3t2",
+               "menu": "QL and L3 vs Crafty Testing 2",
+               "url": "season=19&div=qll3t2",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Ql_And_L3_Vs_Crafty_Testing_2",
+               "dno": "0009"
+            },
+            {
+               "id": "s19divisionqll3t3",
+               "menu": "QL and L3 vs Glaurung Testing 3",
+               "url": "season=19&div=qll3t3",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Ql_And_L3_Vs_Glaurung_Testing_3",
+               "dno": "0010"
+            },
+            {
+               "id": "s19divisionqll3t4",
+               "menu": "QL and L3 vs Gull Testing 4",
+               "url": "season=19&div=qll3t4",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Ql_And_L3_Vs_Gull_Testing_4",
+               "dno": "0011"
+            },
+            {
+               "id": "s19divisionql",
+               "menu": "Qualification League",
+               "url": "season=19&div=ql",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Qualification_League",
+               "dno": "1012"
+            },
+            {
+               "id": "s19divisionl3",
+               "menu": "League 3",
+               "url": "season=19&div=l3",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_League_3",
+               "dno": "1013"
+            },
+            {
+               "id": "s19divisionl2l1t1",
+               "menu": "L2 and L1 vs Stockfish NNUE Testing 1",
+               "url": "season=19&div=l2l1t1",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_L2_And_L1_Vs_Stockfish_Nnue_Testing_1",
+               "dno": "0014"
+            },
+            {
+               "id": "s19divisionl2l1t2",
+               "menu": "L2 and L1 vs Gull CCRL Testing 2",
+               "url": "season=19&div=l2l1t2",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_L2_And_L1_Vs_Gull_Testing_2",
+               "dno": "0015"
+            },
+            {
+               "id": "s19divisionl2l1t3",
+               "menu": "L2 and L1 vs Komodo CCRL Testing 3",
+               "url": "season=19&div=l2l1t3",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_L2_And_L1_Vs_Komodo_Testing_3",
+               "dno": "0016"
+            },
+            {
+               "id": "s19divisionl2l1t4",
+               "menu": "L2 and L1 vs Stockfish CCRL Testing 4",
+               "url": "season=19&div=l2l1t4",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_L2_And_L1_Vs_Stockfish_Ccrl_Testing_4",
+               "dno": "0017"
+            },
+            {
+               "id": "s19divisionl2",
+               "menu": "League 2",
+               "url": "season=19&div=l2",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_League_2",
+               "dno": "1018"
+            },
+            {
+               "id": "s19divisionl1",
+               "menu": "League 1",
+               "url": "season=19&div=l1",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_League_1",
+               "dno": "1019"
+            },
+            {
+               "id": "s19divisionhashsize",
+               "menu": "Hash Size Test",
+               "url": "season=19&div=hashsize",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Hash_Size_Test",
+               "dno": "0020"
+            },
+            {
+               "id": "s19divisionpt1",
+               "menu": "DivP vs Komodo14 CCRL Testing 1",
+               "url": "season=19&div=pt1",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Divp_Vs_Komodo14_Ccrl_Testing_1",
+               "dno": "0021"
+            },
+            {
+               "id": "s19divisionpt2",
+               "menu": "DivP vs Stockfish11 CCRL Testing 2",
+               "url": "season=19&div=pt2",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Divp_Vs_Stockfish11_Ccrl_Testing_2",
+               "dno": "0022"
+            },
+            {
+               "id": "s19divisionpt3",
+               "menu": "DivP vs Weiss Testing 3",
+               "url": "season=19&div=pt3",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Divp_Vs_Weiss_Testing_3",
+               "dno": "0023"
+            },
+            {
+               "id": "s19divisionp",
+               "menu": "Division P",
+               "url": "season=19&div=p",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Division_P",
+               "dno": "1024"
+            },
+            {
+               "id": "s19divisionlc0cpudivpg",
+               "menu": "LCZeroCPU vs DivP CPU Gauntlet",
+               "url": "season=19&div=lc0cpudivpg",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Lczerocpu_Vs_Divp_Cpu",
+	       "dno": "0025"
+            },
+            {
+               "id": "s19divisionsfclassdivpg",
+               "menu": "StockfishClassical vs DivP CPU Gauntlet",
+               "url": "season=19&div=sfclassdivpg",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Stockfishclassical_Vs_Divp_Cpu",
+	       "dno": "0026"
+            },
+            {
+               "id": "s19divisionsftest1",
+               "menu": "Sufi Testing 1",
+               "url": "season=19&div=sftest1",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Sufi_Testing_1",
+	       "dno": "0027"
+            },
+            {
+               "id": "s19divisionsf",
+               "menu": "Superfinal",
+               "url": "season=19&div=sf",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Superfinal",
+	       "dno": "1028"
+            },
+            {
+               "id": "s19divisionsfb1",
+               "menu": "Sufi Bonus 1",
+               "url": "season=19&div=sfb1",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Sufi_Bonus_1",
+	       "dno": "0029"
+            },
+            {
+               "id": "s19divisionsfb2",
+               "menu": "Sufi Bonus 2",
+               "url": "season=19&div=sfb2",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Sufi_Bonus_2",
+	       "dno": "0030"
+            },
+            {
+               "id": "s19divisiongvsob1",
+               "menu": "Viewer Submitted Openings Bonus 18 GPU 1",
+               "url": "season=19&div=gvsob1",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Gpu_Viewer_Submitted_Openings_Bonus_1",
+	       "dno": "0031"
+            },
+            {
+               "id": "s19divisioncup7t",
+               "menu": "Cup 7 Testing",
+               "url": "season=19&div=cup7t",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Cup_7_Testing",
+	       "dno": "0032"
+            },
+            {
+               "id": "s19divisionsfb3",
+               "menu": "Sufi Bonus 3",
+               "url": "season=19&div=sfb3",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Sufi_Bonus_3",
+	       "dno": "0033"
+            },
+            {
+               "id": "s19divisionsfrc2t",
+               "frc": 1,
+               "menu": "FRC2 Testing",
+               "url": "season=19&div=frc2t",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_Testing",
+	       "dno": "0034"
+            },
+            {
+               "id": "s19divisionsfrc2t2",
+               "frc": 1,
+               "menu": "FRC2 Testing 2",
+               "url": "season=19&div=frc2t2",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_Testing2",
+	       "dno": "0035"
+            },
+            {
+               "id": "s19divisionsfrc2la",
+               "frc": 1,
+               "menu": "FRC2 League A",
+               "url": "season=19&div=frc2la",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_League_A",
+	       "dno": "1036"
+            },
+            {
+               "id": "s19divisionsfrc2lb",
+               "frc": 1,
+               "menu": "FRC2 League B",
+               "url": "season=19&div=frc2lb",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_League_B",
+	       "dno": "1037"
+            },
+            {
+               "id": "s19divisionsfrc2lc",
+               "frc": 1,
+               "menu": "FRC2 League C",
+               "url": "season=19&div=frc2lc",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_League_C",
+	       "dno": "1038"
+            },
+            {
+               "id": "s19divisionsfrc2ld",
+               "frc": 1,
+               "menu": "FRC2 League D",
+               "url": "season=19&div=frc2ld",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_League_D",
+	       "dno": "1039"
+            },
+            {
+               "id": "s19divisionsfrc2sl1",
+               "frc": 1,
+               "menu": "FRC2 Semileague 1",
+               "url": "season=19&div=frc2sl1",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_Semileague_1",
+	       "dno": "1040"
+            },
+            {
+               "id": "s19divisionsfrc2sl2",
+               "frc": 1,
+               "menu": "FRC2 Semileague 2",
+               "url": "season=19&div=frc2sl2",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_Semileague_2",
+	       "dno": "1041"
+            },
+            {
+               "id": "s19divisionsfrc2fl",
+               "frc": 1,
+               "menu": "FRC2 Final League",
+               "url": "season=19&div=frc2fl",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_Final_League",
+	       "dno": "1042"
+            },
+            {
+               "id": "s19divisionsfrc2f",
+               "frc": 1,
+               "menu": "FRC2 Final",
+               "url": "season=19&div=frc2f",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Frc2_Final",
+	       "dno": "1043"
+            },
+            {
+               "id": "s19divisionvsob19",
+               "menu": "Viewer Submitted Openings Bonus 19",
+               "url": "season=19&div=vsob19",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_Viewer_Submitted_Openings_Bonus_19",
+	       "dno": "0044"
+            },
+            {
+               "id": "s19divisiondivider",
+               "menu": "-= Testing and Bonus tournaments =-",
+               "url": "season=19&div=undefined",
+               "no": "19",
+               "abb": "TCEC_Season_19_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
+      "20": {
+         "download": "TCEC_Season_20_full.pgn.zip",
+         "fullpgn": "TCEC_Season_20_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s20divisionqll4l3t1",
+               "menu": "QL L4 L3 vs Glaurung Testing 1",
+               "url": "season=20&div=qll4l3t1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Ql_L4_L3_Vs_Glaurung_Testing_1",
+               "dno": "0000"
+            },
+            {
+               "id": "s20divisionqll4l3t2",
+               "menu": "QL L4 L3 vs Komodo 10 Testing 2",
+               "url": "season=20&div=qll4l3t2",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Ql_L4_L3_Vs_Komodo_10_Testing_2",
+               "dno": "0001"
+            },
+            {
+               "id": "s20divisionqll4l3t3",
+               "menu": "QL L4 L3 vs Gull Testing 3",
+               "url": "season=20&div=qll4l3t3",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Ql_L4_L3_Vs_Gull_Testing_3",
+               "dno": "0002"
+            },
+            {
+               "id": "s20divisionql",
+               "menu": "Qualification League",
+               "url": "season=20&div=ql",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Qualification_League",
+               "dno": "1003"
+            },
+            {
+               "id": "s20divisionl4",
+               "menu": "League 4",
+               "url": "season=20&div=l4",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_League_4",
+               "dno": "1004"
+            },
+            {
+               "id": "s20divisionl3",
+               "menu": "League 3",
+               "url": "season=20&div=l3",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_League_3",
+               "dno": "1005"
+            },
+            {
+               "id": "s20divisionl2t1",
+               "menu": "L2 vs Koivisto Testing 1",
+               "url": "season=20&div=l2t1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_L2_Vs_Koivisto_Testing_1",
+               "dno": "0006"
+            },
+            {
+               "id": "s20divisionl1t2",
+               "menu": "L1 vs Stoofvlees Testing 2",
+               "url": "season=20&div=l1t2",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_L1_Vs_Stoofvlees_Testing_2",
+               "dno": "0007"
+            },
+            {
+               "id": "s20divisionl2t3",
+               "menu": "L2 Wasp Testing 3",
+               "url": "season=20&div=l2t3",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_L2_Wasp_Testing_3",
+               "dno": "0008"
+            },
+            {
+               "id": "s20divisionl2l1t4",
+               "menu": "L2 L1 Half Speed Testing 4",
+               "url": "season=20&div=l2l1t4",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_L2_L1_Half_Speed_Testing_4",
+               "dno": "0009"
+            },
+            {
+               "id": "s20divisionl2t5",
+               "menu": "L2 vs Komodo 10 CCRL Testing 5",
+               "url": "season=20&div=l2t5",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_L2_Vs_Komodo_10_Ccrl_Testing_5",
+               "dno": "0010"
+            },
+            {
+               "id": "s20divisionl1t6",
+               "menu": "L1 vs Komodo14 CCRL Testing 6",
+               "url": "season=20&div=l1t6",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_L1_Vs_Komodo14_Ccrl_Testing_6",
+               "dno": "0011"
+            },
+            {
+               "id": "s20divisionl2",
+               "menu": "League 2",
+               "url": "season=20&div=l2",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_League_2",
+               "dno": "1012"
+            },
+            {
+               "id": "s20divisionl1",
+               "menu": "League 1",
+               "url": "season=20&div=l1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_League_1",
+               "dno": "1013"
+            },
+            {
+               "id": "s20divisionpt1",
+               "menu": "DivP vs Stockfish11 CCRL Testing 1",
+               "url": "season=20&div=pt1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Divp_Vs_Stockfish11_Ccrl_Testing_1",
+               "dno": "0014"
+            },
+            {
+               "id": "s20divisionpt2",
+               "menu": "DivP vs Komodo14 CCRL Testing 2",
+               "url": "season=20&div=pt2",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Divp_Vs_Komodo14_Ccrl_Testing_2",
+               "dno": "0015"
+            },
+            {
+               "id": "s20divisionp",
+               "menu": "Division P",
+               "url": "season=20&div=p",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Division_P",
+               "dno": "1016"
+            },
+            {
+               "id": "s20divisionsftest1",
+               "menu": "Sufi Testing 1",
+               "url": "season=20&div=sftest1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Sufi_Testing_1",
+	       "dno": "0017"
+            },
+            {
+               "id": "s20divisionsftest2",
+               "menu": "Sufi Testing 2",
+               "url": "season=20&div=sftest2",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Sufi_Testing_2",
+	       "dno": "0018"
+            },
+            {
+               "id": "s20divisionsftest3",
+               "menu": "Sufi Testing 3",
+               "url": "season=20&div=sftest3",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Sufi_Testing_3",
+	       "dno": "0019"
+            },
+            {
+               "id": "s20divisionsf",
+               "menu": "Superfinal",
+               "url": "season=20&div=sf",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Superfinal",
+	       "dno": "1020"
+            },
+            {
+               "id": "s20divisionsfb",
+               "menu": "This Is Not A Tiebreak Bonus",
+               "url": "season=20&div=sfb",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_This_Is_Not_A_Tiebreak_Bonus",
+	       "dno": "0021"
+            },
+            {
+               "id": "s20divisionswt1",
+               "menu": "Swiss Test 1",
+               "url": "season=20&div=swt1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Swiss_Test_1",
+	       "dno": "0022"
+            },
+            {
+               "id": "s20divisionswt2",
+               "menu": "Swiss Test 2",
+               "url": "season=20&div=swt2",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Swiss_Test_2",
+	       "dno": "0023"
+            },
+            {
+               "id": "s20divisionswt3",
+               "menu": "Swiss Test 3",
+               "url": "season=20&div=swt3",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Swiss_Test_3",
+	       "dno": "0024"
+            },
+            {
+               "id": "s20divisionswt4",
+               "menu": "Swiss Test 4",
+               "url": "season=20&div=swt4",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Swiss_Test_4",
+	       "dno": "0025"
+            },
+            {
+               "id": "s20divisionslegt1",
+               "menu": "Legacy vs Stockfish11 CCRL Testing 1",
+               "url": "season=20&div=legt1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Legacy_Vs_Stockfish11_Ccrl_Testing_1",
+	       "dno": "0026"
+            },
+            {
+               "id": "s20divisionslegt",
+               "menu": "Legacy Top Bonus",
+               "url": "season=20&div=legt",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Legacy_Top_Bonus",
+	       "dno": "0027"
+            },
+            {
+               "id": "s20divisionsfb1",
+               "menu": "Sufi Bonus 1",
+               "url": "season=20&div=sfb1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Sufi_Bonus_1",
+	       "dno": "0028"
+            },
+            {
+               "idf": "s20divisionsfb2",
+               "menu": "Sufi Bonus 2",
+               "url": "season=20&div=sfb2",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Sufi_Bonus_2",
+	       "dno": "0029",
+               "id": "current"
+            },
+            {
+               "id": "s20divisiondivider",
+               "menu": "-= Testing and Bonus tournaments =-",
+               "url": "season=20&div=undefined",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
+      "Cup 1": {
+         "seasonName": "Cup 1",
+         "eventtag": "TCEC_Cup_1_event",
+         "cup": 1,
+         "teams": "cup1.json",
+         "sub": [
+            {
+               "id": "scup1fl",
+               "url": "season=cup1&round=fl",
+               "menu": "Final",
+               "dno": "5",
+               "no": "1",
+               "abb": "TCEC_Cup_1_Final_5"
+            },
+            {
+               "abb": "TCEC_Cup_1_Octofinal_2",
+               "no": "1",
+               "menu": "Octofinal",
+               "dno": "2",
+               "id": "scup1round16",
+               "url": "season=cup1&round=round16"
+            },
+            {
+               "url": "season=cup1&round=qf",
+               "id": "scup1qf",
+               "abb": "TCEC_Cup_1_Quaterfinal_3",
+               "no": "1",
+               "dno": "3",
+               "menu": "Quaterfinal"
+            },
+            {
+               "abb": "TCEC_Cup_1_Round32_1",
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "id": "scup1round32",
+               "url": "season=cup1&round=round32"
+            },
+            {
+               "no": "1",
+               "menu": "Semifinal",
+               "dno": "4",
+               "abb": "TCEC_Cup_1_Semifinal_4",
+               "id": "scup1sf",
+               "url": "season=cup1&round=sf"
+            }
+         ],
+         "download": "TCEC_Cup_1_full.pgn.zip"
+      },
+      "Cup 2": {
+         "seasonName": "Cup 2",
+         "download": "TCEC_Cup_2_full.pgn.zip",
+         "eventtag": "TCEC_Cup_2_event",
+         "teams": "cup2.json",
+         "cup": 2,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_2_Round32_1",
+               "url": "season=cup2&round=round32",
+               "id": "scup2round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_2_Octofinal_2",
+               "url": "season=cup2&round=round16",
+               "id": "scup2round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_2_Quaterfinal_3",
+               "url": "season=cup2&round=qf",
+               "id": "scup2qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_2_Semifinal_4",
+               "url": "season=cup2&round=sf",
+               "id": "scup2sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_2_Bronze_5",
+               "url": "season=cup2&round=bz",
+               "id": "scup2bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_2_Final_6",
+               "url": "season=cup2&round=fl",
+               "id": "scup2fl"
+            }
+         ]
+      },
+      "Cup 3": {
+         "seasonName": "Cup 3",
+         "download": "TCEC_Cup_3_full.pgn.zip",
+         "eventtag": "TCEC_Cup_3_event",
+         "teams": "cup3.json",
+         "cup": 3,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_3_Round32",
+               "url": "season=cup3&round=round32",
+               "id": "scup3round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_3_Round16",
+               "id": "scup3round16",
+               "url": "season=cup3&round=round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_3_Quarterfinal",
+               "url": "season=cup3&round=qf",
+               "id": "scup3qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_3_Semifinal",
+               "url": "season=cup3&round=sf",
+               "id": "scup3sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_3_Bronze",
+               "url": "season=cup3&round=bz",
+               "id": "scup3bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_3_Final",
+               "url": "season=cup3&round=fl",
+               "id": "scup3fl"
+            }
+         ]
+      },
+      "Cup 4": {
+         "seasonName": "Cup 4",
+         "download": "TCEC_Cup_4_full.pgn.zip",
+         "eventtag": "TCEC_Cup_4_event",
+         "previouspgn": "TCEC_Cup_4_Round32",
+         "teams": "cup4.json",
+         "cup": 4,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_4_Round32",
+               "url": "season=cup4&round=round32",
+   	       "id": "scup4round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_4_Round16",
+               "id": "scup4round16",
+               "url": "season=cup4&round=round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_4_Quarterfinal",
+               "url": "season=cup4&round=qf",
+               "id": "scup4qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_4_Semifinal",
+               "url": "season=cup4&round=sf",
+               "id": "scup4sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_4_Bronze",
+               "url": "season=cup4&round=bz",
+               "id": "scup4bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_4_Final",
+               "url": "season=cup4&round=fl",
+               "id": "scup4fl"
+            }
+         ]
+      },
+      "Cup 5": {
+         "seasonName": "Cup 5",
+         "download": "TCEC_Cup_5_full.pgn.zip",
+         "eventtag": "TCEC_Cup_5_event",
+         "previouspgn": "TCEC_Cup_5_Round16",
+         "teams": "cup5.json",
+         "cup": 5,
+         "sub": [
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_5_Round16",
+               "id": "scup5round16",
+               "url": "season=cup5&round=round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_5_Quarterfinal",
+               "url": "season=cup5&round=qf",
+               "id": "scup5qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_5_Semifinal",
+               "url": "season=cup5&round=sf",
+               "id": "scup5sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_5_Bronze",
+               "url": "season=cup5&round=bz",
+               "id": "scup5bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_5_Final",
+               "url": "season=cup5&round=fl",
+               "id": "scup5fl"
+            }
+         ]
+      },
+      "Cup 6": {
+         "seasonName": "Cup 6",
+         "download": "TCEC_Cup_6_full.pgn.zip",
+         "eventtag": "TCEC_Cup_6_event",
+         "previouspgn": "TCEC_Cup_6_Round32",
+         "teams": "cup6.json",
+         "cup": 6,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_6_Round32",
+               "url": "season=cup6&round=round32",
+               "id": "scup6round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_6_Round16",
+               "id": "scup6round16",
+               "url": "season=cup6&round=round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_6_Quarterfinal",
+               "url": "season=cup6&round=qf",
+               "id": "scup6qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_6_Semifinal",
+               "url": "season=cup6&round=sf",
+               "id": "scup6sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_6_Bronze",
+               "url": "season=cup6&round=bz",
+               "id": "scup6bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_6_Final",
+               "url": "season=cup6&round=fl",
+               "id": "scup6fl"
+            }
+         ]
+      },
+      "Cup 7": {
+         "seasonName": "Cup 7",
+         "download": "TCEC_Cup_7_full.pgn.zip",
+         "eventtag": "TCEC_Cup_7_event",
+         "previouspgn": "TCEC_Cup_7_Round32",
+         "teams": "cup7.json",
+         "cup": 7,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_7_Round32",
+               "url": "season=cup7&round=round32",
+               "id": "scup7round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_7_Round16",
+               "url": "season=cup7&round=round16",
+               "id": "scup7round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_7_Quarterfinal",
+               "url": "season=cup7&round=qf",
+               "id": "scup7qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_7_Semifinal",
+               "url": "season=cup7&round=sf",
+               "id": "scup7sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_7_Bronze",
+               "url": "season=cup7&round=bz",
+               "id": "scup7bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_7_Final",
+               "url": "season=cup7&round=fl",
+               "id": "scup7fl"
+            }
+         ]
+      },
+      "Bonus": {
+         "download": "TCEC_Bonus_full.pgn.zip",
+         "fullpgn": "TCEC_Bonus_full.pgn",
+         "proceed": 1,
+         "sub": [
+            {
+               "dno": "0001",
+               "url": "season=bonus&div=bonus2",
+               "abb": "TCEC_Season_14_-_Bonus_2",
+               "id": "sbonusdivisionbonus2",
+               "menu": "S14 Side bonus NN Vs SF",
+               "no": "14"
+            },
+            {
+               "dno": "0002",
+               "id": "sbonusdivisionrapidf",
+               "menu": "S14 End of season bonus Final",
+               "url": "season=bonus&div=rapidfl",
+               "no": "14",
+               "abb": "TCEC_Season_14_-_End_of_Season_Bonus_Final"
+            },
+            {
+               "dno": "0003",
+               "id": "sbonusdivisionrapid",
+               "menu": "S14 End of season bonus",
+               "url": "season=bonus&div=rapid",
+               "no": "14",
+               "abb": "TCEC_Season_14_-_End_of_Season_Bonus"
+            },
+            {
+               "no": "15",
+               "dno": "0004",
+               "id": "sbonusdivisionfun_bonus",
+               "url": "season=bonus&div=fun_bonus",
+               "abb": "TCEC_Season_15_-_Fun_bonus",
+               "menu": "S15 Fun_bonus"
+            },
+            {
+               "dno": "0005",
+               "abb": "TCEC_Season_15_-_Side_Bonus_Div4vsDivp",
+               "url": "season=bonus&div=bonus_div4vsdivp",
+               "no": "15",
+               "id": "sbonusdivisionbonus_div4vsdivp",
+               "menu": "S15 Side_Bonus_Div4vsDivp"
+            },
+            {
+               "dno": "0006",
+               "no": "15",
+               "abb": "TCEC_Season_15_-_Division_4a_bonus_kibitz",
+               "menu": "S15 Side bonus_kibitz",
+               "id": "s15division4a_bonus_kibitz",
+               "url": "season=15&div=4a_bonus_kibitz"
+            },
+            {
+               "id": "sbonusdivisions15div4",
+               "menu": "S15 Div4 Glaurung gauntlet",
+               "url": "season=bonus&div=s15div4",
+               "no": "Bonus",
+               "abb": "TCEC_Season_Bonus_-_Division_S15_Div4_Glaurung_gauntlet",
+               "dno": "0007"
+            },
+            {
+               "no": "15",
+               "dno": "0008",
+               "id": "sbonusdivisionhw_simulation2",
+               "url": "season=bonus&div=hw_simulation2",
+               "abb": "TCEC_Season_15_-_Weak_Hardware_Simulation_2",
+               "menu": "S15 Hardware_Simulation_2"
+            },
+            {
+               "no": "15",
+               "dno": "0009",
+               "id": "sbonusdivisionhw_simulation1",
+               "url": "season=bonus&div=hw_simulation1",
+               "abb": "TCEC_Season_15_-_Weak_Hardware_Simulation_1",
+               "menu": "S15 Hardware_Simulation_1"
+            },
+            {
+               "id": "sbonusdivisions16nn",
+               "menu": "S16 NN test",
+               "url": "season=bonus&div=s16nn",
+               "no": "Bonus",
+               "abb": "TCEC_Season_Bonus_-_Division_S16_NN_test",
+               "dno": "0010"
+            },
+            {
+               "id": "sbonusdivisions15champions_glaurung",
+               "menu": "S15 Champions Vs Glaurung",
+               "url": "season=bonus&div=s15champions_glaurung",
+               "no": "Bonus",
+               "abb": "TCEC_Season_15_-_Champions_Vs_Glaurung",
+               "dno": "0014"
+            },
+            {
+               "id": "sbonusdivisions15champion_glaurung_houdini",
+               "menu": "S15 Champion Houdini 3 Vs Glaurung",
+               "url": "season=bonus&div=s15champion_glaurung_h3",
+               "no": "Bonus",
+               "abb": "TCEC_Season_15_-_Champion_Houdini_3_Vs_Glaurung",
+               "dno": "0018"
+            },
+            {
+               "id": "sbonusdivisions15champions_gull",
+               "menu": "S15 Champions Vs Gull",
+               "url": "season=bonus&div=s15champions_gull",
+               "no": "Bonus",
+               "abb": "TCEC_Season_15_-_Champions_Vs_Gull",
+               "dno": "0022"
+            },
+            {
+               "id": "sbonusdivisions15champions_glaurung2",
+               "menu": "S15 Testing 2 Champions Vs Glaurung",
+               "url": "season=bonus&div=s15champions_glaurung2",
+               "no": "Bonus",
+               "abb": "TCEC_Season_15_-_Testing_2_Champions_Vs_Glaurung",
+               "dno": "0026"
+            },
+            {
+               "id": "sbonusdivisions15testing_glaurung30min",
+               "menu": "S15 Testing Glaurung vs Div 4 30min",
+               "url": "season=bonus&div=s15testing_glaurung_30min",
+               "no": "Bonus",
+               "abb": "TCEC_Season_Bonus_-_Division_S15_Testing_Glaurung_vs_Div_4_30min",
+               "dno": "0030"
+            },
+            {
+               "id": "sbonusdivisions15glaurung_fritzinbahrain",
+               "menu": "S15 Glaurung vs Fritz in Bahrain",
+               "url": "season=bonus&div=s15glaurung_fritzinbahrain",
+               "no": "Bonus",
+               "abb": "TCEC_Season_Bonus_-_Division_S15_Glaurung_vs_Fritz_in_Bahrain",
+               "dno": "0034"
+            },
+            {
+               "id": "sbonusdivisions16lczero_redfish",
+               "menu": "S16 LCZero VS Redfish S15 Sufi Decisive Bonus",
+               "url": "season=bonus&div=s16lczero_redfish",
+               "no": "Bonus",
+               "abb": "TCEC_Season_Bonus_-_Division_S16_LCZero_VS_Redfish_S15_Sufi_Decisive_Bonus",
+               "dno": "0038"
+            },
+            {
+               "id": "sbonusdivisions16lczero_redfish2",
+               "menu": "S16 LCZero VS Redfish S15 Sufi Undecisive Bonus",
+               "url": "season=bonus&div=s16lczero_redfish2",
+               "no": "Bonus",
+               "abb": "TCEC_Season_Bonus_-_Division_S16_LCZero_VS_Redfish_S15_Sufi_Undecisive_Bonus",
+               "dno": "0039"
+            }
+         ]
+      }
+   }
+}
