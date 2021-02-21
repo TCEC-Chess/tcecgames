@@ -1,0 +1,171 @@
+diff -uw tmp-master/TCEC_Season_12_-_Division_P.pgn master-archive/TCEC_Season_12_-_Division_P.pgn
+--- tmp-master/TCEC_Season_12_-_Division_P.pgn	2021-02-21 21:59:26.539267899 +0200
++++ master-archive/TCEC_Season_12_-_Division_P.pgn	2021-02-21 21:51:42.391952412 +0200
+@@ -20039,7 +20039,7 @@
+ [GameDuration "02:27:40"]
+ [GameEndTime "2018-06-09T09:50:01.141 W. Europe Standard Time"]
+ [GameStartTime "2018-06-09T07:22:20.412 W. Europe Standard Time"]
+-[Opening "Grünfeld: 5.e3 O-O 6.Qb3 dxc4 7.Bxc4"]
++[Opening "GrÃ¼nfeld: 5.e3 O-O 6.Qb3 dxc4 7.Bxc4"]
+ [PlyCount "99"]
+ [Termination "adjudication"]
+ [TerminationDetails "TCEC draw rule"]
+@@ -20152,7 +20152,7 @@
+ [GameDuration "02:52:33"]
+ [GameEndTime "2018-06-09T12:43:39.442 W. Europe Standard Time"]
+ [GameStartTime "2018-06-09T09:51:05.796 W. Europe Standard Time"]
+-[Opening "Grünfeld: Russian, Prins, 8.Bf4"]
++[Opening "GrÃ¼nfeld: Russian, Prins, 8.Bf4"]
+ [PlyCount "89"]
+ [Termination "adjudication"]
+ [TerminationDetails "TCEC win rule"]
+@@ -22921,7 +22921,7 @@
+ [GameDuration "02:33:15"]
+ [GameEndTime "2018-06-11T21:21:25.843 W. Europe Standard Time"]
+ [GameStartTime "2018-06-11T18:48:10.353 W. Europe Standard Time"]
+-[Opening "Grünfeld: 5.e3 O-O 6.Qb3 dxc4 7.Bxc4"]
++[Opening "GrÃ¼nfeld: 5.e3 O-O 6.Qb3 dxc4 7.Bxc4"]
+ [PlyCount "99"]
+ [Termination "adjudication"]
+ [TerminationDetails "TCEC draw rule"]
+@@ -23034,7 +23034,7 @@
+ [GameDuration "02:57:04"]
+ [GameEndTime "2018-06-12T00:19:36.711 W. Europe Standard Time"]
+ [GameStartTime "2018-06-11T21:22:32.112 W. Europe Standard Time"]
+-[Opening "Grünfeld: Russian, Prins, 8.Bf4"]
++[Opening "GrÃ¼nfeld: Russian, Prins, 8.Bf4"]
+ [PlyCount "106"]
+ [Termination "adjudication"]
+ [TerminationDetails "TCEC win rule"]
+diff -uw tmp-master/TCEC_Season_12_-_Superfinal.pgn master-archive/TCEC_Season_12_-_Superfinal.pgn
+--- tmp-master/TCEC_Season_12_-_Superfinal.pgn	2021-02-21 21:59:26.535267975 +0200
++++ master-archive/TCEC_Season_12_-_Superfinal.pgn	2021-02-21 21:51:42.411952039 +0200
+@@ -3095,7 +3095,7 @@
+ [GameDuration "03:52:52"]
+ [GameEndTime "2018-06-22T15:07:31.315 W. Europe Standard Time"]
+ [GameStartTime "2018-06-22T11:14:38.634 W. Europe Standard Time"]
+-[Opening "King's Indian: Sämisch, 5...O-O 6.Bg5"]
++[Opening "King's Indian: SÃ¤misch, 5...O-O 6.Bg5"]
+ [PlyCount "103"]
+ [TerminationDetails "3-Fold repetition"]
+ [TimeControl "7200+15"]
+@@ -3213,7 +3213,7 @@
+ [GameDuration "04:23:56"]
+ [GameEndTime "2018-06-22T19:32:36.363 W. Europe Standard Time"]
+ [GameStartTime "2018-06-22T15:08:40.127 W. Europe Standard Time"]
+-[Opening "King's Indian: Sämisch, 5...O-O 6.Bg5"]
++[Opening "King's Indian: SÃ¤misch, 5...O-O 6.Bg5"]
+ [PlyCount "134"]
+ [Termination "adjudication"]
+ [TerminationDetails "TCEC draw rule"]
+@@ -9529,7 +9529,7 @@
+ [GameDuration "05:51:00"]
+ [GameEndTime "2018-06-30T06:29:05.949 W. Europe Standard Time"]
+ [GameStartTime "2018-06-30T00:38:05.872 W. Europe Standard Time"]
+-[Opening "King's Indian: Sämisch, 5...O-O 6.Be3 c5 7.d5"]
++[Opening "King's Indian: SÃ¤misch, 5...O-O 6.Be3 c5 7.d5"]
+ [PlyCount "476"]
+ [Termination "adjudication"]
+ [TerminationDetails "TCEC draw rule"]
+@@ -10019,7 +10019,7 @@
+ [GameDuration "04:10:31"]
+ [GameEndTime "2018-06-30T10:40:45.001 W. Europe Standard Time"]
+ [GameStartTime "2018-06-30T06:30:13.063 W. Europe Standard Time"]
+-[Opening "King's Indian: Sämisch, 5...O-O 6.Be3 c5 7.d5"]
++[Opening "King's Indian: SÃ¤misch, 5...O-O 6.Be3 c5 7.d5"]
+ [PlyCount "121"]
+ [Termination "adjudication"]
+ [TerminationDetails "TCEC win rule"]
+diff -uw tmp-master/TCEC_Season_2_-_Division_A.pgn master-archive/TCEC_Season_2_-_Division_A.pgn
+--- tmp-master/TCEC_Season_2_-_Division_A.pgn	2021-02-21 21:59:26.395270603 +0200
++++ master-archive/TCEC_Season_2_-_Division_A.pgn	2021-02-21 21:51:45.015903539 +0200
+@@ -5207,7 +5207,7 @@
+ 101.Be2 { ev=0.77, d=32, pd=Bc6, mt=00:00:25, tl=00:01:11, s=781 kN/s, pv=c4e2 g2c6 e2d3 e7f7 d3c2 c6f3, tb=0, R50=2,  }  
+ Bc6 { ev=0.00, d=28, pd=Bd1, mt=00:00:43, tl=00:12:45, s=1103 kN/s, pv=g2c6 e2d1 c6g2, tb=621930, R50=2,  }  
+ 102.Bd3 { ev=0.00, d=33, pd=Kf7, mt=00:00:24, tl=00:01:17, s=805 kN/s, pv=e2d3 e7f7 d3c2 c6f3, tb=47435, R50=1,  }  
+-Kf7 { ev=0.00, d=29, pd=f5, mt=00:00:54, tl=00:12:21, s=1073 kN/s, pv=i)u|‹¯è , tb=687608, R50=1,  }  
++Kf7 { ev=0.00, d=29, pd=f5, mt=00:00:54, tl=00:12:21, s=1073 kN/s, tb=687608, R50=1,  }  
+ 103.Kd6 { ev=0.00, d=36, pd=Kf6, mt=00:00:27, tl=00:01:20, s=622 kN/s, pv=e5d6 f7f6 d3b1 c6h1 d6c5 h1f3, tb=64713, R50=0,  }  
+ Bh1 { ev=0.00, d=32, pd=f5, mt=00:00:20, tl=00:12:30, s=1321 kN/s, pv=c6h1, tb=352496, R50=0,  }  
+ 1/2-1/2 
+diff -uw tmp-master/TCEC_Season_2_-_Division_C.pgn master-archive/TCEC_Season_2_-_Division_C.pgn
+--- tmp-master/TCEC_Season_2_-_Division_C.pgn	2021-02-21 21:59:26.395270603 +0200
++++ master-archive/TCEC_Season_2_-_Division_C.pgn	2021-02-21 21:51:45.023903390 +0200
+@@ -3872,7 +3872,7 @@
+ 74.Ke1 { ev=0.05, d=38, pd=Kd4, mt=00:01:00, tl=00:22:59, s=4954 kN/s, pv=d2e1 d5d4 e1f2 d4e4 f2g2 e4d4 g3g4 h5g4 g2g3, tb=0, R50=47,  }  
+ Ke4 { ev=0.37, d=35, pd=Ke2, mt=00:01:00, tl=00:12:19, s=2307 kN/s, pv=d5e4 e1e2 e4e5 e2f1 e5f5 f1f2 f5g6 f2g2 g6f6, tb=0, R50=46,  }  
+ 75.Ke2 { ev=0.05, d=39, pd=Kd4, mt=00:00:50, tl=00:22:39, s=5226 kN/s, pv=e1e2 e4d4 e2f3 d4e5 g3g4 h5g4 f3g4 e5e6 g4g5, tb=0, R50=46,  }  
+-Ke5 { ev=0.37, d=34, pd=Kf1, mt=00:00:41, tl=00:12:08, s=2344 kN/s, pv=i wäc , tb=0, R50=45,  }  
++Ke5 { ev=0.37, d=34, pd=Kf1, mt=00:00:41, tl=00:12:08, s=2344 kN/s, tb=0, R50=45,  }  
+ 76.Ke3 { ev=0.05, d=39, pd=Kf5, mt=00:01:01, tl=00:22:07, s=5136 kN/s, pv=e2e3 e5f5 e3f3 f5e5 g3g4 h5g4 f3g4 e5e6 g4f4, tb=0, R50=45,  }  
+ Kf5 { ev=0.37, d=35, pd=Kf2, mt=00:01:43, tl=00:10:55, s=2299 kN/s, pv=e5f5 e3f2 f5g6 f2g2 g6f6 g2h3 f6f5 h3h2 f5e4, tb=0, R50=44,  }  
+ 77.Kf3 { ev=0.05, d=34, pd=Ke5, mt=00:00:58, tl=00:21:39, s=5390 kN/s, pv=e3f3 f5e5 g3g4 h5g4 f3g4 e5d6 g4g5 d6e7 g5g6, tb=0, R50=44,  }  
+diff -uw tmp-master/TCEC_Season_3_-_Stage_1.pgn master-archive/TCEC_Season_3_-_Stage_1.pgn
+--- tmp-master/TCEC_Season_3_-_Stage_1.pgn	2021-02-21 21:59:26.399270528 +0200
++++ master-archive/TCEC_Season_3_-_Stage_1.pgn	2021-02-21 21:51:45.047902943 +0200
+@@ -2323,7 +2323,7 @@
+ 61.Rd6 { ev=1.67, d=31, pd=Rxa4, mt=00:01:11, tl=00:21:50, s=16280 kN/s, pv=d4d6 a5a4 h8h5 c7f7 h5g5 g6h7 g5f5 h7g6 f5d5, tb=6678161, R50=41,  }  
+ Rxa4 { ev=1.53, d=25, pd=Rxh5, mt=00:01:06, tl=00:17:46, s=11815 kN/s, pv=a5a4 h8h5 a4a5 g3g4 g6g7 g4g5 f6g5 h4g5 c7c2, tb=0, R50=50,  }  
+ 62.Rxh5 { ev=1.67, d=29, pd=Rf7, mt=00:00:00, tl=00:22:20, s=13503 kN/s, pv=h8h5 c7f7 h5g5 g6h7 g5f5 h7g6 f5d5 g6g7 d6b6, tb=17058, R50=50,  }  
+-Rc8 { ev=1.62, d=27, pd=Rg5, mt=00:00:50, tl=00:17:26, s=11209 kN/s, pv=i”v´aX , tb=0, R50=49,  }  
++Rc8 { ev=1.62, d=27, pd=Rg5, mt=00:00:50, tl=00:17:26, s=11209 kN/s, tb=0, R50=49,  }  
+ 63.Rd7 { ev=1.97, d=31, pd=Rg8, mt=00:02:24, tl=00:20:26, s=15342 kN/s, pv=d6d7 c8g8 d7h7 g8g7 h7h6 g6f7 h5f5 g7g6 h6h8, tb=11359238, R50=49,  }  
+ Rg8 { ev=1.79, d=28, pd=Rdh7, mt=00:00:44, tl=00:17:12, s=10219 kN/s, pv=c8g8 d7h7 g8g7 h7h6 g6f7 h5f5 g7g6 h6h5 a4a3, tb=0, R50=48,  }  
+ 64.Rdh7 { ev=1.97, d=31, pd=Rg7, mt=00:00:31, tl=00:20:25, s=15816 kN/s, pv=d7h7 g8g7 h7h6 g6f7 h5f5 g7g6 h6h8 f7g7 f5h5, tb=3746109, R50=48,  }  
+@@ -2331,7 +2331,7 @@
+ 65.R7h6+ { ev=1.97, d=30, pd=Kf7, mt=00:00:00, tl=00:20:55, s=11768 kN/s, pv=h7h6 g6f7 h5f5 g7g6 h6h8 f7g7 f5h5 g7f7 h8b8, tb=23089, R50=47,  }  
+ Kf7 { ev=1.08, d=5, pd=Rxf5, mt=00:00:00, tl=00:17:33, s=58 kN/s, pv=g6f7 h5f5 g7g6 h6h5 g6g8 f5a5 a4a5 h5a5 g8a8, tb=0, R50=46,  }  
+ 66.Rxf5 { ev=1.97, d=31, pd=Rg6, mt=00:01:04, tl=00:20:21, s=16255 kN/s, pv=h5f5 g7g6 h6h8 f7g7 f5h5 g7f7 h8b8 g6g8 b8b7, tb=6803143, R50=50,  }  
+-Rg6 { ev=1.93, d=27, pd=Rhh5, mt=00:00:57, tl=00:17:05, s=12399 kN/s, pv=i”v´aX , tb=0, R50=49,  }  
++Rg6 { ev=1.93, d=27, pd=Rhh5, mt=00:00:57, tl=00:17:05, s=12399 kN/s, tb=0, R50=49,  }  
+ 67.Rh8 { ev=1.97, d=32, pd=Kg7, mt=00:01:05, tl=00:19:46, s=16743 kN/s, pv=h6h8 f7g7 f5h5 g7f7 h8b8 g6g8 b8b7 f7g6 b7h7, tb=8337613, R50=49,  }  
+ Kg7 { ev=1.91, d=25, pd=Rfh5, mt=00:00:45, tl=00:16:50, s=11334 kN/s, pv=f7g7 f5h5 g7f7 h5c5 f7g7 h8d8 g7h7 c5c7 g6g7, tb=0, R50=48,  }  
+ 68.Rfh5 { ev=2.25, d=32, pd=Kf7, mt=00:04:56, tl=00:15:19, s=16201 kN/s, pv=f5h5 g7f7 h8b8 g6g8 b8b7 f7g6 b7h7 g8g7 h7h6, tb=28813564, R50=48,  }  
+@@ -9319,7 +9319,7 @@
+ Kc8 { ev=-2.15, d=24, pd=Nb6, mt=00:01:30, tl=00:27:23, s=4730 kN/s, pv=c7c8 a8b6 c8d8 d2c3 e5c3 a3c3 h2h6 c3c6 b7c6, tb=0, R50=45,  }  
+ 42.Nb6+ { ev=-2.37, d=21, pd=Kd8, mt=00:01:57, tl=00:32:24, s=10056 kN/s, pv=a8b6 c8d8 d2c3 e5c3 b2c3 d8e7 c3c4 d5c4 a3c3, tb=0, R50=44,  }  
+ Kd8 { ev=-2.28, d=24, pd=Na8, mt=00:01:18, tl=00:26:35, s=4603 kN/s, pv=c8d8 b6a8 h2h6 a3b3 h6h2 b3b7 g5g4, tb=0, R50=44,  }  
+-43.Rd3 { ev=-2.35, d=22, pd=Rxh6, mt=00:01:28, tl=00:31:26, s=9179 kN/s, pv=i”vÆáÿ , tb=0, R50=43,  }  
++43.Rd3 { ev=-2.35, d=22, pd=Rxh6, mt=00:01:28, tl=00:31:26, s=9179 kN/s, tb=0, R50=43,  }  
+ Rxh6 { ev=-2.45, d=20, pd=Bc3, mt=00:01:04, tl=00:26:01, s=4394 kN/s, pv=h2h6 d2c3 e5d6 c3d2 h6h2 d2c3 d8e7 d3f3 d6f4, tb=3, R50=50,  }  
+ 44.Nxd5 { ev=-2.55, d=22, pd=exd5, mt=00:06:09, tl=00:25:46, s=9003 kN/s, pv=b6d5 e6d5 d3d5 d8e8 d2g5 h6h2 g5d2 b7b5 d5d3, tb=0, R50=50,  }  
+ exd5 { ev=-2.73, d=23, pd=Rxd5, mt=00:00:38, tl=00:25:53, s=4955 kN/s, pv=e6d5 d3d5 d8e8 d2g5 h6h2 g5c1 b7b5 d5d7 c6c7, tb=88, R50=50,  }  
+@@ -10618,7 +10618,7 @@
+ 13.Bd3 { ev=0.26, d=21, pd=e5, mt=00:03:28, tl=01:21:40, s=2736 kN/s, pv=f1d3 e6e5 d3e2 b7b5 a2a3 h6h5 d2g5 c6c3 b2c3, tb=0, R50=49,  }  
+ Bg7 { ev=0.30, d=15, pd=f4, mt=00:02:54, tl=01:17:07, s=726 kN/s, pv=f8g7 f2f4 e8g8 c1b1 d8b6 d2e3 b6c7 g3f3 c6c3, tb=0, R50=49,  }  
+ 14.f4 { ev=0.33, d=21, pd=h5, mt=00:07:05, tl=01:15:04, s=2671 kN/s, pv=f2f4 h6h5 c1b1 d8b6 h1f1 f6g4 c3a4 b6d8 h2h3, tb=0, R50=50,  }  
+-O-O { ev=0.42, d=14, pd=f5, mt=00:02:50, tl=01:14:47, s=719 kN/s, pv=i”vÆáÿ , tb=0, R50=49,  }  
++O-O { ev=0.42, d=14, pd=f5, mt=00:02:50, tl=01:14:47, s=719 kN/s, tb=0, R50=49,  }  
+ 15.Rhf1 { ev=0.15, d=20, pd=Qa5, mt=00:02:15, tl=01:13:19, s=2621 kN/s, pv=h1f1 d8a5 c1b1 f6h5 g3f2 a5c7 g2g4 h5f6 h2h3, tb=0, R50=49,  }  
+ Qb6 { ev=0.42, d=14, pd=Kb1, mt=00:03:19, tl=01:11:58, s=731 kN/s, pv=d8b6 c1b1 f6h5 g3e1 g7d4 c3a4 b6a7 d2c3 h5f6, tb=0, R50=48,  }  
+ 16.f5 { ev=0.25, d=20, pd=g5, mt=00:02:15, tl=01:11:34, s=2648 kN/s, pv=f4f5 g6g5 h2h4 g5g4 f5e6 d7e6 d2e3 f6h5 g3f2, tb=0, R50=50,  }  
+@@ -15058,7 +15058,7 @@
+ Rc1+ { ev=0.00, d=18, pd=Kb2, mt=00:00:38, tl=00:19:31, s=3375 kN/s, pv=d1c1 c3b2 c1f1 e3e8 f1f5 d5e6 d4e6 e8e6 d6d5, tb=0, R50=30,  }  
+ 65.Kb2 { ev=0.81, d=18, pd=Rf1, mt=00:01:02, tl=00:32:51, s=719 kN/s, pv=c3b2 c1f1 g3g4 f1f4 e3e8 g7h7 e8e4 f4e4 d5e4, tb=0, R50=30,  }  
+ Rf1 { ev=0.00, d=19, pd=Re8, mt=00:00:35, tl=00:19:26, s=3417 kN/s, pv=c1f1 e3e8 f1f5 d5e6 d4e6 e8e6 d6d5 e6c6 d5d4, tb=0, R50=29,  }  
+-66.g4 { ev=0.63, d=17, pd=Rf8, mt=00:01:02, tl=00:32:20, s=730 kN/s, pv=iuåƒº¢ , tb=0, R50=50,  }  
++66.g4 { ev=0.63, d=17, pd=Rf8, mt=00:01:02, tl=00:32:20, s=730 kN/s, tb=0, R50=50,  }  
+ Rf8 { ev=0.00, d=17, pd=Kc3, mt=00:01:03, tl=00:18:54, s=3378 kN/s, pv=f1f8 b2c3 a7a5 d2g2 g7h6 c3c4 f8f4 g4g5 h6g6, tb=0, R50=49,  }  
+ 67.g5 { ev=0.60, d=16, pd=Kg6, mt=00:01:23, tl=00:31:26, s=735 kN/s, pv=g4g5 g7g6 d2g2 d7g7 b2a3 g6h5 g2h2 f8f5 d5c4, tb=0, R50=50,  }  
+ Rf5 { ev=-0.26, d=18, pd=Bg2, mt=00:01:01, tl=00:18:22, s=3458 kN/s, pv=f8f5 d5g2 d7f7 b2c3 d6d5 e3e8 f7b7 d2d4 c5d4, tb=0, R50=49,  }  
+@@ -15196,7 +15196,7 @@
+ Ra8 { ev=1.15, d=19, pd=h4, mt=00:02:27, tl=00:58:16, s=11332 kN/s, pv=f8a8 h2h4 g5g4 e3d3 d7e7 e5g7 a3c5 g7h6 e7f6, tb=0, R50=49,  }  
+ 24.Bg7 { ev=2.07, d=22, pd=Bf8, mt=00:02:46, tl=00:41:15, s=1420 kN/s, pv=e5g7 a3f8 g7f8 a8f8 d2d3 h1c6 d3d4 a7a5 d4e5, tb=0, R50=49,  }  
+ Bf8 { ev=1.22, d=22, pd=Bxf8, mt=00:02:24, tl=00:56:22, s=7996 kN/s, pv=a3f8 g7f8 a8f8 e3h3 d7c6 h3h6 c6c5 c4b3 h1d5, tb=0, R50=48,  }  
+-25.Bxf8 { ev=2.77, d=23, pd=Rxf8, mt=00:01:37, tl=00:40:09, s=1497 kN/s, pv=iuåƒº¢ , tb=0, R50=50,  }  
++25.Bxf8 { ev=2.77, d=23, pd=Rxf8, mt=00:01:37, tl=00:40:09, s=1497 kN/s, tb=0, R50=50,  }  
+ Rxf8 { ev=1.49, d=25, pd=Be6, mt=00:01:33, tl=00:55:20, s=7755 kN/s, pv=a8f8 c4e6 d7d8 e3h3 d8e7 h3h6 h1e4 d2e3 e4c6, tb=0, R50=50,  }  
+ 26.Kd3 { ev=2.78, d=23, pd=Bc6, mt=00:00:47, tl=00:39:52, s=1564 kN/s, pv=d2d3 h1c6 d3d4 a7a5 d4e5 b7b5 e5f6 b5c4 f6g7, tb=0, R50=49,  }  
+ b5 { ev=1.25, d=24, pd=Bxb5, mt=00:02:18, tl=00:53:32, s=7577 kN/s, pv=b7b5 c4b5 d7d6 b5c4 h1d5 c4d5 d6d5 e3e7 a7a5, tb=0, R50=50,  }  
+diff -uw tmp-master/TCEC_Season_3_-_Stage_2a.pgn master-archive/TCEC_Season_3_-_Stage_2a.pgn
+--- tmp-master/TCEC_Season_3_-_Stage_2a.pgn	2021-02-21 21:59:26.395270603 +0200
++++ master-archive/TCEC_Season_3_-_Stage_2a.pgn	2021-02-21 21:51:45.055902794 +0200
+@@ -2664,7 +2664,7 @@
+ O-O { ev=0.28, d=32, pd=Re1, mt=00:04:18, tl=02:25:42, s=8204 kN/s, pv=e8g8 f1e1 d8c7 c4e3 f8e8 f3d2 d6d5 e3g4 f6e4, tb=0, R50=48,  }  
+ 12.Re1 { ev=0.33, d=21, pd=Qc7, mt=00:04:24, tl=02:22:39, s=1119 kN/s, pv=f1e1 d8c7 f3d2 h7h6 g5h4 f8e8 c4e3 g7g6 f2f3, tb=0, R50=47,  }  
+ Qc7 { ev=0.28, d=32, pd=Ne3, mt=00:10:15, tl=02:15:57, s=8560 kN/s, pv=d8c7 c4e3 f8e8 f3d2 d6d5 e3g4 f6e4 g5e7 e8e7, tb=0, R50=47,  }  
+-13.Nfd2 { ev=0.28, d=21, pd=h6, mt=00:05:48, tl=02:17:21, s=1104 kN/s, pv=i±uCŽ„P , tb=0, R50=46,  }  
++13.Nfd2 { ev=0.28, d=21, pd=h6, mt=00:05:48, tl=02:17:21, s=1104 kN/s, tb=0, R50=46,  }  
+ Nd5 { ev=0.16, d=32, pd=Bxe7, mt=00:04:45, tl=02:11:42, s=8394 kN/s, pv=f6d5 g5e7 d5e7 d1b3 e7d5 d3f1 d7f6 f2f3 f8d8, tb=0, R50=46,  }  
+ 14.Bxe7 { ev=0.33, d=21, pd=Nxe7, mt=00:03:57, tl=02:13:54, s=1122 kN/s, pv=g5e7 d5e7 g2g3 a8c8 d1b3 d6d5 c4e3 h7h6 b3d1, tb=0, R50=50,  }  
+ Nxe7 { ev=0.24, d=32, pd=Ne3, mt=00:02:59, tl=02:09:13, s=8392 kN/s, pv=d5e7 c4e3 e7g6 g2g3 g6e7 d1c2 d7f6 f2f3 e7d5, tb=0, R50=50,  }  

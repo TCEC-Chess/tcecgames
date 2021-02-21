@@ -1,0 +1,453 @@
+[Event "TCEC Season 19 - Chat vs Stockfish Depth 2"]
+[Site "https://tcec-chess.com"]
+[Date "2020.07.24"]
+[Round "1.1"]
+[White "Chat"]
+[Black "StockfishDepth2 202007172028"]
+[Result "0-1"]
+[BlackElo "800"]
+[ECO "A00"]
+[GameDuration "00:07:50"]
+[GameEndTime "2020-07-24T00:17:55.311 UTC"]
+[GameStartTime "2020-07-24T00:10:05.107 UTC"]
+[Opening "Benko's opening"]
+[PlyCount "50"]
+[TerminationDetails "Black mates"]
+[TimeControl "20+20"]
+[WhiteElo "100"]
+
+{WhiteEngineOptions: Protocol=uci;, BlackEngineOptions: Protocol=uci; Threads=1; Hash=128; SyzygyPath=/usr/games/syzygy7/; Move Overhead=1000; OwnBook=false; Ponder=false;}
+1. g3 {d=1, sd=1, mt=19004, tl=20996, s=0, n=0, pv=, tb=null, h=0.0, ph=0.0, wv=0.00, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+e6 {d=2, sd=2, mt=0, tl=40000, s=29000, n=58, pv=e6 b3, tb=0, h=0.0, ph=0.0, wv=-0.99, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+2. c4 {d=1, sd=1, mt=19998, tl=20998, s=1, n=8, pv=c4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+d5 {d=2, sd=2, pd=b3, mt=0, tl=60000, s=129000, n=129, pv=d5 b3, tb=0, h=0.0, ph=0.0, wv=-1.37, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+3. cxd5 {d=1, sd=1, mt=20005, tl=20993, s=0, n=6, pv=cxd5, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Qxd5 {d=2, sd=2, pd=b3, mt=0, tl=80000, s=108000, n=108, pv=Qxd5 d3 Qxh1, tb=0, h=0.0, ph=0.0, wv=-6.77, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+4. Nf3 {d=1, sd=1, mt=19998, tl=20995, s=1, n=13, pv=Nf3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nc6 {d=2, sd=2, pd=d3, mt=0, tl=100000, s=130000, n=130, pv=Nc6 b3, tb=0, h=0.0, ph=0.0, wv=-1.61, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+5. Qc2 {d=1, sd=1, mt=19999, tl=20996, s=1, n=21, pv=Qc2, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nf6 {d=2, sd=2, pd=b3, mt=0, tl=120000, s=70500, n=141, pv=Nf6 b3, tb=0, h=0.0, ph=0.0, wv=-1.76, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+6. Bg2 {d=1, sd=1, mt=20006, tl=20990, s=0, n=6, pv=Bg2, tb=null, h=0.0, ph=0.0, wv=0.16, R50=47, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Ne4 {d=2, sd=2, pd=b3, mt=0, tl=140000, s=117000, n=117, pv=Ne4 b3, tb=0, h=0.0, ph=0.0, wv=-2.00, R50=47, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+7. Nh4 {d=1, sd=1, mt=19995, tl=20995, s=1, n=13, pv=Nh4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=46, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+f5 {d=2, sd=2, pd=b3, mt=0, tl=160000, s=236000, n=236, pv=f5 b3, tb=0, h=0.0, ph=0.0, wv=-2.00, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+8. Nc3 {d=1, sd=1, mt=19996, tl=20999, s=1, n=11, pv=Nc3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nd4 {d=2, sd=3, pd=b3, mt=0, tl=180000, s=387000, n=387, pv=Nd4 Qa4+ Bd7, tb=0, h=0.0, ph=0.0, wv=-1.32, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+9. Qa4+ {d=1, sd=1, mt=20001, tl=20998, s=0, n=5, pv=Qa4+, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Bd7 {d=2, sd=2, pd=Qa4+, mt=0, tl=200000, s=120000, n=120, pv=Bd7 Nxd5, tb=0, h=0.0, ph=12.5, wv=-1.32, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+10. Nxd5 {d=1, sd=1, mt=20001, tl=20997, s=1, n=10, pv=Nxd5, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+1,}
+Bxa4 {d=2, sd=3, pd=Nxd5, mt=0, tl=220000, s=85500, n=171, pv=Bxa4 Nxc7+ Kf7, tb=0, h=0.0, ph=22.2, wv=3.59, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+11. Nxc7+ {d=1, sd=1, mt=20007, tl=20990, s=1, n=13, pv=Nxc7+, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Kd7 {d=2, sd=2, pd=Nxc7+, mt=0, tl=240000, s=49000, n=49, pv=Kd7 Nxa8 Nc2+ Kf1 Nxa1, tb=0, h=0.0, ph=30.0, wv=0.21, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+12. Nxa8 {d=1, sd=1, mt=19991, tl=20999, s=1, n=10, pv=Nxa8, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+1+0,}
+Nc2+ {d=2, sd=3, pd=Nxa8, mt=0, tl=260000, s=48000, n=96, pv=Nc2+ Kf1 Nxa1, tb=0, h=0.0, ph=36.3, wv=0.21, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+1+0,}
+13. Kf1 {d=1, sd=1, mt=20006, tl=20993, s=2, n=33, pv=Kf1, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+1+0,}
+Nxa1 {d=2, sd=2, pd=Kf1, mt=0, tl=280000, s=97000, n=97, pv=Nxa1 d3, tb=0, h=0.0, ph=41.6, wv=1.41, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+14. Bxe4 {d=1, sd=1, mt=20004, tl=20989, s=1, n=17, pv=Bxe4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+1+0+0+0,}
+fxe4 {d=2, sd=2, pd=d3, mt=0, tl=300000, s=62000, n=62, pv=fxe4 b3, tb=0, h=0.0, ph=38.4, wv=0.25, R50=50, Rd=-1000, Rr=-1000, mb=+1+1-1+0+0,}
+15. b3 {d=1, sd=1, mt=19996, tl=20993, s=1, n=21, pv=b3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+1-1+0+0,}
+Bc6 {d=2, sd=2, pd=b3, mt=0, tl=320000, s=96000, n=96, pv=Bc6 f3, tb=0, h=0.0, ph=42.8, wv=-0.91, R50=49, Rd=-1000, Rr=-1000, mb=+1+1-1+0+0,}
+16. Bb2 {d=1, sd=1, mt=20003, tl=20990, s=1, n=17, pv=Bb2, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+1-1+0+0,}
+e3 {d=2, sd=2, pd=f3, mt=0, tl=340000, s=90000, n=90, pv=e3 Bxa1 Bxh1 dxe3, tb=0, h=0.0, ph=40.0, wv=-2.07, R50=50, Rd=-1000, Rr=-1000, mb=+1+1-1+0+0,}
+17. Bxa1 {d=1, sd=1, mt=20001, tl=20989, s=1, n=11, pv=Bxa1, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+2-1+0+0,}
+exd2 {d=2, sd=2, pd=Bxa1, mt=0, tl=360000, s=94000, n=94, pv=exd2 f3 d1=Q+ Kg2 Qxe2+ Kg1 Bxf3, tb=0, h=0.0, ph=43.7, wv=-9.26, R50=50, Rd=-1000, Rr=-1000, mb=+0+2-1+0+0,}
+18. Nb6+ {d=1, sd=1, mt=19996, tl=20993, s=1, n=17, pv=Nb6+, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+2-1+0+0,}
+axb6 {d=2, sd=2, pd=f3, mt=0, tl=380000, s=42000, n=42, pv=axb6 f3 d1=Q+ Kg2 Qxe2+ Kg1 Qxa2, tb=0, h=0.0, ph=41.1, wv=-11.04, R50=50, Rd=-1000, Rr=-1000, mb=+0+1-1+0+0,}
+19. Nf3 {d=1, sd=1, mt=20000, tl=20993, s=2, n=46, pv=Nf3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+1-1+0+0,}
+d1=Q+ {d=2, sd=3, pd=f3, mt=0, tl=400000, s=78000, n=78, pv=d1=Q+ Kg2 Qxe2, tb=0, h=0.0, ph=38.8, wv=-10.27, R50=50, Rd=-1000, Rr=-1000, mb=+1+1-1+0-1,}
+20. Kg2 {d=1, sd=1, mt=20000, tl=20993, s=2, n=39, pv=Kg2, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+1-1+0-1,}
+Qxe2 {d=2, sd=2, pd=Kg2, mt=0, tl=420000, s=129000, n=129, pv=Qxe2 b4 Qxf3+ Kh3 Qxh1, tb=0, h=0.0, ph=42.1, wv=-16.87, R50=50, Rd=-1000, Rr=-1000, mb=+0+1-1+0-1,}
+21. Kh3 {d=1, sd=1, mt=20001, tl=20992, s=1, n=13, pv=Kh3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+1-1+0-1,}
+Bxf3 {d=2, sd=2, pd=b4, mt=0, tl=440000, s=95000, n=95, pv=Bxf3 a4 Bxh1, tb=0, h=0.0, ph=40.0, wv=-16.79, R50=50, Rd=-1000, Rr=-1000, mb=+0+0-1+0-1,}
+22. Rc1 {d=1, sd=1, mt=19993, tl=20999, s=1, n=21, pv=Rc1, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0-1+0-1,}
+Qxf2 {d=2, sd=2, pd=a4, mt=2, tl=459998, s=87500, n=175, pv=Qxf2 Be5 Qg2+ Kh4 Qxh2+ Kg5 Qxa2, tb=0, h=0.0, ph=38.0, wv=-14.69, R50=50, Rd=-1000, Rr=-1000, mb=-1+0-1+0-1,}
+23. a4 {d=1, sd=1, mt=20005, tl=20994, s=0, n=3, pv=a4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+0-1+0-1,}
+Qg2+ {d=2, sd=4, pd=Be5, mt=0, tl=479998, s=131000, n=131, pv=Qg2+ Kh4 Qxh2+ Kg5 Qxg3#, tb=0, h=0.0, ph=36.3, wv=-M5, R50=49, Rd=-1000, Rr=-1000, mb=-1+0-1+0-1,}
+24. Kh4
+Qxh2+ {d=2, sd=4, pd=Kh4, mt=0, tl=499998, s=112000, n=112, pv=Qxh2+ Kg5 Qxg3#, tb=0, h=0.0, ph=39.1, wv=-M3, R50=50, Rd=-1000, Rr=-1000, mb=-2+0-1+0-1,}
+25. Kg5
+Qxg3# {d=2, sd=2, pd=Kg5, mt=0, tl=519998, s=79000, n=79, pv=Qxg3#, tb=0, h=0.0, ph=41.6, wv=-M1, R50=50, Rd=-1000, Rr=-1000, mb=-3+0-1+0-1, Black mates}
+0-1
+
+[Event "TCEC Season 19 - Chat vs Stockfish Depth 2"]
+[Site "https://tcec-chess.com"]
+[Date "2020.07.24"]
+[Round "2.1"]
+[White "StockfishDepth2 202007172028"]
+[Black "Chat"]
+[Result "1-0"]
+[BlackElo "100"]
+[ECO "A00"]
+[GameDuration "00:09:52"]
+[GameEndTime "2020-07-24T00:28:17.129 UTC"]
+[GameStartTime "2020-07-24T00:18:25.105 UTC"]
+[Opening "Van't Kruijs opening"]
+[PlyCount "59"]
+[TerminationDetails "White mates"]
+[TimeControl "20+20"]
+[WhiteElo "800"]
+
+{WhiteEngineOptions: Protocol=uci; Threads=1; Hash=128; SyzygyPath=/usr/games/syzygy7/; Move Overhead=1000; OwnBook=false; Ponder=false;, BlackEngineOptions: Protocol=uci;}
+1. e3 {d=2, sd=2, mt=0, tl=40000, s=28000, n=56, pv=e3 b6, tb=0, h=0.0, ph=0.0, wv=1.22, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+e5 {d=1, sd=1, mt=19004, tl=20996, s=1, n=9, pv=e5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+2. Qh5 {d=2, sd=2, pd=b6, mt=0, tl=60000, s=86000, n=86, pv=Qh5 e4 Qe5+ Qe7 Qxc7, tb=0, h=0.0, ph=0.0, wv=2.03, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Qf6 {d=1, sd=1, mt=20000, tl=20996, s=1, n=12, pv=Qf6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+3. Nf3 {d=2, sd=2, pd=e4, mt=0, tl=80000, s=133000, n=133, pv=Nf3 e4 Qe5+ Qxe5 Nxe5, tb=0, h=0.0, ph=0.0, wv=0.87, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+g6 {d=1, sd=1, mt=20003, tl=20993, s=1, n=7, pv=g6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+4. Qxe5+ {d=2, sd=3, pd=e4, mt=0, tl=100000, s=49000, n=98, pv=Qxe5+ Qxe5 Nxe5, tb=0, h=0.0, ph=0.0, wv=2.11, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Qxe5 {d=1, sd=1, mt=19995, tl=20998, s=1, n=8, pv=Qxe5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0-1,}
+5. Nxe5 {d=2, sd=2, pd=Qxe5, mt=0, tl=120000, s=58000, n=58, pv=Nxe5 b6, tb=0, h=0.0, ph=25.0, wv=2.23, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Bd6 {d=1, sd=1, mt=20000, tl=20998, s=0, n=4, pv=Bd6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+6. Nc4 {d=2, sd=2, pd=b6, mt=0, tl=140000, s=96000, n=96, pv=Nc4 b6, tb=0, h=0.0, ph=20.0, wv=3.08, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Bb4 {d=1, sd=1, mt=20007, tl=20991, s=0, n=6, pv=Bb4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+7. a3 {d=2, sd=2, pd=b6, mt=0, tl=160000, s=52000, n=52, pv=a3 b6 axb4, tb=0, h=0.0, ph=16.6, wv=7.32, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Be7 {d=1, sd=1, mt=20001, tl=20990, s=0, n=4, pv=Be7, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+8. Nc3 {d=2, sd=2, pd=b6, mt=0, tl=180000, s=79000, n=79, pv=Nc3 d6, tb=0, h=0.0, ph=14.2, wv=2.23, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Bh4 {d=1, sd=1, mt=19996, tl=20994, s=1, n=6, pv=Bh4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+9. g3 {d=2, sd=2, pd=d6, mt=0, tl=200000, s=63000, n=63, pv=g3 d6 gxh4, tb=0, h=0.0, ph=12.5, wv=6.69, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Bf6 {d=1, sd=1, mt=20004, tl=20990, s=0, n=3, pv=Bf6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+10. Nd5 {d=2, sd=2, pd=d6, mt=0, tl=220000, s=88000, n=88, pv=Nd5 d6 Nxc7+ Kf8 Nxa8, tb=0, h=0.0, ph=11.1, wv=8.79, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Bd8 {d=1, sd=1, mt=19995, tl=20995, s=0, n=4, pv=Bd8, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+11. h4 {d=2, sd=2, pd=d6, mt=0, tl=240000, s=53500, n=107, pv=h4 d6, tb=0, h=0.0, ph=10.0, wv=2.93, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Bg5 {d=1, sd=1, mt=20001, tl=20994, s=1, n=10, pv=Bg5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+12. Nxc7+ {d=2, sd=3, pd=d6, mt=0, tl=260000, s=97000, n=97, pv=Nxc7+ Kf8 Nxa8, tb=0, h=0.0, ph=9.0, wv=8.87, R50=50, Rd=-1000, Rr=-1000, mb=+2+0+0+0+0,}
+Kf8 {d=1, sd=1, mt=19999, tl=20995, s=1, n=18, pv=Kf8, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+2+0+0+0+0,}
+13. Nxa8 {d=2, sd=2, pd=Kf8, mt=0, tl=280000, s=72000, n=72, pv=Nxa8 d6 hxg5, tb=0, h=0.0, ph=16.6, wv=14.15, R50=50, Rd=-1000, Rr=-1000, mb=+2+0+0+1+0,}
+b5 {d=1, sd=1, mt=19998, tl=20997, s=2, n=17, pv=b5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+2+0+0+1+0,}
+14. hxg5 {d=2, sd=2, pd=d6, mt=0, tl=300000, s=66000, n=66, pv=hxg5 bxc4, tb=0, h=0.0, ph=15.3, wv=10.81, R50=50, Rd=-1000, Rr=-1000, mb=+2+0+1+1+0,}
+bxc4 {d=1, sd=1, mt=20003, tl=20994, s=0, n=1, pv=bxc4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+2-1+1+1+0,}
+15. Bxc4 {d=2, sd=2, pd=bxc4, mt=0, tl=320000, s=69000, n=69, pv=Bxc4 f6, tb=0, h=0.0, ph=21.4, wv=11.00, R50=50, Rd=-1000, Rr=-1000, mb=+3-1+1+1+0,}
+Na6 {d=1, sd=1, mt=19995, tl=20999, s=0, n=0, pv=, tb=null, h=0.0, ph=0.0, wv=0.00, R50=49, Rd=-1000, Rr=-1000, mb=+3-1+1+1+0,}
+16. Kf1 {d=2, sd=3, pd=f6, mt=0, tl=340000, s=99500, n=199, pv=Kf1 f6, tb=0, h=0.0, ph=20.0, wv=11.00, R50=49, Rd=-1000, Rr=-1000, mb=+3-1+1+1+0,}
+Nc7 {d=1, sd=1, mt=20006, tl=20993, s=0, n=0, pv=, tb=null, h=0.0, ph=0.0, wv=0.00, R50=48, Rd=-1000, Rr=-1000, mb=+3-1+1+1+0,}
+17. Nxc7 {d=2, sd=2, pd=f6, mt=0, tl=360000, s=73000, n=73, pv=Nxc7 f6, tb=0, h=0.0, ph=18.7, wv=15.90, R50=50, Rd=-1000, Rr=-1000, mb=+3+0+1+1+0,}
+f5 {d=1, sd=1, mt=20000, tl=20993, s=0, n=0, pv=, tb=null, h=0.0, ph=0.0, wv=0.00, R50=50, Rd=-1000, Rr=-1000, mb=+3+0+1+1+0,}
+18. Nb5 {d=2, sd=2, pd=f6, mt=0, tl=380000, s=92000, n=92, pv=Nb5 d6 Nxd6, tb=0, h=0.0, ph=17.6, wv=16.87, R50=49, Rd=-1000, Rr=-1000, mb=+3+0+1+1+0,}
+a5 {d=1, sd=1, mt=19999, tl=20994, s=0, n=0, pv=, tb=null, h=0.0, ph=0.0, wv=0.00, R50=50, Rd=-1000, Rr=-1000, mb=+3+0+1+1+0,}
+19. Nd6 {d=2, sd=2, pd=d6, mt=0, tl=400000, s=94000, n=94, pv=Nd6 a4, tb=0, h=0.0, ph=16.6, wv=20.13, R50=49, Rd=-1000, Rr=-1000, mb=+3+0+1+1+0,}
+Nh6 {d=1, sd=1, mt=20001, tl=20993, s=0, n=0, pv=, tb=null, h=0.0, ph=0.0, wv=0.00, R50=49, Rd=-1000, Rr=-1000, mb=+3+0+1+1+0,}
+20. Rxh6 {d=2, sd=2, pd=a4, mt=0, tl=420000, s=82000, n=82, pv=Rxh6 a4 Nxc8, tb=0, h=0.0, ph=15.7, wv=24.56, R50=50, Rd=-1000, Rr=-1000, mb=+3+1+1+1+0,}
+Kg7 {d=1, sd=1, mt=19998, tl=20995, s=0, n=5, pv=Kg7, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+3+1+1+1+0,}
+21. Nf7 {d=2, sd=2, pd=a4, mt=0, tl=440000, s=106000, n=106, pv=Nf7 d6 Nxh8 Kxh8, tb=0, h=0.0, ph=15.0, wv=22.97, R50=49, Rd=-1000, Rr=-1000, mb=+3+1+1+1+0,}
+Rg8 {d=1, sd=1, mt=20005, tl=20990, s=0, n=7, pv=Rg8, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+3+1+1+1+0,}
+22. b3 {d=2, sd=2, pd=d6, mt=0, tl=460000, s=82000, n=82, pv=b3 d6 Bb2+ Kf8 Nxd6, tb=0, h=0.0, ph=14.2, wv=21.30, R50=50, Rd=-1000, Rr=-1000, mb=+3+1+1+1+0,}
+d6 {d=1, sd=1, mt=19991, tl=20999, s=0, n=2, pv=d6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+3+1+1+1+0,}
+23. Nxd6 {d=2, sd=3, pd=d6, mt=0, tl=480000, s=85000, n=85, pv=Nxd6 Kf8 Bxg8 Kxg8 Nxc8, tb=0, h=0.0, ph=18.1, wv=27.59, R50=50, Rd=-1000, Rr=-1000, mb=+4+1+1+1+0,}
+Rd8 {d=1, sd=1, mt=20003, tl=20996, s=0, n=6, pv=Rd8, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+4+1+1+1+0,}
+24. Bb2+ {d=2, sd=3, pd=Kf8, mt=0, tl=500000, s=63500, n=127, pv=Bb2+ Kf8 Nxc8, tb=0, h=0.0, ph=17.3, wv=22.00, R50=49, Rd=-1000, Rr=-1000, mb=+4+1+1+1+0,}
+Kf8
+25. Nxc8 {d=2, sd=2, pd=Kf8, mt=0, tl=520000, s=121000, n=121, pv=Nxc8 Rxc8, tb=0, h=0.0, ph=20.8, wv=22.00, R50=50, Rd=-1000, Rr=-1000, mb=+4+1+2+1+0,}
+Rxc8 {d=1, sd=1, mt=39998, tl=20997, s=1, n=6, pv=Rxc8, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+4+0+2+1+0,}
+26. Rxh7 {d=2, sd=2, pd=Rxc8, mt=0, tl=540000, s=100000, n=100, pv=Rxh7 a4 Rh8+ Ke7 Rxc8 axb3 cxb3, tb=0, h=0.0, ph=24.0, wv=28.52, R50=50, Rd=-1000, Rr=-1000, mb=+5+0+2+1+0,}
+Rc6 {d=1, sd=1, mt=19999, tl=20998, s=1, n=14, pv=Rc6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+5+0+2+1+0,}
+27. Bc3 {d=2, sd=2, pd=a4, mt=0, tl=560000, s=97500, n=195, pv=Bc3 Ke8 Bxa5, tb=0, h=0.0, ph=23.0, wv=23.00, R50=49, Rd=-1000, Rr=-1000, mb=+5+0+2+1+0,}
+a4 {d=1, sd=1, mt=20004, tl=20994, s=2, n=22, pv=a4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+5+0+2+1+0,}
+28. Bf7 {d=2, sd=3, pd=Ke8, mt=0, tl=580000, s=498000, n=498, pv=Bf7 Ke7 Bd5+ Kd6 Bxc6 Kxc6 bxa4, tb=0, h=0.0, ph=22.2, wv=23.94, R50=49, Rd=-1000, Rr=-1000, mb=+5+0+2+1+0,}
+axb3 {d=1, sd=1, mt=19999, tl=20995, s=0, n=2, pv=axb3, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+4+0+2+1+0,}
+29. Bb4+ {d=2, sd=4, pd=Ke7, mt=0, tl=600000, s=124000, n=124, pv=Bb4+ Rc5 Bxc5#, tb=0, h=0.0, ph=21.4, wv=M3, R50=49, Rd=-1000, Rr=-1000, mb=+4+0+2+1+0,}
+Rc5 {d=1, sd=1, mt=20005, tl=20990, s=0, n=2, pv=Rc5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+4+0+2+1+0,}
+30. Bxc5# {d=2, sd=2, pd=Rc5, mt=0, tl=620000, s=74000, n=74, pv=Bxc5#, tb=0, h=0.0, ph=24.1, wv=M1, R50=50, Rd=-1000, Rr=-1000, mb=+4+0+2+2+0, White mates}
+1-0
+
+[Event "TCEC Season 19 - Chat vs Stockfish Depth 2"]
+[Site "https://tcec-chess.com"]
+[Date "2020.07.24"]
+[Round "3.1"]
+[White "Chat"]
+[Black "StockfishDepth2 202007172028"]
+[Result "1-0"]
+[BlackElo "800"]
+[ECO "D31"]
+[GameDuration "00:08:51"]
+[GameEndTime "2020-07-24T09:35:28.149 UTC"]
+[GameStartTime "2020-07-24T09:26:37.106 UTC"]
+[Opening "QGD"]
+[PlyCount "51"]
+[TerminationDetails "White mates"]
+[TimeControl "20+20"]
+[Variation "3.Nc3"]
+[WhiteElo "100"]
+
+{WhiteEngineOptions: Protocol=uci;, BlackEngineOptions: Protocol=uci; Threads=1; Hash=128; SyzygyPath=/usr/games/syzygy7/; Move Overhead=1000; OwnBook=false; Ponder=false;}
+1. d4 {d=1, sd=1, mt=19002, tl=20998, s=1, n=7, pv=d4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+e6 {d=2, sd=2, mt=0, tl=40000, s=46000, n=46, pv=e6 a3, tb=0, h=0.0, ph=0.0, wv=-0.21, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+2. c4 {d=1, sd=1, mt=20008, tl=20990, s=1, n=10, pv=c4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+d5 {d=2, sd=2, pd=a3, mt=0, tl=60000, s=104000, n=104, pv=d5 Nc3 dxc4, tb=0, h=0.0, ph=0.0, wv=-0.48, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+3. Nc3 {d=1, sd=1, mt=19995, tl=20995, s=1, n=10, pv=Nc3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nc6 {d=2, sd=2, pd=Nc3, mt=0, tl=80000, s=172000, n=172, pv=Nc6 e3, tb=0, h=0.0, ph=50.0, wv=0.17, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+4. Nf3 {d=1, sd=1, mt=20003, tl=20992, s=1, n=10, pv=Nf3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Bb4 {d=2, sd=2, pd=e3, mt=0, tl=100000, s=136000, n=136, pv=Bb4 e3, tb=0, h=0.0, ph=33.3, wv=-0.05, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+5. e3 {d=1, sd=1, mt=19999, tl=20993, s=0, n=7, pv=e3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nge7 {d=2, sd=2, pd=e3, mt=0, tl=120000, s=132000, n=132, pv=Nge7 g3, tb=0, h=0.0, ph=50.0, wv=-0.60, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+6. Bd3 {d=1, sd=1, mt=20004, tl=20989, s=1, n=10, pv=Bd3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+O-O {d=2, sd=3, pd=g3, mt=0, tl=140000, s=84500, n=169, pv=O-O h3 Re8, tb=0, h=0.0, ph=40.0, wv=-0.55, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+7. O-O {d=1, sd=1, mt=19990, tl=20999, s=1, n=13, pv=O-O, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+dxc4 {d=2, sd=2, pd=h3, mt=0, tl=160000, s=102000, n=102, pv=dxc4 Bxc4, tb=0, h=0.0, ph=33.3, wv=0.33, R50=50, Rd=-1000, Rr=-1000, mb=-1+0+0+0+0,}
+8. Bxc4 {d=1, sd=1, mt=20005, tl=20994, s=1, n=15, pv=Bxc4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Na5 {d=2, sd=2, pd=Bxc4, mt=0, tl=180000, s=46500, n=93, pv=Na5 e4 Nxc4, tb=0, h=0.0, ph=42.8, wv=-3.98, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+9. Bd3 {d=1, sd=1, mt=20001, tl=20993, s=1, n=13, pv=Bd3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Bd7 {d=2, sd=2, pd=e4, mt=0, tl=200000, s=78000, n=78, pv=Bd7 e4, tb=0, h=0.0, ph=37.5, wv=1.10, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+10. Bd2 {d=1, sd=1, mt=20004, tl=20989, s=1, n=10, pv=Bd2, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Bc6 {d=2, sd=2, pd=e4, mt=0, tl=220000, s=82000, n=82, pv=Bc6 e4, tb=0, h=0.0, ph=33.3, wv=1.10, R50=47, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+11. Ne5 {d=1, sd=1, mt=19997, tl=20992, s=1, n=13, pv=Ne5, tb=null, h=0.0, ph=0.0, wv=0.16, R50=47, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Ng6 {d=2, sd=2, pd=e4, mt=0, tl=240000, s=119000, n=119, pv=Ng6 Nxc6, tb=0, h=0.0, ph=30.0, wv=1.30, R50=46, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+12. Nxg6 {d=1, sd=1, mt=20001, tl=20991, s=1, n=12, pv=Nxg6, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+fxg6 {d=2, sd=2, pd=Nxc6, mt=0, tl=260000, s=99000, n=99, pv=fxg6 f3, tb=0, h=0.0, ph=27.2, wv=0.87, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+13. a3 {d=1, sd=1, mt=19992, tl=20999, s=1, n=12, pv=a3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Bd6 {d=2, sd=2, pd=f3, mt=0, tl=280000, s=144000, n=144, pv=Bd6 e4, tb=0, h=0.0, ph=25.0, wv=1.10, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+14. b4 {d=1, sd=1, mt=20004, tl=20995, s=1, n=11, pv=b4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Qh4 {d=2, sd=2, pd=e4, mt=0, tl=300000, s=164000, n=164, pv=Qh4 h3, tb=0, h=0.0, ph=23.0, wv=-0.13, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+15. f4 {d=1, sd=1, mt=20004, tl=20991, s=1, n=12, pv=f4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+g5 {d=2, sd=2, pd=h3, mt=0, tl=320000, s=179000, n=179, pv=g5 bxa5, tb=0, h=0.0, ph=21.4, wv=3.24, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+16. bxa5 {d=1, sd=1, mt=20001, tl=20990, s=1, n=12, pv=bxa5, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+gxf4 {d=2, sd=2, pd=bxa5, mt=0, tl=340000, s=114000, n=114, pv=gxf4 e4, tb=0, h=0.0, ph=26.6, wv=3.90, R50=50, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+17. exf4 {d=1, sd=1, mt=19994, tl=20996, s=1, n=9, pv=exf4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+Bxf4 {d=2, sd=2, pd=e4, mt=0, tl=360000, s=65000, n=130, pv=Bxf4 Rxf4 Rxf4, tb=0, h=0.0, ph=25.0, wv=2.73, R50=50, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+18. Bxf4 {d=1, sd=1, mt=20002, tl=20994, s=1, n=9, pv=Bxf4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+1+1+0+0,}
+Rxf4 {d=2, sd=2, pd=Rxf4, mt=0, tl=380000, s=167000, n=167, pv=Rxf4 Ne2, tb=0, h=0.0, ph=23.5, wv=2.47, R50=50, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+19. Rxf4 {d=1, sd=1, mt=20000, tl=20994, s=1, n=8, pv=Rxf4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+1+0+1+0,}
+Qxf4 {d=2, sd=2, pd=Ne2, mt=0, tl=400000, s=131000, n=131, pv=Qxf4 Ne2, tb=0, h=0.0, ph=22.2, wv=1.70, R50=50, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+20. Kh1 {d=1, sd=1, mt=20001, tl=20993, s=1, n=9, pv=Kh1, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+Rf8 {d=2, sd=2, pd=Ne2, mt=0, tl=420000, s=129000, n=129, pv=Rf8 Ne2, tb=0, h=0.0, ph=21.0, wv=1.44, R50=49, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+21. Qe2 {d=1, sd=1, mt=19996, tl=20997, s=1, n=11, pv=Qe2, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+Qxd4 {d=2, sd=3, pd=Ne2, mt=0, tl=440000, s=208000, n=208, pv=Qxd4 Qxe6+ Kh8, tb=0, h=0.0, ph=20.0, wv=0.44, R50=50, Rd=-1000, Rr=-1000, mb=-2+1+0+0+0,}
+22. Qxe6+ {d=1, sd=1, mt=20004, tl=20993, s=1, n=11, pv=Qxe6+, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+Kh8 {d=2, sd=2, pd=Qxe6+, mt=0, tl=460000, s=18000, n=18, pv=Kh8 h3 Qxd3, tb=0, h=0.0, ph=23.8, wv=-4.21, R50=49, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+23. Rf1 {d=1, sd=1, mt=19996, tl=20997, s=1, n=8, pv=Rf1, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+Rg8 {d=2, sd=3, pd=h3, mt=0, tl=480000, s=78000, n=156, pv=Rg8 Bb1 Qxc3, tb=0, h=0.0, ph=22.7, wv=-0.56, R50=48, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+24. Bc4 {d=1, sd=1, mt=20004, tl=20993, s=0, n=7, pv=Bc4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+Re8 {d=2, sd=2, pd=Bb1, mt=0, tl=500000, s=109000, n=109, pv=Re8 h3 Rxe6, tb=0, h=0.0, ph=21.7, wv=-4.99, R50=47, Rd=-1000, Rr=-1000, mb=-1+1+0+0+0,}
+25. Qxe8+ {d=1, sd=1, mt=19998, tl=20995, s=1, n=10, pv=Qxe8+, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+1+0+1+0,}
+Bxe8 {d=2, sd=3, pd=h3, mt=0, tl=520000, s=4000, n=4, pv=Bxe8 Rf8#, tb=0, h=0.0, ph=20.8, wv=M2, R50=50, Rd=-1000, Rr=-1000, mb=-1+1+0+1-1,}
+26. Rf8# {d=1, sd=1, mt=20004, tl=20991, s=1, n=12, pv=Rf8#, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=-1+1+0+1-1, White mates}
+1-0
+
+[Event "TCEC Season 19 - Chat vs Stockfish Depth 2"]
+[Site "https://tcec-chess.com"]
+[Date "2020.07.24"]
+[Round "4.1"]
+[White "StockfishDepth2 202007172028"]
+[Black "Chat"]
+[Result "1/2-1/2"]
+[BlackElo "100"]
+[ECO "A00"]
+[GameDuration "00:10:33"]
+[GameEndTime "2020-07-24T09:46:31.409 UTC"]
+[GameStartTime "2020-07-24T09:35:58.127 UTC"]
+[Opening "Van't Kruijs opening"]
+[PlyCount "63"]
+[TerminationDetails "3-Fold repetition"]
+[TimeControl "20+20"]
+[WhiteElo "800"]
+
+{WhiteEngineOptions: Protocol=uci; Threads=1; Hash=128; SyzygyPath=/usr/games/syzygy7/; Move Overhead=1000; OwnBook=false; Ponder=false;, BlackEngineOptions: Protocol=uci;}
+1. e3 {d=2, sd=2, mt=0, tl=40000, s=28000, n=56, pv=e3 b6, tb=0, h=0.0, ph=0.0, wv=1.22, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+f6 {d=1, sd=1, mt=19003, tl=20997, s=0, n=0, pv=, tb=null, h=0.0, ph=0.0, wv=0.00, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+2. d4 {d=2, sd=2, pd=b6, mt=0, tl=60000, s=92000, n=92, pv=d4 g6, tb=0, h=0.0, ph=0.0, wv=2.07, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+d5 {d=1, sd=1, mt=20003, tl=20994, s=0, n=7, pv=d5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+3. c3 {d=2, sd=2, pd=g6, mt=0, tl=80000, s=181000, n=181, pv=c3 Kf7, tb=0, h=0.0, ph=0.0, wv=2.28, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+e6 {d=1, sd=1, mt=19997, tl=20997, s=1, n=7, pv=e6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+4. Qh5+ {d=2, sd=3, pd=Kf7, mt=0, tl=100000, s=200000, n=200, pv=Qh5+ Ke7 Qd1, tb=0, h=0.0, ph=0.0, wv=2.12, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+g6 {d=1, sd=1, mt=20008, tl=20989, s=1, n=9, pv=g6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+5. Qd1 {d=2, sd=2, pd=Ke7, mt=0, tl=120000, s=115000, n=115, pv=Qd1 c6, tb=0, h=0.0, ph=0.0, wv=0.91, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Bg7 {d=1, sd=1, mt=19995, tl=20994, s=1, n=8, pv=Bg7, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+6. Nd2 {d=2, sd=2, pd=c6, mt=0, tl=140000, s=60500, n=121, pv=Nd2 c6, tb=0, h=0.0, ph=0.0, wv=1.37, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+e5 {d=1, sd=1, mt=19999, tl=20995, s=1, n=10, pv=e5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+7. dxe5 {d=2, sd=2, pd=c6, mt=0, tl=160000, s=96000, n=192, pv=dxe5 fxe5, tb=0, h=0.0, ph=0.0, wv=1.92, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+fxe5 {d=1, sd=1, mt=19999, tl=20996, s=1, n=14, pv=fxe5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+8. c4 {d=2, sd=2, pd=fxe5, mt=0, tl=180000, s=65000, n=130, pv=c4 c6, tb=0, h=0.0, ph=14.2, wv=1.30, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+d4 {d=1, sd=1, mt=20007, tl=20989, s=1, n=13, pv=d4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+9. Ne4 {d=2, sd=2, pd=c6, mt=0, tl=200000, s=66500, n=133, pv=Ne4 c6 exd4 Qxd4 Qxd4 exd4, tb=0, h=0.0, ph=12.5, wv=1.22, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Qh4 {d=1, sd=1, mt=19995, tl=20994, s=1, n=13, pv=Qh4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+10. Qc2 {d=2, sd=2, pd=c6, mt=0, tl=220000, s=172000, n=172, pv=Qc2 Kd8 exd4 exd4, tb=0, h=0.0, ph=11.1, wv=3.00, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Bf5 {d=1, sd=1, mt=20003, tl=20991, s=1, n=10, pv=Bf5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+11. Bd3 {d=2, sd=2, pd=Kd8, mt=0, tl=240000, s=241000, n=241, pv=Bd3 Nc6 exd4 exd4, tb=0, h=0.0, ph=10.0, wv=0.60, R50=47, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nf6 {d=1, sd=1, mt=19995, tl=20996, s=1, n=10, pv=Nf6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=47, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+12. Nf3 {d=2, sd=2, pd=Nc6, mt=0, tl=260000, s=281000, n=281, pv=Nf3 Bxe4 Nxh4 Bxd3 Qxd3, tb=0, h=0.0, ph=9.0, wv=7.70, R50=46, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Qg4 {d=1, sd=1, mt=19997, tl=20999, s=1, n=7, pv=Qg4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=46, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+13. Nxe5 {d=2, sd=2, pd=Bxe4, mt=0, tl=280000, s=316000, n=316, pv=Nxe5 Qxg2, tb=0, h=0.0, ph=8.3, wv=2.31, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Qxg2 {d=1, sd=1, mt=20001, tl=20998, s=1, n=12, pv=Qxg2, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+14. Ng3 {d=2, sd=3, pd=Qxg2, mt=0, tl=300000, s=243000, n=486, pv=Ng3 Bxd3 Nxd3, tb=0, h=0.0, ph=15.3, wv=0.40, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nh5 {d=1, sd=1, mt=20002, tl=20996, s=1, n=11, pv=Nh5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+15. Bxf5 {d=2, sd=2, pd=Bxd3, mt=0, tl=320000, s=246000, n=246, pv=Bxf5 gxf5, tb=0, h=0.0, ph=14.2, wv=2.23, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+1+0+0,}
+Nxg3 {d=1, sd=1, mt=19999, tl=20997, s=1, n=12, pv=Nxg3, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0-1+1+0+0,}
+16. Bxg6+ {d=2, sd=2, pd=gxf5, mt=0, tl=340000, s=217000, n=434, pv=Bxg6+ hxg6, tb=0, h=0.0, ph=13.3, wv=-1.32, R50=50, Rd=-1000, Rr=-1000, mb=+1-1+1+0+0,}
+Kf8 {d=1, sd=1, mt=20007, tl=20990, s=1, n=10, pv=Kf8, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+1+0+0,}
+17. hxg3 {d=2, sd=3, pd=hxg6, mt=0, tl=360000, s=329000, n=329, pv=hxg3 Qxh1+ Ke2, tb=0, h=0.0, ph=12.5, wv=-2.23, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+1+0+0,}
+Qxh1+ {d=1, sd=1, mt=19994, tl=20996, s=1, n=13, pv=Qxh1+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+1-1+0,}
+18. Ke2 {d=2, sd=2, pd=Qxh1+, mt=0, tl=380000, s=43000, n=43, pv=Ke2 hxg6, tb=0, h=0.0, ph=17.6, wv=-2.23, R50=49, Rd=-1000, Rr=-1000, mb=+1+0+1-1+0,}
+Bxe5 {d=1, sd=1, mt=20002, tl=20994, s=1, n=12, pv=Bxe5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1-1+1-1+0,}
+19. Qf5+ {d=2, sd=4, pd=hxg6, mt=0, tl=400000, s=201000, n=201, pv=Qf5+ Kg7 Qf7+ Kh6, tb=0, h=0.0, ph=16.6, wv=9.33, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+1-1+0,}
+Ke7 {d=1, sd=1, mt=19998, tl=20996, s=0, n=7, pv=Ke7, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+1-1+0,}
+20. Qxe5+ {d=2, sd=3, pd=Kg7, mt=0, tl=420000, s=138000, n=138, pv=Qxe5+ Kd7 Qxh8, tb=0, h=0.0, ph=15.7, wv=10.27, R50=50, Rd=-1000, Rr=-1000, mb=+1-1+2-1+0,}
+Kd7 {d=1, sd=1, mt=20002, tl=20994, s=1, n=8, pv=Kd7, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+2-1+0,}
+21. Qxh8 {d=2, sd=2, pd=Kd7, mt=0, tl=440000, s=103000, n=206, pv=Qxh8 hxg6, tb=0, h=0.0, ph=20.0, wv=10.27, R50=50, Rd=-1000, Rr=-1000, mb=+1-1+2+0+0,}
+dxe3 {d=1, sd=1, mt=20000, tl=20994, s=0, n=7, pv=dxe3, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0-1+2+0+0,}
+22. Qd4+ {d=2, sd=4, pd=hxg6, mt=0, tl=460000, s=221000, n=442, pv=Qd4+ Ke7 Qxe3+ Kd6 Qd4+ Kc6, tb=0, h=0.0, ph=19.0, wv=12.40, R50=49, Rd=-1000, Rr=-1000, mb=+0-1+2+0+0,}
+Ke6 {d=1, sd=1, mt=19997, tl=20997, s=0, n=5, pv=Ke6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0-1+2+0+0,}
+23. Qxe3+ {d=2, sd=4, pd=Ke7, mt=0, tl=480000, s=332000, n=332, pv=Qxe3+ Kd6 Qd4+ Ke6, tb=0, h=0.0, ph=18.1, wv=13.38, R50=50, Rd=-1000, Rr=-1000, mb=+1-1+2+0+0,}
+Kf6 {d=1, sd=1, mt=20002, tl=20995, s=1, n=7, pv=Kf6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+2+0+0,}
+24. Be8 {d=2, sd=2, pd=Kd6, mt=0, tl=500000, s=187500, n=375, pv=Be8 Kg7 Qe5+ Kg8, tb=0, h=0.0, ph=17.3, wv=12.59, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+2+0+0,}
+Nc6 {d=1, sd=1, mt=20005, tl=20990, s=0, n=4, pv=Nc6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+1-1+2+0+0,}
+25. b3 {d=2, sd=2, pd=Kg7, mt=0, tl=520000, s=160500, n=321, pv=b3 Kg7 Bb2+ Kf8, tb=0, h=0.0, ph=16.6, wv=12.48, R50=50, Rd=-1000, Rr=-1000, mb=+1-1+2+0+0,}
+Rxe8 {d=1, sd=1, mt=19997, tl=20993, s=0, n=8, pv=Rxe8, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1-1+1+0+0,}
+26. Qxe8 {d=2, sd=2, pd=Kg7, mt=0, tl=540000, s=122000, n=122, pv=Qxe8 Kf5 Qf7+ Kg4 Qxc7, tb=0, h=0.0, ph=16.0, wv=8.79, R50=50, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+Nd4+ {d=1, sd=1, mt=20002, tl=20991, s=0, n=7, pv=Nd4+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+27. Kd2 {d=2, sd=3, pd=Kf5, mt=0, tl=560000, s=99500, n=199, pv=Kd2 c6 Qh8+ Ke6 Qxd4, tb=0, h=0.0, ph=15.3, wv=12.36, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+c5 {d=1, sd=1, mt=19997, tl=20994, s=0, n=5, pv=c5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+28. Bb2 {d=2, sd=3, pd=c6, mt=0, tl=580000, s=224000, n=448, pv=Bb2 b6 Rxh1, tb=0, h=0.0, ph=14.8, wv=13.76, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+Qh6+ {d=1, sd=1, mt=19996, tl=20998, s=0, n=9, pv=Qh6+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+29. Kd1 {d=2, sd=3, pd=b6, mt=0, tl=600000, s=96000, n=96, pv=Kd1 Kg7, tb=0, h=0.0, ph=14.2, wv=10.19, R50=48, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+Qh1+ {d=1, sd=1, mt=20008, tl=20990, s=0, n=7, pv=Qh1+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+30. Kd2 {d=2, sd=3, pd=Kg7, mt=0, tl=620000, s=39000, n=39, pv=Kd2 Qh6+ Qe3, tb=0, h=0.0, ph=13.7, wv=8.09, R50=47, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+Qh6+ {d=1, sd=1, mt=19997, tl=20993, s=1, n=9, pv=Qh6+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=47, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+31. Ke1 {d=2, sd=3, pd=Qh6+, mt=0, tl=640000, s=57000, n=57, pv=Ke1 Kg7, tb=0, h=0.0, ph=16.6, wv=10.33, R50=46, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+Qh1+ {d=1, sd=1, mt=20003, tl=20990, s=0, n=8, pv=Qh1+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=46, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0,}
+32. Kd2 {d=2, sd=2, pd=Kg7, mt=0, tl=660000, s=2000, n=2, pv=Kd2, tb=0, h=0.0, ph=16.1, wv=0.00, R50=45, Rd=-1000, Rr=-1000, mb=+1-1+1+1+0, 3-Fold repetition}
+1/2-1/2
+
+[Event "TCEC Season 19 - Chat vs Stockfish Depth 2"]
+[Site "https://tcec-chess.com"]
+[Date "2020.07.24"]
+[Round "5.1"]
+[White "Chat"]
+[Black "StockfishDepth2 202007172028"]
+[Result "1-0"]
+[BlackElo "800"]
+[ECO "C00"]
+[GameDuration "00:09:11"]
+[GameEndTime "2020-07-24T09:57:16.329 UTC"]
+[GameStartTime "2020-07-24T09:48:05.130 UTC"]
+[Opening "French defence"]
+[PlyCount "53"]
+[TerminationDetails "White mates"]
+[TimeControl "20+20"]
+[WhiteElo "100"]
+
+{WhiteEngineOptions: Protocol=uci;, BlackEngineOptions: Protocol=uci; Threads=1; Hash=128; SyzygyPath=/usr/games/syzygy7/; Move Overhead=1000; OwnBook=false; Ponder=false;}
+1. e4 {d=1, sd=1, mt=19002, tl=20998, s=0, n=3, pv=e4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+e6 {d=2, sd=2, mt=0, tl=40000, s=47000, n=47, pv=e6 b3, tb=0, h=0.0, ph=0.0, wv=-0.21, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+2. d4 {d=1, sd=1, mt=20002, tl=20996, s=0, n=6, pv=d4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Qh4 {d=2, sd=2, pd=b3, mt=0, tl=60000, s=36500, n=73, pv=Qh4 c3 Qxe4+ Be3, tb=0, h=0.0, ph=0.0, wv=-0.59, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+3. Nc3 {d=1, sd=1, mt=20005, tl=20991, s=0, n=8, pv=Nc3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Bb4 {d=2, sd=2, pd=c3, mt=0, tl=80000, s=138000, n=138, pv=Bb4 a3 Qxe4+ Be3, tb=0, h=0.0, ph=0.0, wv=-0.36, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+4. Bd3 {d=1, sd=1, mt=19996, tl=20995, s=0, n=7, pv=Bd3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nc6 {d=2, sd=2, pd=a3, mt=0, tl=100000, s=116000, n=116, pv=Nc6 g3, tb=0, h=0.0, ph=0.0, wv=0.79, R50=47, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+5. Nf3 {d=1, sd=1, mt=20000, tl=20995, s=0, n=6, pv=Nf3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=47, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Qg4 {d=2, sd=2, pd=g3, mt=0, tl=120000, s=153000, n=153, pv=Qg4 g3, tb=0, h=0.0, ph=0.0, wv=0.33, R50=46, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+6. O-O {d=1, sd=1, mt=19998, tl=20997, s=1, n=6, pv=O-O, tb=null, h=0.0, ph=0.0, wv=0.16, R50=46, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+d5 {d=2, sd=2, pd=g3, mt=0, tl=140000, s=64000, n=128, pv=d5 exd5, tb=0, h=0.0, ph=0.0, wv=1.83, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+7. exd5 {d=1, sd=1, mt=20008, tl=20989, s=0, n=7, pv=exd5, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+0+0+0+0,}
+Nxd4 {d=2, sd=2, pd=exd5, mt=0, tl=160000, s=137000, n=137, pv=Nxd4 Nxd4, tb=0, h=0.0, ph=16.6, wv=1.92, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+8. Nxd4 {d=1, sd=1, mt=19999, tl=20990, s=1, n=9, pv=Nxd4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+e5 {d=2, sd=2, pd=Nxd4, mt=0, tl=180000, s=83500, n=167, pv=e5 a3 exd4, tb=0, h=0.0, ph=28.5, wv=4.77, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+9. Nf3 {d=1, sd=1, mt=19992, tl=20998, s=1, n=8, pv=Nf3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+Bd6 {d=2, sd=2, pd=a3, mt=0, tl=200000, s=81500, n=163, pv=Bd6 a3, tb=0, h=0.0, ph=25.0, wv=4.91, R50=49, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+10. Nb5 {d=1, sd=1, mt=20001, tl=20997, s=0, n=7, pv=Nb5, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+Nf6 {d=2, sd=3, pd=a3, mt=0, tl=220000, s=147000, n=147, pv=Nf6 Nxd6+ cxd6, tb=0, h=0.0, ph=22.2, wv=4.25, R50=48, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+11. h3 {d=1, sd=1, mt=20006, tl=20991, s=0, n=5, pv=h3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+Qd7 {d=2, sd=3, pd=Nxd6+, mt=0, tl=240000, s=197000, n=197, pv=Qd7 Nxd6+ cxd6, tb=0, h=0.0, ph=20.0, wv=4.64, R50=49, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+12. Nxd6+ {d=1, sd=1, mt=19999, tl=20992, s=0, n=5, pv=Nxd6+, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+1+0+0,}
+cxd6 {d=2, sd=2, pd=Nxd6+, mt=0, tl=260000, s=56000, n=56, pv=cxd6 c3 Nxd5, tb=0, h=0.0, ph=27.2, wv=4.48, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+1+0+0,}
+13. Re1 {d=1, sd=1, mt=20002, tl=20990, s=0, n=7, pv=Re1, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+1+0+0,}
+b5 {d=2, sd=2, pd=c3, mt=0, tl=280000, s=102000, n=102, pv=b5 c4, tb=0, h=0.0, ph=25.0, wv=5.22, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+1+0+0,}
+14. Bf1 {d=1, sd=1, mt=19993, tl=20997, s=0, n=5, pv=Bf1, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+1+0+0,}
+O-O {d=2, sd=3, pd=c4, mt=0, tl=300000, s=85000, n=85, pv=O-O Ng5 Bb7, tb=0, h=0.0, ph=23.0, wv=4.30, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+1+0+0,}
+15. Bg5 {d=1, sd=1, mt=20005, tl=20992, s=1, n=6, pv=Bg5, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+1+0+0,}
+a5 {d=2, sd=2, pd=Ng5, mt=0, tl=320000, s=116000, n=116, pv=a5 Bxf6, tb=0, h=0.0, ph=21.4, wv=4.87, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+1+0+0,}
+16. Bxf6 {d=1, sd=1, mt=20004, tl=20988, s=1, n=7, pv=Bxf6, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+1+0+0,}
+gxf6 {d=2, sd=2, pd=Bxf6, mt=0, tl=340000, s=59000, n=59, pv=gxf6 c3, tb=0, h=0.0, ph=26.6, wv=4.83, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+17. Qd2 {d=1, sd=1, mt=19995, tl=20993, s=1, n=8, pv=Qd2, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+Bb7 {d=2, sd=2, pd=c3, mt=0, tl=360000, s=57000, n=57, pv=Bb7 a3, tb=0, h=0.0, ph=25.0, wv=4.75, R50=49, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+18. Qh6 {d=1, sd=1, mt=19998, tl=20995, s=0, n=7, pv=Qh6, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+Qf5 {d=2, sd=2, pd=a3, mt=0, tl=380000, s=92000, n=92, pv=Qf5 c4 bxc4 Bxc4, tb=0, h=0.0, ph=23.5, wv=4.91, R50=48, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+19. Bd3 {d=1, sd=1, mt=20002, tl=20993, s=1, n=11, pv=Bd3, tb=null, h=0.0, ph=0.0, wv=0.16, R50=47, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+e4 {d=2, sd=2, pd=c4, mt=0, tl=400000, s=148000, n=148, pv=e4 Rxe4, tb=0, h=0.0, ph=22.2, wv=8.52, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+20. Bxe4 {d=1, sd=1, mt=20003, tl=20990, s=1, n=11, pv=Bxe4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+1+0+0+0,}
+Qxe4 {d=2, sd=2, pd=Rxe4, mt=0, tl=420000, s=123000, n=123, pv=Qxe4 Rxe4, tb=0, h=0.0, ph=21.0, wv=10.54, R50=50, Rd=-1000, Rr=-1000, mb=+1+1-1+0+0,}
+21. Rxe4 {d=1, sd=1, mt=19999, tl=20991, s=2, n=11, pv=Rxe4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+Bc8 {d=2, sd=2, pd=Rxe4, mt=0, tl=440000, s=70000, n=140, pv=Bc8 Qxf6, tb=0, h=0.0, ph=25.0, wv=11.74, R50=49, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+22. Rh4 {d=1, sd=1, mt=19996, tl=20995, s=1, n=10, pv=Rh4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+Bf5 {d=2, sd=2, pd=Qxf6, mt=0, tl=460000, s=70000, n=70, pv=Bf5 Qxf6, tb=0, h=0.0, ph=23.8, wv=11.35, R50=48, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+23. Qxf6 {d=1, sd=1, mt=20000, tl=20995, s=0, n=9, pv=Qxf6, tb=null, h=0.0, ph=0.0, wv=0.16, R50=50, Rd=-1000, Rr=-1000, mb=+2+1-1+0+1,}
+Bxc2 {d=2, sd=2, pd=Qxf6, mt=0, tl=480000, s=32000, n=64, pv=Bxc2 Qxd6, tb=0, h=0.0, ph=27.2, wv=11.35, R50=50, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+24. Rg4+ {d=1, sd=1, mt=19997, tl=20998, s=1, n=10, pv=Rg4+, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+Bg6 {d=2, sd=2, pd=Qxd6, mt=0, tl=500000, s=7000, n=7, pv=Bg6 Qxd6, tb=0, h=0.0, ph=26.0, wv=11.35, R50=49, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+25. Nh4 {d=1, sd=1, mt=20000, tl=20998, s=1, n=11, pv=Nh4, tb=null, h=0.0, ph=0.0, wv=0.16, R50=48, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+Rad8 {d=2, sd=2, pd=Qxd6, mt=0, tl=520000, s=76000, n=76, pv=Rad8 a3, tb=0, h=0.0, ph=25.0, wv=10.50, R50=48, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+26. Nf5 {d=1, sd=1, mt=20005, tl=20993, s=1, n=9, pv=Nf5, tb=null, h=0.0, ph=0.0, wv=0.16, R50=47, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+a4 {d=2, sd=3, pd=a3, mt=0, tl=540000, s=55000, n=55, pv=a4 Nh6#, tb=0, h=0.0, ph=24.0, wv=M2, R50=50, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1,}
+27. Qg7# {d=1, sd=1, mt=19997, tl=20996, s=1, n=12, pv=Qg7#, tb=null, h=0.0, ph=0.0, wv=0.16, R50=49, Rd=-1000, Rr=-1000, mb=+1+1-1+0+1, White mates}
+1-0
+
+[Event "TCEC Season 19 - Chat vs Stockfish Depth 2"]
+[Site "https://tcec-chess.com"]
+[Date "2020.07.24"]
+[Round "6.1"]
+[White "StockfishDepth2 202007172028"]
+[Black "Chat"]
+[Result "0-1"]
+[BlackElo "100"]
+[ECO "A00"]
+[GameDuration "00:08:30"]
+[GameEndTime "2020-07-24T10:06:17.572 UTC"]
+[GameStartTime "2020-07-24T09:57:47.130 UTC"]
+[Opening "Van't Kruijs opening"]
+[PlyCount "50"]
+[TerminationDetails "Black mates"]
+[TimeControl "20+20"]
+[WhiteElo "800"]
+
+{WhiteEngineOptions: Protocol=uci; Threads=1; Hash=128; SyzygyPath=/usr/games/syzygy7/; Move Overhead=1000; OwnBook=false; Ponder=false;, BlackEngineOptions: Protocol=uci;}
+1. e3 {d=2, sd=2, mt=0, tl=40000, s=28000, n=56, pv=e3 b6, tb=0, h=0.0, ph=0.0, wv=1.22, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+e5 {d=1, sd=1, mt=19005, tl=20995, s=1, n=8, pv=e5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+2. Qh5 {d=2, sd=2, pd=b6, mt=0, tl=60000, s=86000, n=86, pv=Qh5 e4 Qe5+ Qe7 Qxc7, tb=0, h=0.0, ph=0.0, wv=2.03, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nc6 {d=1, sd=1, mt=19997, tl=20998, s=1, n=6, pv=Nc6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+3. Qf3 {d=2, sd=2, pd=e4, mt=0, tl=80000, s=130000, n=130, pv=Qf3 b6, tb=0, h=0.0, ph=0.0, wv=-0.17, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nf6 {d=1, sd=1, mt=19999, tl=20999, s=1, n=8, pv=Nf6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+4. Nc3 {d=2, sd=2, pd=b6, mt=0, tl=100000, s=80000, n=80, pv=Nc3 b6, tb=0, h=0.0, ph=0.0, wv=-0.09, R50=47, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+d5 {d=1, sd=1, mt=20009, tl=20990, s=1, n=8, pv=d5, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+5. Qg3 {d=2, sd=2, pd=b6, mt=0, tl=120000, s=122000, n=122, pv=Qg3 e4, tb=0, h=0.0, ph=0.0, wv=-1.26, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Ng4 {d=1, sd=1, mt=19996, tl=20994, s=0, n=6, pv=Ng4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+6. h3 {d=2, sd=2, pd=e4, mt=0, tl=140000, s=80000, n=80, pv=h3 e4 hxg4, tb=0, h=0.0, ph=0.0, wv=3.82, R50=50, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Nf6 {d=1, sd=1, mt=20004, tl=20990, s=0, n=8, pv=Nf6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+7. Bb5 {d=2, sd=2, pd=e4, mt=0, tl=160000, s=90000, n=90, pv=Bb5 e4, tb=0, h=0.0, ph=0.0, wv=0.13, R50=49, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+Ke7 {d=1, sd=1, mt=19999, tl=20991, s=1, n=9, pv=Ke7, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+0+0+0+0,}
+8. Bxc6 {d=2, sd=2, pd=e4, mt=0, tl=180000, s=51000, n=102, pv=Bxc6 bxc6, tb=0, h=0.0, ph=0.0, wv=2.51, R50=50, Rd=-1000, Rr=-1000, mb=+0+1+0+0+0,}
+bxc6 {d=1, sd=1, mt=20001, tl=20990, s=1, n=9, pv=bxc6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=+0+1-1+0+0,}
+9. b3 {d=2, sd=2, pd=bxc6, mt=0, tl=200000, s=92000, n=92, pv=b3 e4, tb=0, h=0.0, ph=12.5, wv=3.55, R50=50, Rd=-1000, Rr=-1000, mb=+0+1-1+0+0,}
+Qd6 {d=1, sd=1, mt=19992, tl=20998, s=1, n=8, pv=Qd6, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+1-1+0+0,}
+10. d4 {d=2, sd=2, pd=e4, mt=0, tl=220000, s=131000, n=131, pv=d4 e4, tb=0, h=0.0, ph=11.1, wv=1.30, R50=50, Rd=-1000, Rr=-1000, mb=+0+1-1+0+0,}
+exd4 {d=1, sd=1, mt=20000, tl=20998, s=1, n=8, pv=exd4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+1-1+0+0,}
+11. Ba3 {d=2, sd=2, pd=e4, mt=0, tl=240000, s=220000, n=220, pv=Ba3 Qxa3, tb=0, h=0.0, ph=10.0, wv=0.56, R50=49, Rd=-1000, Rr=-1000, mb=-1+1-1+0+0,}
+Qxa3 {d=1, sd=1, mt=19999, tl=20999, s=1, n=10, pv=Qxa3, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+12. Qxc7+ {d=2, sd=3, pd=Qxa3, mt=0, tl=260000, s=119000, n=119, pv=Qxc7+ Bd7 exd4, tb=0, h=0.0, ph=18.1, wv=0.56, R50=50, Rd=-1000, Rr=-1000, mb=+0+1-2+0+0,}
+Bd7 {d=1, sd=1, mt=20004, tl=20995, s=1, n=11, pv=Bd7, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=+0+1-2+0+0,}
+13. Nb1 {d=2, sd=2, pd=Bd7, mt=0, tl=280000, s=204000, n=204, pv=Nb1 Ke8 Nxa3 Bxa3 exd4, tb=0, h=0.0, ph=25.0, wv=5.37, R50=49, Rd=-1000, Rr=-1000, mb=+0+1-2+0+0,}
+Qc1+ {d=1, sd=1, mt=19998, tl=20997, s=1, n=8, pv=Qc1+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=+0+1-2+0+0,}
+14. Ke2 {d=2, sd=3, pd=Ke8, mt=0, tl=300000, s=52000, n=52, pv=Ke2 dxe3, tb=0, h=0.0, ph=23.0, wv=-8.36, R50=48, Rd=-1000, Rr=-1000, mb=+0+1-2+0+0,}
+Qxc2+ {d=1, sd=1, mt=19998, tl=20999, s=1, n=11, pv=Qxc2+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+15. Nd2 {d=2, sd=2, pd=dxe3, mt=0, tl=320000, s=18500, n=37, pv=Nd2 Ke8 Qe5+ Kd8 Qxd4, tb=0, h=0.0, ph=21.4, wv=-6.58, R50=49, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+d3+ {d=1, sd=1, mt=20002, tl=20997, s=1, n=11, pv=d3+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+16. Ke1 {d=2, sd=2, pd=Ke8, mt=0, tl=340000, s=6000, n=12, pv=Ke1 Ke8 Qe5+ Kd8, tb=0, h=0.0, ph=20.0, wv=-7.17, R50=49, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+Ne4 {d=1, sd=1, mt=20004, tl=20993, s=0, n=6, pv=Ne4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+17. Ngf3 {d=2, sd=2, pd=Ke8, mt=0, tl=360000, s=65500, n=131, pv=Ngf3 Ke8, tb=0, h=0.0, ph=18.7, wv=-7.62, R50=48, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+Ke8 {d=1, sd=1, mt=20002, tl=20991, s=0, n=7, pv=Ke8, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=48, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+18. Rg1 {d=2, sd=2, pd=Ke8, mt=0, tl=380000, s=144000, n=144, pv=Rg1 Be6, tb=0, h=0.0, ph=23.5, wv=-7.67, R50=47, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+Bb4 {d=1, sd=1, mt=19995, tl=20996, s=1, n=13, pv=Bb4, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=47, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+19. Kf1 {d=2, sd=2, pd=Be6, mt=0, tl=400000, s=175000, n=175, pv=Kf1 Bxd2, tb=0, h=0.0, ph=22.2, wv=-9.72, R50=46, Rd=-1000, Rr=-1000, mb=-1+1-2+0+0,}
+Bxd2 {d=1, sd=1, mt=20004, tl=20992, s=1, n=11, pv=Bxd2, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=-1+0-2+0+0,}
+20. Nd4 {d=2, sd=2, pd=Bxd2, mt=0, tl=420000, s=116000, n=116, pv=Nd4 h5 Nxc2 dxc2, tb=0, h=0.0, ph=26.3, wv=-2.11, R50=49, Rd=-1000, Rr=-1000, mb=-1+0-2+0+0,}
+Qb2 {d=1, sd=1, mt=19994, tl=20998, s=1, n=9, pv=Qb2, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=-1+0-2+0+0,}
+21. Rd1 {d=2, sd=3, pd=h5, mt=0, tl=440000, s=145000, n=145, pv=Rd1 Qxa2, tb=0, h=0.0, ph=25.0, wv=-9.57, R50=48, Rd=-1000, Rr=-1000, mb=-1+0-2+0+0,}
+Bxe3 {d=1, sd=1, mt=20003, tl=20995, s=1, n=8, pv=Bxe3, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=-2+0-2+0+0,}
+22. Qxd7+ {d=2, sd=3, pd=Qxa2, mt=0, tl=460000, s=269000, n=269, pv=Qxd7+ Kxd7 fxe3, tb=0, h=0.0, ph=23.8, wv=-11.94, R50=50, Rd=-1000, Rr=-1000, mb=-2+0-1+0+0,}
+Kxd7 {d=1, sd=1, mt=20003, tl=20992, s=1, n=12, pv=Kxd7, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=-2+0-1+0-1,}
+23. Nc2 {d=2, sd=2, pd=Kxd7, mt=0, tl=480000, s=156000, n=156, pv=Nc2 Qxc2, tb=0, h=0.0, ph=27.2, wv=-18.34, R50=49, Rd=-1000, Rr=-1000, mb=-2+0-1+0-1,}
+Qxc2 {d=1, sd=1, mt=20002, tl=20990, s=1, n=12, pv=Qxc2, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=-2-1-1+0-1,}
+24. Rd2 {d=2, sd=3, pd=Qxc2, mt=0, tl=500000, s=109000, n=109, pv=Rd2 Qb1+ Rd1, tb=0, h=0.0, ph=30.4, wv=-M4, R50=49, Rd=-1000, Rr=-1000, mb=-2-1-1+0-1,}
+Nxd2+ {d=1, sd=1, mt=19999, tl=20991, s=1, n=14, pv=Nxd2+, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=50, Rd=-1000, Rr=-1000, mb=-2-1-1-1-1,}
+25. Ke1 {d=2, sd=3, pd=Qb1+, mt=0, tl=520000, s=6000, n=6, pv=Ke1 Qb1#, tb=0, h=0.0, ph=29.1, wv=-M2, R50=49, Rd=-1000, Rr=-1000, mb=-2-1-1-1-1,}
+Qc1# {d=1, sd=1, mt=19993, tl=20998, s=1, n=12, pv=Qc1#, tb=null, h=0.0, ph=0.0, wv=-0.16, R50=49, Rd=-1000, Rr=-1000, mb=-2-1-1-1-1, Black mates}
+0-1
+
