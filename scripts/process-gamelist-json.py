@@ -86,11 +86,17 @@ def classify_event(season, event_id, event_name):
         if re.fullmatch('s[0-9]{1,2}stage([a-z]|[0-9])', event_id):
             return "MAIN"
 
+        if re.fullmatch('swiss [0-9]+', event_name.lower()):
+            return "SWISS"
+
+        if (re.fullmatch('scup[0-9]+.*', event_id)):
+            return "CUP"
+
         # if we get here, then everything that doesn't match above is bonus (up to S19)
         if int(season) <= 19:
             return "BONUS"
 
-    warning(f"Don't know how to classify Season '{season}', event id 'event_id', event name 'event_name'")
+    warning(f"Don't know how to classify Season '{season}', event id '{event_id}', event name '{event_name}'")
     return "MISC"
 
 def sync_pgn(pgnfile):

@@ -2152,7 +2152,7 @@
                "url": "season=20&div=ql",
                "no": "20",
                "abb": "TCEC_Season_20_-_Qualification_League",
-               "dno": "1003"
+               "dno": "5003"
             },
             {
                "id": "s20divisionl4",
@@ -2160,7 +2160,7 @@
                "url": "season=20&div=l4",
                "no": "20",
                "abb": "TCEC_Season_20_-_League_4",
-               "dno": "1004"
+               "dno": "5004"
             },
             {
                "id": "s20divisionl3",
@@ -2168,7 +2168,7 @@
                "url": "season=20&div=l3",
                "no": "20",
                "abb": "TCEC_Season_20_-_League_3",
-               "dno": "1005"
+               "dno": "5005"
             },
             {
                "id": "s20divisionl2t1",
@@ -2224,7 +2224,7 @@
                "url": "season=20&div=l2",
                "no": "20",
                "abb": "TCEC_Season_20_-_League_2",
-               "dno": "1012"
+               "dno": "5012"
             },
             {
                "id": "s20divisionl1",
@@ -2232,7 +2232,7 @@
                "url": "season=20&div=l1",
                "no": "20",
                "abb": "TCEC_Season_20_-_League_1",
-               "dno": "1013"
+               "dno": "5013"
             },
             {
                "id": "s20divisionpt1",
@@ -2256,7 +2256,7 @@
                "url": "season=20&div=p",
                "no": "20",
                "abb": "TCEC_Season_20_-_Division_P",
-               "dno": "1016"
+               "dno": "5016"
             },
             {
                "id": "s20divisionsftest1",
@@ -2288,7 +2288,7 @@
                "url": "season=20&div=sf",
                "no": "20",
                "abb": "TCEC_Season_20_-_Superfinal",
-	       "dno": "1020"
+	       "dno": "5020"
             },
             {
                "id": "s20divisionsfb",
@@ -2296,7 +2296,7 @@
                "url": "season=20&div=sfb",
                "no": "20",
                "abb": "TCEC_Season_20_-_This_Is_Not_A_Tiebreak_Bonus",
-	       "dno": "0021"
+	       "dno": "1021"
             },
             {
                "id": "s20divisionswt1",
@@ -2344,7 +2344,7 @@
                "url": "season=20&div=legt",
                "no": "20",
                "abb": "TCEC_Season_20_-_Legacy_Top_Bonus",
-	       "dno": "0027"
+	       "dno": "1027"
             },
             {
                "id": "s20divisionsfb1",
@@ -2352,20 +2352,247 @@
                "url": "season=20&div=sfb1",
                "no": "20",
                "abb": "TCEC_Season_20_-_Sufi_Bonus_1",
-	       "dno": "0028"
+	       "dno": "1028"
             },
             {
-               "idf": "s20divisionsfb2",
+               "id": "s20divisionsfb2",
                "menu": "Sufi Bonus 2",
                "url": "season=20&div=sfb2",
                "no": "20",
                "abb": "TCEC_Season_20_-_Sufi_Bonus_2",
-	       "dno": "0029",
-               "id": "current"
+	       "dno": "1029"
+            },
+            {
+               "id": "s20divisioncup8t",
+               "menu": "Cup 8 Testing 1",
+               "url": "season=20&div=cup8t",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Cup_8_Testing_1",
+	       "dno": "0030"
+            },
+            {
+               "id": "s20divisionsfrc3t1",
+               "frc": 1,
+               "menu": "FRC3 Testing 1",
+               "url": "season=20&div=frc3t1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_Testing_1",
+	       "dno": "0031"
+            },
+            {
+               "id": "s20divisionsfrc3t2",
+               "frc": 1,
+               "menu": "FRC3 Testing 2",
+               "url": "season=20&div=frc3t2",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_Testing_2",
+	       "dno": "0032"
+            },
+            {
+               "id": "s20divisionsfrc3t3",
+               "frc": 1,
+               "menu": "FRC3 Testing 3",
+               "url": "season=20&div=frc3t3",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_Testing_3",
+	       "dno": "0033"
+            },
+            {
+               "id": "s20divisionsfrc3t4",
+               "frc": 1,
+               "menu": "FRC3 Testing 4",
+               "url": "season=20&div=frc3t4",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_Testing_4",
+	       "dno": "0034"
+            },
+            {
+               "id": "s20divisionsfrc3la",
+               "frc": 1,
+               "menu": "FRC3 League A",
+               "url": "season=20&div=frc3la",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_League_A",
+	       "dno": "3035"
+            },
+            {
+               "id": "s20divisionsfrc3lb",
+               "frc": 1,
+               "menu": "FRC3 League B",
+               "url": "season=20&div=frc3lb",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_League_B",
+	       "dno": "3036"
+            },
+            {
+               "id": "s20divisionsfrc3lc",
+               "frc": 1,
+               "menu": "FRC3 League C",
+               "url": "season=20&div=frc3lc",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_League_C",
+	       "dno": "3037"
+            },
+            {
+               "id": "s20divisionsfrc3ld",
+               "frc": 1,
+               "menu": "FRC3 League D",
+               "url": "season=20&div=frc3ld",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_League_D",
+	       "dno": "3038"
+            },
+            {
+               "id": "s20divisionsfrc3sl1",
+               "frc": 1,
+               "menu": "FRC3 Semileague 1",
+               "url": "season=20&div=frc3sl1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_Semileague_1",
+	       "dno": "3039"
+            },
+            {
+               "id": "s20divisionsfrc3sl2",
+               "frc": 1,
+               "menu": "FRC3 Semileague 2",
+               "url": "season=20&div=frc3sl2",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_Semileague_2",
+	       "dno": "3040"
+            },
+            {
+               "id": "s20divisionsfrc3fl",
+               "frc": 1,
+               "menu": "FRC3 Final League",
+               "url": "season=20&div=frc3fl",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_Final_League",
+	       "dno": "3041"
+            },
+            {
+               "id": "s20divisionsfrc3f",
+               "frc": 1,
+               "menu": "FRC3 Final",
+               "url": "season=20&div=frc3f",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Frc3_Final",
+	       "dno": "3042"
+            },
+            {
+               "id": "s20divisionswt5",
+               "menu": "Swiss Test 5",
+               "url": "season=20&div=swt5",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Swiss_Test_5",
+	       "dno": "0043"
+            },
+            {
+               "id": "s20divisionsw1",
+               "menu": "Swiss 1",
+               "url": "season=20&div=sw1",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Swiss_1",
+	       "dno": "2044"
+            },
+            {
+               "id": "s20divisionram",
+               "menu": "RAM test",
+               "url": "season=20&div=ram",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_Ram_Test",
+	       "dno": "1045"
+            },
+            {
+               "no": "1",
+               "dno": "4001",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_8_Round32",
+               "url": "season=cup8&round=round32",
+               "id": "scup8round32"
+            },
+            {
+               "no": "2",
+               "dno": "4002",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_8_Round16",
+               "url": "season=cup8&round=round16",
+               "id": "scup8round16"
+            },
+            {
+               "no": "3",
+               "dno": "4003",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_8_Quarterfinal",
+               "url": "season=cup8&round=qf",
+               "id": "scup8qf"
+            },
+            {
+               "no": "4",
+               "dno": "4004",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_8_Semifinal",
+               "url": "season=cup8&round=sf",
+               "id": "scup8sf"
+            },
+            {
+               "no": "5",
+               "dno": "4005",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_8_Bronze",
+               "url": "season=cup8&round=bz",
+               "id": "scup8bz"
+            },
+            {
+               "no": "6",
+               "dno": "4006",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_8_Final",
+               "url": "season=cup8&round=fl",
+               "id": "scup8fl"
             },
             {
                "id": "s20divisiondivider",
-               "menu": "-= Testing and Bonus tournaments =-",
+               "menu": "-= Main leagues =-",
+               "url": "season=20&div=undefined",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_None",
+               "dno": "5999"
+            },
+            {
+               "id": "s20divisiondivider",
+               "menu": "-= Cup 8 =-",
+               "url": "season=20&div=undefined",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_None",
+               "dno": "4999"
+            },
+            {
+               "id": "s20divisiondivider",
+               "menu": "-= FRC 3 =-",
+               "url": "season=20&div=undefined",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_None",
+               "dno": "3999"
+            },
+            {
+               "id": "s20divisiondivider",
+               "menu": "-= Swiss 1 =-",
+               "url": "season=20&div=undefined",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_None",
+               "dno": "2999"
+            },
+            {
+               "id": "s20divisiondivider",
+               "menu": "-= Bonus tournaments =-",
+               "url": "season=20&div=undefined",
+               "no": "20",
+               "abb": "TCEC_Season_20_-_None",
+               "dno": "1999"
+            },
+            {
+               "id": "s20divisiondivider",
+               "menu": "-= Testing tournaments =-",
                "url": "season=20&div=undefined",
                "no": "20",
                "abb": "TCEC_Season_20_-_None",
@@ -2757,6 +2984,64 @@
                "abb": "TCEC_Cup_7_Final",
                "url": "season=cup7&round=fl",
                "id": "scup7fl"
+            }
+         ]
+      },
+      "Cup 8": {
+         "seasonName": "Cup 8",
+         "download": "TCEC_Cup_8_full.pgn.zip",
+         "eventtag": "TCEC_Cup_8_event",
+         "previouspgn": "TCEC_Cup_8_Round32",
+         "teams": "cup8.json",
+         "cup": 8,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_8_Round32",
+               "url": "season=cup8&round=round32",
+               "id": "scup8round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_8_Round16",
+               "url": "season=cup8&round=round16",
+               "id": "scup8round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_8_Quarterfinal",
+               "url": "season=cup8&round=qf",
+               "id": "scup8qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_8_Semifinal",
+               "url": "season=cup8&round=sf",
+               "id": "scup8sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_8_Bronze",
+               "url": "season=cup8&round=bz",
+               "id": "scup8bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_8_Final",
+               "url": "season=cup8&round=fl",
+               "id": "scup8fl"
             }
          ]
       },
