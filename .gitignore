@@ -1,3 +1,7 @@
 *.zip
 README.html
 *~
+out
+Makefile
+eco.pgn
+scripts/__pycache__
