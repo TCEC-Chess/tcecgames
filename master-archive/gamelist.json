@@ -2600,6 +2600,255 @@
             }
 	 ]
       },
+      "21": {
+         "download": "TCEC_Season_21_full.pgn.zip",
+         "fullpgn": "TCEC_Season_21_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s21divisionkoi",
+               "menu": "Koivisto Testing",
+               "url": "season=21&div=koi",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Koivisto_Testing",
+	       "dno": "0001"
+            },
+            {
+               "id": "s21divisionboo",
+               "menu": "Booot Testing",
+               "url": "season=21&div=boo",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Booot_Testing",
+	       "dno": "0002"
+            },
+            {
+               "id": "s21divisioneval",
+               "menu": "Simple vs Complex Eval",
+               "url": "season=21&div=eval",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Simple_Vs_Complex_Eval",
+	       "dno": "1003"
+            },
+            {
+               "id": "s21divisionq43t",
+               "menu": "QL L4 L3 Testing",
+               "url": "season=21&div=q43t",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Ql_L4_L3_Testing",
+	       "dno": "0004"
+            },
+            {
+               "id": "s21divisionseev",
+               "menu": "Search vs Eval",
+               "url": "season=21&div=seev",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Search_Vs_Eval",
+	       "dno": "1005"
+            },
+            {
+               "id": "s21divisionvsob20",
+               "menu": "Viewer Submitted Openings Bonus 20",
+               "url": "season=21&div=vsob20",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Viewer_Submitted_Openings_Bonus_20",
+	       "dno": "1006"
+            },
+            {
+               "id": "s21divisionql",
+               "menu": "Qualification League",
+               "url": "season=21&div=ql",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Qualification_League",
+               "dno": "5007"
+            },
+            {
+               "id": "s21divisionl4",
+               "menu": "League 4",
+               "url": "season=21&div=l4",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_League_4",
+               "dno": "5008"
+            },
+            {
+               "id": "s21divisionl3",
+               "menu": "League 3",
+               "url": "season=21&div=l3",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_League_3",
+               "dno": "5009"
+            },
+            {
+               "id": "s21divisioniht",
+               "menu": "Igel Hash Test",
+               "url": "season=21&div=iht",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Igel_Hash_Test",
+               "dno": "0010"
+            },
+            {
+               "id": "s21division21t",
+               "menu": "L2 L1 Testing",
+               "url": "season=21&div=21t",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_L2_L1_Testing",
+               "dno": "0011"
+            },
+            {
+               "id": "s21divisionl2",
+               "menu": "League 2",
+               "url": "season=21&div=l2",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_League_2",
+               "dno": "5012"
+            },
+            {
+               "id": "s21divisionl1",
+               "menu": "League 1",
+               "url": "season=21&div=l1",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_League_1",
+               "dno": "5013"
+            },
+            {
+               "id": "s21divisiondivpt",
+               "menu": "DivP Testing",
+               "url": "season=21&div=divpt",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Divp_Testing",
+               "dno": "0014"
+            },
+            {
+               "id": "s21divisionp",
+               "menu": "Division P",
+               "url": "season=21&div=p",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Division_P",
+               "dno": "5015"
+            },
+            {
+               "id": "s21divisioninft",
+               "menu": "Infrafinal Testing",
+               "url": "season=21&div=inft",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Infrafinal_Testing",
+               "dno": "0016"
+            },
+            {
+               "id": "s21divisionif",
+               "menu": "Infrafinal",
+               "url": "season=21&div=if",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Infrafinal",
+	       "dno": "5017"
+            },
+            {
+               "id": "s21divisionsft",
+               "menu": "Sufi Testing",
+               "url": "season=21&div=sft",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Sufi_Testing",
+	       "dno": "0018"
+            },
+            {
+               "id": "s21divisionsf",
+               "menu": "Superfinal",
+               "url": "season=21&div=sf",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Superfinal",
+	       "dno": "5019"
+            },
+            {
+               "id": "s21divisionsfb",
+               "menu": "Sufi Bonus",
+               "url": "season=21&div=sfb",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Sufi_Bonus",
+	       "dno": "1020"
+            },
+            {
+               "id": "s21divisionsfbp2",
+               "menu": "Sufi Bonus Part2",
+               "url": "season=21&div=sfbp2",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Sufi_Bonus_Part2",
+	       "dno": "1021"
+            },
+            {
+               "id": "s21divisionsfbp3",
+               "menu": "Sufi Bonus Part3",
+               "url": "season=21&div=sfbp3",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Sufi_Bonus_Part3",
+	       "dno": "1022"
+            },
+            {
+               "id": "s21divisionsfbr",
+               "menu": "Sufi Bonus Repeat Test",
+               "url": "season=21&div=sfbr",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Sufi_Bonus_Repeat_Test",
+	       "dno": "1023"
+            },
+            {
+               "idf": "s21divisionvvltc",
+               "menu": "VVLTC Bonus",
+               "url": "season=21&div=vvltc",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Vvltc_Bonus",
+	       "dno": "1024",
+               "id": "current"
+            },
+            {
+               "id": "s21divisiondivider",
+               "menu": "-= Main leagues =-",
+               "url": "season=21&div=undefined",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_None",
+               "dno": "5999"
+            },
+            {
+               "id": "s21divisiondivider",
+               "menu": "-= Cup 9 =-",
+               "url": "season=21&div=undefined",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_None",
+               "dno": "4999"
+            },
+            {
+               "id": "s21divisiondivider",
+               "menu": "-= FRC 4 =-",
+               "url": "season=21&div=undefined",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_None",
+               "dno": "3999"
+            },
+            {
+               "id": "s21divisiondivider",
+               "menu": "-= Swiss 2 =-",
+               "url": "season=21&div=undefined",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_None",
+               "dno": "2999"
+            },
+            {
+               "id": "s21divisiondivider",
+               "menu": "-= Bonus tournaments =-",
+               "url": "season=21&div=undefined",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_None",
+               "dno": "1999"
+            },
+            {
+               "id": "s21divisiondivider",
+               "menu": "-= Testing tournaments =-",
+               "url": "season=21&div=undefined",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
       "Cup 1": {
          "seasonName": "Cup 1",
          "eventtag": "TCEC_Cup_1_event",
