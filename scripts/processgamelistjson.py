@@ -144,10 +144,14 @@ def sync_pgn(pgnfile):
         try:
             with urllib.request.urlopen(input_url) as f:
                 pgncontent = f.read()
-                if not dry_run:
-                    outfile = open(output_file, "wb")
-                    outfile.write(pgncontent)
-                    outfile.close()
+                if len(pgncontent) > 0:
+                    if not dry_run:
+                        outfile = open(output_file, "wb")
+                        outfile.write(pgncontent)
+                        outfile.close()
+
+                else:
+                    warning(f"File {input_url} is empty, not saving!")
 
                 f.close()
 
@@ -314,6 +318,12 @@ def output_make_defs(make_defs):
                 outputOp = ">>$@"
                 print("\t@echo \"" + src_file.url + "\"")
             print()
+
+    # The everything rules (compact only)
+    print("out/compact/everything/TCEC-everything.pgn:" + (" \\\n\t".join(all_full_seasons)).replace("/full/", "/compact/"))
+    print("\tmkdir -p out/compact/everything")
+    print("\tcat " + (" ".join(all_full_seasons)).replace("/full/", "/compact/") + " > $@")
+    print()
 
     # phony rules
     print(".PHONY: all-full-seasons all-full-tournaments all-full-events")
