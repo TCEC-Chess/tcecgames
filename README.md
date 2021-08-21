@@ -5,29 +5,21 @@ This is the TCEC games master PGN archive. Games are played at
 [tcec-chess.com](https://tcec-chess.com/)
 
 
-Archive maintenance scripts
----------------------------
+Archive maintenance
+-------------------
 
-The following archive maintenance scripts are provided:
-
- * scripts/fetch-update-gamelist.sh –
-   Script that simply fetches the current version of gamelist.json
-   (master game index) from the TCEC web server. The file is stored in
-   master-archive/gamelist.json.
- * scripts/process-gamelist-json.py –
-   The main maintenance script for fetching new PGN files from the
-   TCEC web server.
+Archive maintenance is performed through the top-level Makefile.
 
 The typical archive update procedure is:
 
     # update master game index
-    scripts/fetch-update-gamelist.sh
+    make fetch-gamelist-json
 
     # fetch new PGNs
-    scripts/process-gamelist-json.py --master-dir=master-archive --sync-from-web master-archive/gamelist.json
+    make fetch-new-pgns
 
-    # check that everything is ok
-    scripts/process-gamelist-json.py --master-dir=master-archive --pgn-check -v master-archive/gamelist.json
+    # regenerate everything that changed
+    make -j all
 
 
 License
