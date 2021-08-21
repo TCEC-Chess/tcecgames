@@ -2791,13 +2791,21 @@
 	       "dno": "1023"
             },
             {
-               "idf": "s21divisionvvltc",
+               "id": "s21divisionvvltc",
                "menu": "VVLTC Bonus",
                "url": "season=21&div=vvltc",
                "no": "21",
                "abb": "TCEC_Season_21_-_Vvltc_Bonus",
-	       "dno": "1024",
-               "id": "current"
+	       "dno": "1024"
+            },
+            {
+               "idf": "s21divisionsvvltc",
+               "menu": "Starting position VVLTC Bonus",
+               "url": "season=21&div=svvltc",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Starting_Position_Vvltc_Bonus",
+	       "dno": "1025",
+               "id": "1025"
             },
             {
                "id": "s21divisiondivider",
