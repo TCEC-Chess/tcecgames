@@ -263,6 +263,7 @@ def output_make_defs(make_defs):
 
     # dependencies for phony rules
     all_full_seasons = [ ]
+    all_full_seasons_compet_no_frc = [ ]
     all_full_tournaments = [ ]
     all_full_events = [ ]
 
@@ -275,6 +276,23 @@ def output_make_defs(make_defs):
             season_rule = season_rule + f" {event[1].output_file}"
 
         season_rule = season_rule + "\n\tmkdir -p out/full/seasons/ && cat $^ >$@\n"
+        print(season_rule)
+        print(season_rule.replace("/full/", "/compact/"))
+
+    # Season rules for competition non-FRC
+    for season in make_defs:
+        season_rule = f"{make_defs[season].output_file}:" \
+            .replace(".pgn", "-compet-no-frc.pgn") \
+            .replace("/seasons/", "/seasons-compet-no-frc/")
+        all_full_seasons_compet_no_frc.append(f"{make_defs[season].output_file}" \
+                                              .replace(".pgn", "-compet-no-frc.pgn") \
+                                              .replace("/seasons/", "/seasons-compet-no-frc/"))
+
+        for event in sorted(make_defs[season].events.items(), key=timestamp_from_event):
+            if event[1].event_class in ["MAIN", "CUP", "SWISS"]:
+                season_rule = season_rule + f" {event[1].output_file}"
+
+        season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-no-frc/ && cat $^ >$@\n"
         print(season_rule)
         print(season_rule.replace("/full/", "/compact/"))
 
@@ -313,8 +331,29 @@ def output_make_defs(make_defs):
             outputOp = ">$@"
 
             for src_file in sorted(make_defs[season].events[event].src_files, key=timestamp_from_eventfile):
-                print("\tpgn-extract -eeco.pgn -s -w50000 " + src_file.filename + " | awk -f scripts/pgn-extract-fix.awk | " + \
-                      "awk -f scripts/site-tag-fix.awk -v urlprefix='https://tcec-chess.com/#" + src_file.url + "'" + outputOp)
+                fix_event_tag_cmd = None
+                if src_file.filename == "master-archive/TCEC_Season_15_-_Superfinal.pgn":
+                    fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 15 - Superfinal.*\"\\]$$/[Event \"TCEC Season 15 - Superfinal\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Season_14_-_Division_4.pgn":
+                    fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 14 - Div 4.*\"\\]$$/[Event \"TCEC Season 14 - Div 4\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Season_13_-_Division_3.pgn":
+                    fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 13 - Division 3.*\"\\]$$/[Event \"TCEC Season 13 - Division 3\"]/' \\"
+
+                # ok, not a known problem with event tags, so scan for problems
+                if fix_event_tag_cmd is None and \
+                   not make_defs[season].events[event].event_class in ["CUP", "BONUS", "TEST"]:
+                    print("\tawk -f scripts/scan-event-tag-consistency.awk < " + src_file.filename)
+
+                print("\tset -e ; pgn-extract -eeco.pgn -s -w50000 " + src_file.filename + " \\")
+                print("\t\t| awk -f scripts/pgn-extract-fix.awk \\")
+                print("\t\t| awk -f scripts/site-tag-fix.awk -v urlprefix='https://tcec-chess.com/#" + src_file.url + "' \\")
+
+                # couple of PGNs have games with inconsistent event tags, fix them
+                if not fix_event_tag_cmd is None:
+                    print(fix_event_tag_cmd);
+
+                print(f"\t\t{outputOp}")
+
                 outputOp = ">>$@"
                 print("\t@echo \"" + src_file.url + "\"")
             print()
@@ -325,17 +364,27 @@ def output_make_defs(make_defs):
     print("\tcat " + (" ".join(all_full_seasons)).replace("/full/", "/compact/") + " > $@")
     print()
 
+    # The everything rules (compact only)
+    print("out/compact/everything/TCEC-everything-compet-no-frc.pgn:" + (" \\\n\t".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/"))
+    print("\tmkdir -p out/compact/everything")
+    print("\tcat " + (" ".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/") + " > $@")
+    print()
+
     # phony rules
     print(".PHONY: all-full-seasons all-full-tournaments all-full-events")
     print(".PHONY: all-compact-seasons all-compact-tournaments all-compact-events")
     print()
     print("all-full-seasons: " + " \\\n\t".join(all_full_seasons))
     print()
+    print("all-full-seasons-compet-no-frc: " + " \\\n\t".join(all_full_seasons_compet_no_frc))
+    print()
     print("all-full-tournaments: " + " \\\n\t".join(all_full_tournaments))
     print()
     print("all-full-events: " + " \\\n\t".join(all_full_events))
     print()
     print("all-compact-seasons: " + (" \\\n\t".join(all_full_seasons)).replace("/full/", "/compact/"))
+    print()
+    print("all-compact-seasons-compet-no-frc: " + (" \\\n\t".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/"))
     print()
     print("all-compact-tournaments: " + (" \\\n\t".join(all_full_tournaments)).replace("/full/", "/compact/"))
     print()
