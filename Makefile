@@ -19,6 +19,9 @@
 .PHONY: release-full-seasons release-full-tournaments release-full-events
 .PHONY: release-compact-seasons release-compact-tournaments release-compact-events release-compact-everything release-compact-everything-compet-no-frc
 
+# target for testing the release packages
+.PHONY: test-release
+
 # default target
 all: all-pgns
 
@@ -121,3 +124,15 @@ release-compact-events:
 release-compact-everything:
 	mkdir -p out/$(RELEASE-DIR)
 	cd out; zip -q -9 -r $(RELEASE-DIR)/TCEC-everything-compact.zip compact/everything
+
+test-release:
+	$(RM) -r out/tmp-release-unpack
+	mkdir -p out/tmp-release-unpack
+	cd out/tmp-release-unpack && unzip ../$(RELEASE-DIR)/TCEC-seasons-compact.zip
+	cd out/tmp-release-unpack && unzip ../$(RELEASE-DIR)/TCEC-tournaments-compact.zip
+	cd out/tmp-release-unpack && unzip ../$(RELEASE-DIR)/TCEC-events-compact.zip
+	cd out/tmp-release-unpack && unzip ../$(RELEASE-DIR)/TCEC-everything-compact.zip
+	cd out/tmp-release-unpack && 7z x ../$(RELEASE-DIR)/TCEC-events-full.7z
+	cd out/tmp-release-unpack && md5sum --quiet -c ../$(RELEASE-DIR)/MD5SUM
+	@echo "Release packages OK"
+	$(RM) -r out/tmp-release-unpack
