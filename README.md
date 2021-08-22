@@ -18,9 +18,14 @@ The typical archive update procedure is:
     # fetch new PGNs
     make fetch-new-pgns
 
-    # regenerate everything that changed
-    make -j all
+    # regenerate outputs
+    make clean && make -j all
 
+    # create release packages
+    make -j release
+
+    # test the release packages
+    make -j test-release
 
 License
 -------
