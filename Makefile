@@ -17,7 +17,7 @@
 # targets for creating the release
 .PHONY: release release-recreate-dir release-md5sum
 .PHONY: release-full-seasons release-full-tournaments release-full-events
-.PHONY: release-compact-seasons release-compact-tournaments release-compact-events release-compact-everything
+.PHONY: release-compact-seasons release-compact-tournaments release-compact-events release-compact-everything release-compact-everything-compet-no-frc
 
 # default target
 all: all-pgns
@@ -34,6 +34,7 @@ all-pgns: all-full-seasons all-full-tournaments all-full-events
 all-pgns: all-compact-seasons all-compact-tournaments all-compact-events
 
 all-pgns: out/compact/everything/TCEC-everything.pgn
+all-pgns: out/compact/everything/TCEC-everything-compet-no-frc.pgn
 
 # generated rules
 include $(MAKEFILE-GEN)
@@ -107,7 +108,7 @@ release-full-events:
 
 release-compact-seasons:
 	mkdir -p out/$(RELEASE-DIR)
-	cd out; zip -q -9 -r $(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons
+	cd out; zip -q -9 -r $(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons compact/seasons-compet-no-frc
 
 release-compact-tournaments:
 	mkdir -p out/$(RELEASE-DIR)
