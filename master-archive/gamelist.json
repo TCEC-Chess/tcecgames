@@ -2799,13 +2799,52 @@
 	       "dno": "1024"
             },
             {
-               "idf": "s21divisionsvvltc",
+               "id": "s21divisionsvvltc",
                "menu": "Starting position VVLTC Bonus",
                "url": "season=21&div=svvltc",
                "no": "21",
                "abb": "TCEC_Season_21_-_Starting_Position_Vvltc_Bonus",
-	       "dno": "1025",
-               "id": "1025"
+	       "dno": "1025"
+            },
+            {
+               "id": "s21divisionlc0ct",
+               "menu": "LCZeroCPU vs DivP Testing",
+               "url": "season=21&div=lc0ct",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Lczerocpu_Vs_Divp_Testing",
+	       "dno": "0026"
+            },
+            {
+               "id": "s21divisionlc0cp",
+               "menu": "LCZeroCPU vs DivP",
+               "url": "season=21&div=lc0cp",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Lczerocpu_Vs_Divp",
+	       "dno": "1027"
+            },
+            {
+               "id": "s21divisionvsob21",
+               "menu": "Viewer Submitted Openings Bonus 21",
+               "url": "season=21&div=vsob21",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Viewer_Submitted_Openings_Bonus_21",
+	       "dno": "1028"
+            },
+            {
+               "id": "s21divisionscoeth",
+               "menu": "ScorpioNN Ethereal Bonus",
+               "url": "season=21&div=scoeth",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Scorpionn_Ethereal_Bonus",
+	       "dno": "1029"
+            },
+            {
+               "id": "s21divisioncup9t",
+               "menu": "Cup 9 Testing",
+               "url": "season=21&div=cup9t",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Cup_9_Testing",
+	       "dno": "0030"
             },
             {
                "id": "s21divisiondivider",
@@ -3299,6 +3338,65 @@
                "abb": "TCEC_Cup_8_Final",
                "url": "season=cup8&round=fl",
                "id": "scup8fl"
+            }
+         ]
+      },
+      "Cup 9": {
+         "seasonName": "Cup 9",
+         "download": "TCEC_Cup_9_full.pgn.zip",
+         "eventtag": "TCEC_Cup_9_event",
+         "previouspgn": "TCEC_Cup_9_Round32",
+         "teams": "cup9.json",
+         "cup": 9,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_9_Round32",
+               "url": "season=cup9&round=round32",
+               "id": "scup9round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_9_Round16",
+               "url": "season=cup9&round=round16",
+               "id": "scup9round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_9_Quarterfinal",
+               "url": "season=cup9&round=qf",
+               "id": "scup9qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_9_Semifinal",
+               "url": "season=cup9&round=sf",
+               "id": "scup9sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_9_Bronze",
+               "url": "season=cup9&round=bz",
+               "id": "scup9bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_9_Final",
+               "url": "season=cup9&round=fl",
+               "idf": "scup9fl",
+               "id": "current"
             }
          ]
       },
