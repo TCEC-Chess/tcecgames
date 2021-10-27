@@ -73,16 +73,16 @@ def classify_event(season, event_id, event_name):
             return "FRC"
 
         # old style main event ids
-        if re.fullmatch('s[0-9]{1,2}stage([0-9][a-z]|rapid)', event_id):
+        if re.fullmatch('s[0-9]{1,2}stage([0-9][a-z])', event_id):
             return "MAIN"
 
         # the full variety of new style main event ids
-        if re.fullmatch('s[0-9]{1,2}division([a-z]|[0-9]|sf|[0-9][a-z]|rapid|blitz|playoff|l[0-9]|ql|cpul1)',
+        if re.fullmatch('s[0-9]{1,2}division([a-z]|[0-9]|sf|[0-9][a-z]|playoff|l[0-9]|ql|cpul1)',
                         event_id):
             return "MAIN"
 
         # special cases
-        if event_id in ["s9rapid", "s15division4a4bplayoff", "s16divisionl1playoff", "s17divisionplayofffordivp"]:
+        if event_id in ["s15division4a4bplayoff", "s16divisionl1playoff", "s17divisionplayofffordivp"]:
             return "MAIN"
 
         if re.fullmatch('s[0-9]{1,2}stage([a-z]|[0-9])', event_id):
@@ -101,7 +101,7 @@ def classify_event(season, event_id, event_name):
         if event_id == "s21divisionif":
             return "MAIN"
 
-        if event_id in ["s21divisionseev", "s21divisioneval"]:
+        if event_id in ["s21divisionseev", "s21divisioneval", "s21divisionlc0cp"]:
             return "BONUS"
 
     warning(f"Don't know how to classify Season '{season}', event id '{event_id}', event name '{event_name}'")
