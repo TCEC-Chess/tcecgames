@@ -3395,8 +3395,7 @@
                "menu": "Finals",
                "abb": "TCEC_Cup_9_Final",
                "url": "season=cup9&round=fl",
-               "idf": "scup9fl",
-               "id": "current"
+               "id": "scup9fl"
             }
          ]
       },
