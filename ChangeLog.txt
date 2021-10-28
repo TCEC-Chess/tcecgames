@@ -1,0 +1,32 @@
+Season 21 alpha 2 (2021-10-30)
+- Interim release after Season 21 Cup 9
+- Game classification changes:
+  o Previous rapid and blitz competition events are now reclassified
+    as bonus events. This affects the following events:
+    - TCEC Season 9 - Rapid
+    - TCEC Season 10 - Rapid
+    - TCEC Season 10 - Blitz
+- Added ChangeLog.txt
+
+Season 21 alpha 1 (2021-08-22)
+- Initial release
+- This release contains all games in TCEC up to Season 21 VVLTC bonus
+  tournaments
+- The files in this release:
+  o TCEC-everything-compact.zip – everything in a PGN, compacted
+    format
+    - TCEC-everything.pgn – all events, all game formats
+    - TCEC-everything-compet-no-frc.pgn  – competition events, no FRC
+      (useful for opening databases)
+  o TCEC-seasons-compact.zip – one PGN per season, compacted format
+    - compact/seasons/ – all events, all game formats
+    - compact/seasons-compet-no-frc/ – competition events, no FRC
+      (useful for opening databases)
+  o TCEC-tournaments-compact.zip – one PGN per tournament, compacted
+    format
+  o TCEC-events-compact.zip – one PGN per event, compacted format
+  o TCEC-events-full.7z – one PGN per event, full format
+  o MD5SUM – the checksum file for unpacked items
+- The compacted format strips all comments and replaces them with
+  markers for book exit. The full format has all the original
+  comments.
