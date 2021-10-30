@@ -5,6 +5,30 @@ This is the TCEC games master PGN archive. Games are played at
 [tcec-chess.com](https://tcec-chess.com/)
 
 
+Releases
+--------
+
+See the [Releases page](https://github.com/TCEC-Chess/tcecgames/releases/)
+for the official releases.
+
+The TCEC games are released both in full and compacted formats:
+
+- The full format has all the original engine evaluation comments with
+  minimal changes to the original PGNs.
+
+- The compacted format replaces all comments with book exit
+  markers. The compacted format also reclassifies the openings and
+  their ECO codes for better consistency.
+
+If in doubt, choose the compacted format.
+
+The original PGNs are also available as a download ("Source code"
+links in releases) and by cloning the git repository.
+
+Please report any issues at the
+[TCEC Official discord](https://discord.gg/EYuyrDr)
+channel \#enginedev-lobby.
+
 Archive maintenance
 -------------------
 
