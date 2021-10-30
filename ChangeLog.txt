@@ -1,5 +1,5 @@
-Season 21 alpha 2 (2021-10-30)
-- Interim release after Season 21 Cup 9
+Season 21 interim 1 (2021-10-30)
+- This release contains all TCEC games up to Season 21 Cup 9
 - Game classification changes:
   o Previous rapid and blitz competition events are now reclassified
     as bonus events. This affects the following events:
