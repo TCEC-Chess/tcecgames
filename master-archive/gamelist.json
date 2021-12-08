@@ -2847,6 +2847,70 @@
 	       "dno": "0030"
             },
             {
+               "no": "1",
+               "dno": "4001",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_9_Round32",
+               "url": "season=cup9&round=round32",
+               "id": "scup9round32"
+            },
+            {
+               "no": "2",
+               "dno": "4002",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_9_Round16",
+               "url": "season=cup9&round=round16",
+               "id": "scup9round16"
+            },
+            {
+               "no": "3",
+               "dno": "4003",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_9_Quarterfinal",
+               "url": "season=cup9&round=qf",
+               "id": "scup9qf"
+            },
+            {
+               "no": "4",
+               "dno": "4004",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_9_Semifinal",
+               "url": "season=cup9&round=sf",
+               "id": "scup9sf"
+            },
+            {
+               "no": "5",
+               "dno": "4005",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_9_Bronze",
+               "url": "season=cup9&round=bz",
+               "id": "scup9bz"
+            },
+            {
+               "no": "6",
+               "dno": "4006",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_9_Final",
+               "url": "season=cup9&round=fl",
+               "id": "scup9fl"
+            },
+            {
+               "id": "s21divisionsw2t",
+               "menu": "Swiss 2 Testing",
+               "url": "season=21&div=sw2t",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Swiss_2_Testing",
+	       "dno": "0031"
+            },
+            {
+               "id": "s21divisionsw2",
+               "menu": "Swiss 2",
+               "url": "season=21&div=sw2",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Swiss_2",
+	       "dno": "3032"
+            },
+            {
                "id": "s21divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=21&div=undefined",
@@ -2864,7 +2928,7 @@
             },
             {
                "id": "s21divisiondivider",
-               "menu": "-= FRC 4 =-",
+               "menu": "-= Swiss 2 =-",
                "url": "season=21&div=undefined",
                "no": "21",
                "abb": "TCEC_Season_21_-_None",
@@ -2872,7 +2936,7 @@
             },
             {
                "id": "s21divisiondivider",
-               "menu": "-= Swiss 2 =-",
+               "menu": "-= FRC 4 =-",
                "url": "season=21&div=undefined",
                "no": "21",
                "abb": "TCEC_Season_21_-_None",
