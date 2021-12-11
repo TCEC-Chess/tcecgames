@@ -90,49 +90,49 @@ RELEASE-DIR=release-$(shell date -u +"%Y-%m-%d")-$(shell git rev-parse --short H
 release: release-md5sum
 
 release-md5sum:
-	mkdir -p out/$(RELEASE-DIR)
-	cd out; md5sum -b $$(find compact full/events -type f | sort) > $(RELEASE-DIR)/MD5SUM
+	mkdir -p releases/$(RELEASE-DIR)
+	cd out; md5sum -b $$(find compact full/events -type f | sort) > ../releases/$(RELEASE-DIR)/MD5SUM
 
 release: release-full-events
 
 release: release-compact-seasons release-compact-tournaments release-compact-events release-compact-everything
 
 release-full-seasons:
-	mkdir -p out/$(RELEASE-DIR)
-	cd out; zip -q -9 -r $(RELEASE-DIR)/TCEC-seasons-full.zip full/seasons
+	mkdir -p releases/$(RELEASE-DIR)
+	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-seasons-full.zip full/seasons
 
 release-full-tournaments:
-	mkdir -p out/$(RELEASE-DIR)
-	cd out; zip -q -9 -r $(RELEASE-DIR)/TCEC-tournaments-full.zip full/tournaments
+	mkdir -p releases/$(RELEASE-DIR)
+	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-tournaments-full.zip full/tournaments
 
 release-full-events:
-	mkdir -p out/$(RELEASE-DIR)
-	cd out; 7z a -bd -mx=9 -ms=on $(RELEASE-DIR)/TCEC-events-full.7z full/events
+	mkdir -p releases/$(RELEASE-DIR)
+	cd out; 7z a -bd -mx=9 -ms=on ../releases/$(RELEASE-DIR)/TCEC-events-full.7z full/events
 
 release-compact-seasons:
-	mkdir -p out/$(RELEASE-DIR)
-	cd out; zip -q -9 -r $(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons compact/seasons-compet-no-frc
+	mkdir -p releases/$(RELEASE-DIR)
+	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons compact/seasons-compet-no-frc
 
 release-compact-tournaments:
-	mkdir -p out/$(RELEASE-DIR)
-	cd out; zip -q -9 -r $(RELEASE-DIR)/TCEC-tournaments-compact.zip compact/tournaments
+	mkdir -p releases/$(RELEASE-DIR)
+	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-tournaments-compact.zip compact/tournaments
 
 release-compact-events:
-	mkdir -p out/$(RELEASE-DIR)
-	cd out; zip -q -9 -r $(RELEASE-DIR)/TCEC-events-compact.zip compact/events
+	mkdir -p releases/$(RELEASE-DIR)
+	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-events-compact.zip compact/events
 
 release-compact-everything:
-	mkdir -p out/$(RELEASE-DIR)
-	cd out; zip -q -9 -r $(RELEASE-DIR)/TCEC-everything-compact.zip compact/everything
+	mkdir -p releases/$(RELEASE-DIR)
+	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-everything-compact.zip compact/everything
 
 test-release:
 	$(RM) -r out/tmp-release-unpack
 	mkdir -p out/tmp-release-unpack
-	cd out/tmp-release-unpack && unzip ../$(RELEASE-DIR)/TCEC-seasons-compact.zip
-	cd out/tmp-release-unpack && unzip ../$(RELEASE-DIR)/TCEC-tournaments-compact.zip
-	cd out/tmp-release-unpack && unzip ../$(RELEASE-DIR)/TCEC-events-compact.zip
-	cd out/tmp-release-unpack && unzip ../$(RELEASE-DIR)/TCEC-everything-compact.zip
-	cd out/tmp-release-unpack && 7z x ../$(RELEASE-DIR)/TCEC-events-full.7z
-	cd out/tmp-release-unpack && md5sum --quiet -c ../$(RELEASE-DIR)/MD5SUM
+	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip
+	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-tournaments-compact.zip
+	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-events-compact.zip
+	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-everything-compact.zip
+	cd out/tmp-release-unpack && 7z x ../../releases/$(RELEASE-DIR)/TCEC-events-full.7z
+	cd out/tmp-release-unpack && md5sum --quiet -c ../../releases/$(RELEASE-DIR)/MD5SUM
 	@echo "Release packages OK"
 	$(RM) -r out/tmp-release-unpack
