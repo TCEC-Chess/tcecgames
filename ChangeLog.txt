@@ -1,3 +1,8 @@
+Season 21 interim 2 (2021-12-11)
+- This release contains all TCEC games up to Season 21 Swiss 2
+- Cup 1 and Cup 2 event name tags have been changed to match event
+  naming with Cup 3+. This change affects the compiled PGNs only.
+
 Season 21 interim 1 (2021-10-30)
 - This release contains all TCEC games up to Season 21 Cup 9
 - Game classification changes:
