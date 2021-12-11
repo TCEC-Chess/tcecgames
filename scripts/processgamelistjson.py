@@ -359,6 +359,28 @@ def output_make_defs(make_defs):
                     fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 14 - Div 4.*\"\\]$$/[Event \"TCEC Season 14 - Div 4\"]/' \\"
                 elif src_file.filename == "master-archive/TCEC_Season_13_-_Division_3.pgn":
                     fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 13 - Division 3.*\"\\]$$/[Event \"TCEC Season 13 - Division 3\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_1_Round32_1.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup - Round 1 - Match .*\"\\]$$/[Event \"TCEC Cup 1 Round32\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_1_Octofinal_2.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup - Round 2 - Match .*\"\\]$$/[Event \"TCEC Cup 1 Round16\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_1_Quaterfinal_3.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup - Round 3 - Match .*\"\\]$$/[Event \"TCEC Cup 1 Quarterfinal\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_1_Semifinal_4.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup - Round 4 - Match .*\"\\]$$/[Event \"TCEC Cup 1 Semifinal\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_1_Final_5.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup - Round 5 - Match .*\"\\]$$/[Event \"TCEC Cup 1 Final\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_2_Round32_1.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup 2 - Round 1 - Match .*\"\\]$$/[Event \"TCEC Cup 2 Round32\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_2_Octofinal_2.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup 2 - Round 2 - Match .*\"\\]$$/[Event \"TCEC Cup 2 Round16\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_2_Quaterfinal_3.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup 2 - Round 3 - Match .*\"\\]$$/[Event \"TCEC Cup 2 Quarterfinal\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_2_Semifinal_4.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup 2 - Round 4 - Match .*\"\\]$$/[Event \"TCEC Cup 2 Semifinal\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_2_Bronze_5.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup 2 - Round 5 - Match .*\"\\]$$/[Event \"TCEC Cup 2 Bronze\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Cup_2_Final_6.pgn":
+                    fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup 2 - Round 5 - Match .*\"\\]$$/[Event \"TCEC Cup 2 Final\"]/' \\"
 
                 # ok, not a known problem with event tags, so scan for problems
                 if fix_event_tag_cmd is None and \
@@ -369,7 +391,7 @@ def output_make_defs(make_defs):
                 print("\t\t| awk -f scripts/pgn-extract-fix.awk \\")
                 print("\t\t| awk -f scripts/site-tag-fix.awk -v urlprefix='https://tcec-chess.com/#" + src_file.url + "' \\")
 
-                # couple of PGNs have games with inconsistent event tags, fix them
+                # couple of PGNs have games with inconsistent event/round tags, fix them
                 if not fix_event_tag_cmd is None:
                     print(fix_event_tag_cmd);
 
