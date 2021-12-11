@@ -38,6 +38,7 @@ all-pgns: all-compact-seasons all-compact-tournaments all-compact-events
 
 all-pgns: out/compact/everything/TCEC-everything.pgn
 all-pgns: out/compact/everything/TCEC-everything-compet-no-frc.pgn
+all-pgns: out/compact/everything/TCEC-everything-compet-frc.pgn
 
 # generated rules
 include $(MAKEFILE-GEN)
@@ -111,7 +112,7 @@ release-full-events:
 
 release-compact-seasons:
 	mkdir -p releases/$(RELEASE-DIR)
-	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons compact/seasons-compet-no-frc
+	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons compact/seasons-compet-no-frc compact/seasons-compet-frc
 
 release-compact-tournaments:
 	mkdir -p releases/$(RELEASE-DIR)
