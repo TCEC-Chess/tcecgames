@@ -1,6 +1,7 @@
 *.zip
-README.html
+/README.html
 *~
-out
-eco.pgn
-scripts/__pycache__
+/out
+/eco.pgn
+/scripts/__pycache__
+/releases
