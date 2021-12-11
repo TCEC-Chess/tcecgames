@@ -1,5 +1,10 @@
 Season 21 interim 2 (2021-12-11)
 - This release contains all TCEC games up to Season 21 Swiss 2
+- Add FRC competition events in compiled PGNs as follows:
+  o TCEC-everything-compact.zip:
+    - TCEC-everything-compet-frc.pgn
+  o TCEC-seasons-compact.zip:
+    - compact/seasons-compet-frc/
 - Cup 1 and Cup 2 event name tags have been changed to match event
   naming with Cup 3+. This change affects the compiled PGNs only.
 
