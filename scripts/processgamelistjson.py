@@ -264,6 +264,7 @@ def output_make_defs(make_defs):
     # dependencies for phony rules
     all_full_seasons = [ ]
     all_full_seasons_compet_no_frc = [ ]
+    all_full_seasons_compet_frc = [ ]
     all_full_tournaments = [ ]
     all_full_events = [ ]
 
@@ -295,6 +296,26 @@ def output_make_defs(make_defs):
         season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-no-frc/ && cat $^ >$@\n"
         print(season_rule)
         print(season_rule.replace("/full/", "/compact/"))
+
+    # Season rules for competition FRC
+    for season in make_defs:
+        season_rule = f"{make_defs[season].output_file}:" \
+            .replace(".pgn", "-compet-frc.pgn") \
+            .replace("/seasons/", "/seasons-compet-frc/")
+        season_events = False
+
+        for event in sorted(make_defs[season].events.items(), key=timestamp_from_event):
+            if event[1].event_class in ["FRC"]:
+                season_rule = season_rule + f" {event[1].output_file}"
+                season_events = True
+
+        if season_events:
+            all_full_seasons_compet_frc.append(f"{make_defs[season].output_file}" \
+                                                   .replace(".pgn", "-compet-frc.pgn") \
+                                                   .replace("/seasons/", "/seasons-compet-frc/"))
+            season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-frc/ && cat $^ >$@\n"
+            print(season_rule)
+            print(season_rule.replace("/full/", "/compact/"))
 
     # Season/event class rules
     for season in make_defs:
@@ -370,6 +391,12 @@ def output_make_defs(make_defs):
     print("\tcat " + (" ".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/") + " > $@")
     print()
 
+    # The everything rules (compact only)
+    print("out/compact/everything/TCEC-everything-compet-frc.pgn:" + (" \\\n\t".join(all_full_seasons_compet_frc)).replace("/full/", "/compact/"))
+    print("\tmkdir -p out/compact/everything")
+    print("\tcat " + (" ".join(all_full_seasons_compet_frc)).replace("/full/", "/compact/") + " > $@")
+    print()
+
     # phony rules
     print(".PHONY: all-full-seasons all-full-tournaments all-full-events")
     print(".PHONY: all-compact-seasons all-compact-tournaments all-compact-events")
@@ -385,6 +412,8 @@ def output_make_defs(make_defs):
     print("all-compact-seasons: " + (" \\\n\t".join(all_full_seasons)).replace("/full/", "/compact/"))
     print()
     print("all-compact-seasons-compet-no-frc: " + (" \\\n\t".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/"))
+    print()
+    print("all-compact-seasons-compet-frc: " + (" \\\n\t".join(all_full_seasons_compet_frc)).replace("/full/", "/compact/"))
     print()
     print("all-compact-tournaments: " + (" \\\n\t".join(all_full_tournaments)).replace("/full/", "/compact/"))
     print()
