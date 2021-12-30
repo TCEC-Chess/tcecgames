@@ -338,8 +338,12 @@ def output_make_defs(make_defs):
 
     # Event rules
     for season in make_defs:
-        for event in make_defs[season].events:
-            print(f"{make_defs[season].events[event].output_file}: eco.pgn", end = "")
+        eventNumber = 0
+        for eventItem in sorted(make_defs[season].events.items(), key=timestamp_from_event):
+            event = eventItem[0]
+
+            print(f".INTERMEDIATE: {make_defs[season].events[event].output_file}-tagfixed")
+            print(f"{make_defs[season].events[event].output_file}-tagfixed: eco.pgn", end = "")
             all_full_events.append(f"{make_defs[season].events[event].output_file}")
             all_src_files = ""
 
@@ -351,7 +355,10 @@ def output_make_defs(make_defs):
 
             outputOp = ">$@"
 
+            eventNumber = eventNumber + 1
+
             for src_file in sorted(make_defs[season].events[event].src_files, key=timestamp_from_eventfile):
+
                 fix_event_tag_cmd = None
                 if src_file.filename == "master-archive/TCEC_Season_15_-_Superfinal.pgn":
                     fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 15 - Superfinal.*\"\\]$$/[Event \"TCEC Season 15 - Superfinal\"]/' \\"
@@ -381,6 +388,18 @@ def output_make_defs(make_defs):
                     fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup 2 - Round 5 - Match .*\"\\]$$/[Event \"TCEC Cup 2 Bronze\"]/' \\"
                 elif src_file.filename == "master-archive/TCEC_Cup_2_Final_6.pgn":
                     fix_event_tag_cmd = "\t\t| awk -f scripts/cup-1-2-round-fix.awk | sed 's/^\\[Event \"TCEC Cup 2 - Round 5 - Match .*\"\\]$$/[Event \"TCEC Cup 2 Final\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Season_16_-_Testing_13_Lczero_1pct_Vs_Qualification.pgn":
+                    fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"?\"\\]$$/[Event \"Testing 13 LCZero 1pct vs Qualification\"]/' \\"
+                elif src_file.filename == "master-archive/TCEC_Season_6_-_FRC.pgn":
+                    fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 6 - FRC\"\\]$$/[Event \"TCEC Season 6 - FRC 0\"]/' \\"
+                elif src_file.filename in (
+                        "master-archive/TCEC_Season_16_-_Frc_Cpu_League_1.pgn",
+                        "master-archive/TCEC_Season_16_-_Frc_Cpu_League_2.pgn",
+                        "master-archive/TCEC_Season_16_-_Frc_Gpu_Bonus.pgn",
+                        "master-archive/TCEC_Season_16_-_Frc_Cpu_League_1_Test.pgn",
+                        "master-archive/TCEC_Season_16_-_Frc_Cpu_League_2_Playoff.pgn",
+                        "master-archive/TCEC_Season_16_-_Frc_Sufi.pgn" ):
+                    fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 16 - FRC /[Event \"TCEC Season 16 - FRC 1 /' \\"
 
                 # ok, not a known problem with event tags, so scan for problems
                 if fix_event_tag_cmd is None and \
@@ -399,7 +418,15 @@ def output_make_defs(make_defs):
 
                 outputOp = ">>$@"
                 print("\t@echo \"" + src_file.url + "\"")
+
             print()
+
+            # normalize and renumber event tags after they've been fixed
+            print(f"{make_defs[season].events[event].output_file}: {make_defs[season].events[event].output_file}-tagfixed")
+            print("\tset -e ; numSubEvents=$$(grep '^[[]Event \"' $< | uniq | wc -l) ;\\")
+            print(f"\tawk -f scripts/normalize-pgn-event-tag.awk -v season={season} -v eventNumber={eventNumber} -v numSubEvents=$$numSubEvents $<\\")
+            print("\t\t>$@")
+
 
     # The everything rules (compact only)
     print("out/compact/everything/TCEC-everything.pgn:" + (" \\\n\t".join(all_full_seasons)).replace("/full/", "/compact/"))
@@ -419,9 +446,9 @@ def output_make_defs(make_defs):
     print("\tcat " + (" ".join(all_full_seasons_compet_frc)).replace("/full/", "/compact/") + " > $@")
     print()
 
-    # phony rules
-    print(".PHONY: all-full-seasons all-full-tournaments all-full-events")
-    print(".PHONY: all-compact-seasons all-compact-tournaments all-compact-events")
+    # phony targets
+    print(".PHONY: all-full-seasons all-full-seasons-compet-no-frc all-full-tournaments all-full-events")
+    print(".PHONY: all-compact-seasons all-compact-seasons-compet-no-frc all-compact-seasons-compet-frc all-compact-tournaments all-compact-events")
     print()
     print("all-full-seasons: " + " \\\n\t".join(all_full_seasons))
     print()
