@@ -18,6 +18,7 @@
 .PHONY: release release-recreate-dir release-md5sum
 .PHONY: release-full-seasons release-full-tournaments release-full-events
 .PHONY: release-compact-seasons release-compact-tournaments release-compact-events release-compact-everything release-compact-everything-compet-no-frc
+.PHONY: release-compact-all-in-one
 
 # target for testing the release packages
 .PHONY: test-release
@@ -39,6 +40,7 @@ all-pgns: all-compact-seasons all-compact-tournaments all-compact-events
 all-pgns: out/compact/everything/TCEC-everything.pgn
 all-pgns: out/compact/everything/TCEC-everything-compet-no-frc.pgn
 all-pgns: out/compact/everything/TCEC-everything-compet-frc.pgn
+all-pgns: out/compact/everything/TCEC-everything-bonus-test.pgn
 
 # generated rules
 include $(MAKEFILE-GEN)
@@ -92,11 +94,13 @@ release: release-md5sum
 
 release-md5sum:
 	mkdir -p releases/$(RELEASE-DIR)
-	cd out; md5sum -b $$(find compact full/events -type f | sort) > ../releases/$(RELEASE-DIR)/MD5SUM
+	cd out; md5sum -b $$(find compact/everything full/events -type f | sort) > ../releases/$(RELEASE-DIR)/MD5SUM
 
 release: release-full-events
 
-release: release-compact-seasons release-compact-tournaments release-compact-events release-compact-everything
+#release: release-compact-seasons release-compact-tournaments release-compact-events
+
+release: release-compact-all-in-one release-compact-everything
 
 release-full-seasons:
 	mkdir -p releases/$(RELEASE-DIR)
@@ -112,7 +116,7 @@ release-full-events:
 
 release-compact-seasons:
 	mkdir -p releases/$(RELEASE-DIR)
-	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons compact/seasons-compet-no-frc compact/seasons-compet-frc
+	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons compact/seasons-compet-no-frc compact/seasons-compet-frc compact/seasons-bonus-test
 
 release-compact-tournaments:
 	mkdir -p releases/$(RELEASE-DIR)
@@ -124,15 +128,23 @@ release-compact-events:
 
 release-compact-everything:
 	mkdir -p releases/$(RELEASE-DIR)
-	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-everything-compact.zip compact/everything
+	cd out/compact/everything; zip -q -9 -r ../../../releases/$(RELEASE-DIR)/TCEC-everything-compact.zip \
+		TCEC-everything-compet-no-frc.pgn \
+		TCEC-everything-compet-frc.pgn \
+		TCEC-everything-bonus-test.pgn
 
+release-compact-all-in-one:
+	mkdir -p releases/$(RELEASE-DIR)
+	cd out/compact/everything; zip -q -9 -r ../../../releases/$(RELEASE-DIR)/TCEC-all-in-one-compact.zip \
+		TCEC-everything.pgn
 test-release:
 	$(RM) -r out/tmp-release-unpack
 	mkdir -p out/tmp-release-unpack
-	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip
-	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-tournaments-compact.zip
-	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-events-compact.zip
-	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-everything-compact.zip
+#	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip
+#	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-tournaments-compact.zip
+#	cd out/tmp-release-unpack && unzip ../../releases/$(RELEASE-DIR)/TCEC-events-compact.zip
+	cd out/tmp-release-unpack && mkdir -p compact/everything && cd compact/everything && unzip ../../../../releases/$(RELEASE-DIR)/TCEC-everything-compact.zip
+	cd out/tmp-release-unpack && mkdir -p compact/everything && cd compact/everything && unzip ../../../../releases/$(RELEASE-DIR)/TCEC-all-in-one-compact.zip
 	cd out/tmp-release-unpack && 7z x ../../releases/$(RELEASE-DIR)/TCEC-events-full.7z
 	cd out/tmp-release-unpack && md5sum --quiet -c ../../releases/$(RELEASE-DIR)/MD5SUM
 	@echo "Release packages OK"
