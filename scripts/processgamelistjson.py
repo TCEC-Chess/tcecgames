@@ -265,6 +265,7 @@ def output_make_defs(make_defs):
     all_full_seasons = [ ]
     all_full_seasons_compet_no_frc = [ ]
     all_full_seasons_compet_frc = [ ]
+    all_full_seasons_bonus_test = [ ]
     all_full_tournaments = [ ]
     all_full_events = [ ]
 
@@ -314,6 +315,26 @@ def output_make_defs(make_defs):
                                                    .replace(".pgn", "-compet-frc.pgn") \
                                                    .replace("/seasons/", "/seasons-compet-frc/"))
             season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-frc/ && cat $^ >$@\n"
+            print(season_rule)
+            print(season_rule.replace("/full/", "/compact/"))
+
+    # Season rules for bonus/test
+    for season in make_defs:
+        season_rule = f"{make_defs[season].output_file}:" \
+            .replace(".pgn", "-bonus-test.pgn") \
+            .replace("/seasons/", "/seasons-bonus-test/")
+        season_events = False
+
+        for event in sorted(make_defs[season].events.items(), key=timestamp_from_event):
+            if event[1].event_class in ["BONUS", "TEST"]:
+                season_rule = season_rule + f" {event[1].output_file}"
+                season_events = True
+
+        if season_events:
+            all_full_seasons_bonus_test.append(f"{make_defs[season].output_file}" \
+                                                   .replace(".pgn", "-bonus-test.pgn") \
+                                                   .replace("/seasons/", "/seasons-bonus-test/"))
+            season_rule = season_rule + "\n\tmkdir -p out/full/seasons-bonus-test/ && cat $^ >$@\n"
             print(season_rule)
             print(season_rule.replace("/full/", "/compact/"))
 
@@ -446,8 +467,14 @@ def output_make_defs(make_defs):
     print("\tcat " + (" ".join(all_full_seasons_compet_frc)).replace("/full/", "/compact/") + " > $@")
     print()
 
+    # The everything rules (compact only)
+    print("out/compact/everything/TCEC-everything-bonus-test.pgn:" + (" \\\n\t".join(all_full_seasons_bonus_test)).replace("/full/", "/compact/"))
+    print("\tmkdir -p out/compact/everything")
+    print("\tcat " + (" ".join(all_full_seasons_bonus_test)).replace("/full/", "/compact/") + " > $@")
+    print()
+
     # phony targets
-    print(".PHONY: all-full-seasons all-full-seasons-compet-no-frc all-full-tournaments all-full-events")
+    print(".PHONY: all-full-seasons all-full-seasons-compet-no-frc all-full-seasons-bonus-test all-full-tournaments all-full-events")
     print(".PHONY: all-compact-seasons all-compact-seasons-compet-no-frc all-compact-seasons-compet-frc all-compact-tournaments all-compact-events")
     print()
     print("all-full-seasons: " + " \\\n\t".join(all_full_seasons))
