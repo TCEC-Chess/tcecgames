@@ -2972,6 +2972,15 @@
 	       "dno": "2039"
             },
             {
+               "id": "s21divisionsfrc4sl2",
+               "frc": 1,
+               "menu": "FRC4 Semileague 2",
+               "url": "season=21&div=frc4sl2",
+               "no": "21",
+               "abb": "TCEC_Season_21_-_Frc4_Semileague_2",
+	       "dno": "2040"
+            },
+            {
                "id": "s21divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=21&div=undefined",
