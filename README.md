@@ -13,8 +13,7 @@ for the official releases.
 
 The TCEC games are released both in full and compacted formats:
 
-- The full format has all the original engine evaluation comments with
-  minimal changes to the original PGNs.
+- The full format has all the original engine evaluation comments.
 
 - The compacted format replaces all comments with book exit
   markers. The compacted format also reclassifies the openings and
