@@ -1,3 +1,25 @@
+Season 21 final (2022-01-09)
+- This release contains all games of season 21 and previous.
+- The following major change have been made:
+  o The event PGN tags have been reformatted to be more friendly with
+    chess database software. The new format adds a running event
+    number after the season, which makes the events appear in
+    chronological order when ordered alphabetically. For cup events
+    and certain test events, the number is suffixed with a
+    letter. (Issue #11)
+  o The release packages have been reworked. This release contains the
+    following packages: (Issue #9)
+    - TCEC-everything-compact.zip (TCEC-everything-compet-no-frc.pgn,
+      TCEC-everything-compet-frc.pgn, TCEC-everything-bonus-test.pgn)
+    - TCEC-all-in-one-compact.zip (TCEC-everything.pgn)
+    - TCEC-events-full.7z (all individual events with full annotations)
+- The following content changes have been made:
+  o Season 6 FRC event is added. This event is now called FRC 0, as it
+    predates the TCEC S16 FRC 1 event. (Issue #10)
+  o Cup 4 bronze match games have been fixed. In previous releases,
+    this round incorrectly contained Cup 5 bronze match games,
+    instead. (Issue #12)
+
 Season 21 interim 2 (2021-12-11)
 - This release contains all TCEC games up to Season 21 Swiss 2
 - Add FRC competition events in compiled PGNs as follows:
