@@ -38,6 +38,9 @@ The typical archive update procedure is:
     # update master game index
     make fetch-gamelist-json
 
+    # show event classification
+    make enumerate-events
+
     # fetch new PGNs
     make fetch-new-pgns
 

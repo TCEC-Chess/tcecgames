@@ -13,6 +13,7 @@
 # limitations under the License.
 
 .PHONY: all clean distclean fetch-default-eco-pgn fetch-gamelist-json fetch-new-pgns all-pgns
+.PHONY: enumerate-events
 
 # targets for creating the release
 .PHONY: release release-recreate-dir release-md5sum
@@ -63,6 +64,9 @@ clean:
 distclean: clean
 	$(RM) eco.pgn
 
+enumerate-events:
+	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive -v master-archive/gamelist.json
+
 fetch-gamelist-json:
 	scripts/fetch-update-gamelist.sh
 
@@ -85,7 +89,6 @@ eco.pgn:
 out/compact/events/%.pgn: out/full/events/%.pgn
 	mkdir -p out/compact/events
 	python3 -OO scripts/run-compactify-pgn.py $< >$@
-
 
 # release
 RELEASE-DIR=release-$(shell date -u +"%Y-%m-%d")-$(shell git rev-parse --short HEAD)

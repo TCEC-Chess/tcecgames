@@ -286,17 +286,19 @@ def output_make_defs(make_defs):
         season_rule = f"{make_defs[season].output_file}:" \
             .replace(".pgn", "-compet-no-frc.pgn") \
             .replace("/seasons/", "/seasons-compet-no-frc/")
-        all_full_seasons_compet_no_frc.append(f"{make_defs[season].output_file}" \
-                                              .replace(".pgn", "-compet-no-frc.pgn") \
-                                              .replace("/seasons/", "/seasons-compet-no-frc/"))
+        season_events = False
 
         for event in sorted(make_defs[season].events.items(), key=timestamp_from_event):
             if event[1].event_class in ["MAIN", "CUP", "SWISS"]:
                 season_rule = season_rule + f" {event[1].output_file}"
 
-        season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-no-frc/ && cat $^ >$@\n"
-        print(season_rule)
-        print(season_rule.replace("/full/", "/compact/"))
+        if season_events:
+            all_full_seasons_compet_no_frc.append(f"{make_defs[season].output_file}" \
+                                                  .replace(".pgn", "-compet-no-frc.pgn") \
+                                                  .replace("/seasons/", "/seasons-compet-no-frc/"))
+            season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-no-frc/ && cat $^ >$@\n"
+            print(season_rule)
+            print(season_rule.replace("/full/", "/compact/"))
 
     # Season rules for competition FRC
     for season in make_defs:
@@ -525,7 +527,8 @@ def gamelist_to_master_index(gamelist):
             event_class = classify_event(season, event_id, event_name)
 
             if operating_mode == "ENUMERATE":
-                print(f"{event_id} {event_class} '{season}' {event_file_base}.pgn '{event_name}'")
+                tmp_filename = event_file_base + ".pgn"
+                print(f"{event_id:50} {event_class:5} {season:6} {tmp_filename:80} '{event_name}'")
 
             if operating_mode in ("SYNC-FROM-DIR", "SYNC-FROM-WEB", "PGN-CHECK"):
                 sync_pgn(f"{event_file_base}.pgn")
