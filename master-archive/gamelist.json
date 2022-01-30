@@ -3055,6 +3055,94 @@
             }
 	 ]
       },
+      "22": {
+         "download": "TCEC_Season_22_full.pgn.zip",
+         "fullpgn": "TCEC_Season_22_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s22divisiondfrct",
+               "menu": "DFRC Sanity Check",
+               "url": "season=22&div=dfrct",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Dfrc_Sanity_Check",
+	       "dno": "1000"
+            },
+            {
+               "id": "s22divisiondfrcts",
+               "menu": "DFRC ScorpioNN Test",
+               "url": "season=22&div=dfrcts",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Dfrc_Scorpionn_Test",
+	       "dno": "0001"
+            },
+            {
+               "id": "s22divisionq43t",
+               "menu": "QL L4 L3 Testing",
+               "url": "season=22&div=q43t",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Ql_L4_L3_Testing",
+	       "dno": "0002"
+            },
+            {
+               "id": "s22divisionse2",
+               "menu": "Search vs Eval 2",
+               "url": "season=22&div=se2",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Search_Vs_Eval_2",
+	       "dno": "1003"
+            },
+            {
+               "id": "s22divisiondivider",
+               "menu": "-= Main leagues =-",
+               "url": "season=22&div=undefined",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_None",
+               "dno": "5999"
+            },
+            {
+               "id": "s22divisiondivider",
+               "menu": "-= Cup 10 =-",
+               "url": "season=22&div=undefined",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_None",
+               "dno": "4999"
+            },
+            {
+               "id": "s22divisiondivider",
+               "menu": "-= Swiss 3 =-",
+               "url": "season=22&div=undefined",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_None",
+               "dno": "3999"
+            },
+            {
+               "id": "s22divisiondivider",
+               "menu": "-= FRC 5 =-",
+               "url": "season=22&div=undefined",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_None",
+               "dno": "2999"
+            },
+            {
+               "id": "s22divisiondivider",
+               "menu": "-= Bonus tournaments =-",
+               "url": "season=22&div=undefined",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_None",
+               "dno": "1999"
+            },
+            {
+               "id": "s22divisiondivider",
+               "menu": "-= Testing tournaments =-",
+               "url": "season=22&div=undefined",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
       "Cup 1": {
          "seasonName": "Cup 1",
          "eventtag": "TCEC_Cup_1_event",

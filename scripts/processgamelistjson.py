@@ -69,6 +69,9 @@ def classify_event(season, event_id, event_name):
         if ("bonus" in event_id.lower()) or ("bonus" in event_name.lower()):
             return "BONUS"
 
+        if event_id == "s22divisiondfrct":
+            return "BONUS"
+
         if "frc" in event_id.lower():
             return "FRC"
 
@@ -101,7 +104,7 @@ def classify_event(season, event_id, event_name):
         if event_id == "s21divisionif":
             return "MAIN"
 
-        if event_id in ["s21divisionseev", "s21divisioneval", "s21divisionlc0cp"]:
+        if event_id in ["s21divisionseev", "s21divisioneval", "s21divisionlc0cp", "s22divisionse2"]:
             return "BONUS"
 
     warning(f"Don't know how to classify Season '{season}', event id '{event_id}', event name '{event_name}'")
@@ -291,6 +294,7 @@ def output_make_defs(make_defs):
         for event in sorted(make_defs[season].events.items(), key=timestamp_from_event):
             if event[1].event_class in ["MAIN", "CUP", "SWISS"]:
                 season_rule = season_rule + f" {event[1].output_file}"
+                season_events = True
 
         if season_events:
             all_full_seasons_compet_no_frc.append(f"{make_defs[season].output_file}" \
