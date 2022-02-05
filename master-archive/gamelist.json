@@ -3094,6 +3094,14 @@
 	       "dno": "1003"
             },
             {
+               "id": "s22divisionql",
+               "menu": "Qualification League",
+               "url": "season=22&div=ql",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Qualification_League",
+               "dno": "5004"
+            },
+            {
                "id": "s22divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=22&div=undefined",
