@@ -3870,7 +3870,7 @@ Kd7 {d=44, sd=44, pd=Nc5+, mt=18, tl=274849, s=581388, n=10465, pv=Kd7, tb=null,
 83. Nc5+ {d=4, sd=11, pd=Kd7, mt=56, tl=152, s=64418, n=3294, pv=Nc5+, tb=0, h=49.1, ph=53.7, wv=0.00, R50=43, Rd=6, Rr=-11, mb=+0+2-2+0+0, 3-Fold repetition}
 1/2-1/2
 
-Event "TCEC Season 16 - Testing 13 LCZero 1pct vs Qualification"]
+[Event "TCEC Season 16 - Testing 13 LCZero 1pct vs Qualification"]
 [Site "http://tcec.chessdom.com"]
 [Date "2019.07.13"]
 [Round "2.4"]
