@@ -3110,6 +3110,14 @@
                "dno": "5005"
             },
             {
+               "id": "s22divisionl3",
+               "menu": "League 3",
+               "url": "season=22&div=l3",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_League_3",
+               "dno": "5006"
+            },
+            {
                "id": "s22divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=22&div=undefined",
