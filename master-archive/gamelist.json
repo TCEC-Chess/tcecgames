@@ -3118,12 +3118,20 @@
                "dno": "5006"
             },
             {
-               "id": "s22divisionl21t",
+               "id": "s22division21t",
                "menu": "L2 L1 Testing",
                "url": "season=22&div=21t",
                "no": "22",
                "abb": "TCEC_Season_22_-_L2_L1_Testing",
 	       "dno": "0007"
+            },
+            {
+               "id": "s22divisionl2",
+               "menu": "League 2",
+               "url": "season=22&div=l2",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_League_2",
+               "dno": "5008"
             },
             {
                "id": "s22divisiondivider",
