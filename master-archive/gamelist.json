@@ -3150,6 +3150,14 @@
                "dno": "5010"
             },
             {
+               "id": "s22divisiondivpt",
+               "menu": "DivP Testing",
+               "url": "season=22&div=divpt",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Divp_Testing",
+               "dno": "0011"
+            },
+            {
                "id": "s22divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=22&div=undefined",
