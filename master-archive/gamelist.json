@@ -3166,6 +3166,14 @@
                "dno": "5012"
             },
             {
+               "id": "s22divisioninft",
+               "menu": "Infrafinal Testing",
+               "url": "season=22&div=inft",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Infrafinal_Testing",
+               "dno": "0013"
+            },
+            {
                "id": "s22divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=22&div=undefined",
