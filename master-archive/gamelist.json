@@ -3174,6 +3174,14 @@
                "dno": "0013"
             },
             {
+               "id": "s22divisionif",
+               "menu": "Infrafinal",
+               "url": "season=22&div=if",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Infrafinal",
+	       "dno": "5014"
+            },
+            {
                "id": "s22divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=22&div=undefined",

@@ -101,7 +101,7 @@ def classify_event(season, event_id, event_name):
         if int(season) <= 19:
             return "BONUS"
 
-        if event_id == "s21divisionif":
+        if event_id in ["s21divisionif", "s22divisionif"]:
             return "MAIN"
 
         if event_id in ["s21divisionseev", "s21divisioneval", "s21divisionlc0cp", "s22divisionse2"]:
