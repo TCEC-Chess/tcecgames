@@ -3182,6 +3182,22 @@
 	       "dno": "5014"
             },
             {
+               "id": "s22divisionsft",
+               "menu": "Sufi Testing",
+               "url": "season=22&div=sft",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Sufi_Testing",
+	       "dno": "0015"
+            },
+            {
+               "id": "s22divisionsf",
+               "menu": "Superfinal",
+               "url": "season=22&div=sf",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Superfinal",
+	       "dno": "5016"
+            },
+            {
                "id": "s22divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=22&div=undefined",
