@@ -3214,6 +3214,22 @@
 	       "dno": "1018"
             },
             {
+               "id": "s22division4x",
+               "menu": "4x time odds Bonus",
+               "url": "season=22&div=4x",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_4x_Time_Odds",
+	       "dno": "1019"
+            },
+            {
+               "id": "s22divisionvvltc",
+               "menu": "VVLTC Bonus",
+               "url": "season=22&div=vvltc",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Vvltc_Bonus",
+	       "dno": "1020"
+            },
+            {
                "id": "s22divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=22&div=undefined",
@@ -3244,6 +3260,14 @@
                "no": "22",
                "abb": "TCEC_Season_22_-_None",
                "dno": "2999"
+            },
+            {
+               "id": "s22divisiondivider",
+               "menu": "-= DFRC 1 =-",
+               "url": "season=22&div=undefined",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_None",
+               "dno": "2499"
             },
             {
                "id": "s22divisiondivider",
