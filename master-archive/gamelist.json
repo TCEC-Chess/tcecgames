@@ -3230,6 +3230,22 @@
 	       "dno": "1020"
             },
             {
+               "id": "s22divisioncup10t",
+               "menu": "Cup 10 Testing",
+               "url": "season=22&div=cup10t",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Cup_10_Testing",
+	       "dno": "0021"
+            },
+            {
+               "id": "s22division1de",
+               "menu": "1day PV Playout Etc",
+               "url": "season=22&div=1de",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_1day_Pv_Playout_Etc",
+	       "dno": "1022"
+            },
+            {
                "id": "s22divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=22&div=undefined",
