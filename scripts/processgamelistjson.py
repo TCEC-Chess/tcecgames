@@ -110,6 +110,9 @@ def classify_event(season, event_id, event_name):
         if event_id in ["s22division1de"]:
             return "BONUS"
 
+        if event_id in ['s22divisions10xg', 's22divisionsf13c', 's22divisionsf15c']:
+            return "TEST"
+
     warning(f"Don't know how to classify Season '{season}', event id '{event_id}', event name '{event_name}'")
     return "MISC"
 

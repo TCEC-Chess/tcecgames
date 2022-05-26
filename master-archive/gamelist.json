@@ -3238,6 +3238,87 @@
 	       "dno": "0021"
             },
             {
+               "no": "1",
+               "dno": "4001",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_10_Round32",
+               "url": "season=cup10&round=round32",
+               "id": "scup10round32"
+            },
+            {
+               "no": "2",
+               "dno": "4002",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_10_Round16",
+               "url": "season=cup10&round=round16",
+               "id": "scup10round16"
+            },
+            {
+               "no": "3",
+               "dno": "4003",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_10_Quarterfinal",
+               "url": "season=cup10&round=qf",
+               "id": "scup10qf"
+            },
+            {
+               "no": "4",
+               "dno": "4004",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_10_Semifinal",
+               "url": "season=cup10&round=sf",
+               "id": "scup10sf"
+            },
+            {
+               "no": "5",
+               "dno": "4005",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_10_Bronze",
+               "url": "season=cup10&round=bz",
+               "id": "scup10bz"
+            },
+            {
+               "no": "6",
+               "dno": "4006",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_10_Final",
+               "url": "season=cup10&round=fl",
+               "id": "scup10fl"
+            },
+            {
+               "id": "s22divisionsf15c",
+               "menu": "Stockfish 15 CCRL Calibration",
+               "url": "season=22&div=sf15c",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Stockfish_15_Ccrl_Calibration",
+	       "dno": "0022"
+            },
+            {
+               "id": "s22divisionsf13c",
+               "menu": "Stockfish 13 CCRL Calibration",
+               "url": "season=22&div=sf13c",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Stockfish_13_Ccrl_Calibration",
+	       "dno": "0023"
+            },
+            {
+               "id": "s22divisions10xg",
+               "menu": "Grob 10x Odds",
+               "url": "season=22&div=10xg",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Grob_10x_Odds",
+	       "dno": "0024"
+            },
+            {
+               "idf": "s22divisionsw3t",
+               "menu": "Swiss 3 Testing",
+               "url": "season=22&div=sw3t",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Swiss_3_Testing",
+	       "dno": "0025",
+               "id": "current"
+            },
+            {
                "id": "s22division1de",
                "menu": "1day PV Playout Etc",
                "url": "season=22&div=1de",
@@ -3803,6 +3884,64 @@
                "abb": "TCEC_Cup_9_Final",
                "url": "season=cup9&round=fl",
                "id": "scup9fl"
+            }
+         ]
+      },
+      "Cup 10": {
+         "seasonName": "Cup 10",
+         "download": "TCEC_Cup_10_full.pgn.zip",
+         "eventtag": "TCEC_Cup_10_event",
+         "previouspgn": "TCEC_Cup_10_Round32",
+         "teams": "cup10.json",
+         "cup": 10,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_10_Round32",
+               "url": "season=cup10&round=round32",
+	       "id": "scup10round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_10_Round16",
+               "url": "season=cup10&round=round16",
+               "id": "scup10round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_10_Quarterfinal",
+               "url": "season=cup10&round=qf",
+               "id": "scup10qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_10_Semifinal",
+               "url": "season=cup10&round=sf",
+               "id": "scup10sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_10_Bronze",
+               "url": "season=cup10&round=bz",
+               "id": "scup10bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_10_Final",
+               "url": "season=cup10&round=fl",
+               "id": "scup10fl"
             }
          ]
       },
