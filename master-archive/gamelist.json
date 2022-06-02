@@ -3294,14 +3294,6 @@
 	       "dno": "0022"
             },
             {
-               "id": "s22divisionsf13c",
-               "menu": "Stockfish 13 CCRL Calibration",
-               "url": "season=22&div=sf13c",
-               "no": "22",
-               "abb": "TCEC_Season_22_-_Stockfish_13_Ccrl_Calibration",
-	       "dno": "0023"
-            },
-            {
                "id": "s22divisions10xg",
                "menu": "Grob 10x Odds",
                "url": "season=22&div=10xg",
@@ -3310,12 +3302,20 @@
 	       "dno": "0024"
             },
             {
-               "idf": "s22divisionsw3t",
+               "id": "s22divisionsw3t",
                "menu": "Swiss 3 Testing",
                "url": "season=22&div=sw3t",
                "no": "22",
                "abb": "TCEC_Season_22_-_Swiss_3_Testing",
-	       "dno": "0025",
+	       "dno": "0025"
+            },
+            {
+               "idf": "s22divisionsw3",
+               "menu": "Swiss 3",
+               "url": "season=22&div=sw3",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Swiss_3",
+	       "dno": "3026",
                "id": "current"
             },
             {
@@ -3324,7 +3324,23 @@
                "url": "season=22&div=1de",
                "no": "22",
                "abb": "TCEC_Season_22_-_1day_Pv_Playout_Etc",
-	       "dno": "1022"
+	       "dno": "1026"
+            },
+            {
+               "id": "s22divisionsf13c",
+               "menu": "Stockfish 13 CCRL Calibration",
+               "url": "season=22&div=sf13c",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Stockfish_13_Ccrl_Calibration",
+	       "dno": "0027"
+            },
+            {
+               "id": "s22divisionsbf",
+               "menu": "1day/move Bonus",
+               "url": "season=22&div=1d",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_1day_Per_Move_Bonus",
+	       "dno": "1023"
             },
             {
                "id": "s22divisiondivider",
