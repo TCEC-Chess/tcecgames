@@ -1,7 +1,11 @@
+Season 22 interim 2 (2022-07-05)
+- This release contains all TCEC games up to and including the
+  Season 22 Swiss 3 tournament event.
+
 Season 22 interim (2022-04-24)
 - This release contains all TCEC games up to and including the
   Season 22 Superfinal
-- The following chages have been made:
+- The following changes have been made:
   o FRC 2/3/4 events have been fixed for consistency (Issue #17)
   o A missing '[' was added in the event tag in
     TCEC_Season_16_-_Testing_13_Lczero_1pct_Vs_Qualification.pgn
