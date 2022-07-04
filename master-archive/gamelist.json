@@ -3310,13 +3310,12 @@
 	       "dno": "0025"
             },
             {
-               "idf": "s22divisionsw3",
+               "id": "s22divisionsw3",
                "menu": "Swiss 3",
                "url": "season=22&div=sw3",
                "no": "22",
                "abb": "TCEC_Season_22_-_Swiss_3",
-	       "dno": "3026",
-               "id": "current"
+	       "dno": "3026"
             },
             {
                "id": "s22division1de",
