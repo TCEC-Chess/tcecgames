@@ -3318,12 +3318,20 @@
 	       "dno": "3026"
             },
             {
+               "id": "s22divisionsim",
+               "menu": "Stockfish Simul",
+               "url": "season=22&div=sim",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Stockfish_Simul",
+	       "dno": "1027"
+            },
+            {
                "id": "s22division1de",
                "menu": "1day PV Playout Etc",
                "url": "season=22&div=1de",
                "no": "22",
                "abb": "TCEC_Season_22_-_1day_Pv_Playout_Etc",
-	       "dno": "1026"
+	       "dno": "1028"
             },
             {
                "id": "s22divisionsf13c",
@@ -3331,7 +3339,7 @@
                "url": "season=22&div=sf13c",
                "no": "22",
                "abb": "TCEC_Season_22_-_Stockfish_13_Ccrl_Calibration",
-	       "dno": "0027"
+	       "dno": "0029"
             },
             {
                "id": "s22divisionsbf",

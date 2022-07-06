@@ -107,7 +107,7 @@ def classify_event(season, event_id, event_name):
         if event_id in ["s21divisionseev", "s21divisioneval", "s21divisionlc0cp", "s22divisionse2"]:
             return "BONUS"
 
-        if event_id in ["s22division1de"]:
+        if event_id in ["s22division1de", "s22divisionsim"]:
             return "BONUS"
 
         if event_id in ['s22divisions10xg', 's22divisionsf13c', 's22divisionsf15c']:
