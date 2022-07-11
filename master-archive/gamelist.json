@@ -3326,12 +3326,39 @@
 	       "dno": "1027"
             },
             {
+               "id": "s22divisionfdt",
+               "menu": "FRC 5 DFRC 1 Testing",
+               "url": "season=22&div=fdt",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Frc_5_Dfrc_1_Testing",
+	       "dno": "0028"
+            },
+            {
+               "id": "s22divisionsfrc5la",
+               "frc": 1,
+               "menu": "FRC5 League A",
+               "url": "season=22&div=frc5la",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Frc5_League_A",
+	       "dno": "2029"
+            },
+            {
+               "idf": "s22divisionsfrc5lb",
+               "frc": 1,
+               "menu": "FRC5 League B",
+               "url": "season=22&div=frc5lb",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Frc5_League_B",
+	       "dno": "2030",
+               "id": "current"
+            },
+            {
                "id": "s22division1de",
                "menu": "1day PV Playout Etc",
                "url": "season=22&div=1de",
                "no": "22",
                "abb": "TCEC_Season_22_-_1day_Pv_Playout_Etc",
-	       "dno": "1028"
+	       "dno": "1029"
             },
             {
                "id": "s22divisionsf13c",
@@ -3339,7 +3366,7 @@
                "url": "season=22&div=sf13c",
                "no": "22",
                "abb": "TCEC_Season_22_-_Stockfish_13_Ccrl_Calibration",
-	       "dno": "0029"
+	       "dno": "0030"
             },
             {
                "id": "s22divisionsbf",
