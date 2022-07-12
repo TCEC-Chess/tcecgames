@@ -3340,16 +3340,25 @@
                "url": "season=22&div=frc5la",
                "no": "22",
                "abb": "TCEC_Season_22_-_Frc5_League_A",
-	       "dno": "2029"
+	       "dno": "2529"
             },
             {
-               "idf": "s22divisionsfrc5lb",
+               "id": "s22divisionsfrc5lb",
                "frc": 1,
                "menu": "FRC5 League B",
                "url": "season=22&div=frc5lb",
                "no": "22",
                "abb": "TCEC_Season_22_-_Frc5_League_B",
-	       "dno": "2030",
+	       "dno": "2530"
+            },
+            {
+               "idf": "s22divisionsfrc5lc",
+               "frc": 1,
+               "menu": "FRC5 League C",
+               "url": "season=22&div=frc5lc",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Frc5_League_C",
+	       "dno": "2531",
                "id": "current"
             },
             {
