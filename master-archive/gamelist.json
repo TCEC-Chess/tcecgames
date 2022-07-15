@@ -3361,13 +3361,22 @@
 	       "dno": "2531"
             },
             {
-               "idf": "s22divisionsfrc5ld",
+               "id": "s22divisionsfrc5ld",
                "frc": 1,
                "menu": "FRC5 League D",
                "url": "season=22&div=frc5ld",
                "no": "22",
                "abb": "TCEC_Season_22_-_Frc5_League_D",
-	       "dno": "2532",
+	       "dno": "2532"
+            },
+            {
+               "idf": "s22divisionsfrc5sl1",
+               "frc": 1,
+               "menu": "FRC5 Semileague 1",
+               "url": "season=22&div=frc5sl1",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Frc5_Semileague_1",
+	       "dno": "2533",
                "id": "current"
             },
             {
