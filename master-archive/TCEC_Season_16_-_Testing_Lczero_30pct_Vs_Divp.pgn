@@ -13274,7 +13274,7 @@ Rcxd2 {d=4, sd=16, pd=Kh3, mt=2167, tl=3376, s=201045, n=483390, pv=Rcxd2 Nxd2, 
 [Round "5.3"]
 [White "LCZero30pct v0.22.0-nT40B.4-160"]
 [Black "LCZero v0.22.0-nT40B.4-160"]
-[Result "0-1"]
+[Result "1/2-1/2"]
 [BlackElo "3910"]
 [BlackTimeControl "1800+5"]
 [ECO "C42"]
@@ -13365,7 +13365,7 @@ Rb1 {d=17, sd=39, pd=Ra2, mt=29911, tl=636911, s=111485, n=12787697, pv=Rb1 Rab2
 41. Reb2 {d=16, sd=37, pd=Rb1, mt=30437, tl=144697, s=145751, n=6464219, pv=Reb2 Re1 Re2 Rb1 Rf2 Rdd1 Rxf5 Rh1+ Kg2 Rhg1+ Kh2 Rh1+ Kg2 Rhg1+ Kh2 Rh1+, tb=2, h=100.0, ph=90.6, wv=0.08, R50=47, Rd=8, Rr=-11, mb=+0+0+0+0+0,}
 Re1 {d=18, sd=41, pd=Rab2, mt=54653, tl=587258, s=91925, n=9418659, pv=Re1 Re2 Rb1 Rf2 Rdd1 Rxf5 Rh1+ Kg2 Rhg1+ Kh2 Rh1+ Kg2 Rhg1+ Kh2 Rh1+, tb=180, h=100.0, ph=87.5, wv=0.06, R50=46, Rd=7, Rr=-11, mb=+0+0+0+0+0,}
 42. Re2 {d=15, sd=34, pd=Re1, mt=236, tl=145961, s=145210, n=3317271, pv=Re2 Rb1 Rf2 Rdd1 Rxf5 Rh1+ Kg2 Rhg1+ Kh2 Rh1+ Kg2 Rhg1+ Kh2 Rh1+, tb=0, h=100.0, ph=90.9, wv=0.08, R50=46, Rd=6, Rr=-11, mb=+0+0+0+0+0, White disconnects}
-0-1
+1/2-1/2
 
 [Event "TCEC Season 16 - Testing LCZero 30pct vs DivP"]
 [Site "http://tcec.chessdom.com"]
