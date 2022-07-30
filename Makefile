@@ -18,7 +18,7 @@
 # targets for creating the release
 .PHONY: release release-recreate-dir release-md5sum
 .PHONY: release-full-seasons release-full-tournaments release-full-events
-.PHONY: release-compact-seasons release-compact-tournaments release-compact-events release-compact-everything release-compact-everything-compet-no-frc
+.PHONY: release-compact-seasons release-compact-tournaments release-compact-events release-compact-everything release-compact-everything-compet-traditional
 .PHONY: release-compact-all-in-one
 
 # target for testing the release packages
@@ -39,8 +39,9 @@ all-pgns: all-full-seasons all-full-tournaments all-full-events
 all-pgns: all-compact-seasons all-compact-tournaments all-compact-events
 
 all-pgns: out/compact/everything/TCEC-everything.pgn
-all-pgns: out/compact/everything/TCEC-everything-compet-no-frc.pgn
+all-pgns: out/compact/everything/TCEC-everything-compet-traditional.pgn
 all-pgns: out/compact/everything/TCEC-everything-compet-frc.pgn
+all-pgns: out/compact/everything/TCEC-everything-compet-dfrc.pgn
 all-pgns: out/compact/everything/TCEC-everything-bonus-test.pgn
 
 # generated rules
@@ -119,7 +120,7 @@ release-full-events:
 
 release-compact-seasons:
 	mkdir -p releases/$(RELEASE-DIR)
-	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons compact/seasons-compet-no-frc compact/seasons-compet-frc compact/seasons-bonus-test
+	cd out; zip -q -9 -r ../releases/$(RELEASE-DIR)/TCEC-seasons-compact.zip compact/seasons compact/seasons-compet-traditional compact/seasons-compet-frc compact/seasons-compet-dfrc compact/seasons-bonus-test
 
 release-compact-tournaments:
 	mkdir -p releases/$(RELEASE-DIR)
@@ -132,8 +133,9 @@ release-compact-events:
 release-compact-everything:
 	mkdir -p releases/$(RELEASE-DIR)
 	cd out/compact/everything; zip -q -9 -r ../../../releases/$(RELEASE-DIR)/TCEC-everything-compact.zip \
-		TCEC-everything-compet-no-frc.pgn \
+		TCEC-everything-compet-traditional.pgn \
 		TCEC-everything-compet-frc.pgn \
+		TCEC-everything-compet-dfrc.pgn \
 		TCEC-everything-bonus-test.pgn
 
 release-compact-all-in-one:
