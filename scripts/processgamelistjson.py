@@ -72,6 +72,9 @@ def classify_event(season, event_id, event_name):
         if event_id == "s22divisiondfrct":
             return "BONUS"
 
+        if "dfrc" in event_id.lower():
+            return "DFRC"
+
         if "frc" in event_id.lower():
             return "FRC"
 
@@ -273,6 +276,7 @@ def output_make_defs(make_defs):
     all_full_seasons = [ ]
     all_full_seasons_compet_no_frc = [ ]
     all_full_seasons_compet_frc = [ ]
+    all_full_seasons_compet_dfrc = [ ]
     all_full_seasons_bonus_test = [ ]
     all_full_tournaments = [ ]
     all_full_events = [ ]
@@ -292,8 +296,8 @@ def output_make_defs(make_defs):
     # Season rules for competition non-FRC
     for season in make_defs:
         season_rule = f"{make_defs[season].output_file}:" \
-            .replace(".pgn", "-compet-no-frc.pgn") \
-            .replace("/seasons/", "/seasons-compet-no-frc/")
+            .replace(".pgn", "-compet-traditional.pgn") \
+            .replace("/seasons/", "/seasons-compet-traditional/")
         season_events = False
 
         for event in sorted(make_defs[season].events.items(), key=timestamp_from_event):
@@ -303,9 +307,9 @@ def output_make_defs(make_defs):
 
         if season_events:
             all_full_seasons_compet_no_frc.append(f"{make_defs[season].output_file}" \
-                                                  .replace(".pgn", "-compet-no-frc.pgn") \
-                                                  .replace("/seasons/", "/seasons-compet-no-frc/"))
-            season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-no-frc/ && cat $^ >$@\n"
+                                                  .replace(".pgn", "-compet-traditional.pgn") \
+                                                  .replace("/seasons/", "/seasons-compet-traditional/"))
+            season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-traditional/ && cat $^ >$@\n"
             print(season_rule)
             print(season_rule.replace("/full/", "/compact/"))
 
@@ -326,6 +330,26 @@ def output_make_defs(make_defs):
                                                    .replace(".pgn", "-compet-frc.pgn") \
                                                    .replace("/seasons/", "/seasons-compet-frc/"))
             season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-frc/ && cat $^ >$@\n"
+            print(season_rule)
+            print(season_rule.replace("/full/", "/compact/"))
+
+    # Season rules for competition DFRC
+    for season in make_defs:
+        season_rule = f"{make_defs[season].output_file}:" \
+            .replace(".pgn", "-compet-dfrc.pgn") \
+            .replace("/seasons/", "/seasons-compet-dfrc/")
+        season_events = False
+
+        for event in sorted(make_defs[season].events.items(), key=timestamp_from_event):
+            if event[1].event_class in ["DFRC"]:
+                season_rule = season_rule + f" {event[1].output_file}"
+                season_events = True
+
+        if season_events:
+            all_full_seasons_compet_dfrc.append(f"{make_defs[season].output_file}" \
+                                                   .replace(".pgn", "-compet-dfrc.pgn") \
+                                                   .replace("/seasons/", "/seasons-compet-dfrc/"))
+            season_rule = season_rule + "\n\tmkdir -p out/full/seasons-compet-dfrc/ && cat $^ >$@\n"
             print(season_rule)
             print(season_rule.replace("/full/", "/compact/"))
 
@@ -351,7 +375,7 @@ def output_make_defs(make_defs):
 
     # Season/event class rules
     for season in make_defs:
-        for category in ["MAIN", "CUP", "FRC", "SWISS", "BONUS", "TEST"]:
+        for category in ["MAIN", "CUP", "FRC", "DFRC", "SWISS", "BONUS", "TEST"]:
 
             no_events = True
 
@@ -471,7 +495,7 @@ def output_make_defs(make_defs):
     print()
 
     # The everything rules (compact only)
-    print("out/compact/everything/TCEC-everything-compet-no-frc.pgn:" + (" \\\n\t".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/"))
+    print("out/compact/everything/TCEC-everything-compet-traditional.pgn:" + (" \\\n\t".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/"))
     print("\tmkdir -p out/compact/everything")
     print("\tcat " + (" ".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/") + " > $@")
     print()
@@ -483,18 +507,24 @@ def output_make_defs(make_defs):
     print()
 
     # The everything rules (compact only)
+    print("out/compact/everything/TCEC-everything-compet-dfrc.pgn:" + (" \\\n\t".join(all_full_seasons_compet_dfrc)).replace("/full/", "/compact/"))
+    print("\tmkdir -p out/compact/everything")
+    print("\tcat " + (" ".join(all_full_seasons_compet_dfrc)).replace("/full/", "/compact/") + " > $@")
+    print()
+
+    # The everything rules (compact only)
     print("out/compact/everything/TCEC-everything-bonus-test.pgn:" + (" \\\n\t".join(all_full_seasons_bonus_test)).replace("/full/", "/compact/"))
     print("\tmkdir -p out/compact/everything")
     print("\tcat " + (" ".join(all_full_seasons_bonus_test)).replace("/full/", "/compact/") + " > $@")
     print()
 
     # phony targets
-    print(".PHONY: all-full-seasons all-full-seasons-compet-no-frc all-full-seasons-bonus-test all-full-tournaments all-full-events")
-    print(".PHONY: all-compact-seasons all-compact-seasons-compet-no-frc all-compact-seasons-compet-frc all-compact-tournaments all-compact-events")
+    print(".PHONY: all-full-seasons all-full-seasons-compet-traditional all-full-seasons-bonus-test all-full-tournaments all-full-events")
+    print(".PHONY: all-compact-seasons all-compact-seasons-compet-traditional all-compact-seasons-compet-frc all-compact-seasons-compet-dfrc all-compact-tournaments all-compact-events")
     print()
     print("all-full-seasons: " + " \\\n\t".join(all_full_seasons))
     print()
-    print("all-full-seasons-compet-no-frc: " + " \\\n\t".join(all_full_seasons_compet_no_frc))
+    print("all-full-seasons-compet-traditional: " + " \\\n\t".join(all_full_seasons_compet_no_frc))
     print()
     print("all-full-tournaments: " + " \\\n\t".join(all_full_tournaments))
     print()
@@ -502,9 +532,11 @@ def output_make_defs(make_defs):
     print()
     print("all-compact-seasons: " + (" \\\n\t".join(all_full_seasons)).replace("/full/", "/compact/"))
     print()
-    print("all-compact-seasons-compet-no-frc: " + (" \\\n\t".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/"))
+    print("all-compact-seasons-compet-traditional: " + (" \\\n\t".join(all_full_seasons_compet_no_frc)).replace("/full/", "/compact/"))
     print()
     print("all-compact-seasons-compet-frc: " + (" \\\n\t".join(all_full_seasons_compet_frc)).replace("/full/", "/compact/"))
+    print()
+    print("all-compact-seasons-compet-dfrc: " + (" \\\n\t".join(all_full_seasons_compet_dfrc)).replace("/full/", "/compact/"))
     print()
     print("all-compact-tournaments: " + (" \\\n\t".join(all_full_tournaments)).replace("/full/", "/compact/"))
     print()
