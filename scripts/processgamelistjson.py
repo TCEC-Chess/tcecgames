@@ -466,8 +466,15 @@ def output_make_defs(make_defs):
                    not make_defs[season].events[event].event_class in ["CUP", "BONUS", "TEST"]:
                     print("\tawk -f scripts/scan-event-tag-consistency.awk < " + src_file.filename)
 
+                # ECO-classify the opening, pretty print with pgn-extract
                 print("\tset -e ; pgn-extract -eeco.pgn -s -w50000 " + src_file.filename + " \\")
+
+                # remove the empty line between starting comment and moves, since it confuses parsers
                 print("\t\t| awk -f scripts/pgn-extract-fix.awk \\")
+
+                # FRC/DFRC classification
+                print("\t\t| scripts/run-classifyfrc.py \\")
+
                 print("\t\t| awk -f scripts/site-tag-fix.awk -v urlprefix='https://tcec-chess.com/#" + src_file.url + "' \\")
 
                 # couple of PGNs have games with inconsistent event/round tags, fix them
@@ -486,6 +493,7 @@ def output_make_defs(make_defs):
             print("\tset -e ; numSubEvents=$$(grep '^[[]Event \"' $< | uniq | wc -l) ;\\")
             print(f"\tawk -f scripts/normalize-pgn-event-tag.awk -v season={season} -v eventNumber={eventNumber} -v numSubEvents=$$numSubEvents $<\\")
             print("\t\t>$@")
+            print("")
 
 
     # The everything rules (compact only)
