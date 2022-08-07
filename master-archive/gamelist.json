@@ -3420,7 +3420,16 @@
                "url": "season=22&div=dfrc1",
                "no": "22",
                "abb": "TCEC_Season_22_-_Dfrc_1",
-	       "dno": "2538"
+	       "dno": "2038"
+            },
+            {
+               "id": "s22divisionsdfrc1f",
+               "frc": 1,
+               "menu": "Bonus DFRC 1 Final",
+               "url": "season=22&div=dfrc1f",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_Bonus_Dfrc_1_Final",
+	       "dno": "2039"
             },
             {
                "id": "s22division1de",
