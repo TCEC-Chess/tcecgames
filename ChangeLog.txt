@@ -1,3 +1,25 @@
+Season 22 final (2022-08-14)
+- This release contains all TCEC games of Season 22 and previous
+  seasons.
+- The following general changes have been made:
+  o The PGN packaging has been changed to accommodate the new DFRC
+    category. We now ship the following PGNs in TCEC-everything-compact.zip:
+    - TCEC-everything-bonus-test.pgn
+    - TCEC-everything-compet-dfrc.pgn
+    - TCEC-everything-compet-frc.pgn
+    - TCEC-everything-compet-traditional.pgn
+    (Issue #23)
+  o FRC and DFRC starting positions are now classified in the
+    "Opening" PGN tag. For example:
+    - [Opening "FRC 826"]      -- FRC starting position 826
+    - [Opening "DFRC 543:550"] -- FRC 543 for white; FRC 550 for black
+    (Issue #23)
+- The following content fixes have been made:
+  o Fixed incorrect result of games S15 SuFi G44 and S16 Testing
+    Lczero 30pct G67. (Issue #26)
+  o Re-synced master-archive/TCEC_Season_13_-_Division_P.pgn to remove
+    a double-empty line (fixed in Web archive). (Issue #26)
+
 Season 22 interim 2 (2022-07-05)
 - This release contains all TCEC games up to and including the
   Season 22 Swiss 3 tournament event.
