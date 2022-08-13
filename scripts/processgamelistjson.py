@@ -456,7 +456,7 @@ def output_make_defs(make_defs):
                         "master-archive/TCEC_Season_16_-_Frc_Cpu_League_2_Playoff.pgn",
                         "master-archive/TCEC_Season_16_-_Frc_Sufi.pgn" ):
                     fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 16 - FRC /[Event \"TCEC Season 16 - FRC 1 /' \\"
-                elif re.fullmatch('master-archive/TCEC_Season_[0-9]+_-_Frc[2-4]_.*.pgn', src_file.filename):
+                elif re.fullmatch('master-archive/TCEC_Season_[0-9]+_-_Frc[2-9]_.*.pgn', src_file.filename):
                     fix_event_tag_cmd = \
                         "\t\t| sed -r 's/^\\[Event \"TCEC Season ([[:digit:]]+) - FRC([[:digit:]]+)/" + \
                                            "[Event \"TCEC Season \\1 - FRC \\2/' \\"
