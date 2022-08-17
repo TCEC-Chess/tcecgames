@@ -3523,6 +3523,63 @@
             }
 	 ]
       },
+      "23": {
+         "download": "TCEC_Season_23_full.pgn.zip",
+         "fullpgn": "TCEC_Season_23_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s23divisionch",
+               "menu": "Chess Bonus",
+               "url": "season=23&div=ch",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Chess_Bonus",
+	       "dno": "1000"
+            },
+            {
+               "id": "s23divisionne",
+               "menu": "Noomen Extra Bonus",
+               "url": "season=23&div=ne",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Noomen_Extra_Bonus",
+	       "dno": "1001"
+            },
+            {
+               "idf": "s23divisionq21t",
+               "menu": "QL L2 L1 Testing",
+               "url": "season=23&div=q21t",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Ql_L2_L1_Testing",
+	       "dno": "2",
+               "id": "current"
+            },
+            {
+               "id": "s23divisiondivider",
+               "menu": "-= Main leagues =-",
+               "url": "season=23&div=undefined",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_None",
+               "dno": "5999"
+            },
+            {
+               "id": "s23divisiondivider",
+               "menu": "-= Bonus tournaments =-",
+               "url": "season=23&div=undefined",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_None",
+               "dno": "1999"
+            },
+            {
+               "id": "s23divisiondivider",
+               "menu": "-= Testing tournaments =-",
+               "url": "season=23&div=undefined",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
       "Cup 1": {
          "seasonName": "Cup 1",
          "eventtag": "TCEC_Cup_1_event",
