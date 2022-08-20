@@ -3546,12 +3546,20 @@
 	       "dno": "1001"
             },
             {
-               "idf": "s23divisionq21t",
+               "id": "s23divisionq21t",
                "menu": "QL L2 L1 Testing",
                "url": "season=23&div=q21t",
                "no": "23",
                "abb": "TCEC_Season_23_-_Ql_L2_L1_Testing",
-	       "dno": "2",
+	       "dno": "0002"
+            },
+            {
+               "idf": "s23divisionsf13c",
+               "menu": "Stockfish 13 CCRL Calibration",
+               "url": "season=23&div=sf13c",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Stockfish_13_Ccrl_Calibration",
+	       "dno": "0003",
                "id": "current"
             },
             {
