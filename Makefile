@@ -29,6 +29,8 @@ all: all-pgns
 
 MAKEFILE-GEN := out/generated.mak
 
+GAMELIST-JSONS := master-archive/gamelist.json scripts/gamelist-overlay.json
+
 # include generated rules, but only if we're not cleaning
 ifneq ($(MAKECMDGOALS),clean)
 ifneq ($(MAKECMDGOALS),distclean)
@@ -51,12 +53,12 @@ endif
 endif
 
 # generated rules
-$(MAKEFILE-GEN): master-archive/gamelist.json scripts/processgamelistjson.py
+$(MAKEFILE-GEN): $(GAMELIST-JSONS) scripts/processgamelistjson.py
 	mkdir -p out
 	python3 -OO -m compileall scripts
 	python3 -OO scripts/run-process-gamelist-json.py \
 		--master-dir=master-archive \
-		--generate-makefile master-archive/gamelist.json \
+		--generate-makefile $(GAMELIST-JSONS) \
 		> $(MAKEFILE-GEN)
 
 clean:
@@ -66,14 +68,14 @@ distclean: clean
 	$(RM) eco.pgn
 
 enumerate-events:
-	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive -v master-archive/gamelist.json
+	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive -v $(GAMELIST-JSONS)
 
 fetch-gamelist-json:
 	scripts/fetch-update-gamelist.sh
 
 fetch-new-pgns:
-	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive --sync-from-web master-archive/gamelist.json
-	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive --pgn-check -v master-archive/gamelist.json
+	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive --sync-from-web $(GAMELIST-JSONS)
+	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive --pgn-check -v $(GAMELIST-JSONS)
 	$(RM) $(MAKEFILE-GEN)
 
 fetch-default-eco-pgn:

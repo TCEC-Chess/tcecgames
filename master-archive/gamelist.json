@@ -275,13 +275,6 @@
                "no": "6",
                "url": "season=6&div=sf",
                "menu": "Superfinal"
-            },
-            {
-               "id": "s6frc",
-               "menu": "FRC 0",
-               "url": "season=6&div=frc",
-               "abb": "TCEC_Season_6_-_FRC",
-               "dno": "frc"
             }
          ]
       },
