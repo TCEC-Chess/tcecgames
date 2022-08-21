@@ -3451,14 +3451,6 @@
 	       "dno": "1029"
             },
             {
-               "id": "s22divisionsbf",
-               "menu": "1day/move Bonus",
-               "url": "season=22&div=1d",
-               "no": "22",
-               "abb": "TCEC_Season_22_-_1day_Per_Move_Bonus",
-	       "dno": "1023"
-            },
-            {
                "id": "s22divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=22&div=undefined",
@@ -3547,12 +3539,36 @@
 	       "dno": "0002"
             },
             {
-               "idf": "s23divisionsf13c",
+               "id": "s23divisionsf13c",
                "menu": "Stockfish 13 CCRL Calibration",
                "url": "season=23&div=sf13c",
                "no": "23",
                "abb": "TCEC_Season_23_-_Stockfish_13_Ccrl_Calibration",
-	       "dno": "0003",
+	       "dno": "0003"
+            },
+            {
+               "id": "s23division1de",
+               "menu": "1day PV Playout Etc Bonus",
+               "url": "season=23&div=1de",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_1day_Pv_Playout_Etc_Bonus",
+	       "dno": "1004"
+            },
+            {
+               "id": "s23division1d",
+               "menu": "1day Bonus",
+               "url": "season=23&div=1d",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_1day_Bonus",
+	       "dno": "1005"
+            },
+            {
+               "idf": "s23divisionql",
+               "menu": "Qualification League",
+               "url": "season=23&div=ql",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Qualification_League",
+               "dno": "5006",
                "id": "current"
             },
             {
