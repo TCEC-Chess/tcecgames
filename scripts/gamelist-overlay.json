@@ -1,0 +1,57 @@
+{
+   "Seasons": {
+      "6": {
+         "sub": [
+            {
+               "id": "s6frc",
+               "menu": "FRC 0",
+               "url": "season=6&div=frc",
+               "abb": "TCEC_Season_6_-_FRC",
+               "dno": "frc"
+            }
+         ]
+      },
+      "17": {
+         "sub": [
+            {
+               "id": "s17divisionsufitest",
+               "menu": "SuFi Testing",
+               "dno": "0040"
+            }
+         ]
+      },
+      "18": {
+         "sub": [
+            {
+               "id": "s17divisionsufitest",
+               "menu": "SuFi Testing",
+               "dno": "0040"
+            },
+            {
+               "id": "s18divisionchat2x2",
+               "menu": "Chat vs Chat Test2",
+               "dno": "0028"
+            },
+            {
+               "id": "s18divisionchatr2",
+               "menu": "Chat vs Almost Random Test2",
+               "dno": "0029"
+            },
+            {
+               "id": "s18divisionchatsfd1",
+               "menu": "Chat vs Stockfish Depth 1",
+               "dno": "0030"
+            }
+         ]
+      },
+      "Bonus": {
+         "sub": [
+            {
+               "id": "sbonusdivisions15testing_glaurung30min",
+               "menu": "S15 Testing Glaurung vs Div 4 30min",
+               "dno": "0030"
+            }
+         ]
+      }
+   }
+}

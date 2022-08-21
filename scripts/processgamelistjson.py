@@ -17,11 +17,12 @@ input_directory = None
 master_directory = None
 
 def help_and_exit():
-    print('''Usage: process-gamelist-json.py [options] <gamelist.json>
+    print('''Usage: process-gamelist-json.py [options] <gamelist.json> [<gamelist2.json ...>]
 
 Reads the TCEC game list json file and performs archive
 maintenance. By default, the events are enumerated and classified to
-stdout.
+stdout. If additional game list json files are specified, they are handled as
+overlays.
 
 Options:
 -h --help                    This help
@@ -51,9 +52,6 @@ def warning(str):
 def fatal(str, exitcode):
     sys.stderr.write(f"Fatal: {str} (exit={exitcode})\n")
     sys.exit(exitcode)
-
-def sort_key_from_event(event):
-    return event["dno"]
 
 def classify_event(season, event_id, event_name):
     if season == "Bonus":
@@ -201,6 +199,16 @@ def normalize_cup_season(event_class, season, event_name):
         return (match.group(1), match.group(2))
 
     return (season, event_name)
+
+class SingleEvent:
+    def __init__(self, season, event_id, dno, file_base, name, url, event_class):
+        self.season = season
+        self.event_id = event_id
+        self.dno = dno
+        self.file_base = file_base
+        self.name = name
+        self.url = url
+        self.event_class = event_class
 
 class SeasonClass:
     def __init__(self, output_file, category_file_base):
@@ -551,33 +559,62 @@ def output_make_defs(make_defs):
     print("all-compact-events: " + (" \\\n\t".join(all_full_events)).replace("/full/", "/compact/"))
     print()
 
-def gamelist_to_master_index(gamelist):
+def gamelists_to_eventlist(gamelists):
+    eventlist = { }
+    for gamelist in gamelists:
+        for season in gamelist["Seasons"]:
+            if season not in eventlist:
+                eventlist[season] = { }
+            for event in gamelist["Seasons"][season]["sub"]:
 
+                event_dno = event["dno"]
+
+                # allow overrides by overlays
+                if event_dno in eventlist[season]:
+                    del eventlist[season][event_dno]
+
+                # check whether we have everything we need
+                if ("abb" not in event or
+                    "id" not in event or
+                    "menu" not in event or
+                    "url" not in event):
+                    continue
+
+                event_id = event["id"]
+                event_file_base = event["abb"]
+                event_name = event["menu"]
+                event_url = event["url"]
+
+                # divider check
+                if event_id.endswith("divider") or event_file_base.endswith("None"):
+                    continue
+
+                # we'll ignore the current event
+                if event_id == "current":
+                    continue
+
+                event_class = classify_event(season, event_id, event_name)
+                eventlist[season][event_dno] = SingleEvent(
+                    season, event_id, event_dno, event_file_base, event_name, event_url,
+                    event_class)
+
+    return eventlist
+
+def gamelist_to_master_index(gamelists):
+    eventlist = gamelists_to_eventlist(gamelists)
     if operating_mode == "GENERATE-MAKEFILE":
         make_defs = { }
 
-    for season in gamelist["Seasons"]:
+    for season in eventlist:
         verbose(f"Season '{season}'")
 
-        for event in sorted(gamelist["Seasons"][season]["sub"], key=sort_key_from_event, reverse=True):
-            event_id = event["id"]
-            event_file_base = event["abb"]
-            event_name = event["menu"]
-            event_url = event["url"]
-
-            # check whether we have everything we need
-            if (event_id is None) or (event_file_base is None) or (event_name is None) or (event_url is None):
-                continue
-
-            # divider check
-            if event_id.endswith("divider") or event_file_base.endswith("None"):
-                continue
-
-            # we'll ignore the current event
-            if event_id == "current":
-                continue
-
-            event_class = classify_event(season, event_id, event_name)
+        for dno in sorted(eventlist[season]):
+            event = eventlist[season][dno]
+            event_id = event.event_id
+            event_file_base = event.file_base
+            event_name = event.name
+            event_url = event.url
+            event_class = event.event_class
 
             if operating_mode == "ENUMERATE":
                 tmp_filename = event_file_base + ".pgn"
@@ -610,7 +647,7 @@ def main(argv):
         opts, args = getopt.getopt(argv, "hvn",
                                    ["help", "verbose", "dry-run", "master-dir=", "pgn-check",
                                     "sync-from-dir=", "sync-from-web", "generate-makefile"])
-        inputfile = args[0]
+        inputfiles = args[0:]
     except getopt.GetoptError:
         help_and_exit()
     except IndexError:
@@ -635,7 +672,11 @@ def main(argv):
         if opt == "--generate-makefile":
             operating_mode = "GENERATE-MAKEFILE"
 
-    gamefile = open(inputfile, 'r')
-    gamelist = json.load(gamefile)
-    gamefile.close()
-    gamelist_to_master_index(gamelist)
+    gamelists = [ ]
+    for inputfile in inputfiles:
+        gamefile = open(inputfile, 'r')
+        gamelist = json.load(gamefile)
+        gamefile.close()
+        gamelists.append(gamelist)
+
+    gamelist_to_master_index(gamelists)
