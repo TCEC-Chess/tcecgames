@@ -3563,12 +3563,20 @@
 	       "dno": "1005"
             },
             {
-               "idf": "s23divisionql",
+               "id": "s23divisionql",
                "menu": "Qualification League",
                "url": "season=23&div=ql",
                "no": "23",
                "abb": "TCEC_Season_23_-_Qualification_League",
-               "dno": "5006",
+               "dno": "5006"
+            },
+            {
+               "idf": "s23divisionl2",
+               "menu": "League 2",
+               "url": "season=23&div=l2",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_League_2",
+               "dno": "5007",
                "id": "current"
             },
             {
