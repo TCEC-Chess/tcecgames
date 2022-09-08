@@ -3571,13 +3571,12 @@
                "dno": "5006"
             },
             {
-               "idf": "s23divisionl2",
+               "id": "s23divisionl2",
                "menu": "League 2",
                "url": "season=23&div=l2",
                "no": "23",
                "abb": "TCEC_Season_23_-_League_2",
-               "dno": "5007",
-               "id": "current"
+               "dno": "5007"
             },
             {
                "id": "s23divisiondivider",
