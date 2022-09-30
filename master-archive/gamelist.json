@@ -3587,6 +3587,22 @@
                "dno": "5008"
             },
             {
+               "id": "s23divisiondivpt",
+               "menu": "DivP Testing",
+               "url": "season=23&div=divpt",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Divp_Testing",
+               "dno": "0009"
+            },
+            {
+               "id": "s23divisionvsob22",
+               "menu": "Viewer Submitted Openings Bonus 22",
+               "url": "season=23&div=vsob22",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Viewer_Submitted_Openings_Bonus_22",
+	       "dno": "1010"
+            },
+            {
                "id": "s23divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=23&div=undefined",
