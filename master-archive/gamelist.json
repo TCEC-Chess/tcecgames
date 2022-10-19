@@ -3611,6 +3611,14 @@
                "dno": "5011"
             },
             {
+               "id": "s23divisioninft",
+               "menu": "Infrafinal Testing",
+               "url": "season=23&div=inft",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Infrafinal_Testing",
+               "dno": "0012"
+            },
+            {
                "id": "s23divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=23&div=undefined",
