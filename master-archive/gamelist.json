@@ -3619,6 +3619,23 @@
                "dno": "0012"
             },
             {
+               "id": "s23divisionif",
+               "menu": "Infrafinal",
+               "url": "season=23&div=if",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Infrafinal",
+	       "dno": "5013"
+            },
+            {
+               "idf": "s23divisionsft",
+               "menu": "Sufi Testing",
+               "url": "season=23&div=sft",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Sufi_Testing",
+	       "dno": "0014",
+               "id": "current"
+            },
+            {
                "id": "s23divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=23&div=undefined",
