@@ -3627,12 +3627,20 @@
 	       "dno": "5013"
             },
             {
-               "idf": "s23divisionsft",
+               "id": "s23divisionsft",
                "menu": "Sufi Testing",
                "url": "season=23&div=sft",
                "no": "23",
                "abb": "TCEC_Season_23_-_Sufi_Testing",
-	       "dno": "0014",
+	       "dno": "0014"
+            },
+            {
+               "idf": "s23divisionsf",
+               "menu": "Superfinal",
+               "url": "season=23&div=sf",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Superfinal",
+	       "dno": "5015",
                "id": "current"
             },
             {
