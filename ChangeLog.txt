@@ -1,3 +1,10 @@
+Season 23 interim 1 (2022-11-19)
+- This release contains all TCEC games up to and including the
+  Season 23 Superfinal
+- The following changes have been made:
+  o Event tag of S15 bonus 'Glaurung vs Fritz in Bahrain' has been
+    fixed in the compiled PGNs (Issue #27)
+
 Season 22 final (2022-08-14)
 - This release contains all TCEC games of Season 22 and previous
   seasons.
