@@ -3643,6 +3643,22 @@
 	       "dno": "5015"
             },
             {
+               "id": "s23divisionfrcho",
+               "menu": "FRC Human Openings Bonus",
+               "url": "season=23&div=frcho",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Frc_Human_Openings_Bonus",
+	       "dno": "1016"
+            },
+            {
+               "id": "s23divisionsbf",
+               "menu": "Subfinal Bonus",
+               "url": "season=23&div=sbf",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Subfinal_Bonus",
+	       "dno": "1017"
+            },
+            {
                "id": "s23divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=23&div=undefined",
