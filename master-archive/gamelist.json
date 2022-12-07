@@ -3659,6 +3659,31 @@
 	       "dno": "1017"
             },
             {
+               "id": "s23divisionvvltc",
+               "menu": "VVLTC Bonus",
+               "url": "season=23&div=vvltc",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Vvltc_Bonus",
+	       "dno": "1018"
+            },
+            {
+               "id": "s23divisionsvvltc",
+               "menu": "Starting position VVLTC Bonus",
+               "url": "season=23&div=svvltc",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Starting_Position_Vvltc_Bonus",
+	       "dno": "1019"
+            },
+            {
+               "idf": "s23divisionne",
+               "menu": "Noomen Extra 2 Testing",
+               "url": "season=23&div=ne2t",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Noomen_Extra_2_Testing",
+	       "dno": "0020",
+               "id": "current"
+            },
+            {
                "id": "s23divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=23&div=undefined",
