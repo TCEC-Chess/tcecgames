@@ -3675,12 +3675,20 @@
 	       "dno": "1019"
             },
             {
-               "idf": "s23divisionne",
+               "id": "s23divisionne2t",
                "menu": "Noomen Extra 2 Testing",
                "url": "season=23&div=ne2t",
                "no": "23",
                "abb": "TCEC_Season_23_-_Noomen_Extra_2_Testing",
-	       "dno": "0020",
+	       "dno": "0020"
+            },
+            {
+               "idf": "s23divisionne2",
+               "menu": "Noomen Extra 2 Bonus",
+               "url": "season=23&div=ne2",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_Noomen_Extra_2_Bonus",
+	       "dno": "1021",
                "id": "current"
             },
             {
