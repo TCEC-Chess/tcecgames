@@ -3699,13 +3699,12 @@
 	       "dno": "0022"
             },
             {
-               "idf": "s23divisionch3",
+               "id": "s23divisionch3",
                "menu": "Chess324 Bonus",
                "url": "season=23&div=ch3",
                "no": "23",
                "abb": "TCEC_Season_23_-_Chess324_Bonus",
-	       "dno": "1021",
-               "id": "current"
+	       "dno": "1023"
             },
             {
                "id": "s23divisiondivider",
