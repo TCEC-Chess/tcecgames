@@ -572,11 +572,11 @@ def gamelists_to_eventlist(gamelists):
                 eventlist[season] = { }
             for event in gamelist["Seasons"][season]["sub"]:
 
-                event_dno = event["dno"]
+                event_id = event["id"]
 
                 # allow overrides by overlays
-                if event_dno in eventlist[season]:
-                    del eventlist[season][event_dno]
+                if event_id in eventlist[season]:
+                    del eventlist[season][event_id]
 
                 # check whether we have everything we need
                 if ("abb" not in event or
@@ -585,7 +585,7 @@ def gamelists_to_eventlist(gamelists):
                     "url" not in event):
                     continue
 
-                event_id = event["id"]
+                event_dno = event["dno"]
                 event_file_base = event["abb"]
                 event_name = event["menu"]
                 event_url = event["url"]
@@ -599,7 +599,7 @@ def gamelists_to_eventlist(gamelists):
                     continue
 
                 event_class = classify_event(season, event_id, event_name)
-                eventlist[season][event_dno] = SingleEvent(
+                eventlist[season][event_id] = SingleEvent(
                     season, event_id, event_dno, event_file_base, event_name, event_url,
                     event_class)
 
@@ -613,9 +613,8 @@ def gamelist_to_master_index(gamelists):
     for season in eventlist:
         verbose(f"Season '{season}'")
 
-        for dno in sorted(eventlist[season]):
-            event = eventlist[season][dno]
-            event_id = event.event_id
+        for event_id in sorted(eventlist[season]):
+            event = eventlist[season][event_id]
             event_file_base = event.file_base
             event_name = event.name
             event_url = event.url
