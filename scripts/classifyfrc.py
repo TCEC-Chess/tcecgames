@@ -104,6 +104,14 @@ frcTable = [
 def classifyFrc(pieces):
     return str(frcTable.index(pieces))  # note, raises exception if not found
 
+def classifyChess324Castling(castling):
+    if (castling == "KQkq"):
+        return ""
+    elif (castling == "-"):
+        return " no castling"
+    else:
+        return " " + castling
+
 def classifyDfrc(whitepieces, blackpieces):
     blackpieces = blackpieces.upper()
 
@@ -117,7 +125,7 @@ def classifyFrcFromStdin():
     frcClass = None
 
     reOpeningTags = re.compile('\[(Opening|Variation).*\]')
-    reFEN = re.compile('\[FEN "([nbrqk]{8})/pppppppp/8/8/8/8/PPPPPPPP/([NBRQK]{8}) w KQkq - 0 1"\]')
+    reFEN = re.compile('\[FEN "([nbrqk]{8})/pppppppp/8/8/8/8/PPPPPPPP/([NBRQK]{8}) w (K?Q?k?q?|-) - 0 1"\]')
 
     for line in sys.stdin:
         line = line.rstrip() # let's skip the newline
@@ -129,7 +137,7 @@ def classifyFrcFromStdin():
 
             result = reFEN.fullmatch(line)
             if result:
-                frcClass = classifyDfrc(result.group(2), result.group(1))
+                frcClass = classifyDfrc(result.group(2), result.group(1)) + classifyChess324Castling(result.group(3))
 
         else:
             if frcClass and not openingTags:
