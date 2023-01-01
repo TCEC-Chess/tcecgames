@@ -3707,12 +3707,45 @@
 	       "dno": "1023"
             },
             {
+               "id": "s23division4kt",
+               "menu": "4k Testing",
+               "url": "season=23&div=4kt",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_4k_Testing",
+	       "dno": "0024"
+            },
+            {
+               "id": "s23division4k",
+               "menu": "4k",
+               "url": "season=23&div=4k",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_4k",
+	       "dno": "3425"
+            },
+            {
+               "idf": "s23division4kb",
+               "menu": "4k tomitankChess Bonus",
+               "url": "season=23&div=4kb",
+               "no": "23",
+               "abb": "TCEC_Season_23_-_4k_Tomitankchess_Bonus",
+	       "dno": "1026",
+               "id": "current"
+            },
+            {
                "id": "s23divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=23&div=undefined",
                "no": "23",
                "abb": "TCEC_Season_23_-_None",
                "dno": "5999"
+            },
+            {
+               "id": "s22divisiondivider",
+               "menu": "-= 4k =-",
+               "url": "season=22&div=undefined",
+               "no": "22",
+               "abb": "TCEC_Season_22_-_None",
+               "dno": "3499"
             },
             {
                "id": "s23divisiondivider",
