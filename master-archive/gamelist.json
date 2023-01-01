@@ -3723,13 +3723,12 @@
 	       "dno": "3425"
             },
             {
-               "idf": "s23division4kb",
+               "id": "s23division4kb",
                "menu": "4k tomitankChess Bonus",
                "url": "season=23&div=4kb",
                "no": "23",
                "abb": "TCEC_Season_23_-_4k_Tomitankchess_Bonus",
-	       "dno": "1026",
-               "id": "current"
+	       "dno": "1026"
             },
             {
                "id": "s23divisiondivider",
