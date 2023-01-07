@@ -1,3 +1,16 @@
+Season 23 final (2023-01-07)
+- This release contains all TCEC games of Season 23 and previous
+  seasons.
+- The following changes have been made:
+  o Added Chess324 (x16) starting position classification. This
+    extends the DFRC classification scheme by appending the castling
+    rights. For example, "DFRC 502:508 KQq" for white kingside and
+    queenside castling rights, and black queenside-only castling
+    rights. (Issue #31)
+  o Internal scripting change to use 'id' in gamelist.json instead of
+    'dno' as the event key. It turns out that 'dno' may not always be
+    unique. (Issue #30)
+
 Season 23 interim 1 (2022-11-19)
 - This release contains all TCEC games up to and including the
   Season 23 Superfinal
