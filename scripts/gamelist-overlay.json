@@ -44,6 +44,15 @@
             }
          ]
       },
+      "23": {
+         "sub": [
+            {
+               "id": "s23division1d",
+               "menu": "1day Bonus",
+	       "dno": "1005"
+            }
+	 ]
+      },
       "Bonus": {
          "sub": [
             {
