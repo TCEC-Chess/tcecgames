@@ -193,9 +193,17 @@ def normalize_cup_season(event_class, season, event_name):
         match = re.fullmatch('Cup[ _]([0-9]+)', season)
 
         if match is None:
-            return (season, "Cup " + str(int(season) - 12))
+            seasonno=int(season)
+            if seasonno <= 23:
+                return (season, "Cup " + str(seasonno - 12))
+            else:
+                return (season, "Cup " + str(seasonno - 13))
 
-        return (str(12 + int(match.group(1))), season)
+        cupno=int(match.group(1))
+        if cupno <= 10:
+            return (str(12 + cupno), season)
+        else:
+            return (str(13 + cupno), season)
 
     if (season == "Bonus"):
         match = re.fullmatch('S([0-9]+) (.*)', event_name)
