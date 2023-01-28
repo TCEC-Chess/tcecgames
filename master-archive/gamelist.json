@@ -3827,6 +3827,31 @@
                "id": "scup11fl"
             },
             {
+               "id": "s24divisionvsob23",
+               "menu": "Viewer Submitted Openings Bonus 23",
+               "url": "season=24&div=vsob23",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Viewer_Submitted_Openings_Bonus_23",
+	       "dno": "1007"
+            },
+            {
+               "id": "s24divisionsw4t",
+               "menu": "Swiss 4 Testing",
+               "url": "season=24&div=sw4t",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Swiss_4_Testing",
+	       "dno": "0008"
+            },
+            {
+               "idf": "s24divisionsw4",
+               "menu": "Swiss 4",
+               "url": "season=24&div=sw4",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Swiss_4",
+	       "dno": "3509",
+               "id": "current"
+            },
+            {
                "id": "s24divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=24&div=undefined",
