@@ -3843,12 +3843,20 @@
 	       "dno": "0008"
             },
             {
-               "idf": "s24divisionsw4",
+               "id": "s24divisionsw4",
                "menu": "Swiss 4",
                "url": "season=24&div=sw4",
                "no": "24",
                "abb": "TCEC_Season_24_-_Swiss_4",
-	       "dno": "3509",
+	       "dno": "3509"
+            },
+            {
+               "idf": "s24division21t",
+               "menu": "L2 L1 Testing",
+               "url": "season=24&div=21t",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_L2_L1_Testing",
+	       "dno": "0010",
                "id": "current"
             },
             {
