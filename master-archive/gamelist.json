@@ -3851,12 +3851,20 @@
 	       "dno": "3509"
             },
             {
-               "idf": "s24division21t",
+               "id": "s24division21t",
                "menu": "L2 L1 Testing",
                "url": "season=24&div=21t",
                "no": "24",
                "abb": "TCEC_Season_24_-_L2_L1_Testing",
-	       "dno": "0010",
+	       "dno": "0010"
+            },
+            {
+               "idf": "s24divisionl2",
+               "menu": "League 2",
+               "url": "season=24&div=l2",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_League_2",
+               "dno": "5011",
                "id": "current"
             },
             {
