@@ -3867,12 +3867,20 @@
                "dno": "5011"
             },
             {
-               "idf": "s24divisionl2ig",
+               "id": "s24divisionl2ig",
                "menu": "League 2 Igel Gauntlet",
                "url": "season=24&div=l2ig",
                "no": "24",
                "abb": "TCEC_Season_24_-_League_2_Igel_Gauntlet",
-               "dno": "5012",
+               "dno": "5012"
+            },
+            {
+               "idf": "s24divisionl1",
+               "menu": "League 1",
+               "url": "season=24&div=l1",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_League_1",
+               "dno": "5013",
                "id": "current"
             },
             {
