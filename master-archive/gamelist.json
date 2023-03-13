@@ -3875,13 +3875,12 @@
                "dno": "5012"
             },
             {
-               "idf": "s24divisionl1",
+               "id": "s24divisionl1",
                "menu": "League 1",
                "url": "season=24&div=l1",
                "no": "24",
                "abb": "TCEC_Season_24_-_League_1",
-               "dno": "5013",
-               "id": "current"
+               "dno": "5013"
             },
             {
                "id": "s24divisiondivider",
