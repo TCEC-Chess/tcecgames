@@ -3883,6 +3883,22 @@
                "dno": "5013"
             },
             {
+               "id": "s24divisiondivpt",
+               "menu": "DivP Testing",
+               "url": "season=24&div=divpt",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Divp_Testing",
+               "dno": "0014"
+            },
+            {
+               "id": "s24divisioncal",
+               "menu": "Calibration Bonus",
+               "url": "season=24&div=cal",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Calibration_Bonus",
+	       "dno": "1015"
+            },
+            {
                "id": "s24divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=24&div=undefined",
