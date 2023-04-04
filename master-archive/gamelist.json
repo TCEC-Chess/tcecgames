@@ -3899,6 +3899,23 @@
 	       "dno": "1015"
             },
             {
+               "id": "s24divisionp",
+               "menu": "Division P",
+               "url": "season=24&div=p",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Division_P",
+               "dno": "5011"
+            },
+            {
+               "idf": "s24divisionpp",
+               "menu": "Division P Playoff",
+               "url": "season=24&div=pp",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Division_P_Playoff",
+               "dno": "5012",
+               "id": "current"
+            },
+            {
                "id": "s24divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=24&div=undefined",
