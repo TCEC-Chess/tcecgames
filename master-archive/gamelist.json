@@ -3891,12 +3891,13 @@
                "dno": "0014"
             },
             {
-               "id": "s24divisioncal",
+               "idf": "s24divisioncal",
                "menu": "Calibration Bonus",
                "url": "season=24&div=cal",
                "no": "24",
                "abb": "TCEC_Season_24_-_Calibration_Bonus",
-	       "dno": "1015"
+	       "dno": "1015",
+               "id": "current"
             },
             {
                "id": "s24divisionp",
@@ -3904,16 +3905,15 @@
                "url": "season=24&div=p",
                "no": "24",
                "abb": "TCEC_Season_24_-_Division_P",
-               "dno": "5011"
+               "dno": "5016"
             },
             {
-               "idf": "s24divisionpp",
+               "id": "s24divisionpp",
                "menu": "Division P Playoff",
                "url": "season=24&div=pp",
                "no": "24",
                "abb": "TCEC_Season_24_-_Division_P_Playoff",
-               "dno": "5012",
-               "id": "current"
+               "dno": "5017"
             },
             {
                "id": "s24divisiondivider",
