@@ -3891,13 +3891,12 @@
                "dno": "0014"
             },
             {
-               "idf": "s24divisioncal",
+               "id": "s24divisioncal",
                "menu": "Calibration Bonus",
                "url": "season=24&div=cal",
                "no": "24",
                "abb": "TCEC_Season_24_-_Calibration_Bonus",
-	       "dno": "1015",
-               "id": "current"
+	       "dno": "1015"
             },
             {
                "id": "s24divisionp",
@@ -3914,6 +3913,23 @@
                "no": "24",
                "abb": "TCEC_Season_24_-_Division_P_Playoff",
                "dno": "5017"
+            },
+            {
+               "id": "s24divisionsft",
+               "menu": "Sufi Testing",
+               "url": "season=24&div=sft",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Sufi_Testing",
+	       "dno": "0018"
+            },
+            {
+               "idf": "s24divisionsf",
+               "menu": "Superfinal",
+               "url": "season=24&div=sf",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Superfinal",
+	       "dno": "5019",
+               "id": "current"
             },
             {
                "id": "s24divisiondivider",
