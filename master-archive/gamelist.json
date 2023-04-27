@@ -3923,13 +3923,12 @@
 	       "dno": "0018"
             },
             {
-               "idf": "s24divisionsf",
+               "id": "s24divisionsf",
                "menu": "Superfinal",
                "url": "season=24&div=sf",
                "no": "24",
                "abb": "TCEC_Season_24_-_Superfinal",
-	       "dno": "5019",
-               "id": "current"
+	       "dno": "5019"
             },
             {
                "id": "s24divisiondivider",
