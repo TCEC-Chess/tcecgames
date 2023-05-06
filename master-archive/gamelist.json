@@ -3939,6 +3939,14 @@
 	       "dno": "1020"
             },
             {
+               "id": "s24divisionkibitzer",
+               "menu": "Kibitzer Bonus",
+               "url": "season=24&div=kibitzer",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Kibitzer_Bonus",
+	       "dno": "1021"
+            },
+            {
                "id": "s24divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=24&div=undefined",
