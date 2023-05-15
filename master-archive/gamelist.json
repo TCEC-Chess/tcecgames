@@ -3963,6 +3963,14 @@
 	       "dno": "3423"
             },
             {
+               "id": "s24division4kf",
+               "menu": "4k 2 Final",
+               "url": "season=24&div=4kf",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_4k_2_Final",
+	       "dno": "3424"
+            },
+            {
                "id": "s24divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=24&div=undefined",
