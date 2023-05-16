@@ -3716,7 +3716,7 @@
             },
             {
                "id": "s23division4k",
-               "menu": "4k",
+               "menu": "4k I",
                "url": "season=23&div=4k",
                "no": "23",
                "abb": "TCEC_Season_23_-_4k",
@@ -3956,7 +3956,7 @@
             },
             {
                "id": "s24division4k",
-               "menu": "4k 2",
+               "menu": "4k II",
                "url": "season=24&div=4k",
                "no": "24",
                "abb": "TCEC_Season_24_-_4k_2",
@@ -3964,11 +3964,19 @@
             },
             {
                "id": "s24division4kf",
-               "menu": "4k 2 Final",
+               "menu": "4k II Final",
                "url": "season=24&div=4kf",
                "no": "24",
                "abb": "TCEC_Season_24_-_4k_2_Final",
 	       "dno": "3424"
+            },
+            {
+               "id": "s24divisionknight",
+               "menu": "Knight Odds Bonus",
+               "url": "season=24&div=knight",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Knight_Odds_Bonus",
+	       "dno": "1025"
             },
             {
                "id": "s24divisiondivider",
