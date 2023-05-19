@@ -3979,6 +3979,23 @@
 	       "dno": "1025"
             },
             {
+               "idf": "s24divisionfdt",
+               "menu": "FRC 6 DFRC 2 Testing",
+               "url": "season=24&div=fdt",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Frc_6_Dfrc_2_Testing",
+	       "dno": "0036",
+               "id": "current"
+            },
+           {
+               "id": "s24divisionctp",
+               "menu": "Contemptla Vs Stockfishclassical Kibitzer Bonus",
+               "url": "season=24&div=ctp",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Contemptla_Vs_Stockfishclassical_Kibitzer_Bonus",
+               "dno": "1027"
+            },
+            {
                "id": "s24divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=24&div=undefined",
