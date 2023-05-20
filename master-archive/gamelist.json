@@ -3979,13 +3979,12 @@
 	       "dno": "1025"
             },
             {
-               "idf": "s24divisionfdt",
+               "id": "s24divisionfdt",
                "menu": "FRC 6 DFRC 2 Testing",
                "url": "season=24&div=fdt",
                "no": "24",
                "abb": "TCEC_Season_24_-_Frc_6_Dfrc_2_Testing",
-	       "dno": "0036",
-               "id": "current"
+	       "dno": "0036"
             },
            {
                "id": "s24divisionctp",
@@ -3994,6 +3993,25 @@
                "no": "24",
                "abb": "TCEC_Season_24_-_Contemptla_Vs_Stockfishclassical_Kibitzer_Bonus",
                "dno": "1027"
+            },
+            {
+               "id": "s24divisionsfrc6la",
+               "frc": 1,
+               "menu": "FRC6 League A",
+               "url": "season=24&div=frc6la",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Frc6_League_A",
+	       "dno": "2528"
+            },
+            {
+               "idf": "s24divisionsfrc6lb",
+               "frc": 1,
+               "menu": "FRC6 League B",
+               "url": "season=24&div=frc6lb",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Frc6_League_B",
+	       "dno": "2529",
+               "id": "current"
             },
             {
                "id": "s24divisiondivider",
