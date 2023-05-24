@@ -4022,13 +4022,22 @@
 	       "dno": "2530"
             },
             {
-               "idf": "s24divisionsfrc6ld",
+               "id": "s24divisionsfrc6ld",
                "frc": 1,
                "menu": "FRC6 League D",
                "url": "season=24&div=frc6ld",
                "no": "24",
                "abb": "TCEC_Season_24_-_Frc6_League_D",
-	       "dno": "2531",
+	       "dno": "2531"
+            },
+            {
+               "idf": "s24divisionsfrc6sl1",
+               "frc": 1,
+               "menu": "FRC6 Semileague 1",
+               "url": "season=24&div=frc6sl1",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Frc6_Semileague_1",
+	       "dno": "2532",
                "id": "current"
             },
             {
