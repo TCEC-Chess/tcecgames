@@ -4058,6 +4058,15 @@
 	       "dno": "2534"
             },
             {
+               "id": "s24divisionsfrc6f",
+               "frc": 1,
+               "menu": "FRC6 Final",
+               "url": "season=24&div=frc6f",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Frc6_Final",
+	       "dno": "2535"
+            },
+            {
                "id": "s24divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=24&div=undefined",
