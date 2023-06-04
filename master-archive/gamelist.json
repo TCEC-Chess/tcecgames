@@ -4067,6 +4067,15 @@
 	       "dno": "2535"
             },
             {
+               "id": "s24divisionsdfrc2l3",
+               "frc": 1,
+               "menu": "DFRC 2 League 3",
+               "url": "season=24&div=dfrc2l3",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Dfrc_2_League_3",
+	       "dno": "2036"
+            },
+            {
                "id": "s24divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=24&div=undefined",
