@@ -4085,6 +4085,24 @@
 	       "dno": "2037"
             },
             {
+               "id": "s24divisionsdfrc2l1",
+               "frc": 1,
+               "menu": "DFRC 2 League 1",
+               "url": "season=24&div=dfrc2l1",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Dfrc_2_League_1",
+	       "dno": "2038"
+            },
+            {
+               "id": "s24divisionsdfrc2f",
+               "frc": 1,
+               "menu": "DFRC 2 Final",
+               "url": "season=24&div=dfrc2f",
+               "no": "24",
+               "abb": "TCEC_Season_24_-_Dfrc_2_Final",
+	       "dno": "2039"
+            },
+            {
                "id": "s24divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=24&div=undefined",
