@@ -1,6 +1,8 @@
 Season 24 final (2023-06-18)
 - This release contains all TCEC games of Season 24 and previous
   seasons.
+- The following changes have been made:
+  o Clean up `make release` a bit (Issue #35)
 
 Season 24 interim 1 (2023-04-30)
 - This release contains all TCEC games up to and including the
