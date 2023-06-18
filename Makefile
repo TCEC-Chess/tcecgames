@@ -16,7 +16,7 @@
 .PHONY: enumerate-events
 
 # targets for creating the release
-.PHONY: release release-dir release-md5sum
+.PHONY: release release-dir release-md5sum release-changelog
 .PHONY: release-full-seasons release-full-tournaments release-full-events
 .PHONY: release-compact-seasons release-compact-tournaments release-compact-events release-compact-everything release-compact-everything-compet-traditional
 .PHONY: release-compact-all-in-one
@@ -96,13 +96,16 @@ out/compact/events/%.pgn: out/full/events/%.pgn
 # release
 RELEASE-DIR := releases/release-$(shell date -u +"%Y-%m-%d")-$(shell git rev-parse --short HEAD)
 
-release: release-md5sum
+release: release-md5sum release-changelog
 
 release-dir:
 	mkdir -p $(RELEASE-DIR)
 
 release-md5sum: release-dir
 	cd out; md5sum -b $$(find compact/everything full/events -type f | sort) > ../$(RELEASE-DIR)/MD5SUM
+
+release-changelog: release-dir
+	cp ChangeLog.txt $(RELEASE-DIR)/
 
 release: release-full-events
 
