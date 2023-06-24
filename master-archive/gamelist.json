@@ -3740,7 +3740,7 @@
             },
             {
                "id": "s23divisiondivider",
-               "menu": "-= 4k =-",
+               "menu": "-= 4k I =-",
                "url": "season=23&div=undefined",
                "no": "23",
                "abb": "TCEC_Season_23_-_None",
@@ -4128,7 +4128,7 @@
             },
             {
                "id": "s24divisiondivider",
-               "menu": "-= 4k 2 =-",
+               "menu": "-= 4k II =-",
                "url": "season=24&div=undefined",
                "no": "24",
                "abb": "TCEC_Season_24_-_None",
@@ -4164,6 +4164,87 @@
                "url": "season=24&div=undefined",
                "no": "24",
                "abb": "TCEC_Season_24_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
+      "25": {
+         "download": "TCEC_Season_25_full.pgn.zip",
+         "fullpgn": "TCEC_Season_25_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s25divisionsw5t",
+               "menu": "Swiss 5 Testing",
+               "url": "season=25&div=sw5t",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Swiss_5_Testing",
+	       "dno": "0000"
+            },
+            {
+               "idf": "s25divisionsw5",
+               "menu": "Swiss 5",
+               "url": "season=25&div=sw5",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Swiss_5",
+	       "dno": "3501",
+               "id": "current"
+            },
+            {
+               "id": "s25divisiondivider",
+               "menu": "-= Main leagues =-",
+               "url": "season=25&div=undefined",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_None",
+               "dno": "5999"
+            },
+            {
+               "id": "s25divisiondivider",
+               "menu": "-= Cup 12 =-",
+               "url": "season=25&div=undefined",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_None",
+               "dno": "4999"
+            },
+            {
+               "id": "s25divisiondivider",
+               "menu": "-= Swiss 5 =-",
+               "url": "season=25&div=undefined",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_None",
+               "dno": "3999"
+            },
+            {
+               "id": "s25divisiondivider",
+               "menu": "-= 4k III =-",
+               "url": "season=25&div=undefined",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_None",
+               "dno": "3499"
+            },
+            {
+               "id": "s25divisiondivider",
+               "menu": "-= FRD 1 =-",
+               "url": "season=25&div=undefined",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_None",
+               "dno": "2999"
+            },
+            {
+               "id": "s25divisiondivider",
+               "menu": "-= Bonus tournaments =-",
+               "url": "season=25&div=undefined",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_None",
+               "dno": "1999"
+            },
+            {
+               "id": "s25divisiondivider",
+               "menu": "-= Testing tournaments =-",
+               "url": "season=25&div=undefined",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_None",
                "dno": "0999"
             }
 	 ]
