@@ -4183,13 +4183,12 @@
 	       "dno": "0000"
             },
             {
-               "idf": "s25divisionsw5",
+               "id": "s25divisionsw5",
                "menu": "Swiss 5",
                "url": "season=25&div=sw5",
                "no": "25",
                "abb": "TCEC_Season_25_-_Swiss_5",
-	       "dno": "3501",
-               "id": "current"
+	       "dno": "3501"
             },
             {
                "id": "s25divisiondivider",
