@@ -4191,6 +4191,22 @@
 	       "dno": "3501"
             },
             {
+               "id": "s25division1de",
+               "menu": "1day PV Playout Etc Bonus",
+               "url": "season=25&div=1de",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_1day_Pv_Playout_Etc_Bonus",
+	       "dno": "1002"
+            },
+            {
+               "id": "s25divisioncup12t",
+               "menu": "Cup 12 Testing",
+               "url": "season=25&div=cup12t",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Cup_12_Testing",
+	       "dno": "0003"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=25&div=undefined",
