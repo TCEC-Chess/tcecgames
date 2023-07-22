@@ -4207,6 +4207,14 @@
 	       "dno": "0003"
             },
             {
+               "no": "1",
+               "dno": "4004",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_12_Round32",
+               "url": "season=cup12&round=round32",
+               "id": "scup12round32"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=25&div=undefined",
@@ -4882,6 +4890,24 @@
                "id": "scup11fl"
             }
          ]
+      },
+      "Cup 12": {
+         "seasonName": "Cup 12",
+         "download": "TCEC_Cup_12_full.pgn.zip",
+         "eventtag": "TCEC_Cup_12_event",
+         "previouspgn": "TCEC_Cup_12_Round32",
+         "teams": "cup12.json",
+         "cup": 12,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_12_Round32",
+               "url": "season=cup12&round=round32",
+	       "id": "scup12round32"
+            }
+	 ]
       },
       "Bonus": {
          "download": "TCEC_Bonus_full.pgn.zip",
