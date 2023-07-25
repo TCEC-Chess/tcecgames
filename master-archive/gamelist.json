@@ -4215,6 +4215,22 @@
                "id": "scup12round32"
             },
             {
+               "no": "2",
+               "dno": "4005",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_12_Round16",
+               "url": "season=cup12&round=round16",
+               "id": "scup12round16"
+            },
+            {
+               "no": "3",
+               "dno": "4006",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_12_Quarterfinal",
+               "url": "season=cup12&round=qf",
+               "id": "scup12qf"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=25&div=undefined",
@@ -4906,6 +4922,23 @@
                "abb": "TCEC_Cup_12_Round32",
                "url": "season=cup12&round=round32",
 	       "id": "scup12round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_12_Round16",
+               "url": "season=cup12&round=round16",
+               "id": "scup12round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_12_Quarterfinal",
+               "url": "season=cup12&round=qf",
+               "idf": "scup12qf",
+               "id": "current"
             }
 	 ]
       },
