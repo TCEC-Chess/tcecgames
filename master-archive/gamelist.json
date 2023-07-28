@@ -4231,6 +4231,30 @@
                "id": "scup12qf"
             },
             {
+               "no": "4",
+               "dno": "4007",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_12_Semifinal",
+               "url": "season=cup12&round=sf",
+               "id": "scup12sf"
+            },
+            {
+               "no": "5",
+               "dno": "4005",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_12_Bronze",
+               "url": "season=cup12&round=bz",
+               "id": "scup12bz"
+            },
+            {
+               "no": "6",
+               "dno": "4006",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_12_Final",
+               "url": "season=cup12&round=fl",
+               "id": "scup12fl"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=25&div=undefined",
@@ -4937,7 +4961,31 @@
                "menu": "Quarterfinals",
                "abb": "TCEC_Cup_12_Quarterfinal",
                "url": "season=cup12&round=qf",
-               "idf": "scup12qf",
+               "id": "scup12qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_12_Semifinal",
+               "url": "season=cup12&round=sf",
+               "id": "scup12sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_12_Bronze",
+               "url": "season=cup12&round=bz",
+               "id": "scup12bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_12_Final",
+               "url": "season=cup12&round=fl",
+               "idf": "scup12fl",
                "id": "current"
             }
 	 ]
