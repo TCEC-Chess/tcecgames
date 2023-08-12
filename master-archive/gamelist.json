@@ -4255,6 +4255,38 @@
                "id": "scup12fl"
             },
             {
+               "id": "s25divisionkibitzer",
+               "menu": "Kibitzer Bonus",
+               "url": "season=25&div=kibitzer",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Kibitzer_Bonus",
+               "dno": "1007"
+            },
+            {
+               "id": "s25divisionelt",
+               "menu": "EL L2 L1 DivP Testing",
+               "url": "season=25&div=elt",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_El_L2_L1_Divp_Testing",
+	       "dno": "0008"
+            },
+            {
+               "id": "s25divisionel",
+               "menu": "Entrance League",
+               "url": "season=25&div=el",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Entrance_League",
+               "dno": "5009"
+            },
+            {
+               "id": "s25divisionl2t",
+               "menu": "L2 Testing",
+               "url": "season=25&div=l2t",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_L2_Testing",
+	       "dno": "0010"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=25&div=undefined",
@@ -4985,8 +5017,7 @@
                "menu": "Finals",
                "abb": "TCEC_Cup_12_Final",
                "url": "season=cup12&round=fl",
-               "idf": "scup12fl",
-               "id": "current"
+               "id": "scup12fl"
             }
 	 ]
       },

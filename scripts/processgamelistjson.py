@@ -81,7 +81,7 @@ def classify_event(season, event_id, event_name):
             return "MAIN"
 
         # the full variety of new style main event ids
-        if re.fullmatch('s[0-9]{1,2}division([a-z]|[0-9]|sf|[0-9][a-z]|playoff|l[0-9]|ql|cpul1)',
+        if re.fullmatch('s[0-9]{1,2}division([a-z]|[0-9]|sf|[0-9][a-z]|playoff|l[0-9]|ql|cpul1|el)',
                         event_id):
             return "MAIN"
 
