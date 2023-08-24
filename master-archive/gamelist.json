@@ -4295,12 +4295,20 @@
                "dno": "5011"
             },
             {
-               "idf": "s25divisionl1t",
+               "id": "s25divisionl1t",
                "menu": "L1 Testing",
                "url": "season=25&div=l1t",
                "no": "25",
                "abb": "TCEC_Season_25_-_L1_Testing",
-	       "dno": "0012",
+	       "dno": "0012"
+            },
+            {
+               "idf": "s25divisionl1",
+               "menu": "League 1",
+               "url": "season=25&div=l1",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_League_1",
+               "dno": "5013",
 	       "id":  "current"
             },
             {
