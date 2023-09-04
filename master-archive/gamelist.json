@@ -4303,13 +4303,12 @@
 	       "dno": "0012"
             },
             {
-               "idf": "s25divisionl1",
+               "id": "s25divisionl1",
                "menu": "League 1",
                "url": "season=25&div=l1",
                "no": "25",
                "abb": "TCEC_Season_25_-_League_1",
-               "dno": "5013",
-	       "id":  "current"
+               "dno": "5013"
             },
             {
                "id": "s25divisiondivider",
