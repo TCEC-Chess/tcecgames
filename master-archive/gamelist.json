@@ -4327,6 +4327,31 @@
                "dno": "5015"
             },
             {
+               "id": "s25divisionpp",
+               "menu": "Division P Playoff",
+               "url": "season=25&div=pp",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Division_P_Playoff",
+               "dno": "5016"
+            },
+            {
+               "id": "s25divisionsft",
+               "menu": "Sufi Testing",
+               "url": "season=25&div=sft",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Sufi_Testing",
+	       "dno": "0017"
+            },
+            {
+               "idf": "s25divisionsf",
+               "menu": "Superfinal",
+               "url": "season=25&div=sf",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Superfinal",
+	       "dno": "5018",
+	       "id":  "current"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Main leagues =-",
                "url": "season=25&div=undefined",
