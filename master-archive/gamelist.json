@@ -4343,13 +4343,12 @@
 	       "dno": "0017"
             },
             {
-               "idf": "s25divisionsf",
+               "id": "s25divisionsf",
                "menu": "Superfinal",
                "url": "season=25&div=sf",
                "no": "25",
                "abb": "TCEC_Season_25_-_Superfinal",
-	       "dno": "5018",
-	       "id":  "current"
+	       "dno": "5018"
             },
             {
                "id": "s25divisiondivider",
