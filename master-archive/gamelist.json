@@ -4351,12 +4351,37 @@
 	       "dno": "5018"
             },
             {
-               "id": "s25divisiondivider",
-               "menu": "-= Main leagues =-",
-               "url": "season=25&div=undefined",
+               "id": "s25divisionveb",
+               "menu": "Variability Experiment Bonus",
+               "url": "season=25&div=veb",
                "no": "25",
-               "abb": "TCEC_Season_25_-_None",
-               "dno": "5999"
+               "abb": "TCEC_Season_25_-_Variability_Experiment_Bonus",
+               "dno": "1019"
+            },
+            {
+               "id": "s25divisionsvvltc",
+               "menu": "Starting position VVLTC Bonus",
+               "url": "season=25&div=svvltc",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Starting_Position_Vvltc_Bonus",
+	       "dno": "1020"
+            },
+            {
+               "id": "s25divisionkibitzer2",
+               "menu": "Stoofvlees Vs Berserk Kibitzer Bonus",
+               "url": "season=25&div=kibitzer2",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Stoofvlees_Vs_Berserk_Kibitzer_Bonus",
+               "dno": "1021"
+            },
+            {
+               "idf": "s25divisionvsob24",
+               "menu": "Viewer Submitted Openings Bonus 24",
+               "url": "season=25&div=vsob24",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Viewer_Submitted_Openings_Bonus_24",
+	       "dno": "1022",
+	       "id" : "current"
             },
             {
                "id": "s25divisiondivider",
