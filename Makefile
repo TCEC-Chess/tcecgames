@@ -31,6 +31,8 @@ MAKEFILE-GEN := out/generated.mak
 
 GAMELIST-JSONS := master-archive/gamelist.json scripts/gamelist-overlay.json
 
+PYTHON3 := python-venv/bin/python3
+
 # include generated rules, but only if we're not cleaning
 ifneq ($(MAKECMDGOALS),clean)
 ifneq ($(MAKECMDGOALS),distclean)
@@ -52,11 +54,15 @@ include $(MAKEFILE-GEN)
 endif
 endif
 
+$(PYTHON3):
+	python3 -m venv python-venv
+	python-venv/bin/pip3 install python-chess
+
 # generated rules
-$(MAKEFILE-GEN): $(GAMELIST-JSONS) scripts/processgamelistjson.py
+$(MAKEFILE-GEN): $(GAMELIST-JSONS) scripts/processgamelistjson.py $(PYTHON3)
 	mkdir -p out
-	python3 -OO -m compileall scripts
-	python3 -OO scripts/run-process-gamelist-json.py \
+	$(PYTHON3) -OO -m compileall scripts
+	$(PYTHON3) -OO scripts/run-process-gamelist-json.py \
 		--master-dir=master-archive \
 		--generate-makefile $(GAMELIST-JSONS) \
 		> $(MAKEFILE-GEN)
@@ -66,16 +72,17 @@ clean:
 
 distclean: clean
 	$(RM) eco.pgn
+	$(RM) -r python-venv
 
-enumerate-events:
-	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive -v $(GAMELIST-JSONS)
+enumerate-events: $(PYTHON3)
+	$(PYTHON3) scripts/run-process-gamelist-json.py --master-dir=master-archive -v $(GAMELIST-JSONS)
 
 fetch-gamelist-json:
 	scripts/fetch-update-gamelist.sh
 
-fetch-new-pgns:
-	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive --sync-from-web $(GAMELIST-JSONS)
-	python3 scripts/run-process-gamelist-json.py --master-dir=master-archive --pgn-check -v $(GAMELIST-JSONS)
+fetch-new-pgns: $(PYTHON3)
+	$(PYTHON3) scripts/run-process-gamelist-json.py --master-dir=master-archive --sync-from-web $(GAMELIST-JSONS)
+	$(PYTHON3) scripts/run-process-gamelist-json.py --master-dir=master-archive --pgn-check -v $(GAMELIST-JSONS)
 	$(RM) $(MAKEFILE-GEN)
 
 fetch-default-eco-pgn:
@@ -89,9 +96,9 @@ eco.pgn:
 	@exit 1
 
 # compact event pgns
-out/compact/events/%.pgn: out/full/events/%.pgn
+out/compact/events/%.pgn: out/full/events/%.pgn $(PYTHON3)
 	mkdir -p out/compact/events
-	python3 -OO scripts/run-compactify-pgn.py $< >$@
+	$(PYTHON3) -OO scripts/run-compactify-pgn.py $< >$@
 
 # release
 RELEASE-DIR := releases/release-$(shell date -u +"%Y-%m-%d")-$(shell git rev-parse --short HEAD)
