@@ -4375,12 +4375,20 @@
                "dno": "1021"
             },
             {
-               "idf": "s25divisionvsob24",
+               "id": "s25divisionvsob24",
                "menu": "Viewer Submitted Openings Bonus 24",
                "url": "season=25&div=vsob24",
                "no": "25",
                "abb": "TCEC_Season_25_-_Viewer_Submitted_Openings_Bonus_24",
-	       "dno": "1022",
+	       "dno": "1022"
+            },
+            {
+               "idf": "s25divisionfdt",
+               "menu": "FRD 1 Testing",
+               "url": "season=25&div=fdt",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Frd_1_Testing",
+	       "dno": "0023",
 	       "id" : "current"
             },
             {
