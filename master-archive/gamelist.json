@@ -4383,12 +4383,29 @@
 	       "dno": "1022"
             },
             {
-               "idf": "s25divisionfdt",
+               "id": "s25divisionfdt",
                "menu": "FRD 1 Testing",
                "url": "season=25&div=fdt",
                "no": "25",
                "abb": "TCEC_Season_25_-_Frd_1_Testing",
-	       "dno": "0023",
+	       "dno": "0023"
+            },
+            {
+               "id": "s25divisionfdt2",
+               "menu": "FRD 1 Testing Part 2",
+               "url": "season=25&div=fdt2",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Frd_1_Testing_Part_2",
+	       "dno": "0023"
+            },
+            {
+               "idf": "s25divisionsfrd1la",
+               "frc": 1,
+               "menu": "FRD 1 League A",
+               "url": "season=25&div=frd1la",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Frd_1_League_A",
+	       "dno": "2024",
 	       "id" : "current"
             },
             {
