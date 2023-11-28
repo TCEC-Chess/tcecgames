@@ -4399,13 +4399,22 @@
 	       "dno": "0023"
             },
             {
-               "idf": "s25divisionsfrd1la",
+               "id": "s25divisionsfrd1la",
                "frc": 1,
                "menu": "FRD 1 League A",
                "url": "season=25&div=frd1la",
                "no": "25",
                "abb": "TCEC_Season_25_-_Frd_1_League_A",
-	       "dno": "2024",
+	       "dno": "2024"
+            },
+            {
+               "idf": "s25divisionsfrd1lb",
+               "frc": 1,
+               "menu": "FRD 1 League B",
+               "url": "season=25&div=frd1lb",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Frd_1_League_B",
+	       "dno": "2025",
 	       "id" : "current"
             },
             {
