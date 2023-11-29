@@ -4408,13 +4408,22 @@
 	       "dno": "2024"
             },
             {
-               "idf": "s25divisionsfrd1lb",
+               "id": "s25divisionsfrd1lb",
                "frc": 1,
                "menu": "FRD 1 League B",
                "url": "season=25&div=frd1lb",
                "no": "25",
                "abb": "TCEC_Season_25_-_Frd_1_League_B",
-	       "dno": "2025",
+	       "dno": "2025"
+            },
+            {
+               "idf": "s25divisionsfrd1lc",
+               "frc": 1,
+               "menu": "FRD 1 League C",
+               "url": "season=25&div=frd1lc",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Frd_1_League_C",
+	       "dno": "2026",
 	       "id" : "current"
             },
             {
