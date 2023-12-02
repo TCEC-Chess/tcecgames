@@ -4417,14 +4417,13 @@
 	       "dno": "2025"
             },
             {
-               "idf": "s25divisionsfrd1lc",
+               "id": "s25divisionsfrd1lc",
                "frc": 1,
                "menu": "FRD 1 League C",
                "url": "season=25&div=frd1lc",
                "no": "25",
                "abb": "TCEC_Season_25_-_Frd_1_League_C",
-	       "dno": "2026",
-	       "id" : "current"
+	       "dno": "2026"
             },
             {
                "id": "s25divisiondivider",
