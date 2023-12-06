@@ -4426,6 +4426,15 @@
 	       "dno": "2026"
             },
             {
+               "id": "s25divisionsfrd1ld",
+               "frc": 1,
+               "menu": "FRD 1 League D",
+               "url": "season=25&div=frd1ld",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Frd_1_League_D",
+	       "dno": "2027"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Cup 12 =-",
                "url": "season=25&div=undefined",
