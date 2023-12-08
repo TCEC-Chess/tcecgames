@@ -4435,6 +4435,15 @@
 	       "dno": "2027"
             },
             {
+               "id": "s25divisionsfrd1sl1",
+               "frc": 1,
+               "menu": "FRD 1 Semileague 1",
+               "url": "season=25&div=frd1sl1",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Frd_1_Semileague_1",
+	       "dno": "2028"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Cup 12 =-",
                "url": "season=25&div=undefined",
