@@ -4453,6 +4453,15 @@
 	       "dno": "2029"
             },
             {
+               "id": "s25divisionsfrd1fl",
+               "frc": 1,
+               "menu": "FRD 1 Final League",
+               "url": "season=25&div=frd1fl",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Frd_1_Final_League",
+	       "dno": "2030"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Cup 12 =-",
                "url": "season=25&div=undefined",
