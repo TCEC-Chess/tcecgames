@@ -121,7 +121,7 @@ def classify_event(season, event_id, event_name):
             return "MAIN"
 
         if event_id in ["s25divisionpp", "s25divisionsfrd1la", "s25divisionsfrd1lb", "s25divisionsfrd1lc", "s25divisionsfrd1ld",
-                        "s25divisionsfrd1sl1", "s25divisionsfrd1sl2"]:
+                        "s25divisionsfrd1sl1", "s25divisionsfrd1sl2", "s25divisionsfrd1fl"]:
             return "MAIN"
 
     fatal(f"Don't know how to classify Season '{season}', event id '{event_id}', event name '{event_name}'", 5)
