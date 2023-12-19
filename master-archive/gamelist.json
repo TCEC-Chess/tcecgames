@@ -4462,12 +4462,13 @@
 	       "dno": "2030"
             },
             {
-               "id": "s25divisiondivider",
-               "menu": "-= Cup 12 =-",
-               "url": "season=25&div=undefined",
+               "id": "s25divisionsfrd1f",
+               "frc": 1,
+               "menu": "FRD 1 Final",
+               "url": "season=25&div=frd1f",
                "no": "25",
-               "abb": "TCEC_Season_25_-_None",
-               "dno": "4999"
+               "abb": "TCEC_Season_25_-_Frd_1_Final",
+	       "dno": "2031"
             },
             {
                "id": "s25divisiondivider",
