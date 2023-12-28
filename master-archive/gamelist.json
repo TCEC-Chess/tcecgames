@@ -4479,6 +4479,14 @@
                "dno": "1032"
             },
             {
+               "id": "s25divisionvsob25",
+               "menu": "Viewer Submitted Openings Bonus 25",
+               "url": "season=25&div=vsob25",
+               "no": "25",
+               "abb": "TCEC_Season_25_-_Viewer_Submitted_Openings_Bonus_25",
+	       "dno": "1033"
+            },
+            {
                "id": "s25divisiondivider",
                "menu": "-= Cup 12 =-",
                "url": "season=25&div=undefined",
@@ -4493,14 +4501,6 @@
                "no": "25",
                "abb": "TCEC_Season_25_-_None",
                "dno": "3999"
-            },
-            {
-               "id": "s25divisiondivider",
-               "menu": "-= 4k III =-",
-               "url": "season=25&div=undefined",
-               "no": "25",
-               "abb": "TCEC_Season_25_-_None",
-               "dno": "3499"
             },
             {
                "id": "s25divisiondivider",
