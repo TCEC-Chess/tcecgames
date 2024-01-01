@@ -4528,6 +4528,79 @@
             }
 	 ]
       },
+      "26": {
+         "download": "TCEC_Season_26_full.pgn.zip",
+         "fullpgn": "TCEC_Season_26_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s26division4kt",
+               "menu": "4k Testing",
+               "url": "season=26&div=4kt",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_4k_Testing",
+	       "dno": "0000"
+            },
+            {
+               "idf": "s26division4k",
+               "menu": "4k III",
+               "url": "season=26&div=4k",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_4k_Iii",
+	       "dno": "3401",
+               "id": "current"
+            },
+            {
+               "id": "s26divisiondivider",
+               "menu": "-= Cup 13 =-",
+               "url": "season=26&div=undefined",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_None",
+               "dno": "4999"
+            },
+            {
+               "id": "s26divisiondivider",
+               "menu": "-= Swiss 6 =-",
+               "url": "season=26&div=undefined",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_None",
+               "dno": "3999"
+            },
+            {
+               "id": "s26divisiondivider",
+               "menu": "-= 4k III =-",
+               "url": "season=26&div=undefined",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_None",
+               "dno": "3499"
+            },
+            {
+               "id": "s26divisiondivider",
+               "menu": "-= FRD 2 =-",
+               "url": "season=26&div=undefined",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_None",
+               "dno": "2999"
+            },
+            {
+               "id": "s26divisiondivider",
+               "menu": "-= Bonus tournaments =-",
+               "url": "season=26&div=undefined",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_None",
+               "dno": "1999"
+            },
+            {
+               "id": "s26divisiondivider",
+               "menu": "-= Testing tournaments =-",
+               "url": "season=26&div=undefined",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
       "Cup 1": {
          "seasonName": "Cup 1",
          "eventtag": "TCEC_Cup_1_event",
