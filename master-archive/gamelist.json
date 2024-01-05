@@ -4543,13 +4543,12 @@
 	       "dno": "0000"
             },
             {
-               "idf": "s26division4k",
+               "id": "s26division4k",
                "menu": "4k III",
                "url": "season=26&div=4k",
                "no": "26",
                "abb": "TCEC_Season_26_-_4k_Iii",
-	       "dno": "3401",
-               "id": "current"
+	       "dno": "3401"
             },
             {
                "id": "s26divisiondivider",
