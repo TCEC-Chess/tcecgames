@@ -4551,6 +4551,14 @@
 	       "dno": "3401"
             },
             {
+               "id": "s26division4kf",
+               "menu": "4k III MiniFinal",
+               "url": "season=26&div=4kf",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_4k_Iii_Minifinal",
+	       "dno": "3402"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
