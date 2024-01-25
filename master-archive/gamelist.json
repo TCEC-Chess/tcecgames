@@ -4567,6 +4567,14 @@
 	       "dno": "1003"
             },
             {
+               "id": "s26divisionswt",
+               "menu": "Swiss 6 Testing",
+               "url": "season=26&div=swt",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Swiss_6_Testing",
+	       "dno": "0004"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
