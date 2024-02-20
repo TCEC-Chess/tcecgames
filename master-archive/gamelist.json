@@ -4575,6 +4575,22 @@
 	       "dno": "0004"
             },
             {
+               "id": "s26divisionsw",
+               "menu": "Swiss 6",
+               "url": "season=26&div=sw",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Swiss_6",
+	       "dno": "3505"
+            },
+            {
+               "id": "s26divisiontb7",
+               "menu": "7 Pieces Bonus",
+               "url": "season=26&div=tb7",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_7_Pieces_Bonus",
+	       "dno": "1006"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
