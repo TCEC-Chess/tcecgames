@@ -4591,6 +4591,14 @@
 	       "dno": "1006"
             },
             {
+               "id": "s26divisionchess18",
+               "menu": "Chess18 Kibitzer Bonus",
+               "url": "season=26&div=chess18",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Chess18_Kibitzer_Bonus",
+               "dno": "1007"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
