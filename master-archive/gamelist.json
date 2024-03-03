@@ -4599,6 +4599,30 @@
                "dno": "1007"
             },
             {
+               "id": "s26divisioncupt",
+               "menu": "Cup 13 Testing",
+               "url": "season=26&div=cupt",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Cup_13_Testing",
+	       "dno": "0008"
+            },
+            {
+               "no": "1",
+               "dno": "4009",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_13_Round32",
+               "url": "season=cup13&round=round32",
+               "id": "scup13round32"
+            },
+            {
+               "no": "2",
+               "dno": "4010",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_13_Round16",
+               "url": "season=cup13&round=round16",
+               "id": "scup13round16"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
@@ -5322,6 +5346,32 @@
                "abb": "TCEC_Cup_12_Final",
                "url": "season=cup12&round=fl",
                "id": "scup12fl"
+            }
+	 ]
+      },
+      "Cup 13": {
+         "seasonName": "Cup 13",
+         "download": "TCEC_Cup_13_full.pgn.zip",
+         "eventtag": "TCEC_Cup_13_event",
+         "previouspgn": "TCEC_Cup_13_Round32",
+         "teams": "cup13.json",
+         "cup": 13,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_13_Round32",
+               "url": "season=cup13&round=round32",
+	       "id": "scup13round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_13_Round16",
+               "url": "season=cup13&round=round16",
+               "id": "scup13round16"
             }
 	 ]
       },
