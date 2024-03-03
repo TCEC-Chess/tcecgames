@@ -4623,6 +4623,14 @@
                "id": "scup13round16"
             },
             {
+               "no": "3",
+               "dno": "4011",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_13_Quarterfinal",
+               "url": "season=cup13&round=qf",
+               "id": "scup13qf"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
@@ -5372,6 +5380,14 @@
                "abb": "TCEC_Cup_13_Round16",
                "url": "season=cup13&round=round16",
                "id": "scup13round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_13_Quarterfinal",
+               "url": "season=cup13&round=qf",
+               "id": "scup13qf"
             }
 	 ]
       },
