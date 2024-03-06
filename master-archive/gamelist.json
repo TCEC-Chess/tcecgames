@@ -4631,6 +4631,22 @@
                "id": "scup13qf"
             },
             {
+               "no": "4",
+               "dno": "4012",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_13_Semifinal",
+               "url": "season=cup13&round=sf",
+               "id": "scup13sf"
+            },
+            {
+               "no": "5",
+               "dno": "4013",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_13_Bronze",
+               "url": "season=cup13&round=bz",
+               "id": "scup13bz"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
@@ -5388,6 +5404,22 @@
                "abb": "TCEC_Cup_13_Quarterfinal",
                "url": "season=cup13&round=qf",
                "id": "scup13qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_13_Semifinal",
+               "url": "season=cup13&round=sf",
+               "id": "scup13sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_13_Bronze",
+               "url": "season=cup13&round=bz",
+               "id": "scup13bz"
             }
 	 ]
       },
