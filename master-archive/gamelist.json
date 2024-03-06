@@ -4647,6 +4647,14 @@
                "id": "scup13bz"
             },
             {
+               "no": "6",
+               "dno": "4014",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_13_Final",
+               "url": "season=cup13&round=fl",
+               "id": "scup13fl"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
@@ -5420,6 +5428,14 @@
                "abb": "TCEC_Cup_13_Bronze",
                "url": "season=cup13&round=bz",
                "id": "scup13bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_13_Final",
+               "url": "season=cup13&round=fl",
+               "id": "scup13fl"
             }
 	 ]
       },
