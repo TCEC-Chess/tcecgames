@@ -1,3 +1,4 @@
+
 {
    "Seasons": {
       "1": {
@@ -4653,6 +4654,22 @@
                "abb": "TCEC_Cup_13_Final",
                "url": "season=cup13&round=fl",
                "id": "scup13fl"
+            },
+            {
+               "id": "s26divisiontbb1",
+               "menu": "Tiebreak Type Test Bonus 1",
+               "url": "season=26&div=tbb1",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Tiebreak_Type_Test_Bonus_1",
+	       "dno": "1015"
+            },
+            {
+               "id": "s26divisiontbb2",
+               "menu": "Tiebreak Type Test Bonus 2",
+               "url": "season=26&div=tbb2",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Tiebreak_Type_Test_Bonus_2",
+	       "dno": "1016"
             },
             {
                "id": "s26divisiondivider",
