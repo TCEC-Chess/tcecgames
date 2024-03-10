@@ -1,3 +1,8 @@
+Season 26 interim 1 (2024-03-10)
+- This release contains all TCEC games up to and including TCEC
+  Tiebreak type test bonus 2. The new competition events include 4k3,
+  Swiss 6, and Cup 13.
+
 Season 25 final (2023-12-31)
 - This release contains all TCEC games of Season 25 and previous
   seasons.
