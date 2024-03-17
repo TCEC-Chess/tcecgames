@@ -4672,6 +4672,22 @@
 	       "dno": "1016"
             },
             {
+               "id": "s26divisioncontemptla",
+               "menu": "Contemptla Gauntlet Kibitzer Bonus",
+               "url": "season=26&div=contemptla",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Contemptla_Gauntlet_Kibitzer_Bonus",
+               "dno": "1017"
+            },
+            {
+               "id": "s26divisionelt",
+               "menu": "EL L2 L1 DivP Testing",
+               "url": "season=26&div=elt",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_El_L2_L1_Divp_Testing",
+	       "dno": "0018"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",

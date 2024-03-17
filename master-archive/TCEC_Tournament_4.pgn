@@ -1,0 +1,450 @@
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.18"]
+[Round "1.1"]
+[White "Rybka 4"]
+[Black "Sjeng 2008"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "1"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. a3 Bxc3+ 7. bxc3 c5 8. dxc5 O-O 9. g3 Nbd7 10. Nh3 Re8 11. Bg2 Nxc5 12. O-O Nce4 13. Be3 Bf5 14. Qb2 Bxh3 15. Bxh3 Nd6 16. Bg5 Re5 17. Bxf6 Qxf6 18. e3 b6 19. Rad1 Ne4 20. Rd4 h6 21. c4 dxc4 22. Bg2 Rae8 23. Rxc4 Nc5 24. Qc2 R5e7 25. Rd1 Rc7 26. Bd5 Rec8 27. a4 Qe5 28. Kg2 Kh8 29. Qb1 Rd7 30. Rcd4 Rdc7 31. Bf3 Qe7 32. Bg4 Rb8 33. a5 b5 34. Qb4 a6 35. Rd7 Rxd7 36. Rxd7 Qe5 37. Rxf7 Qd5+ 38. Rf3 Nd3 39. e4 Nxb4 40. exd5 Nxd5 41. Rf7 Nb4 42. Ra7 g5 43. Bf5 Rf8 44. Be4 Rf6 45. f3 Kg8 46. Rb7 Kf8 47. Kh3 Na2 48. Rc7 Ke8 49. Kg4 Kd8 50. Ra7 Nc3 51. Bb7 Kc7 52. Bxa6+ Kd8 53. Ra8+ Kd7 54. Bb7 Kc7 55. a6 Nd1 56. Kh5 Kb6 57. Rh8 b4 58. Rxh6 Rxh6+ 59. Kxh6 Nc3 60. Bc8 Ne2 61. Kxg5 Nd4 62. Bb7 Nc6 63. Ba8 b3 64. a7 Nxa7 65. Be4 Nb5 66. h4 Nd6 67. Bb1 Kc7 68. h5 Kd7 1-0
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.18"]
+[Round "1.2"]
+[White "Jonny 4"]
+[Black "Zappa Mexico II"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "2"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. Nf3 e6 5. dxe6 fxe6 6. cxb5 a6 7. bxa6 Bxa6 8. g3 Be7 9. Nc3 d5 10. Ng5 Qb6 11. Qb3 Qc6 12. Bg2 h6 13. Nh3 Nbd7 14. Qc2 g5 15. f4 g4 16. Nf2 O-O-O 17. f5 h5 18. Nd3 Bxd3 19. exd3 h4 20. O-O hxg3 21. hxg3 exf5 22. Bg5 Bd6 23. Rxf5 Rdf8 24. Ne2 Rh5 25. Raf1 c4 26. b3 Re8 27. R1f2 Qb6 28. d4 Nh7 29. Bd8 Kxd8 30. Rxh5 Nhf6 31. Rhf5 Rxe2 32. Rxe2 Qxd4+ 33. Kh2 c3 34. Re1 Bc7 35. Qe2 Bd6 36. Rd1 Qc5 37. Qe6 Kc7 38. Kh1 Qa3 39. Rxf6 c2 40. Rff1 cxd1=Q 41. Rxd1 Qb2 42. Rxd5 Qb1+ 43. Kh2 Qh7+ 44. Kg1 1-0
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.19"]
+[Round "1.3"]
+[White "Ivanhoe B52aF"]
+[Black "Naum 4.2"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "3"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. Nf3 e6 5. dxe6 fxe6 6. cxb5 a6 7. bxa6 Bxa6 8. g3 Be7 9. Nc3 Nc6 10. Bg2 O-O 11. O-O d5 12. Bf4 Kh8 13. Re1 d4 14. Ng5 e5 15. Bc1 Qd7 16. Nce4 Qf5 17. Nxf6 Qxf6 18. f4 h6 19. Nh3 Rab8 20. b3 c4 21. bxc4 Bxc4 22. Bd2 Qe6 23. Rb1 Bxa2 24. Rxb8 Rxb8 25. Qc2 Nb4 26. Qe4 Bd6 27. fxe5 Qxe5 28. Rc1 Qxe4 29. Bxe4 Kg8 30. Bf3 d3 31. Bxb4 Rxb4 32. exd3 Be5 33. Rc2 Bb3 34. Re2 Bd4+ 35. Kg2 g5 36. Nf2 Kg7 37. g4 Bf7 38. Nh1 Rb2 39. Rxb2 Bxb2 40. Ng3 Kf6 41. Bb7 Ke5 42. Kf3 Bb3 43. h3 Bd1+ 44. Ke3 Bc1+ 45. Kf2 Kf4 46. Nh5+ Ke5 47. Bf3 Ba4 48. Be4 Bd7 49. Ke2 Bb2 50. Kd1 Ba1 51. Kc2 Bd4 52. Kd2 Kd6 53. Ng3 Ke5 54. Ke2 Bc5 55. Nh5 Bd4 56. Kf3 Bb6 57. Ng3 Be6 58. Ke2 Bd7 59. Ba8 Kf4 60. Nh5+ Ke5 61. Bf3 Bg1 62. Bb7 Be6 63. Be4 Bd4 64. Kf1 Bf7 65. Ng7 Bc5 66. Ke2 Kf4 67. Nh5+ Ke5 68. Kd2 Bf2 69. Kc3 Be6 70. Kc2 Be1 71. Kd1 Bc3 72. Ng7 Bb3+ 73. Ke2 Bf7 74. Nf5 h5 75. Ke3 hxg4 76. hxg4 Be6 77. d4+ Bxd4+ 78. Nxd4 Bxg4 79. Nc6+ Kf6 80. Kf2 Bd7 81. Nb4 Ke5 82. Bc2 Bf5 83. Bd1 Be4 84. Kg3 Kd4 85. Bg4 Kc5 86. Na2 Kc4 87. Bh5 Bd3 88. Bf7+ Kd4 89. Nb4 Be4 90. Bh5 Kc5 91. Na2 Kc4 92. Kf2 Kd4 93. Bg4 Bb1 94. Nc1 Bd3 95. Nb3+ Kc3 96. Nc5 Kd4 97. Nd7 Be4 98. Bd1 Bg6 99. Bb3 Bd3 100. Nf6 Ke5 101. Nh5 Bg6 102. Ng3 Kf4 103. Ne2+ Kg4 104. Be6+ Bf5 105. Bc4 Bg6 106. Ba6 Kh4 107. Ng3 g4 108. Bf1 Bc2 109. Bg2 Bd1 110. Be4 Bf3 111. Bb1 Kg5 112. Ke3 Bd5 113. Bf5 Bb7 114. Bd3 Bg2 115. Bc2 Bf3 116. Bb3 Bg2 117. Bd1 Bc6 118. Be2 Bf3 119. Bb5 Bb7 120. Bc4 Bf3 121. Ba2 Bc6 122. Bg8 Bg2 123. Bh7 Bf3 124. Bc2 Bc6 125. Bd1 Bb7 126. Ba4 Bd5 127. Bd7 Bf3 128. Bc8 Bd5 129. Ba6 Ba8 130. Bf1 Bf3 131. Bc4 Bc6 132. Bb3 Bg2 133. Kf2 Bf3 134. Bc2 Bd5 135. Ba4 Bf3 136. Bd7 Bb7 137. Bb5 Bf3 138. Bd3 Bd5 139. Bf1 Bb7 140. Be2 Bf3 141. Ba6 Kf4 142. Bc8 Kg5 143. Be6 Bc6 144. Bf7 Bf3 145. Bg8 Bc6 146. Bh7 Bf3 147. Bb1 Bc6 148. Ba2 Bf3 149. Bb3 Bc6 150. Bc4 Bb7 151. Bf1 Bc8 152. Bd3 Kf6 153. Ke1 Ke5 154. Kf2 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.19"]
+[Round "2.1"]
+[White "Rybka 4"]
+[Black "Zappa Mexico II"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "4"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 Qxd5 6. Nf3 Qf5 7. Qb3 Nc6 8. Bd2 Bd7 9. h3 a5 10. g4 Qg6 11. a3 a4 12. axb4 axb3 13. Rxa8+ Nd8 14. e4 h6 15. Bd3 Nh7 16. Ne5 Qf6 17. h4 Qe7 18. g5 O-O 19. g6 fxg6 20. Nxg6 Qf6 21. Nxf8 Nxf8 22. e5 Qe7 23. b5 Be8 24. h5 Nd7 25. Na4 b6 26. Ra7 Nf8 27. Be3 Bd7 28. Kd2 Be8 29. Kc3 Bd7 30. Rxc7 Nf7 31. Rc1 Qd8 32. Kxb3 Qe8 33. R7c6 Qb8 1-0
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.19"]
+[Round "2.2"]
+[White "Naum 4.2"]
+[Black "Sjeng 2008"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "5"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. e4 dxe4 5. Nxe4 Bb4+ 6. Bd2 Qxd4 7. Bxb4 Qxe4+ 8. Be2 Na6 9. Ba3 Bd7 10. Nf3 c5 11. Qd2 O-O-O 12. Qg5 Bc6 13. Qxg7 Ne7 14. Qe5 Qg4 15. Qg5 Bxf3 16. Qxg4 Bxg4 17. Bxg4 Rhg8 18. h3 f5 19. Bf3 e5 20. g4 e4 21. Bd1 Nc6 22. gxf5 Nab4 23. Bxb4 Nxb4 24. Ke2 Rd3 25. a3 Nc6 26. Kf1 Nd4 27. Bg4 Rb3 28. Re1 Kc7 29. Rxe4 Kd6 30. f6 Rf8 31. Re7 Rxb2 32. Rxh7 Rxf6 33. Kg2 Rfxf2+ 34. Kg3 Rf8 35. Re1 Rb3+ 36. Kg2 Rxa3 37. Rd7+ Kc6 38. Ree7 b5 39. Rc7+ Kb6 40. Rb7+ Ka5 41. Rxa7+ Kb4 42. Rxa3 Kxa3 43. cxb5 Nxb5 44. h4 c4 45. Be2 Kb4 46. Bxc4 Kxc4 47. h5 Nd6 48. h6 Nc8 49. Re1 Kd3 50. Rf1 Rh8 51. Rf6 Kd4 52. h7 Ke5 53. Rh6 Nd6 54. Rg6 Rxh7 55. Kf3 Rd7 56. Rg1 Ne4 57. Re1 Re7 58. Rxe4+ Kf6 59. Rxe7 Kxe7 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.19"]
+[Round "2.3"]
+[White "Ivanhoe B52aF"]
+[Black "Jonny 4"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "6"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. Bg2 Nxc3 7. bxc3 c5 8. e3 Nc6 9. Ne2 Qa5 10. O-O O-O 11. a4 cxd4 12. cxd4 Be6 13. Qd3 Rfc8 14. Nf4 Bd7 15. Bb2 Qd8 16. Qa3 g5 17. Nd3 Na5 18. Ne5 Be6 19. d5 Bxe5 20. Bxe5 Nc4 21. Qa2 Bf5 22. Bd4 Nd6 23. f3 Rc2 24. Qb3 Qa5 25. e4 Qd2 26. Bf2 Bg6 27. Rad1 Qe2 28. Rde1 Rb2 29. Qc3 Qc2 30. Qe5 Re8 31. Qxg5 Qxa4 32. Ra1 Ra2 33. Rxa2 Qxa2 34. h4 f6 35. Qg4 Nf7 36. f4 Nh6 37. Qd1 Kh8 38. h5 Bf7 39. g4 Ng8 40. g5 Qc4 41. Bxa7 Ra8 42. Bf2 Be8 43. d6 Qe6 44. dxe7 Qxe7 45. Bd4 Qb4 46. gxf6 Bf7 47. Rf2 Nh6 48. Kh2 Rg8 49. Bh3 Qc4 50. Rg2 Rxg2+ 51. Kxg2 Kg8 52. Kg3 Qb3+ 1-0
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.20"]
+[Round "3.1"]
+[White "Sjeng 2008"]
+[Black "Jonny 4"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "7"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7 7. Qc2 Nbd7 8. Bd3 O-O 9. Nf3 Re8 10. O-O Nf8 11. Rac1 Ne4 12. Bxe7 Qxe7 13. Bxe4 dxe4 14. Ne5 f6 15. Nc4 Bg4 16. Rfe1 Qe6 17. Qb3 Rad8 18. Nd2 Qxb3 19. axb3 Bf5 20. Ra1 a6 21. b4 Bg6 22. h3 f5 23. Ra5 Nd7 24. Nc4 Nf6 25. Nb6 h6 26. Nca4 Nd7 27. Nxd7 Rxd7 28. g3 Kf7 29. Nb6 Rd6 30. Nc4 Rdd8 31. Ne5+ Kf6 32. Rf1 Bh7 33. f3 exf3 34. Rxf3 Rf8 35. Kf2 Ke7 36. Ke2 Rf6 37. Ra1 Rdf8 38. Rg1 g5 39. Rf2 h5 40. h4 g4 41. Nd3 Bg8 42. Nf4 Rh6 43. Rc1 Kd6 44. Rc5 Bb3 45. Kd2 Rf7 46. Re5 Bc4 47. Re8 Rc7 48. Rf8 Bf7 49. Nd3 Ke7 50. Ra8 Be6 51. Nc5 Bc8 52. Rf1 Rh7 53. b3 Rh6 54. Ke2 Rf6 55. Nd3 Rh6 56. Rb8 Rd6 57. Nf4 Kd8 58. Ra8 Re7 59. Kf2 Kc7 60. b5 axb5 61. Nxh5 Be6 62. b4 Bc4 63. Rfa1 Rde6 64. R1a3 Re4 65. Nf4 Re8 66. R8a7 Kb6 67. R7a5 Kc7 68. Rc3 Kd6 69. Ra1 Rd8 70. Rca3 Re7 71. Ra7 Rde8 72. R1a3 Bd5 73. Ng6 Rg7 74. Ne5 Be4 75. Ke1 Rb8 76. Ke2 Re7 77. Ra1 Ke6 78. Ng6 Ree8 79. Kd2 Kf6 80. Ne5 Ke6 81. Kc3 Rh8 82. R7a5 Rbe8 83. R1a3 Rb8 84. Ra7 Bf3 85. Nd3 Kd5 86. Kd2 Rhe8 87. Nf4+ Kd6 88. Ra2 Ke7 89. Ng6+ Ke6 90. Ne5 Bd5 91. R2a5 Be4 92. Ra3 Rh8 93. Ra2 Bd5 94. Ra1 Be4 95. Ng6 Rhe8 96. Ke1 Kf6 97. Ne5 Ke6 98. Kf2 Rh8 99. Ke2 Rhe8 100. R7a5 Rh8 101. Kf2 Rbd8 102. R5a3 Rb8 103. Ra7 Rhd8 104. R7a2 Bd5 105. Ra3 Be4 106. Ke2 Rh8 107. Ke1 Rbg8 108. Kd2 Kd5 109. Nd7 Rg7 110. Ra8 Rxa8 111. Nb6+ Kd6 112. Nxa8 Rg6 113. Ra3 Re6 114. Nb6 Rh6 115. Kc3 Rh7 116. Na8 Rh8 117. Nb6 Kc7 118. Na8+ Kd7 119. Nb6+ Kd6 120. Ra8 Rxa8 121. Nxa8 Ke7 122. h5 Kf6 123. Nb6 Bd5 124. Nd7+ Kg5 125. Nc5 Kxh5 126. Nxb7 Kg5 127. Nc5 Kf6 128. Kd2 Ke7 129. Kc2 Be4+ 130. Kd1 Bf3+ 131. Ke1 Kd6 132. Nd3 Ke6 133. Kd2 Be4 134. Nf4+ Kd6 135. Ke1 Bd5 136. Kf2 Bf3 137. Kf1 Ke7 138. Ke1 Kd7 139. Kd2 Kd6 140. Ng6 Kd5 141. Ne5 Be4 142. Ke2 Kd6 143. Kd1 Ke7 144. Kc1 Bd5 145. Ng6+ Kd7 146. Kc2 Bf3 147. Ne5+ Kd6 148. Kb2 Be4 149. Kc1 Ke7 150. Kd1 Bd5 151. Kd2 Ke6 152. Ng6 Bf3 153. Kd3 Be4+ 154. Kc3 Kd6 155. Nf4 Ke7 156. Kb3 Kd7 157. Kb2 Bf3 158. Ng6 Ke6 159. Kc1 Kd5 160. Ne5 Bg2 161. Kd1 Ke6 162. Ke2 Be4 163. Ke1 Bd5 164. Ng6 Kd6 165. Kd2 Be6 166. Kc3 Bf7 167. Nf4 Bc4 168. Kb2 Be6 169. Kc2 Bg8 170. Kd2 Bc4 171. Kd1 Ke7 172. Kc2 Bd5 173. Kd2 Kd7 174. Ng6 Kd6 175. Kc3 Bf3 176. Nf8 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.20"]
+[Round "3.2"]
+[White "Naum 4.2"]
+[Black "Rybka 4"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "8"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. a3 Bxd2+ 6. Bxd2 Ne4 7. g3 d6 8. Bg2 Nd7 9. Be3 Rb8 10. Qc2 f5 11. Nh4 b6 12. Bxe4 fxe4 13. Qxe4 e5 14. O-O Nf6 15. Qc2 Bh3 16. Rfd1 Ng4 17. dxe5 Nxe3 18. fxe3 Qe7 19. Nf3 dxe5 20. Qe4 Rbe8 21. Rac1 c5 22. Qd5+ Be6 23. Qd3 Rd8 24. Qc2 Bd7 25. e4 Bc6 26. Rxd8 Rxd8 27. Kf2 Qf6 28. Rf1 Qg6 29. Nxe5 Qh5 30. Nf3 Re8 31. Kg1 Rxe4 32. Rd1 Re8 33. Qd3 h6 34. b4 cxb4 35. axb4 a5 36. bxa5 bxa5 37. Nd4 Qc5 38. Qf5 Qxf5 39. Nxf5 Rxe2 40. Nd4 Rg2+ 41. Kf1 Bb7 42. Rb1 Rd2 43. Rxb7 Rxd4 44. c5 Rc4 45. Rb5 a4 46. Ke2 a3 47. Ra5 Kf7 48. Rxa3 Rxc5 49. Kf3 Rb5 50. h4 Kg6 51. Ra7 Rb4 52. g4 Rb3+ 53. Kf4 Rb4+ 54. Kf3 Kf6 55. g5+ hxg5 56. hxg5+ Kxg5 57. Rxg7+ Kf5 58. Rf7+ Kg5 59. Rg7+ Kf5 60. Rf7+ Kg5 61. Rg7+ 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.20"]
+[Round "3.3"]
+[White "Ivanhoe B52aF"]
+[Black "Zappa Mexico II"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "9"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. Nf3 c5 2. c4 Nf6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Nc6 6. g3 Qb6 7. Ndb5 Ne5 8. Bg2 a6 9. Na4 Qa5+ 10. Bd2 Qd8 11. Na3 Bxa3 12. c5 Bxc5 13. Nxc5 d5 14. O-O O-O 15. Rc1 b6 16. Bc3 Ng6 17. Nd3 a5 18. Ne5 Ne7 19. Re1 Ba6 20. b4 a4 21. Ba1 Bb5 22. Qd4 Nf5 23. Qf4 Rc8 24. Rxc8 Qxc8 25. Bh3 Ne7 26. Qe3 Qb8 27. Bd4 Qd6 28. a3 Ne4 29. Nd3 Rc8 30. f3 Nf6 31. Bxb6 Rc3 32. Bc5 Qd8 33. Bxe6 fxe6 34. Qxe6+ Kf8 35. g4 Qd7 36. Qb6 d4 37. Qb8+ Ne8 38. Qe5 Bc4 39. b5 Rb3 40. b6 Rb5 41. Rd1 Qe6 42. Rc1 Bd5 43. Qxd4 Bb3 44. Qd8 Kf7 45. Kf1 Nd5 46. Ne5+ Kg8 47. Bd4 Qe7 48. Rc8 Qxd8 49. Rxd8 Kf8 50. Rb8 Nxb6 51. Rxb6 Rxb6 52. Bxb6 Ke7 53. Nd3 Kf7 54. Bc5 Nc7 55. h4 Nb5 56. e4 h6 57. h5 Kf6 58. Kf2 Be6 59. Ke3 Kf7 60. f4 Kg8 61. f5 Bd7 62. e5 Nc7 63. e6 Bb5 64. Ne5 Bf1 65. Kd4 Bg2 66. Bd6 Ne8 67. Kc5 Nf6 68. Kb5 Be4 69. Kxa4 Ne8 70. Bb4 Nc7 71. Ka5 Nd5 72. e7 Nc7 73. a4 Bc2 74. Kb6 Nd5+ 1-0
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.20"]
+[Round "4.1"]
+[White "Naum 4.2"]
+[Black "Zappa Mexico II"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "10"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qc7 7. Qg4 Ne7 8. Qxg7 Rg8 9. Qxh7 cxd4 10. Ne2 dxc3 11. f4 Bd7 12. Qd3 Nbc6 13. Qxc3 Nf5 14. Ng3 Nxg3 15. hxg3 Rc8 16. Ra2 d4 17. Qb2 Ne7 18. g4 Qa5+ 19. Kf2 Qd5 20. Be2 Rc3 21. Bf3 Qc4 22. Bxb7 Bb5 23. Re1 Nc6 24. g5 Rh8 25. Bd2 Rh2 26. Kg1 Rxg2+ 27. Kxg2 Qd5+ 28. Kh2 Rh3+ 29. Kxh3 Qf3+ 30. Kh2 Qf2+ 31. Kh3 Qf3+ 32. Kh2 Qf2+ 33. Kh1 Qf3+ 34. Kg1 Qg3+ 35. Kh1 Qf3+ 36. Kg1 Qg3+ 37. Kh1 Qf3+ 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.21"]
+[Round "4.2"]
+[White "Sjeng 2008"]
+[Black "Ivanhoe B52aF"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "11"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. h3 Bf5 6. Bd3 Bxd3 7. Qxd3 e6 8. O-O Bd6 9. Nbd2 Nbd7 10. e4 dxe4 11. Nxe4 Nxe4 12. Qxe4 h6 13. Bd2 O-O 14. Rfe1 Nf6 15. Qe3 Qc7 16. Rad1 Rfd8 17. Ne5 Nh7 18. Nd3 Nf8 19. g3 Rac8 20. Bc3 Be7 21. b3 Ng6 22. h4 Bf6 23. Nc5 b6 24. Ne4 Be7 25. h5 Nf8 26. f4 b5 27. Qf3 bxc4 28. bxc4 Nd7 29. f5 exf5 30. Qxf5 Nf6 31. Kg2 Qd7 32. Nxf6+ Bxf6 33. Qxd7 Rxd7 34. Rd3 Rcd8 35. Red1 Rb8 36. Kf3 Rb6 37. Re3 Kf8 38. g4 Ra6 39. Bb4+ Kg8 40. d5 cxd5 41. cxd5 Rxa2 42. d6 Kh7 43. Re2 Ra6 44. Rd5 Rc6 45. Re4 a6 46. Ke3 Bd8 47. Kd3 Rc1 48. Re1 Rc6 49. Bc5 g6 50. Re4 Bh4 51. Re8 Bd8 52. Bd4 f6 53. Bc5 Rc8 54. Re2 a5 55. Rb2 Kg7 56. Ke4 Rc6 57. Rb5 gxh5 58. Rxh5 Kg6 59. Kd5 Ra6 60. Kc4 a4 61. Rb1 a3 62. Ra1 Rf7 63. Rxa3 Rxa3 64. Bxa3 f5 65. Rxf5 Rxf5 66. gxf5+ Kxf5 67. Kd5 h5 68. d7 h4 69. Bd6 h3 70. Bh2 Kf6 71. Kc6 Ke6 72. Bg3 Ke7 73. Be5 h2 74. Bxh2 Ke6 75. Bf4 Bh4 76. Bd6 Bg5 77. Bf4 Bh4 78. d8=Q Bxd8 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.21"]
+[Round "4.3"]
+[White "Jonny 4"]
+[Black "Rybka 4"]
+[Result "0-1"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "12"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd6 7. Qe2 Nf6 8. O-O a6 9. Rd1 Nc6 10. Ne4 Nxe4 11. Qxe4 Be7 12. Bf4 Qc5 13. Bb3 Bf6 14. Rac1 Qf5 15. Qxf5 exf5 16. Bg5 Bxg5 17. Nxg5 O-O 18. c3 dxc3 19. Rxc3 g6 20. Rh3 h5 21. f4 Kg7 22. Re3 a5 23. Bc4 a4 24. Kf2 Ra5 25. Rd6 Rc5 26. b3 h4 27. Re2 b5 28. Bxb5 Rxb5 29. Rxc6 axb3 30. axb3 Rxb3 31. Rc7 Rb4 32. g3 Ba6 33. Rec2 Kg8 34. Kg1 hxg3 35. hxg3 Bd3 36. Rd2 Bc4 37. Kf2 Ra8 38. Rc2 Raa4 39. Ke3 Ra3+ 40. Kf2 Bd5 41. Rd7 Rb5 42. Rd2 Raa5 43. Ke3 Kg7 44. Rd3 Ba2 45. Rd2 Rb6 46. Kf2 Rc6 47. Rd8 Rc1 48. Re8 Rh1 49. Kg2 Ra1 50. Kf2 Bb3 51. Rb8 R5a3 52. Rbd8 Ra7 53. Nf3 Be6 54. Nd4 Bc4 55. Nc6 Rf1+ 56. Kg2 Raa1 57. Ne5 Rg1+ 58. Kh2 Be6 59. Rc2 Bb3 60. Rcd2 Rgc1 61. Kh3 Bc2 62. R2d7 Rh1+ 63. Kg2 Rag1+ 64. Kf2 Rf1+ 65. Ke3 Re1+ 66. Kd2 Bb3 67. Rd3 Reg1 68. Nf3 Rg2+ 69. Kc3 Ba2 70. Ng5 Rc1+ 71. Kb4 Rb1+ 72. Kc3 Rb3+ 73. Kd4 Rb7 74. Kc5 Rc2+ 75. Kd6 Bc4 76. Re3 Rb6+ 77. Kc7 Rb1 78. Kd6 Bb5 79. Nxf7 Ra1 80. Ke6 Bc4+ 81. Ke7 Bxf7 82. Rdd3 Rc7+ 83. Rd7 Rc8 84. Rdd3 Ra7+ 0-1
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.21"]
+[Round "5.1"]
+[White "Sjeng 2008"]
+[Black "Zappa Mexico II"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "13"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. Qc2 c5 8. dxc5 Nxc5 9. Be2 dxc4 10. Bxc4 a6 11. Rd1 Qe8 12. b4 Ncd7 13. Qb2 b5 14. Be2 Bb7 15. O-O Rc8 16. Rc1 Nh5 17. Bg5 f6 18. Bh4 g5 19. Bg3 Nxg3 20. hxg3 Nb6 21. a4 bxa4 22. Nd4 Qf7 23. Qa1 Bxb4 24. Nxa4 Nd7 25. Bc4 Rfe8 26. Qb1 a5 27. Bb5 Rxc1 28. Rxc1 Rc8 29. Rxc8+ Bxc8 30. Nc6 Qf8 31. Qd1 Ne5 32. Nxe5 fxe5 33. Nb6 Bb7 34. Nd7 Qe7 35. Nxe5 Qd6 36. Qa1 Qd5 37. Bf1 h5 38. Nc4 Ba6 39. Nb6 Qb7 40. Bxa6 Qxa6 41. Qd4 Bf8 42. Qd8 a4 43. Nd7 Qd6 44. Qxg5+ Bg7 45. Nf6+ Kf7 46. Nxh5 Qe5 47. Qg4 a3 48. Qf3+ Bf6 49. Nxf6 Qxf6 50. Qb7+ Kg6 51. Qa8 Qa1+ 52. Kh2 Qb2 53. Qf8 a2 54. Qg8+ Kh6 55. Qxe6+ Kg7 56. Qd7+ Kg6 57. Qe8+ Kg5 58. f4+ Kh6 59. Qc6+ Kg7 60. Qd7+ Kf6 61. Qc6+ Kf7 62. Qd7+ 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.21"]
+[Round "5.2"]
+[White "Jonny 4"]
+[Black "Naum 4.2"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "14"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. Nf3 c5 2. e4 Nc6 3. Nc3 d6 4. d4 cxd4 5. Nxd4 Nf6 6. Bc4 Qb6 7. Ndb5 a6 8. Be3 Qa5 9. Nd4 Ne5 10. Bd3 g6 11. f4 Nxd3+ 12. Qxd3 Bg7 13. O-O-O Bg4 14. Rde1 Bd7 15. h3 O-O 16. g4 Bc6 17. Kb1 Nd7 18. Qd2 Nc5 19. Rd1 Rae8 20. Rhf1 Na4 21. Nxa4 Qxd2 22. Rxd2 Bxa4 23. f5 Rc8 24. c3 Rc4 25. Bg5 Bxd4 26. cxd4 Bc6 27. d5 Bb5 28. Re1 f6 29. Bh4 Kf7 30. Bf2 gxf5 31. gxf5 Rg8 32. Re3 Rgc8 33. Re1 Rb4 34. Re3 Bf1 35. b3 Bg2 36. Rde2 Rd4 37. Be1 Bf1 38. Rd2 Rxd2 39. Bxd2 Rg8 40. Kc2 Rg2 41. Rf3 Rg1 42. Rf2 Bxh3 43. Rh2 Rg3 44. Be1 Rf3 45. Kd2 h5 46. Rf2 Rxf2+ 47. Bxf2 a5 48. Ke3 b5 49. Kf4 Bg4 50. Bb6 a4 51. bxa4 bxa4 52. a3 Be2 53. Bf2 Bd3 54. Ke3 Bc2 55. Bg3 Bd1 56. Bf2 Ke8 57. Bg3 Bg4 58. Bf2 Kd7 59. Kd4 Bf3 60. Ke3 Bg2 61. Bg3 Bf1 62. Be1 Bc4 63. Kd4 Ba2 64. Kd3 Bb3 65. Bf2 Bd1 66. Be1 Bf3 67. Ke3 Bg4 68. Bf2 Bh3 69. Be1 Bf1 70. Bh4 Bb5 71. Be1 Ba6 72. Kd4 Be2 73. Ke3 Bb5 74. Kf3 Bd3 75. Ke3 Bc2 76. Kd4 Bb3 77. Bf2 Bd1 78. Be1 Bc2 79. Bg3 Bb1 80. Be1 Kd8 81. Ba5+ Kc8 82. Be1 Kd7 83. Ke3 Ke8 84. Bf2 Kf7 85. Be1 Ba2 86. Kd4 Ke8 87. Bf2 Kd7 88. Be1 Kd8 89. Bg3 Bb3 90. Ke3 Kd7 91. Kd3 Kc8 92. Bh4 Kb7 93. Bf2 Kc7 94. Kc3 Bd1 95. Kd3 Bf3 96. Ke3 Bg2 97. Kd3 Bf1+ 98. Kc3 Be2 99. Kd2 Ba6 100. Bg3 Bc4 101. Kc3 Be2 102. Bf4 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.22"]
+[Round "5.3"]
+[White "Rybka 4"]
+[Black "Ivanhoe B52aF"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "15"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. a4 e6 6. Bg5 Nbd7 7. e3 Qa5 8. Nd2 Bb4 9. Qc2 dxc4 10. Bxf6 Nxf6 11. Nxc4 Qc7 12. Bd3 c5 13. Qb3 O-O 14. O-O b6 15. Na2 a5 16. Nxb4 axb4 17. Ne5 Bb7 18. Rfc1 Qd6 19. Nc4 Qc7 20. Qd1 Nd7 21. Nd2 Bd5 22. f3 Rfd8 23. Qe2 Bc6 24. Bb5 Qd6 25. Bxc6 Qxc6 26. Qb5 Qd5 27. Nc4 cxd4 28. Qxb4 dxe3 29. Nxe3 Qe5 30. Ra3 h6 31. f4 Qa5 32. Qxa5 bxa5 33. g3 e5 34. Nd5 exf4 35. gxf4 Rab8 36. b4 axb4 37. Rb3 Nb6 38. Ne7+ Kf8 39. Nc6 Rbc8 40. Rxb4 Nd5 41. Rbc4 Rd6 42. a5 Nxf4 43. Nb4 Ne2+ 44. Kh1 Rcd8 45. Ra1 Nd4 46. Rd1 Ke8 47. a6 Nb5 48. Rxd6 Nxd6 49. Rc7 Ra8 50. a7 Kd8 51. Nd5 Nc8 52. Rxf7 Rxa7 53. Rf8+ Kd7 54. Nb6+ Kc7 55. Nxc8 Ra8 56. Kg2 Rxc8 57. Rxc8+ Kxc8 58. Kg3 h5 59. Kh4 g5+ 60. Kxh5 g4 61. Kxg4 Kd7 62. Kg3 Kc6 63. Kg4 Kd6 64. h4 Ke6 65. h5 Kf6 66. Kh4 Kf5 67. Kg3 Ke5 68. h6 Kf6 69. Kf4 Kg6 70. Kg4 Kxh6 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.22"]
+[Round "6.1"]
+[White "Zappa Mexico II"]
+[Black "Jonny 4"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "16"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. Nf3 e6 5. dxe6 fxe6 6. cxb5 a6 7. bxa6 Bxa6 8. g3 Be7 9. Nc3 Nc6 10. Bg2 d5 11. O-O O-O 12. Re1 Qd7 13. Bh3 d4 14. e4 Bb7 15. Nb1 c4 16. Nbd2 Na5 17. b3 c3 18. Ng5 Ra6 19. Ndf3 d3 20. Ne5 c2 21. Qxd3 Qxd3 22. Nxd3 Rd8 23. Nb2 Nxb3 24. Bxe6+ Rxe6 25. Nxe6 Ra8 26. Nc7 Ra5 27. e5 Bb4 28. Re3 Nxa1 29. exf6 gxf6 30. Nd3 Bf8 31. Ne6 Bd6 32. Kf1 Bd5 33. Ke2 Bxa2 34. Kd2 Rb5 35. Nd4 Nb3+ 36. Nxb3 Bxb3 37. Re8+ Kf7 38. Ra8 Rb7 39. Ba3 Rd7 40. Bxd6 Rxd6 41. Rc8 Ba4 42. Rc7+ Kg6 43. Rc3 h5 44. Ke3 Rb6 45. Kd2 Rb1 46. Nc1 Ra1 47. Rf3 Kg7 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.22"]
+[Round "6.2"]
+[White "Sjeng 2008"]
+[Black "Rybka 4"]
+[Result "0-1"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "17"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. a3 Bxc3+ 7. bxc3 c5 8. dxc5 O-O 9. Nf3 Na6 10. Be3 Re8 11. Bd4 Ne4 12. e3 Naxc5 13. Bxc5 Nxc5 14. Bd3 Nxd3+ 15. Qxd3 Bg4 16. Nd4 Qg5 17. Qc2 b6 18. O-O Rac8 19. Rfb1 Rc7 20. a4 Rec8 21. Rb3 Rc5 22. Raa3 Bd7 23. a5 bxa5 24. Rb7 Qd8 25. Rxa7 a4 26. Rb7 Rb8 27. Qb2 Rxb7 28. Qxb7 Qc7 29. Qb2 Qe5 30. Ra1 Rc8 31. h3 Qc7 32. Rd1 Qxc3 33. Qb7 Qc7 34. Qxd5 Rb8 35. Qa2 Qc5 36. Nf3 Be8 37. Nd4 h5 38. Ra1 Qc3 39. Ne2 Qb4 40. Nf4 h4 41. Ne2 Qb3 42. Nd4 Qxa2 43. Rxa2 Rb1+ 44. Kh2 Kf8 45. Rc2 g6 46. g4 f6 47. Rc7 Rb2 48. Ne6+ Kg8 49. Rg7+ Kh8 50. Ra7 Rxf2+ 51. Kg1 Rb2 52. Nf4 g5 53. Nd5 Bc6 54. e4 Rb7 55. Ra6 Bb5 56. Ra5 Kg7 57. Kf2 Bc6 58. Ra6 Rb2+ 59. Kg1 Bxd5 60. exd5 Rb3 61. Ra7+ Kf8 62. Rxa4 Rxh3 63. Kf2 Rd3 64. Ra7 Rxd5 65. Kg2 Rd2+ 66. Kh3 Rd3+ 67. Kh2 Rg3 68. Ra4 Ke7 69. Rb4 Ke6 70. Rb6+ Ke5 71. Rb5+ Kf4 72. Rb4+ Kf3 73. Rb6 Kxg4 74. Rxf6 Rh3+ 75. Kg2 Rb3 76. Rd6 h3+ 77. Kh2 Rb2+ 78. Kh1 Rf2 79. Kg1 0-1
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.10.22"]
+[Round "6.3"]
+[White "Naum 4.2"]
+[Black "Ivanhoe B52aF"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Termination "Black loses on time"]
+[Number "18"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. Nf3 e6 5. dxe6 fxe6 6. cxb5 a6 7. bxa6 Bxa6 8. g3 Be7 9. Nc3 Nc6 10. Bg2 O-O 11. O-O d5 12. Bf4 h6 13. Bh3 Bc8 14. Ne5 Nxe5 15. Bxe5 Ra6 16. Nb5 Ne4 17. Bg2 Bf6 18. Bxf6 Nxf6 19. Nc3 Qb6 20. b3 Qb4 21. Qd2 Bd7 22. Rfd1 Ra7 23. Rac1 Ng4 24. f3 Nf6 25. e4 d4 26. Ne2 Qb6 27. Nf4 Rfa8 28. Rc2 g5 29. Nd3 Bb5 30. Nf2 e5 31. Rdc1 Rc7 32. Bf1 Bxf1 33. Rxf1 Nd7 34. Nd3 Qe6 35. Rfc1 Qf7 36. Kg2 Rca7 37. Rb2 Rc8 38. Rc4 Rf8 39. Qd1 Qg6 40. Nxc5 g4 41. fxg4 Nxc5 42. Rxc5 Qxe4+ 43. Kh3 d3 44. Rc4 Qe3 45. Qd2 Qf3 46. Qg2 Qf7 47. Qc6 h5 48. Qh6 Re7 49. gxh5 e4 50. Rc6 Qf5+ 51. Kh4 1-0 {Black loses on time}
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.06"]
+[Round "7.1"]
+[White "Jonny 4"]
+[Black "Ivanhoe B52aF"]
+[Result "0-1"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "19"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 g6 3. g3 Bg7 4. Nc3 d5 5. cxd5 Nxd5 6. Bg2 Nxc3 7. bxc3 c5 8. e3 Qa5 9. Ne2 cxd4 10. exd4 O-O 11. Qb3 Nc6 12. Bd2 Bg4 13. Qxb7 Rfc8 14. Qb1 e5 15. d5 Rab8 16. Qe4 f5 17. Qe3 f4 18. gxf4 exf4 19. Nxf4 Re8 20. Ne6 Qa6 21. Bf1 Qa4 22. f3 Nd4 23. Kf2 Nxf3 24. Qf4 Qc2 25. Qxg4 Qxd2+ 26. Be2 Ne5 27. Qe4 Rxe6 28. Rhe1 0-1
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.06"]
+[Round "7.2"]
+[White "Zappa Mexico II"]
+[Black "Rybka 4"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "20"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 Qxd5 6. Nf3 Qf5 7. Qb3 Nc6 8. Bd2 Bd7 9. Rc1 O-O 10. h3 Qg6 11. g4 Nd5 12. e3 a5 13. a3 Nxc3 14. axb4 Ne4 15. Bd3 Nxd2 16. Nxd2 Qh6 17. bxa5 Nxa5 18. Qb4 Bc6 19. Rg1 e5 20. dxe5 Bd5 21. Rxc7 Qxh3 22. Ke2 Qh2 23. Rgc1 Qxe5 24. R7c5 Nc6 25. Qxb7 Ne7 26. Qc7 Qe6 27. Qf4 Rad8 28. Ne4 h6 29. Nc3 g5 30. Qg3 Bb3 31. Nb5 Ng6 32. Kd2 Qf6 33. Nd4 Be6 34. Bxg6 fxg6 35. Ke1 Bxg4 36. Rc6 Qf7 37. Rc7 Qf6 38. R7c6 Qf7 39. Kf1 Bd7 40. R6c5 Rde8 41. R1c2 Re4 42. Rc7 Qe7 43. R2c6 Qe8 44. Qd6 Bxc6 45. Nxc6 Re6 46. Qd5 Rf5 47. Qc4 Rf7 48. Rxf7 Rxc6 49. Re7+ Rxc4 50. Rxe8+ Kg7 51. Re7+ Kf6 52. Rb7 h5 53. Rb8 Rc6 54. b4 Re6 55. b5 g4 56. b6 Kg5 57. b7 Re7 58. Kg2 Rf7 59. e4 h4 60. e5 h3+ 61. Kg1 Rh7 62. Kh2 Kh4 63. e6 Kg5 64. Kg1 h2+ 65. Kh1 g3 66. fxg3 Kg4 67. Rg8 Rxb7 68. Rxg6+ Kf5 69. Rh6 Kg4 70. Kxh2 Rb2+ 71. Kh1 Kxg3 72. Rg6+ Kf4 73. Rg7 Kf5 74. Re7 Re2 75. Re8 Kg6 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.06"]
+[Round "7.3"]
+[White "Sjeng 2008"]
+[Black "Naum 4.2"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "21"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 d5 2. c4 c6 3. Nc3 e6 4. e4 dxe4 5. Nxe4 Bb4+ 6. Bd2 Qxd4 7. Bxb4 Qxe4+ 8. Be2 Na6 9. Ba5 b6 10. Qd6 Bd7 11. Bc3 f6 12. O-O-O O-O-O 13. Qa3 Kb7 14. Bf3 Qf4+ 15. Rd2 Qc7 16. b4 Ne7 17. b5 Nc5 18. Bd4 Kb8 19. Bxc5 bxc5 20. Qxc5 Rhe8 21. Ne2 cxb5 22. Qxc7+ Kxc7 23. cxb5 Bxb5 24. Nd4 Bc4 25. Rhd1 Bd5 26. Bxd5 Nxd5 27. Nxe6+ Rxe6 28. Rxd5 Rxd5 29. Rxd5 g6 30. Rd4 Re2 31. Rd2 Re1+ 32. Rd1 Re4 33. Kc2 Kc6 34. Kd3 Ra4 35. Rd2 h5 36. Kc3 Kc5 37. Re2 h4 38. h3 f5 39. Kb3 Rb4+ 40. Kc3 Rc4+ 41. Kb3 Re4 42. Rxe4 fxe4 43. Kc3 a5 44. Kd2 Kd4 45. g3 g5 46. g4 a4 47. a3 Kc4 48. Kc2 Kc5 49. Kd2 Kd5 50. Kc3 Ke5 51. Kd2 Ke6 52. Kc2 Kd6 53. Kc3 Kd5 54. Kd2 Ke5 55. Ke3 Kd5 56. Kd2 Kc4 57. Kc2 Kd4 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.07"]
+[Round "8.1"]
+[White "Jonny 4"]
+[Black "Sjeng 2008"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "22"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 d5 4. cxd5 exd5 5. Bg5 c6 6. e3 Be7 7. Qc2 Nbd7 8. Bd3 O-O 9. Nge2 h6 10. Bh4 Re8 11. f3 c5 12. O-O b6 13. Rad1 Bb7 14. Rfe1 Bd6 15. Ng3 c4 16. Bf1 Bf8 17. Nf5 g6 18. e4 gxf5 19. e5 Be7 20. exf6 Bxf6 21. Rxe8+ Qxe8 22. Re1 Qd8 23. Bf2 f4 24. Qf5 Nf8 25. Ne2 Bg7 26. Nxf4 Qg5 27. Qg4 Rd8 28. Nh5 Qxg4 29. fxg4 Ne6 30. Nxg7 Kxg7 31. h4 b5 32. Be3 b4 33. Kf2 Rd6 34. Be2 Rb6 35. Kg3 Ra6 36. Ra1 f6 37. Bd1 Nc7 38. Bd2 b3 39. a4 Nb5 40. Be3 Nd6 41. Kf4 Ne4 42. a5 Re6 43. Rb1 Re7 44. Rc1 Ba6 45. h5 Bb5 46. Be2 Bc6 47. Bd1 Ba4 48. Bf3 c3 49. bxc3 Nxc3 50. Rxc3 b2 51. Rc1 bxc1=Q 52. Bxc1 Rc7 53. Ba3 Bb3 54. Kf5 Kf7 55. Bc5 Rb7 56. Kf4 Bc4 57. Kg3 Rb5 58. Bxa7 Rxa5 59. Bb8 Ra2 60. Bd6 Rb2 61. Kf4 Rb1 62. Ke3 Rb3+ 63. Kf2 Rb2+ 64. Ke3 Kg8 65. Bf4 Rb3+ 66. Kf2 Kh7 67. g3 Rd3 68. Be3 Kg7 69. Bh1 Rb3 70. Bd2 Rb2 71. Ke3 Ba2 72. Bf3 Rb3+ 73. Kf2 Rd3 74. Be3 Rc3 75. Bf4 Bc4 76. Bd1 Ra3 77. Bf3 Rb3 78. Bd1 Rb1 79. Bf3 Rf1+ 80. Ke3 Ra1 81. Bd6 Rb1 82. Bf4 Rb3+ 83. Kf2 Rb2+ 84. Ke3 Ra2 85. Bd6 Rc2 86. Bf4 Rb2 87. Bd1 Bb5 88. Bf3 Rb3+ 89. Kf2 Rb4 90. Bxd5 Rxd4 91. Bf3 Ra4 92. Bd5 Bd7 93. Bf3 Be6 94. Be2 Ra2 95. Ke3 Ra8 96. Kd4 Ra4+ 97. Ke3 Ra3+ 98. Kd4 Rb3 99. Bd1 Rb4+ 100. Kc3 Rb5 101. Be2 Rb1 102. Kd3 Ra1 103. Kd4 Ra7 104. Ke3 Ra2 105. Bd6 Ra5 106. Bf4 Bd7 107. Bd6 Ra1 108. Bf4 Ra4 109. Bf3 Ra3+ 110. Ke2 Ra2+ 111. Ke3 Rb2 112. Kd4 Rc2 113. Kd3 Rf2 114. Ke3 Rf1 115. Be2 Rc1 116. Kd4 Rb1 117. Bf3 Be6 118. Be2 Ra1 119. Ke3 Rc1 120. Kd4 Rc2 121. Kd3 Rb2 122. Ke3 Rb3+ 123. Kf2 Bd5 124. Bd6 Be4 125. Bf4 Bc6 126. Bd6 Bd5 127. Bf4 Be6 128. Bf3 Rc3 129. Be2 Bd7 130. Bd6 Bc6 131. Bb4 Rc2 132. Ke3 Rb2 133. Bd6 Rb6 134. Bc7 Rb3+ 135. Kf2 Bd7 136. Bf3 Rc3 137. Bf4 Rc2+ 138. Ke3 Ra2 139. Bd1 f5 140. gxf5 Bxf5 141. g4 Ra3+ 142. Kf2 Be4 143. g5 hxg5 144. Bxg5 Kf7 145. Be3 Kf6 146. Bf3 Bh7 147. Bd4+ Kf5 148. Be3 Bg8 149. h6 Ke5 150. Bc1 Rb3 151. Kg3 Bh7 152. Bf4+ Kf5 153. Bd2 Rd3 154. Bc1 Bg6 155. Bf4 Kf6 156. Kf2 Rc3 157. Bd5 Kf5 158. Be3 Rc2+ 159. Kg3 Bh7 160. Bf3 Rc3 161. Bd2 Rb3 162. Kf2 Ke5 163. Be3 Rb4 164. Bc6 Rb8 165. Kf3 Rb3 166. Kf2 Rc3 167. Bf3 Bg6 168. Bg2 Ra3 169. Bc6 Bh7 170. Bc1 Rd3 171. Bf3 Kf6 172. Be3 Ke6 173. Bf4 Rc3 174. Ke2 Kf5 175. Bd2 Ra3 176. Bb4 Rb3 177. Bd2 Rb2 178. Ke3 Kg5 179. Ke2+ Kf6 180. Ke3 Rb3+ 181. Kf2 Bf5 182. Bf4 Rc3 183. Ke2 Bh7 184. Kf2 Rc4 185. Kg3 Rc8 186. Be3 Bb1 187. Bb7 Rc3 188. Kf4 Rc4+ 189. Kg3 Ke5 190. Bd2 Bg6 191. Ba6 Rc6 192. Bb7 Rc2 193. Bf4+ Ke6 194. Bf3 Rc3 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.07"]
+[Round "8.2"]
+[White "Rybka 4"]
+[Black "Naum 4.2"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "23"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. a3 Bxd2+ 6. Bxd2 Ne4 7. g3 d6 8. Bg2 Nd7 9. Be3 f5 10. O-O Ndf6 11. Qc2 Bd7 12. Ne1 e5 13. dxe5 dxe5 14. Nd3 Qe7 15. b4 a5 16. Nc5 Rfb8 17. Nxd7 Qxd7 18. c5 axb4 19. axb4 h6 20. Ra5 Rxa5 21. bxa5 c6 22. f3 Ng5 23. Rd1 Qe6 24. Rd6 Qc8 25. Bxg5 hxg5 26. Qb3+ Kf8 27. Qe3 Ne8 28. Rg6 Qc7 29. Qxg5 Qxa5 30. Qxf5+ Nf6 31. Rxf6+ gxf6 32. Qxf6+ Kg8 33. Qe6+ Kh7 34. Qe7+ Kg8 35. Qg5+ Kf7 36. Qf5+ Kg8 37. Qxe5 Ra8 38. Bh3 Qa1+ 39. Qxa1 Rxa1+ 40. Kf2 Rb1 41. Be6+ Kg7 42. h4 Rb5 43. Bc8 b6 44. cxb6 Rxb6 45. g4 c5 46. Bf5 c4 47. g5 Rb5 48. Be4 Kf8 49. Ke3 Rb3+ 50. Kd4 Rb2 51. e3 Rh2 52. Kxc4 Rxh4 53. Kd4 Kf7 54. f4 Ke6 55. Bc6 Kf5 56. Bd7+ Kg6 57. Be8+ Kf5 58. Bc6 Kg6 59. Be4+ Kf7 60. Bd3 Kg7 61. Bb5 Kg6 62. Ke5 Kg7 63. e4 Rh1 1-0
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.07"]
+[Round "8.3"]
+[White "Zappa Mexico II"]
+[Black "Ivanhoe B52aF"]
+[Result "0-1"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "24"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. Nf3 c5 2. c4 Nf6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 Nc6 6. g3 Qb6 7. Ndb5 Ne5 8. Bg2 a6 9. Qa4 Rb8 10. Be3 Bc5 11. Bxc5 Qxc5 12. Qa3 b6 13. Qxc5 bxc5 14. Nd6+ Ke7 15. O-O-O Neg4 16. Nxc8+ Rhxc8 17. Rdf1 Rb4 18. a3 Rb6 19. Na4 Rb3 20. Kb1 Ne5 21. Ka2 Rcb8 22. Rc1 d6 23. h3 g5 24. Rhf1 h6 25. Rh1 g4 26. Rhf1 gxh3 27. Bxh3 Ne4 28. Rc2 h5 29. Bg2 Nxg3 30. fxg3 Rxg3 31. e4 Rbg8 32. Bh1 h4 33. Nc3 h3 34. Ne2 Re3 35. Nf4 Rh8 36. Rcf2 h2 37. Rc2 a5 38. Rg2 Rh4 39. Rc2 Rh7 40. Rd1 Rh8 41. Rf1 Rh6 42. Rd1 Rg3 43. Ne2 Rg8 44. Rb1 Rg4 45. Kb3 Rhg6 46. Nc3 Rh4 47. Rf1 Rh3 48. Rfc1 Rg8 49. Re2 Rg5 50. Rec2 Rh8 51. Rb1 Rg3 52. Rd1 Rh4 53. Rf1 Rgg4 54. Rcf2 Rg7 55. Re2 Rh3 56. Rc1 Rg8 57. a4 Rb8+ 58. Ka2 Rbh8 59. Kb3 Rg8 60. Rd2 Rb8+ 61. Ka2 Nxc4 62. Rg2 Ne3 63. Rd2 Rb4 64. Re1 Rd4 65. Rf2 Rd3 66. Kb1 Ng4 67. Rc2 Ne5 68. Ne2 Rh6 69. Nc1 Rg3 70. Rd1 Rhh3 71. Rf1 Rg7 72. Rd2 c4 73. Ne2 Rb3 74. Rc2 Rg8 75. Rfc1 Rh3 76. Rf1 Re3 77. Nc3 Rg1 78. Rcc1 Rxf1 79. Rxf1 Nd3 80. Kc2 Rg3 81. Ne2 Nb4+ 82. Kb1 Rd3 83. Kc1 Rb3 84. Nd4 Nd3+ 85. Kc2 Rxb2+ 86. Kc3 Rf2 87. Rb1 Ne5 88. Re1 Rf6 89. Ne2 Rh6 90. Ng3 Rg6 91. Ne2 Rg8 92. Rb1 Rh8 93. Bg2 Kf6 94. Kd4 Rg8 95. Bh1 Kg5 96. Rb6 Rg6 97. Rb1 Rh6 98. Bg2 Ng4 99. Bh1 Rh8 100. Kxc4 Nf2 101. Bg2 Nxe4 102. Rh1 d5+ 103. Kd4 f5 104. Ke5 Nf2 105. Rb1 Ng4+ 106. Kd6 e5 107. Bxd5 e4 108. Ng3 Rd8+ 109. Ke6 Nf2 110. Nh1 Nd3 111. Bc6 e3 112. Ke7 Rc8 113. Kd7 0-1
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.08"]
+[Round "9.1"]
+[White "Ivanhoe B52aF"]
+[Black "Sjeng 2008"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "25"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3 Bg4 5. h3 Bf5 6. Bd3 Bxd3 7. Qxd3 e6 8. O-O Bd6 9. Nc3 Bb4 10. Nd2 O-O 11. e4 dxc4 12. Nxc4 c5 13. a3 Bxc3 14. bxc3 Nc6 15. e5 Nd5 16. dxc5 b5 17. Nd6 Nxe5 18. Qxb5 Rb8 19. Qe2 Nd7 20. c6 N7f6 21. Qe5 Rb6 22. c4 Rxc6 23. a4 Ne7 24. Ba3 Ng6 25. Qg3 e5 26. Rfd1 Qa8 27. Qe3 Rd8 28. c5 Rc7 29. f3 Rcd7 30. Kh2 Rc7 31. Rac1 Rb8 32. c6 Rxc6 33. Rxc6 Qxc6 34. Qxa7 Rf8 35. Rc1 Qd5 36. a5 Qa2 37. Qc5 Qd2 38. Qb4 Qe3 39. a6 e4 40. Qc3 Qxc3 41. Rxc3 exf3 42. gxf3 Nd5 43. Rb3 Ra8 44. Bc5 Ne5 45. a7 Nc6 46. Rb7 h6 47. Nxf7 Kh7 48. Nd6 Kg6 49. Kg3 h5 50. Ne4 Nf6 51. Rc7 Nd8 52. Nd6 Nd5 53. Rc8 Rxc8 54. Nxc8 Nc7 55. Bb6 Nde6 56. Bxc7 Nxc7 57. Kf4 Na8 1-0
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.08"]
+[Round "9.2"]
+[White "Rybka 4"]
+[Black "Jonny 4"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "26"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 Qxd5 5. Ngf3 cxd4 6. Bc4 Qd6 7. Qe2 Nf6 8. O-O a6 9. Rd1 Nc6 10. Nb3 b5 11. Bd3 Bb7 12. Nfxd4 Qc7 13. c4 Nxd4 14. Nxd4 Rd8 15. Be3 Bc5 16. cxb5 Bxd4 17. Rac1 Qb6 18. bxa6 Ba8 19. Bxd4 Rxd4 20. Rc8+ Rd8 21. Qe3 Nd5 22. Rxd8+ Qxd8 23. Bb5+ Kf8 24. b4 g6 25. Bc4 Kg7 26. Bxd5 Bxd5 27. Rc1 Qf6 28. b5 Ra8 29. h3 Kg8 30. a7 Bxa2 31. b6 Bd5 32. Rd1 Qb2 33. Qc5 Re8 34. Qc7 Be4 35. Rd7 Qa1+ 36. Kh2 Qf1 37. f3 Bxf3 38. Qg3 Bc6 39. b7 Qa6 40. b8=Q Bxd7 1-0
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.08"]
+[Round "9.3"]
+[White "Zappa Mexico II"]
+[Black "Naum 4.2"]
+[Result "0-1"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "27"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. e5 c5 5. a3 Bxc3+ 6. bxc3 Qc7 7. Qg4 Ne7 8. Qxg7 Rg8 9. Qxh7 cxd4 10. Ne2 Nbc6 11. f4 dxc3 12. Qd3 Bd7 13. Qxc3 O-O-O 14. Ng3 d4 15. Qc4 Nd5 16. Bd3 Nb6 17. Qb3 Na5 18. Qb4 Nc6 19. Qb1 Ne7 20. O-O Ned5 21. Qb2 Nc3 22. Qb4 Bc6 23. Bd2 Nba4 24. Bxc3 Nxc3 25. Rae1 a5 26. Qb2 Rg4 27. Be2 Nxe2+ 28. Rxe2 Qe7 29. Rff2 d3 30. cxd3 Rxd3 31. Re1 Qc5 32. Qc2 Qxc2 33. Rxc2 Rxf4 34. Ne4 Kb8 35. Nd6 Rxa3 36. Nc4 Ra4 37. Rec1 Rd4 38. Kf2 Rb4 39. h3 a4 40. Kg1 Rd5 41. Nd6 f5 42. Re2 a3 43. Ra2 Ra5 44. Rca1 Rba4 45. Rd2 Rxe5 46. h4 f4 47. Nf7 Rb5 48. Rf2 Bd5 49. h5 a2 50. h6 Rb1+ 51. Rf1 Be4 52. Ne5 Kc7 53. Nf3 Ra8 54. Nd2 Rxa1 55. Rxa1 Bd5 0-1
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.08"]
+[Round "10.1"]
+[White "Zappa Mexico II"]
+[Black "Sjeng 2008"]
+[Result "1/2-1/2"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "28"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 d5 4. Nc3 Be7 5. Bf4 O-O 6. e3 Nbd7 7. Qc2 c5 8. dxc5 Nxc5 9. Be2 Bd7 10. O-O Rc8 11. Ne5 Nce4 12. Nxe4 Nxe4 13. Bd3 f5 14. f3 Nc5 15. Rfd1 Nxd3 16. Qxd3 Bc6 17. Nxc6 bxc6 18. Qc3 Bf6 19. Be5 Bxe5 20. Qxe5 Qf6 21. Qxf6 Rxf6 22. Rac1 Rb8 23. Rc2 a5 24. b3 Rff8 25. Rd4 Rfc8 26. Rd3 Re8 27. Kf2 Kf7 28. Ke2 Rb4 29. cxd5 cxd5 30. Rd4 Reb8 31. Rxb4 axb4 32. Kd3 Kf6 33. Kd4 h5 34. f4 h4 35. Kd3 g5 36. Kd4 Rg8 37. h3 g4 38. Rc7 gxh3 39. gxh3 Rg3 40. Rb7 Rxh3 41. Rh7 Kg6 42. Rh8 Kg7 43. Rh5 Kf7 44. Rh8 Rh2 45. Kc5 Kg7 46. Rh5 Kg6 47. Rh8 Rxa2 48. Rxh4 Rd2 49. Kd6 Rd3 50. Kxe6 Rxb3 51. Rh3 d4 52. Rg3+ Kh6 53. Rh3+ Kg7 54. Rg3+ Kf8 55. Rg5 dxe3 56. Rxf5+ Kg7 57. Rb5 e2 58. Rg5+ Kh7 59. Rh5+ Kg6 60. Re5 Rf3 61. Rxe2 Rxf4 62. Rg2+ Kh7 63. Ke5 Rf8 64. Kd4 b3 65. Kc4 b2 66. Rxb2 Rc8+ 67. Kd5 Rd8+ 68. Ke6 Rd1 69. Rb8 Re1+ 70. Kd5 1/2-1/2
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.08"]
+[Round "10.2"]
+[White "Naum 4.2"]
+[Black "Jonny 4"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "29"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. Nf3 c5 2. e4 Nc6 3. Nc3 d6 4. d4 cxd4 5. Nxd4 Nf6 6. Bc4 Qb6 7. Ndb5 a6 8. Be3 Qa5 9. Nd4 Ne5 10. Bd3 b5 11. O-O Bb7 12. Qe2 b4 13. Nb3 Qc7 14. Na4 Ned7 15. Qe1 Bxe4 16. Bxe4 Nxe4 17. Qxb4 Nef6 18. Qa5 Qxa5 19. Nxa5 Ng4 20. Bd4 Rc8 21. c4 f5 22. f3 Ngf6 23. b4 Kf7 24. Rac1 e5 25. Bf2 Be7 26. c5 Nd5 27. Nb6 N5xb6 28. cxb6 Bg5 29. Rxc8 Rxc8 30. b7 Rc2 31. Rd1 Ke6 32. Nb3 Rxa2 33. Bb6 e4 34. fxe4 fxe4 35. g3 Ke7 36. Nc5 Be3+ 37. Kh1 Bxc5 38. bxc5 Nb8 39. Bc7 Nc6 40. Rxd6 Rb2 41. Rxc6 Rxb7 42. Bf4 Rb1+ 43. Kg2 Rb2+ 44. Kh3 a5 45. Ra6 h6 46. Ra7+ Ke6 47. c6 g5 48. c7 Rc2 49. Ra8 gxf4 1-0
+
+[Event "TCEC - Tournament 4"]
+[Site "http://tcec.chessdom.com"]
+[Date "2010.11.09"]
+[Round "10.3"]
+[White "Ivanhoe B52aF"]
+[Black "Rybka 4"]
+[Result "1-0"]
+[TimeControl "40/7200:20/3600:900+30"]
+[Number "30"]
+[WhiteType "program"]
+[BlackType "program"]
+[Variant "normal"]
+
+1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6 5. a4 e6 6. Bg5 Nbd7 7. e3 Qa5 8. Nd2 Bb4 9. Rc1 O-O 10. Be2 e5 11. Nb3 Qc7 12. O-O dxc4 13. Bxc4 Re8 14. h3 h6 15. Bh4 exd4 16. Nxd4 Bxc3 17. Rxc3 Ne4 18. Rc2 Ne5 19. Ba2 Ng6 20. Bg3 Qa5 21. Rc1 Qb4 22. Qh5 Nh8 23. Bc7 Qxa4 24. Bb1 Qb4 25. Rfd1 Ng6 26. Qe2 Qe7 27. Bh2 a5 28. Nf3 Ng5 29. Nd2 Nh4 30. e4 a4 31. f4 Nxh3+ 32. gxh3 a3 33. Bg3 a2 34. Bc2 Rd8 35. Nb3 Bxh3 36. Qh5 Be6 37. Rxd8+ Qxd8 38. Bxh4 Qc7 39. Na1 Qxf4 40. Rf1 Qd2 41. b3 Qc3 42. Qf3 Qc5+ 43. Bf2 Qb4 44. Be1 Qc5+ 45. Kg2 Qg5+ 46. Qg3 Bg4 47. Rf4 Bc8 48. Qxg5 hxg5 49. Rf1 Kf8 50. Kf3 Ke7 51. Bb4+ Kd8 52. Ke3 Be6 53. Bc3 g6 54. Bf6+ Kc7 55. Bxg5 c5 56. Kd2 b6 57. Kc1 Kd6 58. Kb2 Rh8 59. Kxa2 Kc6 60. e5 Kc7 61. Be4 Rh5 62. Rg1 Bd7 63. Nc2 Bc6 64. Bd3 Rh7 1-0

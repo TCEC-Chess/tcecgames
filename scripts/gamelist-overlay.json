@@ -1,5 +1,86 @@
 {
    "Seasons": {
+      "0": {
+         "sub": [
+            {
+               "id": "s0thorm1",
+               "menu": "Thoresen Match 1",
+               "url": "season=0&div=thorm1",
+               "abb": "TCEC_Match_1",
+               "dno": "0001"
+            },
+            {
+               "id": "s0thorm2",
+               "menu": "Thoresen Match 2",
+               "url": "season=0&div=thorm2",
+               "abb": "TCEC_Match_2",
+               "dno": "0002"
+            },
+            {
+               "id": "s0thorm3",
+               "menu": "Thoresen Match 3",
+               "url": "season=0&div=thorm3",
+               "abb": "TCEC_Match_3",
+               "dno": "0003"
+            },
+            {
+               "id": "s0thorm4",
+               "menu": "Thoresen Match 4",
+               "url": "season=0&div=thorm4",
+               "abb": "TCEC_Match_4",
+               "dno": "0004"
+            },
+            {
+               "id": "s0thorm5",
+               "menu": "Thoresen Match 5",
+               "url": "season=0&div=thorm5",
+               "abb": "TCEC_Match_5",
+               "dno": "0005"
+            },
+            {
+               "id": "s0thorm6",
+               "menu": "Thoresen Match 6",
+               "url": "season=0&div=thorm6",
+               "abb": "TCEC_Match_6",
+               "dno": "0006"
+            },
+            {
+               "id": "s0thort1",
+               "menu": "Thoresen Tournament 1",
+               "url": "season=0&div=thort1",
+               "abb": "TCEC_Tournament_1",
+               "dno": "0011"
+            },
+            {
+               "id": "s0thort2",
+               "menu": "Thoresen Tournament 2",
+               "url": "season=0&div=thort2",
+               "abb": "TCEC_Tournament_2",
+               "dno": "0012"
+            },
+            {
+               "id": "s0thort3",
+               "menu": "Thoresen Tournament 3",
+               "url": "season=0&div=thort3",
+               "abb": "TCEC_Tournament_3",
+               "dno": "0013"
+            },
+            {
+               "id": "s0thort4",
+               "menu": "Thoresen Tournament 4",
+               "url": "season=0&div=thort4",
+               "abb": "TCEC_Tournament_4",
+               "dno": "0014"
+            },
+            {
+               "id": "s0thort5",
+               "menu": "Thoresen Tournament 5",
+               "url": "season=0&div=thort5",
+               "abb": "TCEC_Tournament_5",
+               "dno": "0015"
+            }
+         ]
+      },
       "6": {
          "sub": [
             {
