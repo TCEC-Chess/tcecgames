@@ -98,6 +98,9 @@ def classify_event(season, event_id, event_name):
         if (re.fullmatch('scup[0-9]+.*', event_id)):
             return "CUP"
 
+        if int(season) == 0:
+            return "MAIN"
+
         # if we get here, then everything that doesn't match above is bonus (up to S19)
         if int(season) <= 19:
             return "BONUS"
