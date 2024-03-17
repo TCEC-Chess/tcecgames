@@ -588,6 +588,9 @@ def output_make_defs(make_defs):
     print("all-compact-events: " + (" \\\n\t".join(all_full_events)).replace("/full/", "/compact/"))
     print()
 
+def make_season_sort_key(season_id):
+    return season_id
+
 def gamelists_to_eventlist(gamelists):
     eventlist = { }
     for gamelist in gamelists:
@@ -629,12 +632,23 @@ def gamelists_to_eventlist(gamelists):
 
     return eventlist
 
+def atoi(text):
+    return int(text) if text.isdigit() else text
+
+def natural_keys(text):
+    '''
+    alist.sort(key=natural_keys) sorts in human order
+    http://nedbatchelder.com/blog/200712/human_sorting.html
+    (See Toothy's implementation in the comments)
+    '''
+    return [ atoi(c) for c in re.split(r'(\d+)', text) ]
+
 def gamelist_to_master_index(gamelists):
     eventlist = gamelists_to_eventlist(gamelists)
     if operating_mode == "GENERATE-MAKEFILE":
         make_defs = { }
 
-    for season in eventlist:
+    for season in sorted(eventlist, key=natural_keys):
         verbose(f"Season '{season}'")
 
         for event_id in sorted(eventlist[season]):
