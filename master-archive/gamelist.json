@@ -4688,6 +4688,22 @@
 	       "dno": "0018"
             },
             {
+               "id": "s26divisionel",
+               "menu": "Entrance League",
+               "url": "season=26&div=el",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Entrance_League",
+               "dno": "5019"
+            },
+            {
+               "id": "s26divisionl2t",
+               "menu": "L2 Testing",
+               "url": "season=26&div=l2t",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_L2_Testing",
+	       "dno": "0020"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
