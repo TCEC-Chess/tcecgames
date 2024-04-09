@@ -4704,6 +4704,30 @@
 	       "dno": "0020"
             },
             {
+               "id": "s26divisionl2",
+               "menu": "League 2",
+               "url": "season=26&div=l2",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_League_2",
+               "dno": "5021"
+            },
+            {
+               "id": "s26divisiongm",
+               "menu": "Grob Mating Bonus",
+               "url": "season=26&div=gm",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Grob_Mating_Bonus",
+	       "dno": "1022"
+            },
+            {
+               "id": "s26divisionl1t",
+               "menu": "L1 Testing",
+               "url": "season=26&div=l1t",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_L1_Testing",
+	       "dno": "0023"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
