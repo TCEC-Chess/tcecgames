@@ -4728,6 +4728,14 @@
 	       "dno": "0023"
             },
             {
+               "id": "s26divisionl1",
+               "menu": "League 1",
+               "url": "season=26&div=l1",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_League_1",
+               "dno": "5024"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
