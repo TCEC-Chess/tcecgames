@@ -4736,6 +4736,22 @@
                "dno": "5024"
             },
             {
+               "id": "s26divisiondivpt",
+               "menu": "DivP Testing",
+               "url": "season=26&div=divpt",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Divp_Testing",
+               "dno": "0015"
+            },
+            {
+               "id": "s26divisionp",
+               "menu": "Division P",
+               "url": "season=26&div=p",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Division_P",
+               "dno": "5016"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
