@@ -4752,6 +4752,22 @@
                "dno": "5016"
             },
             {
+               "id": "s26divisionsft",
+               "menu": "Sufi Testing",
+               "url": "season=26&div=sft",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Sufi_Testing",
+	       "dno": "0017"
+            },
+            {
+               "id": "s26divisionrcb",
+               "menu": "Rapid Chess Bonus",
+               "url": "season=26&div=rcb",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Rapid_Chess_Bonus",
+	       "dno": "1028"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
