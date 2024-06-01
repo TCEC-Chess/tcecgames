@@ -4741,7 +4741,7 @@
                "url": "season=26&div=divpt",
                "no": "26",
                "abb": "TCEC_Season_26_-_Divp_Testing",
-               "dno": "0015"
+               "dno": "0025"
             },
             {
                "id": "s26divisionp",
@@ -4749,7 +4749,7 @@
                "url": "season=26&div=p",
                "no": "26",
                "abb": "TCEC_Season_26_-_Division_P",
-               "dno": "5016"
+               "dno": "5026"
             },
             {
                "id": "s26divisionsft",
@@ -4757,7 +4757,7 @@
                "url": "season=26&div=sft",
                "no": "26",
                "abb": "TCEC_Season_26_-_Sufi_Testing",
-	       "dno": "0017"
+	       "dno": "0027"
             },
             {
                "id": "s26divisionrcb",
@@ -4774,6 +4774,30 @@
                "no": "26",
                "abb": "TCEC_Season_26_-_Bullet_Chess_Bonus",
 	       "dno": "1029"
+            },
+            {
+               "id": "s26divisionubcb",
+               "menu": "Ultra Bullet Chess Bonus",
+               "url": "season=26&div=ubcb",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Ultra_Bullet_Chess_Bonus",
+	       "dno": "1030"
+            },
+            {
+               "id": "s26division1ubcb",
+               "menu": "1s Ultra Bullet Chess Bonus",
+               "url": "season=26&div=1ubcb",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_1s_Ultra_Bullet_Chess_Bonus",
+	       "dno": "1031"
+            },
+            {
+               "id": "s26divisionsf",
+               "menu": "Superfinal",
+               "url": "season=26&div=sf",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Superfinal",
+	       "dno": "5032"
             },
             {
                "id": "s26divisiondivider",
