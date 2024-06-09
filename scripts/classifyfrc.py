@@ -124,8 +124,8 @@ def classifyFrcFromStdin():
     openingTags = False
     frcClass = None
 
-    reOpeningTags = re.compile('\[(Opening|Variation).*\]')
-    reFEN = re.compile('\[FEN "([nbrqk]{8})/pppppppp/8/8/8/8/PPPPPPPP/([NBRQK]{8}) w (K?Q?k?q?|-) - 0 1"\]')
+    reOpeningTags = re.compile('[[](Opening|Variation).*[]]')
+    reFEN = re.compile('[[]FEN "([nbrqk]{8})/pppppppp/8/8/8/8/PPPPPPPP/([NBRQK]{8}) w (K?Q?k?q?|-) - 0 1"[]]')
 
     for line in sys.stdin:
         line = line.rstrip() # let's skip the newline
