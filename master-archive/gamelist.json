@@ -4800,6 +4800,14 @@
 	       "dno": "5032"
             },
             {
+               "id": "s26divisionru",
+               "menu": "Runners Up Bonus",
+               "url": "season=26&div=ru",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Runners_Up_Bonus",
+	       "dno": "1033"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
