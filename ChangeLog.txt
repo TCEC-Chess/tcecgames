@@ -1,3 +1,14 @@
+Season 26 interim 2 (2024-06-09)
+- This release contains all TCEC games up to and including TCEC
+  Superfinal and Runners Up bonus.
+- Historical Thoresen tournaments and matches were added. These
+  consist of six matches and five tournaments. In the compiled PGNs,
+  these events are assigned to Season 00. (Issue #41)
+  o Originally, TCEC stood for Thoresen Chess Engines Competition.
+  o The book exits are not currently recovered for
+    Thoresen Tournament 4. For details, see
+    https://github.com/TCEC-Chess/tcecgames/issues/41#issuecomment-2002599306
+
 Season 26 interim 1 (2024-03-10)
 - This release contains all TCEC games up to and including TCEC
   Tiebreak type test bonus 2. The new competition events include 4k3,
