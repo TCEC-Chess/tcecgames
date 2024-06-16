@@ -4808,6 +4808,46 @@
 	       "dno": "1033"
             },
             {
+               "id": "s26divisionnt",
+               "menu": "NUMA Testing",
+               "url": "season=26&div=nt",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Numa_Testing",
+	       "dno": "0034"
+            },
+            {
+               "id": "s26divisioncb",
+               "menu": "KQq Castling Bonus",
+               "url": "season=26&div=cb",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Kqq_Castling_Bonus",
+	       "dno": "1035"
+            },
+            {
+               "id": "s26divisionfrckibitzer",
+               "menu": "FRC No Castling Kibitzer Bonus",
+               "url": "season=26&div=frckib",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Frc_No_Castling_Kibitzer_Bonus",
+               "dno": "1036"
+            },
+            {
+               "id": "s26divisionfdt",
+               "menu": "FRD 2 Testing",
+               "url": "season=26&div=fdt",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Frd_2_Testing",
+	       "dno": "0037"
+            },
+            {
+               "id": "s26divisionfdt2",
+               "menu": "FRD 2 Testing 2",
+               "url": "season=26&div=fdt2",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Frd_2_Testing_2",
+	       "dno": "0038"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
