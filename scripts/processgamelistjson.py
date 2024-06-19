@@ -130,6 +130,10 @@ def classify_event(season, event_id, event_name):
                         "s25divisionsfrd1sl1", "s25divisionsfrd1sl2", "s25divisionsfrd1fl", "s25divisionsfrd1f"]:
             return "DFRC"
 
+        if event_id in ["s26divisionsfrdla", "s26divisionsfrdlb", "s26divisionsfrdlc", "s26divisionsfrdld",
+                        "s26divisionsfrdsl1", "s26divisionsfrdsl2", "s26divisionsfrdfl", "s26divisionsfrdf"]:
+            return "DFRC"
+
         if event_id in ["s26division4kf"]:
             return "MAIN"
 
