@@ -4866,6 +4866,15 @@
 	       "dno": "2040"
             },
             {
+               "id": "s26divisionsfrdlc",
+               "frc": 1,
+               "menu": "FRD 2 League C",
+               "url": "season=26&div=frdlc",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Frd_2_League_C",
+	       "dno": "2041"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
