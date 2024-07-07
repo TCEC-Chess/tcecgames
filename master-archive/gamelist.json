@@ -4884,6 +4884,33 @@
 	       "dno": "2042"
             },
             {
+               "id": "s26divisionsfrdsl1",
+               "frc": 1,
+               "menu": "FRD 2 Semileague 1",
+               "url": "season=26&div=frdsl1",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Frd_2_Semileague_1",
+	       "dno": "2043"
+            },
+            {
+               "id": "s26divisionsfrdsl2",
+               "frc": 1,
+               "menu": "FRD 2 Semileague 2",
+               "url": "season=26&div=frdsl2",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Frd_2_Semileague_2",
+	       "dno": "2044"
+            },
+            {
+               "id": "s26divisionsfrdfl",
+               "frc": 1,
+               "menu": "FRD 2 Final League",
+               "url": "season=26&div=frdfl",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Frd_2_Final_League",
+	       "dno": "2045"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
