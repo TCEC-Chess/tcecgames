@@ -4920,6 +4920,22 @@
 	       "dno": "2046"
             },
             {
+               "id": "s26divisionvsob26",
+               "menu": "Viewer Submitted Openings Bonus 26",
+               "url": "season=26&div=vsob26",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Viewer_Submitted_Openings_Bonus_26",
+	       "dno": "1047"
+            },
+            {
+               "id": "s26divisionblb",
+               "menu": "Balanced Lines Bonus",
+               "url": "season=26&div=blb",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Balanced_Lines_Bonus",
+	       "dno": "1048"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
