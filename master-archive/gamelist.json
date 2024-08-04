@@ -4911,6 +4911,15 @@
 	       "dno": "2045"
             },
             {
+               "id": "s26divisionsfrdf",
+               "frc": 1,
+               "menu": "FRD 2 Final",
+               "url": "season=26&div=frdf",
+               "no": "26",
+               "abb": "TCEC_Season_26_-_Frd_2_Final",
+	       "dno": "2046"
+            },
+            {
                "id": "s26divisiondivider",
                "menu": "-= Cup 13 =-",
                "url": "season=26&div=undefined",
