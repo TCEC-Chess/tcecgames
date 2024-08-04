@@ -1,3 +1,7 @@
+Season 26 final (2024-08-04)
+- This release contains all TCEC games of Season 26 and previous
+  seasons.
+
 Season 26 interim 2 (2024-06-09)
 - This release contains all TCEC games up to and including TCEC
   Superfinal and Runners Up bonus.
