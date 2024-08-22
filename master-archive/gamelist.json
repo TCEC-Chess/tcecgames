@@ -5008,6 +5008,23 @@
 	       "dno": "3401"
             },
             {
+               "id": "s27division4kf",
+               "menu": "4K IV MiniFinal",
+               "url": "season=27&div=4kf",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_4k_Iv_Minifinal",
+	       "dno": "3402"
+            },
+            {
+               "idf": "s27divisionvsob27",
+               "menu": "Viewer Submitted Openings Bonus 27",
+               "url": "season=27&div=vsob27",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Viewer_Submitted_Openings_Bonus_27",
+	       "dno": "1003",
+               "id": "current"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
