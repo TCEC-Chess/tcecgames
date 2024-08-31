@@ -5016,13 +5016,29 @@
 	       "dno": "3402"
             },
             {
-               "idf": "s27divisionvsob27",
+               "id": "s27divisionvsob27",
                "menu": "Viewer Submitted Openings Bonus 27",
                "url": "season=27&div=vsob27",
                "no": "27",
                "abb": "TCEC_Season_27_-_Viewer_Submitted_Openings_Bonus_27",
-	       "dno": "1003",
-               "id": "current"
+	       "dno": "1003"
+            },
+            {
+
+               "id": "s27divisiontheokib",
+               "menu": "Theory Blitz Kibitzer Bonus",
+               "url": "season=27&div=theokib",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Theory_Blitz_Kibitzer_Bonus",
+               "dno": "1004"
+            },
+            {
+               "id": "s27divisionscat3p",
+               "menu": "Category 3 Playoff",
+               "url": "season=27&div=cat3p",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Category_3_Playoff",
+	       "dno": "3506"
             },
             {
                "id": "s27divisiondivider",
