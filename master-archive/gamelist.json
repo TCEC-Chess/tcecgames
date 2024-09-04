@@ -5041,6 +5041,22 @@
 	       "dno": "3506"
             },
             {
+               "id": "s27divisionscat02p",
+               "menu": "Category 0 and 2 Playoff",
+               "url": "season=27&div=cat02p",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Category_0_And_2_Playoff",
+	       "dno": "3507"
+            },
+            {
+               "id": "s27divisionscat02pt",
+               "menu": "Category 0 and 2 Playoff Tiebreak",
+               "url": "season=27&div=cat02pt",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Category_0_And_2_Playoff_Tiebreak",
+	       "dno": "3508"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
