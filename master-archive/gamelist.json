@@ -5033,6 +5033,14 @@
                "dno": "1004"
             },
             {
+               "id": "s27divisionpswt",
+               "menu": "Playoff and Swiss 7 Testing",
+               "url": "season=27&div=pswt",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Playoff_And_Swiss_7_Testing",
+	       "dno": "0005"
+            },
+            {
                "id": "s27divisionscat3p",
                "menu": "Category 3 Playoff",
                "url": "season=27&div=cat3p",
@@ -5055,6 +5063,22 @@
                "no": "27",
                "abb": "TCEC_Season_27_-_Category_0_And_2_Playoff_Tiebreak",
 	       "dno": "3508"
+            },
+            {
+               "id": "s27divisionpswt2",
+               "menu": "Playoff and Swiss 7 Testing Part 2",
+               "url": "season=27&div=pswt2",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Playoff_And_Swiss_7_Testing_Part_2",
+	       "dno": "0009"
+            },
+            {
+               "id": "s27divisionsw",
+               "menu": "Swiss 7",
+               "url": "season=27&div=sw",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Swiss_7",
+	       "dno": "3510"
             },
             {
                "id": "s27divisiondivider",
