@@ -5081,6 +5081,62 @@
 	       "dno": "3510"
             },
             {
+               "id": "s27divisioncupt",
+               "menu": "Cup 14 Testing",
+               "url": "season=27&div=cupt",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Cup_14_Testing",
+	       "dno": "0011"
+            },
+            {
+               "no": "1",
+               "dno": "4012",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_14_Round32",
+               "url": "season=cup14&round=round32",
+               "id": "scup14round32"
+            },
+            {
+               "no": "2",
+               "dno": "4013",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_14_Round16",
+               "url": "season=cup14&round=round16",
+               "id": "scup14round16"
+            },
+            {
+               "no": "3",
+               "dno": "4014",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_14_Quarterfinal",
+               "url": "season=cup14&round=qf",
+               "id": "scup14qf"
+            },
+            {
+               "no": "4",
+               "dno": "4015",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_14_Semifinal",
+               "url": "season=cup14&round=sf",
+               "id": "scup14sf"
+            },
+            {
+               "no": "5",
+               "dno": "4016",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_14_Bronze",
+               "url": "season=cup14&round=bz",
+               "id": "scup14bz"
+            },
+            {
+               "no": "6",
+               "dno": "4017",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_14_Final",
+               "url": "season=cup14&round=fl",
+               "id": "scup14fl"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
@@ -5862,6 +5918,64 @@
                "abb": "TCEC_Cup_13_Final",
                "url": "season=cup13&round=fl",
                "id": "scup13fl"
+            }
+	 ]
+      },
+      "Cup 14": {
+         "seasonName": "Cup 14",
+         "download": "TCEC_Cup_14_full.pgn.zip",
+         "eventtag": "TCEC_Cup_14_event",
+         "previouspgn": "TCEC_Cup_14_Round32",
+         "teams": "cup14.json",
+         "cup": 14,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_14_Round32",
+               "url": "season=cup14&round=round32",
+	       "id": "scup14round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_14_Round16",
+               "url": "season=cup14&round=round16",
+               "id": "scup14round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_14_Quarterfinal",
+               "url": "season=cup14&round=qf",
+               "id": "scup14qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_14_Semifinal",
+               "url": "season=cup14&round=sf",
+               "id": "scup14sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_14_Bronze",
+               "url": "season=cup14&round=bz",
+               "id": "scup14bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_14_Final",
+               "url": "season=cup14&round=fl",
+               "id": "scup14fl"
             }
 	 ]
       },
