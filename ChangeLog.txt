@@ -1,3 +1,7 @@
+Season 27 interim 1 (2024-10-19)
+- This release contains all TCEC games up to and including
+  Cup 14. The new competition events include also Swiss 7.
+
 Season 26 final (2024-08-04)
 - This release contains all TCEC games of Season 26 and previous
   seasons.
