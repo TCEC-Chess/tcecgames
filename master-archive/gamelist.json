@@ -5137,6 +5137,22 @@
                "id": "scup14fl"
             },
             {
+               "id": "s27divisionelt",
+               "menu": "EL L2 L1 DivP Testing",
+               "url": "season=27&div=elt",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_El_L2_L1_Divp_Testing",
+	       "dno": "0018"
+            },
+            {
+               "id": "s27divisionel",
+               "menu": "Entrance League",
+               "url": "season=27&div=el",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Entrance_League",
+               "dno": "5019"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
