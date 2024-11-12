@@ -5153,6 +5153,14 @@
                "dno": "5019"
             },
             {
+               "id": "s27divisionl2",
+               "menu": "League 2",
+               "url": "season=27&div=l2",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_League_2",
+               "dno": "5020"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
