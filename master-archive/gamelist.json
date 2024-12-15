@@ -5169,6 +5169,30 @@
                "dno": "5021"
             },
             {
+               "id": "s27divisiondivpt",
+               "menu": "DivP Testing",
+               "url": "season=27&div=divpt",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Divp_Testing",
+               "dno": "0022"
+            },
+            {
+               "id": "s27divisionp",
+               "menu": "Division P",
+               "url": "season=27&div=p",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Division_P",
+               "dno": "5023"
+            },
+            {
+               "id": "s27divisionsft",
+               "menu": "Sufi Testing",
+               "url": "season=27&div=sft",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Sufi_Testing",
+	       "dno": "0024"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
