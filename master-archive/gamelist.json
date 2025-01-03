@@ -5193,6 +5193,14 @@
 	       "dno": "0024"
             },
             {
+               "id": "s27divisionsf",
+               "menu": "Superfinal",
+               "url": "season=27&div=sf",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Superfinal",
+	       "dno": "5025"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
