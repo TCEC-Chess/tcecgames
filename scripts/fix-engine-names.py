@@ -178,7 +178,7 @@ def fixVariousVersions(t):
             "Zappa",
         ]:
             name = n
-            version = v + " " + version
+            version = v + " " + version if version else v
             version = version.replace(" ", "_")
     name = name.replace("SlowChess_Blitz", "SlowChess Blitz")
     return name, version, tag
