@@ -86,6 +86,8 @@ def addFixedStockfish15():
 
 def amendEngineNames(player):
     name, space, rest = player.partition(" ")
+    # "Cheng 4 0.36c" will then be dealt with in fixVariousVersions() below
+    name = name.replace("Cheng4", "Cheng 4")
     name = name.replace("Chess22k", "chess22k")
     name = re.sub(r"[lL]c0", "LCZero", name)
     # replace underscore with digital point
@@ -93,9 +95,9 @@ def amendEngineNames(player):
     # include an underscore before 0.1pct, 10pct, 30pct etc
     name = re.sub(r"([a-zA-Z])(\d+(\.\d+)?pct)", r"\1_\2", name)
     # rename kn to k
-    name = re.sub(r"([0-9])(kn)", r"\1k", name)
+    name = re.sub(r"([0-9])kn", r"\1k", name)
     # rename Mn to M
-    name = re.sub(r"([0-9])(Mn)", r"\1M", name)
+    name = re.sub(r"([0-9])Mn", r"\1M", name)
     # include an underscore before 1n, 100k, 10M, 1G etc
     if name not in ["chess22k", "we4k"]:
         name = re.sub(r"([a-zA-Z])(\d+(\d+)?[nkMG])", r"\1_\2", name)
@@ -135,6 +137,33 @@ def fixVariousTags(t):
     return name, version, tag
 
 
+def fixVariousVersions(t):
+    name, version, tag = t
+    if " " in name:
+        n, _, v = name.partition(" ")
+        if n in [
+            "Antifish",
+            "Cheng",
+            "Cheese",
+            "DeepSjeng",
+            "Fritz",
+            "Glaurung",
+            "Igel",
+            "Laser",
+            "LCZero",
+            "LCZeroCPU_3pct",
+            "Rodent",
+            "Sjeng",
+            "Stoofvlees",
+            "Wasp",
+            "Zappa",
+        ]:
+            name = n
+            version = v + " " + version
+            version = version.replace(" ", "_")
+    return name, version, tag
+
+
 def serializeNameVersionTriplet(t):
     s1 = "" if t[1] == "" else f" ({t[1]})"
     s2 = "" if t[2] == "" else f" [{t[2]}]"
@@ -168,6 +197,7 @@ def fixEngineNames():
             nameVersionTriplet = fixCopyTags(nameVersionTriplet)
             nameVersionTriplet = fixMemoryAndThreadTags(nameVersionTriplet)
             nameVersionTriplet = fixVariousTags(nameVersionTriplet)
+            nameVersionTriplet = fixVariousVersions(nameVersionTriplet)
 
             print(
                 f'[{playerTagMatch.group(1)} "{serializeNameVersionTriplet(nameVersionTriplet)}"]'
