@@ -22,6 +22,21 @@ exceptionalNames = {
     "Stockfish_13_CCRL 64-bit_4CPU": ("Stockfish", "13", "CCRL 64-bit 4CPU"),
     "Stockfish_15_CCRL 64-bit_4CPU": ("Stockfish", "15", "CCRL 64-bit 4CPU"),
     "Chat": ("TCEC Chat", "", ""),
+    "EtherealClassical 12.89": ("Ethereal", "12.89_Classical", ""),
+    "SFNNUE 20200704-StockFiNN-0.2": ("Stockfish", "20200704-StockFiNN-0.2", "SFNNUE"),
+    "StockfishNNUE 20200704-StockFiNN-0.2": (
+        "Stockfish",
+        "20200704-StockFiNN-0.2",
+        "StockfishNNUE",
+    ),
+    "SimpleEval2 20200731r14": ("SimpleEval", "20200731r14", "2"),
+    "Bluefish Dev": ("Stockfish", "Dev", "Bluefish"),
+    "Booot2 6.5": ("Booot", "6.5", "2"),
+    "RubiChessClassical 2.0.1": ("RubiChess", "2.0.1_Classical", ""),
+    "StockfishClassical": ("Stockfish", "Classical", ""),
+    "StockfishClassical 202007311012": ("Stockfish", "202007311012_Classical", ""),
+    "Redfish 19070105": ("Stockfish", "19070105", "Redfish"),
+    "Redfish 20191209": ("Stockfish", "20191209", "Redfish"),
 }
 
 
@@ -85,8 +100,10 @@ def addFixedStockfish15():
 
 
 def amendEngineNames(player):
+    # "SlowChess_Blitz 2.41 avx" will be dealt with in fixVariousVersions()
+    player = player.replace("SlowChess Blitz", "SlowChess_Blitz")
     name, space, rest = player.partition(" ")
-    # "Cheng 4 0.36c" will then be dealt with in fixVariousVersions() below
+    # "Cheng 4 0.36c" will then be dealt with in fixVariousVersions()
     name = name.replace("Cheng4", "Cheng 4")
     name = name.replace("Chess22k", "chess22k")
     name = re.sub(r"[lL]c0", "LCZero", name)
@@ -123,7 +140,7 @@ def fixCopyTags(t):
 
 def fixMemoryAndThreadTags(t):
     name, version, tag = t
-    if version in ["64GiB", "128GiB", "256GiB", "256th"]:
+    if version in ["16GiB", "64GiB", "128GiB", "256GiB", "256th"]:
         tag = version
         name, _, version = name.rpartition(" ")
     return name, version, tag
@@ -146,6 +163,7 @@ def fixVariousVersions(t):
             "Cheng",
             "Cheese",
             "DeepSjeng",
+            "Ethereal",
             "Fritz",
             "Glaurung",
             "Igel",
@@ -154,6 +172,7 @@ def fixVariousVersions(t):
             "LCZeroCPU_3pct",
             "Rodent",
             "Sjeng",
+            "SlowChess_Blitz",
             "Stoofvlees",
             "Wasp",
             "Zappa",
@@ -161,6 +180,7 @@ def fixVariousVersions(t):
             name = n
             version = v + " " + version
             version = version.replace(" ", "_")
+    name = name.replace("SlowChess_Blitz", "SlowChess Blitz")
     return name, version, tag
 
 
