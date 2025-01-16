@@ -107,6 +107,7 @@ def amendEngineNames(player):
     name = name.replace("Cheng4", "Cheng 4")
     name = name.replace("Chess22k", "chess22k")
     name = re.sub(r"[lL]c0", "LCZero", name)
+    name = name.replace("pirarucu", "Pirarucu")
     # replace underscore with digital point
     name = name.replace("0_1pct", "0.1pct")
     # include an underscore before 0.1pct, 10pct, 30pct etc
@@ -171,6 +172,7 @@ def fixVariousVersions(t):
             "LCZero",
             "LCZeroCPU_3pct",
             "Rodent",
+            "Rybka",
             "Sjeng",
             "SlowChess_Blitz",
             "Stoofvlees",
