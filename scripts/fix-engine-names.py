@@ -108,7 +108,7 @@ def amendEngineNames(player):
     name = name.replace("Chess22k", "chess22k")
     name = re.sub(r"[lL]c0", "LCZero", name)
     name = name.replace("pirarucu", "Pirarucu")
-    # replace underscore with digital point
+    # replace underscore with decimal point
     name = name.replace("0_1pct", "0.1pct")
     # include an underscore before 0.1pct, 10pct, 30pct etc
     name = re.sub(r"([a-zA-Z])(\d+(\.\d+)?pct)", r"\1_\2", name)
