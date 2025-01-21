@@ -5201,6 +5201,15 @@
 	       "dno": "5025"
             },
             {
+
+               "id": "s27divisionaltsufikib",
+               "menu": "Altsufi Kibitzer Ponder Bonus",
+               "url": "season=27&div=altsufikib",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Altsufi_Kibitzer_Ponder_Bonus",
+               "dno": "1026"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
