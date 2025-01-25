@@ -5210,6 +5210,14 @@
                "dno": "1026"
             },
             {
+               "id": "s27divisiontheory",
+               "menu": "Theory Bonus",
+               "url": "season=27&div=theory",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Theory_Bonus",
+               "dno": "1027"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
