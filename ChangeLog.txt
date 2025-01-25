@@ -1,3 +1,7 @@
+Season 27 interim 2 (2025-01-26)
+- This release contains all TCEC games up to and including Season 27
+  Superfinal and Altsufi Kibitzer Ponder Bonus
+
 Season 27 interim 1 (2024-10-19)
 - This release contains all TCEC games up to and including
   Cup 14. The new competition events include also Swiss 7.
