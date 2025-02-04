@@ -5226,6 +5226,23 @@
                "dno": "1028"
             },
             {
+               "id": "s27divisionfdt",
+               "menu": "FRD 3 Testing",
+               "url": "season=27&div=fdt",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Frd_3_Testing",
+	       "dno": "0029"
+            },
+            {
+               "id": "s27divisionsfrdla",
+               "frc": 1,
+               "menu": "FRD 3 League A",
+               "url": "season=27&div=frdla",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Frd_3_League_A",
+	       "dno": "2030"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
