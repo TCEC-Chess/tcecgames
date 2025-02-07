@@ -5243,6 +5243,15 @@
 	       "dno": "2030"
             },
             {
+               "id": "s27divisionsfrdlb",
+               "frc": 1,
+               "menu": "FRD 3 League B",
+               "url": "season=27&div=frdlb",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Frd_3_League_B",
+	       "dno": "2031"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
