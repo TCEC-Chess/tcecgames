@@ -5261,6 +5261,15 @@
 	       "dno": "2032"
             },
             {
+               "id": "s27divisionsfrdld",
+               "frc": 1,
+               "menu": "FRD 3 League D",
+               "url": "season=27&div=frdld",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Frd_3_League_D",
+	       "dno": "2033"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
