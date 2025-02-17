@@ -5279,6 +5279,15 @@
 	       "dno": "2034"
             },
             {
+               "id": "s27divisionsfrdsl2",
+               "frc": 1,
+               "menu": "FRD 3 Semileague 2",
+               "url": "season=27&div=frdsl2",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Frd_3_Semileague_2",
+	       "dno": "2035"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
