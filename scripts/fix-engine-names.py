@@ -2,6 +2,7 @@
 
 import re
 import sys
+from tabulate import tabulate
 
 # Exceptional names. Individually mapped to name / version / optional special tag
 #
@@ -9,34 +10,114 @@ import sys
 # additional information.
 exceptionalNames = {
     # format: <player tag> : (<engine name>, <engine version>, <optional special tag>)
-    "Koivisto2 4.41": ("Koivisto", "4.41", "2"),
-    "MrBob 1.0.0_dev": ("Mr_Bob", "1.0.0_dev", ""),
-    "Weiss 0.10-dev-20200525 1": ("Weiss", "0.10-dev-20200525", "1"),
-    "Weiss 0.10-dev-20200525 2": ("Weiss", "0.10-dev-20200525", "2"),
+    "Antifish 1.0 Mark 289": ("Antifish", "1.0_Mark_289", ""),
+    "Bluefish Dev": ("Stockfish", "Dev", "Bluefish"),
+    "Booot2 6.5": ("Booot", "6.5", "2"),
+    "Chat": ("TCEC Chat", "", ""),
+    "Cheese 3.0 beta": ("Cheese", "3.0_beta", ""),
+    "Cheese 3.0 beta2": ("Cheese", "3.0_beta2", ""),
+    "Cheese 3.0 beta3": ("Cheese", "3.0_beta3", ""),
     "Crafty_25.2_CCRL 64-bit 4CPU": ("Crafty", "25.2", "CCRL 64-bit 4CPU"),
+    "Ethereal TCEC S20 DivP (PEXT)": ("Ethereal", "TCEC_S20_DivP_(PEXT)", ""),
+    "Ethereal TCEC S20 DivP": ("Ethereal", "TCEC_S20_DivP", ""),
+    "EtherealClassical 12.89": ("Ethereal", "12.89_Classical", ""),
+    "Fritz in Bahrain": ("Fritz", "in_Bahrain", ""),
+    "Glaurung 2.2 JA": ("Glaurung", "2.2_JA", ""),
     "Glaurung_2.2_CCRL 64-bit_4CPU": ("Glaurung", "2.2", "CCRL 64-bit 4CPU"),
     "Gull_20170410_CCRL 64-bit 4CPU": ("Gull", "20170410", "CCRL 64-bit 4CPU"),
+    "Igel 2.1.2 TCEC#3": ("Igel", "2.1.2_TCEC#3", ""),
+    "Igel 2.1.2 next.2_TCEC_TTFIX": ("Igel", "2.1.2_next.2_TCEC_TTFIX", ""),
+    "Igel 3.0.5 128GiB": ("Igel", "3.0.5", "128GiB"),
+    "Igel 3.0.5 256GiB": ("Igel", "3.0.5", "256GiB"),
+    "Koivisto2 4.41": ("Koivisto", "4.41", "2"),
+    "KomodoDragon 2885.00_copy": ("KomodoDragon", "2885.00", "copy"),
+    "KomodoDragon 3.1_copy": ("KomodoDragon", "3.1", "copy"),
     "Komodo_10_CCRL 64-bit_4CPU": ("Komodo", "10", "CCRL 64-bit 4CPU"),
     "Komodo_14_CCRL 64-bit_4CPU": ("Komodo", "14", "CCRL 64-bit 4CPU"),
+    "LCZero 0.30-dag-bord-lf-se-2_784058_copy": ("LCZero", "0.30-dag-bord-lf-se-2_784058", "copy"),
+    "LCZero 0.30-dag-pr1821_BT2-3250000_copy": ("LCZero", "0.30-dag-pr1821_BT2-3250000", "copy"),
+    "LCZero 0.31-dag-e429eeb-BT3-2790000_copy": ("LCZero", "0.31-dag-e429eeb-BT3-2790000", "copy"),
+    "LCZero 0.7 ID125": ("LCZero", "0.7_ID125", ""),
+    "LCZero half 0.30-dag-bord-lf_784968": ("LCZero", "half_0.30-dag-bord-lf_784968", ""),
+    "LCZero copy 0.27.0d+Tilps/dje-magic_JH.94-100": ("LCZero", "0.27.0d+Tilps/dje-magic_JH.94-100", "copy"),
+    "LCZeroCPU3pct v0.25-n591215 blitz": ("LCZeroCPU_3pct", "v0.25-n591215_blitz", ""),
+    "Laser 1.8 beta 256th": ("Laser", "1.8_beta", "256th"),
+    "Laser 1.8 beta": ("Laser", "1.8_beta", ""),
+    "Marvin 3.4.0 256th": ("Marvin", "3.4.0", "256th"),
+    "Minic 3.07 128GiB": ("Minic", "3.07", "128GiB"),
+    "Minic 3.07 64GiB": ("Minic", "3.07", "64GiB"),
+    "MrBob 1.0.0_dev": ("Mr_Bob", "1.0.0_dev", ""),
+    "Redfish 19070105": ("Stockfish", "19070105", "Redfish"),
+    "Redfish 20191209": ("Stockfish", "20191209", "Redfish"),
+    "RubiChess 2.2-dev 128GiB": ("RubiChess", "2.2-dev", "128GiB"),
+    "RubiChessClassical 2.0.1": ("RubiChess", "2.0.1_Classical", ""),
+    "Rybka 4 Exp-61": ("Rybka", "4_Exp-61", ""),
+    "SFNNUE 20200704-StockFiNN-0.2": ("Stockfish", "20200704-StockFiNN-0.2", "SFNNUE"),
+    "ScorpioNN 3.0.15.3_copy": ("ScorpioNN", "3.0.15.3", "copy"),
+    "ScorpioNN 3.0.15.5_copy": ("ScorpioNN", "3.0.15.5", "copy"),
+    "SimpleEval2 20200731r14": ("SimpleEval", "20200731r14", "2"),
+    "Sjeng c't 2010": ("Sjeng", "c't_2010", ""),
+    "SlowChess Blitz Classic 2.26 16GiB": ("SlowChess Blitz", "Classic_2.26", "16GiB"),
+    "Stockfish copy 20210113": ("Stockfish", "20210113", "copy"),
+    "Stockfish dev-20231105-442c294a_copy": ("Stockfish", "dev-20231105-442c294a", "copy"),
+    "Stockfish dev-20240605-5688b188 interleave": ("Stockfish", "dev-20240605-5688b188", "interleave"),
+    "Stockfish dev-20240605-5688b188 localalloc": ("Stockfish", "dev-20240605-5688b188", "localalloc"),
+    "Stockfish dev-20240605-5688b188 none": ("Stockfish", "dev-20240605-5688b188", "none"),
+    "Stockfish dev16_202208061357_copy": ("Stockfish", "dev16_202208061357", "copy"),
+    "StockfishClassical 202007311012": ("Stockfish", "202007311012_Classical", ""),
+    "StockfishClassical": ("Stockfish", "Classical", ""),
+    "StockfishNNUE 20200704-StockFiNN-0.2": ("Stockfish", "20200704-StockFiNN-0.2", "StockfishNNUE"),
     "Stockfish_11_CCRL 64-bit_4CPU": ("Stockfish", "11", "CCRL 64-bit 4CPU"),
     "Stockfish_13_CCRL 64-bit_4CPU": ("Stockfish", "13", "CCRL 64-bit 4CPU"),
     "Stockfish_15_CCRL 64-bit_4CPU": ("Stockfish", "15", "CCRL 64-bit 4CPU"),
-    "Chat": ("TCEC Chat", "", ""),
-    "EtherealClassical 12.89": ("Ethereal", "12.89_Classical", ""),
-    "SFNNUE 20200704-StockFiNN-0.2": ("Stockfish", "20200704-StockFiNN-0.2", "SFNNUE"),
-    "StockfishNNUE 20200704-StockFiNN-0.2": (
-        "Stockfish",
-        "20200704-StockFiNN-0.2",
-        "StockfishNNUE",
-    ),
-    "SimpleEval2 20200731r14": ("SimpleEval", "20200731r14", "2"),
-    "Bluefish Dev": ("Stockfish", "Dev", "Bluefish"),
-    "Booot2 6.5": ("Booot", "6.5", "2"),
-    "RubiChessClassical 2.0.1": ("RubiChess", "2.0.1_Classical", ""),
-    "StockfishClassical": ("Stockfish", "Classical", ""),
-    "StockfishClassical 202007311012": ("Stockfish", "202007311012_Classical", ""),
-    "Redfish 19070105": ("Stockfish", "19070105", "Redfish"),
-    "Redfish 20191209": ("Stockfish", "20191209", "Redfish"),
+    "Wasp 4.10 copy": ("Wasp", "4.10", "copy"),
+    "Wasp TCEC S11": ("Wasp", "TCEC_S11", ""),
+    "Weiss 0.10-dev-20200525 1": ("Weiss", "0.10-dev-20200525", "1"),
+    "Weiss 0.10-dev-20200525 2": ("Weiss", "0.10-dev-20200525", "2"),
+    "Xiphos 0.6 256th": ("Xiphos", "0.6", "256th"),
+    "Zappa Mexico II": ("Zappa", "Mexico_II", ""),
+}
+
+# Player name substitutions are checked when 'exceptionalNames' didn't match.
+playerNameSubstitutions = {
+    # format: <original name> <new name>
+    "Chess22k": "chess22k",
+    "LCZero100n": "LCZero_100n",
+    "LCZero10kn": "LCZero_10k",
+    "LCZero10n": "LCZero_10n",
+    "LCZero10pct": "LCZero_10pct",
+    "LCZero1kn": "LCZero_1k",
+    "LCZero1n": "LCZero_1n",
+    "LCZero1pct": "LCZero_1pct",
+    "LCZero30pct": "LCZero_30pct",
+    "LCZero3pct": "LCZero_3pct",
+    "LCZeroCPU10pct": "LCZeroCPU_10pct",
+    "LCZeroCPU1pct": "LCZeroCPU_1pct",
+    "LCZeroCPU30pct": "LCZeroCPU_30pct",
+    "LCZeroCPU3pct": "LCZeroCPU_3pct",
+    "Lc0": "LCZero",
+    "Stockfish0.1pct": "Stockfish_0.1pct",
+    "Stockfish0.3pct": "Stockfish_0.3pct",
+    "Stockfish0_1pct": "Stockfish_0.1pct",
+    "Stockfish100kn": "Stockfish_100k",
+    "Stockfish10Mn": "Stockfish_10M",
+    "Stockfish10kn": "Stockfish_10k",
+    "Stockfish10pct": "Stockfish_10pct",
+    "Stockfish1Mn": "Stockfish_1M",
+    "Stockfish1kn": "Stockfish_1k",
+    "Stockfish1pct": "Stockfish_1pct",
+    "Stockfish1thread": "Stockfish_1thread",
+    "Stockfish25pct": "Stockfish_25pct",
+    "Stockfish3pct": "Stockfish_3pct",
+    "StockfishDepth1": "Stockfish_d1",
+    "StockfishDepth2": "Stockfish_d2",
+    "StockfishDepth3": "Stockfish_d3",
+    "StockfishDepth4": "Stockfish_d4",
+    "Stockfishd1": "Stockfish_d1",
+    "Weiss30pct": "Weiss_30pct",
+    "lc0": "LCZero",
+    "pirarucu": "Pirarucu",
+    "rofChade30pct": "rofChade_30pct",
 }
 
 
@@ -92,104 +173,79 @@ def addFixedStockfish15():
         "15",
         "scaled to 450Mnodes",
     )
-    exceptionalNames["Renamedfish_15_3M"] = (
-        "Stockfish_3M",
-        "15",
-        "renamed",  # or "copy"
-    )
+    exceptionalNames["Renamedfish_15_3M"] = ("Stockfish_3M", "15", "renamed")
 
 
-def amendEngineNames(player):
-    # "SlowChess_Blitz 2.41 avx" will be dealt with in fixVariousVersions()
-    player = player.replace("SlowChess Blitz", "SlowChess_Blitz")
-    name, space, rest = player.partition(" ")
-    # "Cheng 4 0.36c" will then be dealt with in fixVariousVersions()
-    name = name.replace("Cheng4", "Cheng 4")
-    name = name.replace("Chess22k", "chess22k")
-    name = re.sub(r"[lL]c0", "LCZero", name)
-    name = name.replace("pirarucu", "Pirarucu")
-    # replace underscore with decimal point
-    name = name.replace("0_1pct", "0.1pct")
-    # include an underscore before 0.1pct, 10pct, 30pct etc
-    name = re.sub(r"([a-zA-Z])(\d+(\.\d+)?pct)", r"\1_\2", name)
-    # rename kn to k
-    name = re.sub(r"([0-9])kn", r"\1k", name)
-    # rename Mn to M
-    name = re.sub(r"([0-9])Mn", r"\1M", name)
-    # include an underscore before 1n, 100k, 10M, 1G etc
-    if name not in ["chess22k", "we4k"]:
-        name = re.sub(r"([a-zA-Z])(\d+(\d+)?[nkMG])", r"\1_\2", name)
-    name = name.replace("Stockfishd1", "Stockfish_d1")
-    name = name.replace("StockfishDepth", "Stockfish_d")
-    name = name.replace("Stockfish1thread", "Stockfish_1thread")
-    return name + space + rest
+def addSlowChessBlitzVersions():
+    versions = [
+        "2.41 avx",
+        "2.5 avx",
+        "2.54 avx",
+        "2.7 avx",
+        "2.75 avx",
+        "2.8 avx",
+        "2.82 avx",
+        "2.83 avx2",
+        "2.9 avx2",
+        "Classic 2.25",
+        "Classic 2.26",
+    ]
+
+    for v in versions:
+        exceptionalNames[f"SlowChess Blitz {v}"] = ("SlowChess Blitz", v.replace(" ", "_"), "")
 
 
-def fixCopyTags(t):
-    name, version, tag = t
-    if name.endswith(" copy"):
-        name, c, _ = name.rpartition(" copy")
-        tag = "copy" if tag == "" else tag + "_copy"
-    if version.endswith("_copy"):
-        version, c, _ = version.rpartition("_copy")
-        tag = "copy" if tag == "" else tag + "_copy"
-    if version == "copy":
-        version = ""
-        tag = "copy" if tag == "" else tag + "_copy"
-    return name, version, tag
+def addCheng4Versions():
+    versions = ["0.36c", "0.36c+", "0.39"]
+
+    for v in versions:
+        exceptionalNames[f"Cheng4 {v}"] = ("Cheng", f"4_{v}", "")
 
 
-def fixMemoryAndThreadTags(t):
-    name, version, tag = t
-    if version in ["16GiB", "64GiB", "128GiB", "256GiB", "256th"]:
-        tag = version
-        name, _, version = name.rpartition(" ")
-    return name, version, tag
+def addStoofvleesVersions():
+    versions = [
+        "WCCC2024",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14",
+        "a15",
+        "a15.1",
+        "a16",
+        "a17",
+        "a18",
+        "a19",
+        "b1",
+        "b4",
+        "b5",
+        "d2",
+        "d5",
+        "d6",
+    ]
+
+    for v in versions:
+        exceptionalNames[f"Stoofvlees II {v}"] = ("Stoofvlees", f"II_{v}", "")
 
 
-def fixVariousTags(t):
-    name, version, tag = t
-    if version in ["interleave", "localalloc", "none"]:
-        tag = version
-        name, _, version = name.rpartition(" ")
-    return name, version, tag
+def addDeepSjengVersions():
+    versions = ["3.6 a8", "3.6 a13", "3.6 a14", "3.6 a16", "3.6 a24", "3.6 a29", "3.6 a30", "3.6 a31"]
+
+    for v in versions:
+        exceptionalNames[f"DeepSjeng {v}"] = ("DeepSjeng", v.replace(" ", "_"), "")
 
 
-def fixVariousVersions(t):
-    name, version, tag = t
-    if " " in name:
-        n, _, v = name.partition(" ")
-        if n in [
-            "Antifish",
-            "Cheng",
-            "Cheese",
-            "DeepSjeng",
-            "Ethereal",
-            "Fritz",
-            "Glaurung",
-            "Igel",
-            "Laser",
-            "LCZero",
-            "LCZeroCPU_3pct",
-            "Rodent",
-            "Rybka",
-            "Sjeng",
-            "SlowChess_Blitz",
-            "Stoofvlees",
-            "Wasp",
-            "Zappa",
-        ]:
-            name = n
-            version = v + " " + version if version else v
-            version = version.replace(" ", "_")
-    name = name.replace("SlowChess_Blitz", "SlowChess Blitz")
-    return name, version, tag
+def addRodentVersions():
+    versions = ["0.244", "0.258", "0.276", "0.278", "0.287", "1.0.171"]
+
+    for v in versions:
+        exceptionalNames[f"Rodent III {v}"] = ("Rodent", f"III_{v}", "")
 
 
+# prints the triplet 't' as:
+# t[0] (t[1]) [t[2]]   -- t[1] and t[2] printed out only if non-empty
 def serializeNameVersionTriplet(t):
-    s1 = "" if t[1] == "" else f" ({t[1]})"
-    s2 = "" if t[2] == "" else f" [{t[2]}]"
-    return f"{t[0]}{s1}{s2}"
+    return f"{t[0]}{'' if t[1] == '' else ' (' + t[1] + ')'}{'' if t[2] == '' else ' [' + t[2] + ']' }"
 
 
 def fixEngineNames():
@@ -204,43 +260,79 @@ def fixEngineNames():
         if playerTagMatch:
             player = playerTagMatch.group(2)
 
-            player = amendEngineNames(player)
-
             if player in exceptionalNames:
                 nameVersionTriplet = exceptionalNames[player]
 
             elif regularNameVersionMatcher.fullmatch(player):
                 m = regularNameVersionMatcher.fullmatch(player)
-                nameVersionTriplet = (m.group(1), m.group(2), "")
+                playerName = m.group(1)
+                playerVersion = m.group(2)
+
+                if playerName in playerNameSubstitutions:
+                    playerName = playerNameSubstitutions[playerName]
+
+                nameVersionTriplet = (playerName, playerVersion, "")
 
             else:
                 nameVersionTriplet = (player, "", "")
 
-            nameVersionTriplet = fixCopyTags(nameVersionTriplet)
-            nameVersionTriplet = fixMemoryAndThreadTags(nameVersionTriplet)
-            nameVersionTriplet = fixVariousTags(nameVersionTriplet)
-            nameVersionTriplet = fixVariousVersions(nameVersionTriplet)
-
-            print(
-                f'[{playerTagMatch.group(1)} "{serializeNameVersionTriplet(nameVersionTriplet)}"]'
-            )
+            print(f'[{playerTagMatch.group(1)} "{serializeNameVersionTriplet(nameVersionTriplet)}"]')
 
         else:
             print(line)
 
 
-def main(argv):
-    # version check -- this script was developed with Python 3.9
-    if sys.version_info < (3, 9):
-        warning(
-            f"Python version {sys.version_info.major}.{sys.version_info.minor} is not at least 3.9!"
-        )
-
+def addSubstitutions():
     addSwissTestStockfishVersions()
     addSufiTaggedEngines()
     addFixedStockfish15()
+    addSlowChessBlitzVersions()
+    addCheng4Versions()
+    addStoofvleesVersions()
+    addDeepSjengVersions()
+    addRodentVersions()
 
-    fixEngineNames()
+
+def listSubstitutions():
+    addSubstitutions()
+
+    print("# Full name tag to triplet substitutions\n")
+    exceptionalNamesList = []
+    for k, v in sorted(exceptionalNames.items()):
+        exceptionalNamesList.append([k] + list(v))
+    print(tabulate(exceptionalNamesList, headers=["Original name", "Name", "Version", "Event special tag"]))
+
+    print("\n\n# Name substitutions (matched only if full name tag did not match)\n")
+    exceptionalNamesList = []
+    for k, v in sorted(playerNameSubstitutions.items()):
+        exceptionalNamesList.append([k, v])
+    print(tabulate(exceptionalNamesList, headers=["Original name", "Name"]))
+
+
+def main(argv):
+    # version check -- this script was developed with Python 3.9
+    if sys.version_info < (3, 9):
+        warning(f"Python version {sys.version_info.major}.{sys.version_info.minor} is not at least 3.9!")
+
+    if len(argv) > 0:
+        if argv[0] == "--list-substitutions":
+            listSubstitutions()
+
+        else:
+            print(
+                """Usage: fix-engine-names.py [OPTION]...
+
+Reads a PGN from stdin and outputs a PGN with adjusted engine names.
+
+Options:
+--help                  This help
+--list-substitutions    Print out all name --> triplet substitutions
+"""
+            )
+
+    else:
+        addSubstitutions()
+        fixEngineNames()
 
 
 if __name__ == "__main__":
