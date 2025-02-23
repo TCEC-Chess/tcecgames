@@ -5288,6 +5288,15 @@
 	       "dno": "2035"
             },
             {
+               "id": "s27divisionsfrdfl",
+               "frc": 1,
+               "menu": "FRD 3 Final League",
+               "url": "season=27&div=frdfl",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Frd_3_Final_League",
+	       "dno": "2036"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
