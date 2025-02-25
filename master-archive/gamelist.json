@@ -5297,6 +5297,15 @@
 	       "dno": "2036"
             },
             {
+               "id": "s27divisionsfrdf",
+               "frc": 1,
+               "menu": "FRD 3 Final",
+               "url": "season=27&div=frdf",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Frd_3_Final",
+	       "dno": "2037"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
