@@ -5306,6 +5306,14 @@
 	       "dno": "2037"
             },
             {
+               "id": "s27divisioncontemptlabookbonus",
+               "menu": "Contemptla Book Kibitzer Ponder Bonus",
+               "url": "season=27&div=contemptlabookbonus",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Contemptla_Book_Kibitzer_Ponder_Bonus",
+               "dno": "1038"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
