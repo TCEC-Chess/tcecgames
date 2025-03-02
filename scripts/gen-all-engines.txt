@@ -63,7 +63,7 @@ Andscacs (0.95123)
 Andscacs (094030)
 Andscacs (095)
 Andscacs (095045)
-Antifish (1.0_Mark_289)
+Antifish (1.0 Mark 289)
 Arasan (008cc1f)
 Arasan (096645a)
 Arasan (10fb2ab)
@@ -247,20 +247,20 @@ Ceres (1.0_C1-640-25)
 Cheese (2.0)
 Cheese (2.1)
 Cheese (2.2)
+Cheese (3.0 beta)
+Cheese (3.0 beta2)
+Cheese (3.0 beta3)
 Cheese (3.0)
 Cheese (3.0.1)
-Cheese (3.0_beta)
-Cheese (3.0_beta2)
-Cheese (3.0_beta3)
 Cheese (3.1.1)
 Cheese (3.2.0)
 Cheng (4.41)
 Cheng (4.42_dev)
 Cheng (4.44_dev)
 Cheng (4.48)
-Cheng (4_0.36c)
-Cheng (4_0.36c+)
-Cheng (4_0.39)
+Cheng4 (0.36c)
+Cheng4 (0.36c+)
+Cheng4 (0.39)
 ChessBrainVB (3.61)
 ChessBrainVB (3.67)
 ChessBrainVB (3.68)
@@ -349,7 +349,7 @@ Crafty (23.5)
 Crafty (23.6)
 Crafty (23.8)
 Crafty (24.1)
-Crafty (25.2) [CCRL 64-bit 4CPU]
+Crafty (25.2_CCRL) [64-bit 4CPU]
 Critter (0.8)
 Critter (0.9)
 Critter (1.01)
@@ -358,13 +358,13 @@ Cuckoo (1.1)
 Danasah (4.6)
 Danasah (5)
 Daydreamer (1.75)
-DeepSjeng (3.6_a13)
-DeepSjeng (3.6_a16)
-DeepSjeng (3.6_a24)
-DeepSjeng (3.6_a29)
-DeepSjeng (3.6_a30)
-DeepSjeng (3.6_a31)
-DeepSjeng (3.6_a8)
+DeepSjeng (3.6 a13)
+DeepSjeng (3.6 a16)
+DeepSjeng (3.6 a24)
+DeepSjeng (3.6 a29)
+DeepSjeng (3.6 a30)
+DeepSjeng (3.6 a31)
+DeepSjeng (3.6 a8)
 Defenchess (2.2_dev)
 Defenchess (2.3_dev)
 Defenchess (2.3_dev2)
@@ -445,9 +445,9 @@ Ethereal (12.28)
 Ethereal (12.42)
 Ethereal (12.43)
 Ethereal (12.75)
+Ethereal (12.89 Classical)
 Ethereal (12.89A_PRO_Cup_8)
 Ethereal (12.89B_PRO_FRC)
-Ethereal (12.89_Classical)
 Ethereal (12.89_PRO_Cup_8)
 Ethereal (12.95)
 Ethereal (13.07_NNUE-15EE)
@@ -486,9 +486,9 @@ Ethereal (8.77)
 Ethereal (9.60)
 Ethereal (9.64)
 Ethereal (Dev)
+Ethereal (TCEC S20 DivP (PEXT))
+Ethereal (TCEC S20 DivP)
 Ethereal (TCEC-S20)
-Ethereal (TCEC_S20_DivP)
-Ethereal (TCEC_S20_DivP_(PEXT))
 Exchess (6.71b)
 Exchess (7.15b)
 Exchess (7.18b)
@@ -542,7 +542,7 @@ Fritz (18_NNUE_beta2)
 Fritz (18_NNUE_beta3)
 Fritz (18_Vienna)
 Fritz (Valencia_1.01)
-Fritz (in_Bahrain)
+Fritz (in Bahrain)
 Fruit (070916)
 Fruit (200815)
 Fruit (20180416)
@@ -578,9 +578,9 @@ Ginkgo (4.33)
 Ginkgo (S13)
 Ginkgo (S16)
 Glass (1.6)
+Glaurung (2.2 JA)
 Glaurung (2.2)
-Glaurung (2.2) [CCRL 64-bit 4CPU]
-Glaurung (2.2_JA)
+Glaurung (2.2_CCRL) [64-bit 4CPU]
 Gnu (5.07.170.5b)
 Gogobello (2.1)
 Gogobello (2.1_dev)
@@ -597,8 +597,8 @@ Gull (2.2)
 Gull (2.3)
 Gull (2.8b)
 Gull (20170410)
-Gull (20170410) [CCRL 64-bit 4CPU]
 Gull (20170410_256th)
+Gull (20170410_CCRL) [64-bit 4CPU]
 Gull (3)
 Gull (3683)
 Gull (A206)
@@ -665,7 +665,7 @@ Igel (1.2)
 Igel (1.8.0)
 Igel (1.8.1)
 Igel (2.1.0)
-Igel (2.1.2_TCEC#3)
+Igel (2.1.2 TCEC#3)
 Igel (2.1.2_next.2_TCEC_TTFIX)
 Igel (2.2.2_dev1)
 Igel (2.3.0)
@@ -754,10 +754,10 @@ Koivisto (9.0)
 Koivisto (9.2)
 Komodo (1.3b1)
 Komodo (10)
-Komodo (10) [CCRL 64-bit 4CPU]
 Komodo (10.1)
 Komodo (1063)
 Komodo (1092)
+Komodo (10_CCRL) [64-bit 4CPU]
 Komodo (1121.05)
 Komodo (1133)
 Komodo (1142)
@@ -770,8 +770,8 @@ Komodo (1318)
 Komodo (1324)
 Komodo (1331)
 Komodo (1333)
-Komodo (14) [CCRL 64-bit 4CPU]
 Komodo (14.1)
+Komodo (14_CCRL) [64-bit 4CPU]
 Komodo (1501.01)
 Komodo (1692.19)
 Komodo (1937.00)
@@ -918,7 +918,7 @@ LCZero (Darkqueen)
 LCZero (Stein)
 LCZero (Steinold)
 LCZero (dag-master-pr1821-1842e13-T1-3905000)
-LCZero (half_0.30-dag-bord-lf_784968)
+LCZero (half 0.30-dag-bord-lf_784968)
 LCZero (v0.21.1-n41800)
 LCZero (v0.21.1-nT40.T6.532)
 LCZero (v0.21.1-nT40.T8.610)
@@ -964,8 +964,8 @@ LCZeroCPU (v0.26.0-n703596)
 LCZeroCPU (v0.26.2-rc1_n703810)
 LCZeroCPU (v0.26.2_T70.JH.104.1-30)
 LCZeroCPU_10pct (v0.25-n591215)
+LCZeroCPU_3pct (v0.25-n591215 blitz)
 LCZeroCPU_3pct (v0.25-n591215)
-LCZeroCPU_3pct (v0.25-n591215_blitz)
 LCZero_100n (0.27.0-pr1540ish_JH.94-100)
 LCZero_10k (0.27.0-pr1540ish_JH.94-100)
 LCZero_10n (0.27.0-pr1540ish_JH.94-100)
@@ -982,8 +982,8 @@ LCZero_3pct (v0.21.2-n42547)
 Laser (070518)
 Laser (1.1)
 Laser (1.5)
-Laser (1.8_beta)
-Laser (1.8_beta) [256th]
+Laser (1.8 beta)
+Laser (1.8 beta) [256th]
 Laser (1.8_beta_256th)
 Laser (160119)
 Laser (180818)
@@ -1235,12 +1235,12 @@ Revenge (20240822)
 Revenge (20241013)
 Roc (20200804)
 Rodent (0.17)
-Rodent (III_0.244)
-Rodent (III_0.258)
-Rodent (III_0.276)
-Rodent (III_0.278)
-Rodent (III_0.287)
-Rodent (III_1.0.171)
+Rodent III (0.244)
+Rodent III (0.258)
+Rodent III (0.276)
+Rodent III (0.278)
+Rodent III (0.287)
+Rodent III (1.0.171)
 Rotor (0.6)
 RubiChess (1.3.1)
 RubiChess (1.4)
@@ -1257,8 +1257,8 @@ RubiChess (1.8)
 RubiChess (1.8-dev_TCEC_Cup6)
 RubiChess (1.9-dev_803c91ad5c)
 RubiChess (1.9_803c91ad5c)
+RubiChess (2.0.1 Classical)
 RubiChess (2.0.1)
-RubiChess (2.0.1_Classical)
 RubiChess (2.2-dev)
 RubiChess (2.2-dev) [128GiB]
 RubiChess (2.3-dev-TCECcup9)
@@ -1290,11 +1290,11 @@ RubiChess (20240817)
 RubiChess (20250110)
 RubiChess (Dev)
 RubiChess (TCEC-S21)
+Rybka (4 Exp-61)
 Rybka (4)
 Rybka (4.0)
 Rybka (4.1)
 Rybka (4.1) [Sufi 3]
-Rybka (4_Exp-61)
 STRO4K (1.0)
 STRO4K (2.0)
 STRO4K (2.1)
@@ -1384,20 +1384,20 @@ SimpleEval (20200731r14) [2]
 SimpleSearch (20220123)
 Sjeng (2008)
 Sjeng (WC2008)
-Sjeng (c't_2010)
+Sjeng (c't 2010)
 SlowChess Blitz (2.4)
-SlowChess Blitz (2.41_avx)
-SlowChess Blitz (2.54_avx)
-SlowChess Blitz (2.5_avx)
-SlowChess Blitz (2.75_avx)
-SlowChess Blitz (2.7_avx)
-SlowChess Blitz (2.82_avx)
-SlowChess Blitz (2.83_avx2)
-SlowChess Blitz (2.8_avx)
-SlowChess Blitz (2.9_avx2)
-SlowChess Blitz (Classic_2.25)
-SlowChess Blitz (Classic_2.26)
-SlowChess Blitz (Classic_2.26) [16GiB]
+SlowChess Blitz (2.41 avx)
+SlowChess Blitz (2.5 avx)
+SlowChess Blitz (2.54 avx)
+SlowChess Blitz (2.7 avx)
+SlowChess Blitz (2.75 avx)
+SlowChess Blitz (2.8 avx)
+SlowChess Blitz (2.82 avx)
+SlowChess Blitz (2.83 avx2)
+SlowChess Blitz (2.9 avx2)
+SlowChess Blitz (Classic 2.25)
+SlowChess Blitz (Classic 2.26)
+SlowChess Blitz (Classic 2.26) [16GiB]
 Smallbrain (dev-20230118-4d10160)
 Smallbrain (dev-20230121-b107225)
 Smallbrain (dev-20230322-7b7319d)
@@ -1454,21 +1454,21 @@ Stockfish (1.8)
 Stockfish (1.9)
 Stockfish (1.9.1)
 Stockfish (100218)
-Stockfish (11) [CCRL 64-bit 4CPU]
 Stockfish (110616)
+Stockfish (11_CCRL) [64-bit 4CPU]
 Stockfish (120413)
 Stockfish (128GiB_202008260719_nn-82215d0fd0df)
-Stockfish (13) [CCRL 64-bit 4CPU]
+Stockfish (13_CCRL) [64-bit 4CPU]
 Stockfish (14.1)
 Stockfish (14.1_20211101)
 Stockfish (141214)
 Stockfish (14_202107131735)
 Stockfish (14_202108051641)
 Stockfish (14_202108220915)
-Stockfish (15) [CCRL 64-bit 4CPU]
 Stockfish (15.1)
 Stockfish (15.1TB6)
 Stockfish (151013)
+Stockfish (15_CCRL) [64-bit 4CPU]
 Stockfish (160518)
 Stockfish (160716)
 Stockfish (160913)
@@ -1522,49 +1522,49 @@ Stockfish (202007032109)
 Stockfish (20200704-StockFiNN-0.2) [SFNNUE]
 Stockfish (20200704-StockFiNN-0.2) [StockfishNNUE]
 Stockfish (2020071122)
-Stockfish (202007311012_Classical)
-Stockfish (202007311012_Classical) [01]
-Stockfish (202007311012_Classical) [02]
-Stockfish (202007311012_Classical) [03]
-Stockfish (202007311012_Classical) [04]
-Stockfish (202007311012_Classical) [05]
-Stockfish (202007311012_Classical) [06]
-Stockfish (202007311012_Classical) [07]
-Stockfish (202007311012_Classical) [08]
-Stockfish (202007311012_Classical) [09]
-Stockfish (202007311012_Classical) [10]
-Stockfish (202007311012_Classical) [11]
-Stockfish (202007311012_Classical) [12]
-Stockfish (202007311012_Classical) [13]
-Stockfish (202007311012_Classical) [14]
-Stockfish (202007311012_Classical) [15]
-Stockfish (202007311012_Classical) [16]
-Stockfish (202007311012_Classical) [17]
-Stockfish (202007311012_Classical) [18]
-Stockfish (202007311012_Classical) [19]
-Stockfish (202007311012_Classical) [20]
-Stockfish (202007311012_Classical) [21]
-Stockfish (202007311012_Classical) [22]
-Stockfish (202007311012_Classical) [23]
-Stockfish (202007311012_Classical) [24]
-Stockfish (202007311012_Classical) [25]
-Stockfish (202007311012_Classical) [26]
-Stockfish (202007311012_Classical) [27]
-Stockfish (202007311012_Classical) [28]
-Stockfish (202007311012_Classical) [29]
-Stockfish (202007311012_Classical) [30]
-Stockfish (202007311012_Classical) [31]
-Stockfish (202007311012_Classical) [32]
-Stockfish (202007311012_Classical) [33]
-Stockfish (202007311012_Classical) [34]
-Stockfish (202007311012_Classical) [35]
-Stockfish (202007311012_Classical) [36]
-Stockfish (202007311012_Classical) [37]
-Stockfish (202007311012_Classical) [38]
-Stockfish (202007311012_Classical) [39]
-Stockfish (202007311012_Classical) [40]
-Stockfish (202007311012_Classical) [41]
-Stockfish (202007311012_Classical) [42]
+Stockfish (202007311012 Classical)
+Stockfish (202007311012 Classical) [01]
+Stockfish (202007311012 Classical) [02]
+Stockfish (202007311012 Classical) [03]
+Stockfish (202007311012 Classical) [04]
+Stockfish (202007311012 Classical) [05]
+Stockfish (202007311012 Classical) [06]
+Stockfish (202007311012 Classical) [07]
+Stockfish (202007311012 Classical) [08]
+Stockfish (202007311012 Classical) [09]
+Stockfish (202007311012 Classical) [10]
+Stockfish (202007311012 Classical) [11]
+Stockfish (202007311012 Classical) [12]
+Stockfish (202007311012 Classical) [13]
+Stockfish (202007311012 Classical) [14]
+Stockfish (202007311012 Classical) [15]
+Stockfish (202007311012 Classical) [16]
+Stockfish (202007311012 Classical) [17]
+Stockfish (202007311012 Classical) [18]
+Stockfish (202007311012 Classical) [19]
+Stockfish (202007311012 Classical) [20]
+Stockfish (202007311012 Classical) [21]
+Stockfish (202007311012 Classical) [22]
+Stockfish (202007311012 Classical) [23]
+Stockfish (202007311012 Classical) [24]
+Stockfish (202007311012 Classical) [25]
+Stockfish (202007311012 Classical) [26]
+Stockfish (202007311012 Classical) [27]
+Stockfish (202007311012 Classical) [28]
+Stockfish (202007311012 Classical) [29]
+Stockfish (202007311012 Classical) [30]
+Stockfish (202007311012 Classical) [31]
+Stockfish (202007311012 Classical) [32]
+Stockfish (202007311012 Classical) [33]
+Stockfish (202007311012 Classical) [34]
+Stockfish (202007311012 Classical) [35]
+Stockfish (202007311012 Classical) [36]
+Stockfish (202007311012 Classical) [37]
+Stockfish (202007311012 Classical) [38]
+Stockfish (202007311012 Classical) [39]
+Stockfish (202007311012 Classical) [40]
+Stockfish (202007311012 Classical) [41]
+Stockfish (202007311012 Classical) [42]
 Stockfish (20200816_nn-82215d0fd0df)
 Stockfish (202008260719_nn-82215d0fd0df)
 Stockfish (202009282242_nn-baeb9ef2d183)
@@ -1746,25 +1746,25 @@ Stockfish_d1 (202104151245)
 Stockfish_d2 (202007172028)
 Stockfish_d3 (202007172028)
 Stockfish_d4 (202007172028)
-Stoofvlees (II_WCCC2024)
-Stoofvlees (II_a10)
-Stoofvlees (II_a11)
-Stoofvlees (II_a12)
-Stoofvlees (II_a13)
-Stoofvlees (II_a14)
-Stoofvlees (II_a15)
-Stoofvlees (II_a15.1)
-Stoofvlees (II_a16)
-Stoofvlees (II_a17)
-Stoofvlees (II_a18)
-Stoofvlees (II_a19)
-Stoofvlees (II_b1)
-Stoofvlees (II_b4)
-Stoofvlees (II_b5)
-Stoofvlees (II_d2)
-Stoofvlees (II_d5)
-Stoofvlees (II_d6)
 Stoofvlees (IIb5)
+Stoofvlees II (WCCC2024)
+Stoofvlees II (a10)
+Stoofvlees II (a11)
+Stoofvlees II (a12)
+Stoofvlees II (a13)
+Stoofvlees II (a14)
+Stoofvlees II (a15)
+Stoofvlees II (a15.1)
+Stoofvlees II (a16)
+Stoofvlees II (a17)
+Stoofvlees II (a18)
+Stoofvlees II (a19)
+Stoofvlees II (b1)
+Stoofvlees II (b4)
+Stoofvlees II (b5)
+Stoofvlees II (d2)
+Stoofvlees II (d5)
+Stoofvlees II (d6)
 Stormphrax (4.0.13_8b5dc66)
 Stormphrax (4.0.19_f103857)
 Stormphrax (4.0.8-tcec_8c37ad4)
@@ -1942,7 +1942,7 @@ Wasp (6.67b)
 Wasp (7.00)
 Wasp (7.01)
 Wasp (7.03)
-Wasp (TCEC_S11)
+Wasp (TCEC S11)
 Weiss (0.10-dev)
 Weiss (0.10-dev-20200524)
 Weiss (0.10-dev-20200525) [1]
@@ -2012,7 +2012,7 @@ Zahak (8.0.1)
 Zahak (8.0.2)
 Zahak (8.0.3)
 Zahak (9.0)
-Zappa (Mexico_II)
+Zappa (Mexico II)
 akimbo (0.8.0)
 akimbo (0.8.0-82509bd6)
 akimbo (1.1.0-dev)
