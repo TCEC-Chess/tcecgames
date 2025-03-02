@@ -250,7 +250,6 @@ def serializeNameVersionTriplet(t):
 
 def fixEngineNames():
     playerTagMatcher = re.compile(r'\[(White|Black) "([^"]*)"\]', re.ASCII)
-
     regularNameVersionMatcher = re.compile(r"(.*) ([^ ]+)", re.ASCII)
 
     for line in sys.stdin:
@@ -280,6 +279,42 @@ def fixEngineNames():
 
         else:
             print(line)
+
+
+def listEngineNames():
+    playerTagMatcher = re.compile(r'\[(White|Black) "([^"]*)"\]', re.ASCII)
+    regularNameVersionMatcher = re.compile(r"(.*) ([^ ]+)", re.ASCII)
+
+    names = dict()
+
+    for line in sys.stdin:
+        line = line.rstrip()  # let's skip the newline
+
+        playerTagMatch = playerTagMatcher.fullmatch(line)
+        if playerTagMatch:
+            player = playerTagMatch.group(2)
+
+            if player in exceptionalNames:
+                nameVersionTriplet = exceptionalNames[player]
+
+            elif regularNameVersionMatcher.fullmatch(player):
+                m = regularNameVersionMatcher.fullmatch(player)
+                playerName = m.group(1)
+                playerVersion = m.group(2)
+
+                if playerName in playerNameSubstitutions:
+                    playerName = playerNameSubstitutions[playerName]
+
+                nameVersionTriplet = (playerName, playerVersion, "")
+
+            else:
+                nameVersionTriplet = (player, "", "")
+
+            if nameVersionTriplet not in names:
+                names[nameVersionTriplet] = serializeNameVersionTriplet(nameVersionTriplet)
+
+    for v in sorted(names.values()):
+        print(v)
 
 
 def addSubstitutions():
@@ -318,6 +353,9 @@ def main(argv):
         if argv[0] == "--list-substitutions":
             listSubstitutions()
 
+        elif argv[0] == "--list-engines":
+            listEngineNames()
+
         else:
             print(
                 """Usage: fix-engine-names.py [OPTION]...
@@ -326,6 +364,8 @@ Reads a PGN from stdin and outputs a PGN with adjusted engine names.
 
 Options:
 --help                  This help
+--list-engines          Instead of producing a PGN output, list all unique
+                        engine names after substitutions
 --list-substitutions    Print out all name --> triplet substitutions
 """
             )
