@@ -10,39 +10,39 @@ from tabulate import tabulate
 # additional information.
 exceptionalNames = {
     # format: <player tag> : (<engine name>, <engine version>, <optional special tag>)
-    "Antifish 1.0 Mark 289": ("Antifish", "1.0_Mark_289", ""),
+    "Antifish 1.0 Mark 289": ("Antifish", "1.0 Mark 289", ""),
     "Bluefish Dev": ("Stockfish", "Dev", "Bluefish"),
     "Booot2 6.5": ("Booot", "6.5", "2"),
     "Chat": ("TCEC Chat", "", ""),
-    "Cheese 3.0 beta": ("Cheese", "3.0_beta", ""),
-    "Cheese 3.0 beta2": ("Cheese", "3.0_beta2", ""),
-    "Cheese 3.0 beta3": ("Cheese", "3.0_beta3", ""),
-    "Crafty_25.2_CCRL 64-bit 4CPU": ("Crafty", "25.2", "CCRL 64-bit 4CPU"),
-    "Ethereal TCEC S20 DivP (PEXT)": ("Ethereal", "TCEC_S20_DivP_(PEXT)", ""),
-    "Ethereal TCEC S20 DivP": ("Ethereal", "TCEC_S20_DivP", ""),
-    "EtherealClassical 12.89": ("Ethereal", "12.89_Classical", ""),
-    "Fritz in Bahrain": ("Fritz", "in_Bahrain", ""),
-    "Glaurung 2.2 JA": ("Glaurung", "2.2_JA", ""),
-    "Glaurung_2.2_CCRL 64-bit_4CPU": ("Glaurung", "2.2", "CCRL 64-bit 4CPU"),
-    "Gull_20170410_CCRL 64-bit 4CPU": ("Gull", "20170410", "CCRL 64-bit 4CPU"),
-    "Igel 2.1.2 TCEC#3": ("Igel", "2.1.2_TCEC#3", ""),
+    "Cheese 3.0 beta": ("Cheese", "3.0 beta", ""),
+    "Cheese 3.0 beta2": ("Cheese", "3.0 beta2", ""),
+    "Cheese 3.0 beta3": ("Cheese", "3.0 beta3", ""),
+    "Crafty_25.2_CCRL 64-bit 4CPU": ("Crafty", "25.2_CCRL", "64-bit 4CPU"),
+    "Ethereal TCEC S20 DivP (PEXT)": ("Ethereal", "TCEC S20 DivP (PEXT)", ""),
+    "Ethereal TCEC S20 DivP": ("Ethereal", "TCEC S20 DivP", ""),
+    "EtherealClassical 12.89": ("Ethereal", "12.89 Classical", ""),
+    "Fritz in Bahrain": ("Fritz", "in Bahrain", ""),
+    "Glaurung 2.2 JA": ("Glaurung", "2.2 JA", ""),
+    "Glaurung_2.2_CCRL 64-bit_4CPU": ("Glaurung", "2.2_CCRL", "64-bit 4CPU"),
+    "Gull_20170410_CCRL 64-bit 4CPU": ("Gull", "20170410_CCRL", "64-bit 4CPU"),
+    "Igel 2.1.2 TCEC#3": ("Igel", "2.1.2 TCEC#3", ""),
     "Igel 2.1.2 next.2_TCEC_TTFIX": ("Igel", "2.1.2_next.2_TCEC_TTFIX", ""),
     "Igel 3.0.5 128GiB": ("Igel", "3.0.5", "128GiB"),
     "Igel 3.0.5 256GiB": ("Igel", "3.0.5", "256GiB"),
     "Koivisto2 4.41": ("Koivisto", "4.41", "2"),
     "KomodoDragon 2885.00_copy": ("KomodoDragon", "2885.00", "copy"),
     "KomodoDragon 3.1_copy": ("KomodoDragon", "3.1", "copy"),
-    "Komodo_10_CCRL 64-bit_4CPU": ("Komodo", "10", "CCRL 64-bit 4CPU"),
-    "Komodo_14_CCRL 64-bit_4CPU": ("Komodo", "14", "CCRL 64-bit 4CPU"),
+    "Komodo_10_CCRL 64-bit_4CPU": ("Komodo", "10_CCRL", "64-bit 4CPU"),
+    "Komodo_14_CCRL 64-bit_4CPU": ("Komodo", "14_CCRL", "64-bit 4CPU"),
     "LCZero 0.30-dag-bord-lf-se-2_784058_copy": ("LCZero", "0.30-dag-bord-lf-se-2_784058", "copy"),
     "LCZero 0.30-dag-pr1821_BT2-3250000_copy": ("LCZero", "0.30-dag-pr1821_BT2-3250000", "copy"),
     "LCZero 0.31-dag-e429eeb-BT3-2790000_copy": ("LCZero", "0.31-dag-e429eeb-BT3-2790000", "copy"),
     "LCZero 0.7 ID125": ("LCZero", "0.7_ID125", ""),
-    "LCZero half 0.30-dag-bord-lf_784968": ("LCZero", "half_0.30-dag-bord-lf_784968", ""),
     "LCZero copy 0.27.0d+Tilps/dje-magic_JH.94-100": ("LCZero", "0.27.0d+Tilps/dje-magic_JH.94-100", "copy"),
-    "LCZeroCPU3pct v0.25-n591215 blitz": ("LCZeroCPU_3pct", "v0.25-n591215_blitz", ""),
-    "Laser 1.8 beta 256th": ("Laser", "1.8_beta", "256th"),
-    "Laser 1.8 beta": ("Laser", "1.8_beta", ""),
+    "LCZero half 0.30-dag-bord-lf_784968": ("LCZero", "half 0.30-dag-bord-lf_784968", ""),
+    "LCZeroCPU3pct v0.25-n591215 blitz": ("LCZeroCPU_3pct", "v0.25-n591215 blitz", ""),
+    "Laser 1.8 beta 256th": ("Laser", "1.8 beta", "256th"),
+    "Laser 1.8 beta": ("Laser", "1.8 beta", ""),
     "Marvin 3.4.0 256th": ("Marvin", "3.4.0", "256th"),
     "Minic 3.07 128GiB": ("Minic", "3.07", "128GiB"),
     "Minic 3.07 64GiB": ("Minic", "3.07", "64GiB"),
@@ -50,32 +50,32 @@ exceptionalNames = {
     "Redfish 19070105": ("Stockfish", "19070105", "Redfish"),
     "Redfish 20191209": ("Stockfish", "20191209", "Redfish"),
     "RubiChess 2.2-dev 128GiB": ("RubiChess", "2.2-dev", "128GiB"),
-    "RubiChessClassical 2.0.1": ("RubiChess", "2.0.1_Classical", ""),
-    "Rybka 4 Exp-61": ("Rybka", "4_Exp-61", ""),
+    "RubiChessClassical 2.0.1": ("RubiChess", "2.0.1 Classical", ""),
+    "Rybka 4 Exp-61": ("Rybka", "4 Exp-61", ""),
     "SFNNUE 20200704-StockFiNN-0.2": ("Stockfish", "20200704-StockFiNN-0.2", "SFNNUE"),
     "ScorpioNN 3.0.15.3_copy": ("ScorpioNN", "3.0.15.3", "copy"),
     "ScorpioNN 3.0.15.5_copy": ("ScorpioNN", "3.0.15.5", "copy"),
     "SimpleEval2 20200731r14": ("SimpleEval", "20200731r14", "2"),
-    "Sjeng c't 2010": ("Sjeng", "c't_2010", ""),
-    "SlowChess Blitz Classic 2.26 16GiB": ("SlowChess Blitz", "Classic_2.26", "16GiB"),
+    "Sjeng c't 2010": ("Sjeng", "c't 2010", ""),
+    "SlowChess Blitz Classic 2.26 16GiB": ("SlowChess Blitz", "Classic 2.26", "16GiB"),
     "Stockfish copy 20210113": ("Stockfish", "20210113", "copy"),
     "Stockfish dev-20231105-442c294a_copy": ("Stockfish", "dev-20231105-442c294a", "copy"),
     "Stockfish dev-20240605-5688b188 interleave": ("Stockfish", "dev-20240605-5688b188", "interleave"),
     "Stockfish dev-20240605-5688b188 localalloc": ("Stockfish", "dev-20240605-5688b188", "localalloc"),
     "Stockfish dev-20240605-5688b188 none": ("Stockfish", "dev-20240605-5688b188", "none"),
     "Stockfish dev16_202208061357_copy": ("Stockfish", "dev16_202208061357", "copy"),
-    "StockfishClassical 202007311012": ("Stockfish", "202007311012_Classical", ""),
+    "StockfishClassical 202007311012": ("Stockfish", "202007311012 Classical", ""),
     "StockfishClassical": ("Stockfish", "Classical", ""),
     "StockfishNNUE 20200704-StockFiNN-0.2": ("Stockfish", "20200704-StockFiNN-0.2", "StockfishNNUE"),
-    "Stockfish_11_CCRL 64-bit_4CPU": ("Stockfish", "11", "CCRL 64-bit 4CPU"),
-    "Stockfish_13_CCRL 64-bit_4CPU": ("Stockfish", "13", "CCRL 64-bit 4CPU"),
-    "Stockfish_15_CCRL 64-bit_4CPU": ("Stockfish", "15", "CCRL 64-bit 4CPU"),
+    "Stockfish_11_CCRL 64-bit_4CPU": ("Stockfish", "11_CCRL", "64-bit 4CPU"),
+    "Stockfish_13_CCRL 64-bit_4CPU": ("Stockfish", "13_CCRL", "64-bit 4CPU"),
+    "Stockfish_15_CCRL 64-bit_4CPU": ("Stockfish", "15_CCRL", "64-bit 4CPU"),
     "Wasp 4.10 copy": ("Wasp", "4.10", "copy"),
-    "Wasp TCEC S11": ("Wasp", "TCEC_S11", ""),
+    "Wasp TCEC S11": ("Wasp", "TCEC S11", ""),
     "Weiss 0.10-dev-20200525 1": ("Weiss", "0.10-dev-20200525", "1"),
     "Weiss 0.10-dev-20200525 2": ("Weiss", "0.10-dev-20200525", "2"),
     "Xiphos 0.6 256th": ("Xiphos", "0.6", "256th"),
-    "Zappa Mexico II": ("Zappa", "Mexico_II", ""),
+    "Zappa Mexico II": ("Zappa", "Mexico II", ""),
 }
 
 # Player name substitutions are checked when 'exceptionalNames' didn't match.
@@ -130,7 +130,7 @@ def addSwissTestStockfishVersions():
         )
         exceptionalNames[f"{i:02}StockfishClassical 202007311012"] = (
             "Stockfish",
-            "202007311012_Classical",
+            "202007311012 Classical",
             f"{i:02}",
         )
 
@@ -192,54 +192,14 @@ def addSlowChessBlitzVersions():
     ]
 
     for v in versions:
-        exceptionalNames[f"SlowChess Blitz {v}"] = ("SlowChess Blitz", v.replace(" ", "_"), "")
-
-
-def addCheng4Versions():
-    versions = ["0.36c", "0.36c+", "0.39"]
-
-    for v in versions:
-        exceptionalNames[f"Cheng4 {v}"] = ("Cheng", f"4_{v}", "")
-
-
-def addStoofvleesVersions():
-    versions = [
-        "WCCC2024",
-        "a10",
-        "a11",
-        "a12",
-        "a13",
-        "a14",
-        "a15",
-        "a15.1",
-        "a16",
-        "a17",
-        "a18",
-        "a19",
-        "b1",
-        "b4",
-        "b5",
-        "d2",
-        "d5",
-        "d6",
-    ]
-
-    for v in versions:
-        exceptionalNames[f"Stoofvlees II {v}"] = ("Stoofvlees", f"II_{v}", "")
+        exceptionalNames[f"SlowChess Blitz {v}"] = ("SlowChess Blitz", v, "")
 
 
 def addDeepSjengVersions():
     versions = ["3.6 a8", "3.6 a13", "3.6 a14", "3.6 a16", "3.6 a24", "3.6 a29", "3.6 a30", "3.6 a31"]
 
     for v in versions:
-        exceptionalNames[f"DeepSjeng {v}"] = ("DeepSjeng", v.replace(" ", "_"), "")
-
-
-def addRodentVersions():
-    versions = ["0.244", "0.258", "0.276", "0.278", "0.287", "1.0.171"]
-
-    for v in versions:
-        exceptionalNames[f"Rodent III {v}"] = ("Rodent", f"III_{v}", "")
+        exceptionalNames[f"DeepSjeng {v}"] = ("DeepSjeng", v, "")
 
 
 # prints the triplet 't' as:
@@ -322,10 +282,7 @@ def addSubstitutions():
     addSufiTaggedEngines()
     addFixedStockfish15()
     addSlowChessBlitzVersions()
-    addCheng4Versions()
-    addStoofvleesVersions()
     addDeepSjengVersions()
-    addRodentVersions()
 
 
 def listSubstitutions():
