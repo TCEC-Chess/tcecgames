@@ -56,7 +56,7 @@ endif
 
 $(PYTHON3):
 	python3 -m venv python-venv
-	python-venv/bin/pip3 install python-chess
+	python-venv/bin/pip3 install python-chess tabulate
 
 # generated rules
 $(MAKEFILE-GEN): $(GAMELIST-JSONS) scripts/processgamelistjson.py $(PYTHON3)
