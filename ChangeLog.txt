@@ -1,3 +1,8 @@
+Season S27 final (2025-03-30)
+- This release contains all TCEC games of Season 26 and previous
+  seasons.
+- Minor fix to classifyfrc.py to fix a warning (Issue #49)
+
 Season 27 interim 2 (2025-01-26)
 - This release contains all TCEC games up to and including Season 27
   Superfinal and Altsufi Kibitzer Ponder Bonus
