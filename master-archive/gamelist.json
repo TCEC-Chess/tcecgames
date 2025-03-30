@@ -5371,6 +5371,70 @@
             }
 	 ]
       },
+      "28": {
+         "download": "TCEC_Season_28_full.pgn.zip",
+         "fullpgn": "TCEC_Season_28_full.pgn",
+         "proceed": 1,
+         "frc": 1,
+         "sub": [
+            {
+               "id": "s28divisionmbfrc",
+               "menu": "Most Biased FRC Bonus",
+               "url": "season=28&div=mbfrc",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Most_Biased_Frc_Bonus",
+               "dno": "1000"
+            },
+            {
+               "id": "s28divisiondivider",
+               "menu": "-= Cup 15 =-",
+               "url": "season=28&div=undefined",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_None",
+               "dno": "4999"
+            },
+            {
+               "id": "s28divisiondivider",
+               "menu": "-= Swiss 8 =-",
+               "url": "season=28&div=undefined",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_None",
+               "dno": "3999"
+            },
+            {
+               "id": "s28divisiondivider",
+               "menu": "-= 4K V =-",
+               "url": "season=28&div=undefined",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_None",
+               "dno": "3499"
+            },
+            {
+               "id": "s28divisiondivider",
+               "menu": "-= FRD 4 =-",
+               "url": "season=28&div=undefined",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_None",
+               "dno": "2999"
+            },
+            {
+               "id": "s28divisiondivider",
+               "menu": "-= Bonus tournaments =-",
+               "url": "season=28&div=undefined",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_None",
+               "dno": "1999"
+            },
+            {
+               "id": "s28divisiondivider",
+               "menu": "-= Testing tournaments =-",
+               "url": "season=28&div=undefined",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_None",
+               "dno": "0999"
+            }
+	 ]
+      },
       "Cup 1": {
          "seasonName": "Cup 1",
          "eventtag": "TCEC_Cup_1_event",
