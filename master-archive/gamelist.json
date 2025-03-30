@@ -5314,6 +5314,14 @@
                "dno": "1038"
             },
             {
+               "id": "s27divisioncw2p",
+               "menu": "Ceres vs Weiss 2 Ply Bonus",
+               "url": "season=27&div=cw2p",
+               "no": "27",
+               "abb": "TCEC_Season_27_-_Ceres_Vs_Weiss_2_Ply_Bonus",
+               "dno": "1039"
+            },
+            {
                "id": "s27divisiondivider",
                "menu": "-= Cup 14 =-",
                "url": "season=27&div=undefined",
