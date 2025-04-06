@@ -76,6 +76,7 @@ exceptionalNames = {
     "Stockfish_11_CCRL 64-bit_4CPU": ("Stockfish", "11 CCRL", "64-bit 4CPU"),
     "Stockfish_13_CCRL 64-bit_4CPU": ("Stockfish", "13 CCRL", "64-bit 4CPU"),
     "Stockfish_15_CCRL 64-bit_4CPU": ("Stockfish", "15 CCRL", "64-bit 4CPU"),
+    "Stoofvlees IIb5": ("Stoofvlees II", "b5", ""),
     "Wasp 4.10 copy": ("Wasp", "4.10", "copy"),
     "Wasp TCEC S11": ("Wasp", "TCEC S11", ""),
     "Weiss 0.10-dev-20200525 1": ("Weiss", "0.10-dev-20200525", "1"),
