@@ -349,7 +349,7 @@ Crafty (23.5)
 Crafty (23.6)
 Crafty (23.8)
 Crafty (24.1)
-Crafty (25.2_CCRL) [64-bit 4CPU]
+Crafty (25.2 CCRL) [64-bit 4CPU]
 Critter (0.8)
 Critter (0.9)
 Critter (1.01)
@@ -578,9 +578,9 @@ Ginkgo (4.33)
 Ginkgo (S13)
 Ginkgo (S16)
 Glass (1.6)
+Glaurung (2.2 CCRL) [64-bit 4CPU]
 Glaurung (2.2 JA)
 Glaurung (2.2)
-Glaurung (2.2_CCRL) [64-bit 4CPU]
 Gnu (5.07.170.5b)
 Gogobello (2.1)
 Gogobello (2.1_dev)
@@ -596,9 +596,9 @@ Gull (191130)
 Gull (2.2)
 Gull (2.3)
 Gull (2.8b)
+Gull (20170410 CCRL) [64-bit 4CPU]
 Gull (20170410)
 Gull (20170410_256th)
-Gull (20170410_CCRL) [64-bit 4CPU]
 Gull (3)
 Gull (3683)
 Gull (A206)
@@ -753,11 +753,11 @@ Koivisto (8.9)
 Koivisto (9.0)
 Koivisto (9.2)
 Komodo (1.3b1)
+Komodo (10 CCRL) [64-bit 4CPU]
 Komodo (10)
 Komodo (10.1)
 Komodo (1063)
 Komodo (1092)
-Komodo (10_CCRL) [64-bit 4CPU]
 Komodo (1121.05)
 Komodo (1133)
 Komodo (1142)
@@ -770,8 +770,8 @@ Komodo (1318)
 Komodo (1324)
 Komodo (1331)
 Komodo (1333)
+Komodo (14 CCRL) [64-bit 4CPU]
 Komodo (14.1)
-Komodo (14_CCRL) [64-bit 4CPU]
 Komodo (1501.01)
 Komodo (1692.19)
 Komodo (1937.00)
@@ -1454,21 +1454,21 @@ Stockfish (1.8)
 Stockfish (1.9)
 Stockfish (1.9.1)
 Stockfish (100218)
+Stockfish (11 CCRL) [64-bit 4CPU]
 Stockfish (110616)
-Stockfish (11_CCRL) [64-bit 4CPU]
 Stockfish (120413)
 Stockfish (128GiB_202008260719_nn-82215d0fd0df)
-Stockfish (13_CCRL) [64-bit 4CPU]
+Stockfish (13 CCRL) [64-bit 4CPU]
 Stockfish (14.1)
 Stockfish (14.1_20211101)
 Stockfish (141214)
 Stockfish (14_202107131735)
 Stockfish (14_202108051641)
 Stockfish (14_202108220915)
+Stockfish (15 CCRL) [64-bit 4CPU]
 Stockfish (15.1)
 Stockfish (15.1TB6)
 Stockfish (151013)
-Stockfish (15_CCRL) [64-bit 4CPU]
 Stockfish (160518)
 Stockfish (160716)
 Stockfish (160913)
