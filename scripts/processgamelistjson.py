@@ -448,7 +448,7 @@ def output_make_defs(make_defs):
             event = eventItem[0]
 
             print(f".INTERMEDIATE: {make_defs[season].events[event].output_file}-tagfixed")
-            print(f"{make_defs[season].events[event].output_file}-tagfixed: eco.pgn", end = "")
+            print(f"{make_defs[season].events[event].output_file}-tagfixed: eco.pgn $(PYTHON3)", end = "")
             all_full_events.append(f"{make_defs[season].events[event].output_file}")
             all_src_files = ""
 
@@ -524,8 +524,12 @@ def output_make_defs(make_defs):
                 print("\t\t| awk -f scripts/pgn-extract-fix.awk \\")
 
                 # FRC/DFRC classification
-                print("\t\t| scripts/run-classifyfrc.py \\")
+                print("\t\t| $(PYTHON3) scripts/run-classifyfrc.py \\")
 
+                # Fix engine names
+                print("\t\t| $(PYTHON3) scripts/fix-engine-names.py \\")
+
+                # Fix 'site' tag
                 print("\t\t| awk -f scripts/site-tag-fix.awk -v urlprefix='https://tcec-chess.com/#" + src_file.url + "' \\")
 
                 # couple of PGNs have games with inconsistent event/round tags, fix them
