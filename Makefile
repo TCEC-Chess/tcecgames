@@ -25,7 +25,7 @@
 .PHONY: test-release
 
 # default target
-all: all-pgns
+all: all-pgns scripts/gen-all-engines.txt
 
 MAKEFILE-GEN := out/generated.mak
 
@@ -99,6 +99,13 @@ eco.pgn:
 out/compact/events/%.pgn: out/full/events/%.pgn $(PYTHON3)
 	mkdir -p out/compact/events
 	$(PYTHON3) -OO scripts/run-compactify-pgn.py $< >$@
+
+scripts/gen-all-engines.txt: out/compact/everything/TCEC-everything.pgn
+	echo "# This is a generated file." >$@
+	echo >>$@
+	egrep '^\[(White|Black) "[^"]*"\]$$' $< | \
+		sed -e 's/^........//' -e 's/..$$//' | \
+		sort -u >>$@
 
 # release
 RELEASE-DIR := releases/release-$(shell date -u +"%Y-%m-%d")-$(shell git rev-parse --short HEAD)
