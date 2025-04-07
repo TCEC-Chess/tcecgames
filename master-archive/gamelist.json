@@ -5386,6 +5386,22 @@
                "dno": "1000"
             },
             {
+               "id": "s28division4kt",
+               "menu": "4K Testing",
+               "url": "season=28&div=4kt",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_4k_Testing",
+	       "dno": "0001"
+            },
+            {
+               "id": "s28division4k",
+               "menu": "4K V",
+               "url": "season=28&div=4k",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_4k_V",
+	       "dno": "3402"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
