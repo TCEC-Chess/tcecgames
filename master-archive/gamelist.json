@@ -5402,6 +5402,22 @@
 	       "dno": "3402"
             },
             {
+               "id": "s28division4kf",
+               "menu": "4K V MiniFinal",
+               "url": "season=28&div=4kf",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_4k_V_Minifinal",
+	       "dno": "3402"
+            },
+            {
+               "id": "s28division4ke",
+               "menu": "4K V ELF Executable Bonus",
+               "url": "season=28&div=4ke",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_4k_V_Elf_Executable_Bonus",
+	       "dno": "1003"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
