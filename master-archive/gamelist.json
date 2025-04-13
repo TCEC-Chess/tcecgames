@@ -5418,6 +5418,14 @@
 	       "dno": "1003"
             },
             {
+               "id": "s28divisionsvvltc",
+               "menu": "Starting position VVLTC Bonus",
+               "url": "season=28&div=svvltc",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Starting_Position_Vvltc_Bonus",
+	       "dno": "1004"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
