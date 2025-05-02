@@ -36,14 +36,8 @@ exceptionalNames = {
     "Igel 3.0.5 128GiB": ("Igel", "3.0.5", "128GiB"),
     "Igel 3.0.5 256GiB": ("Igel", "3.0.5", "256GiB"),
     "Koivisto2 4.41": ("Koivisto", "4.41", "2"),
-    "KomodoDragon 2885.00_copy": ("KomodoDragon", "2885.00", "copy"),
-    "KomodoDragon 3.1_copy": ("KomodoDragon", "3.1", "copy"),
     "Komodo_10_CCRL 64-bit_4CPU": ("Komodo", "10 CCRL", "64-bit 4CPU"),
     "Komodo_14_CCRL 64-bit_4CPU": ("Komodo", "14 CCRL", "64-bit 4CPU"),
-    "LCZero 0.30-dag-bord-lf-se-2_784058_copy": ("LCZero", "0.30-dag-bord-lf-se-2_784058", "copy"),
-    "LCZero 0.30-dag-pr1821_BT2-3250000_copy": ("LCZero", "0.30-dag-pr1821_BT2-3250000", "copy"),
-    "LCZero 0.31-dag-c93c6a8-BT4-6147500-it332_copy": ("LCZero", "0.31-dag-c93c6a8-BT4-6147500-it332", "copy"),
-    "LCZero 0.31-dag-e429eeb-BT3-2790000_copy": ("LCZero", "0.31-dag-e429eeb-BT3-2790000", "copy"),
     "LCZero 0.7 ID125": ("LCZero", "0.7_ID125", ""),
     "LCZero copy 0.27.0d+Tilps/dje-magic_JH.94-100": ("LCZero", "0.27.0d+Tilps/dje-magic_JH.94-100", "copy"),
     "LCZero half 0.30-dag-bord-lf_784968": ("LCZero", "half 0.30-dag-bord-lf_784968", ""),
@@ -61,18 +55,13 @@ exceptionalNames = {
     "RubiChessClassical 2.0.1": ("RubiChess", "2.0.1 Classical", ""),
     "Rybka 4 Exp-61": ("Rybka", "4 Exp-61", ""),
     "SFNNUE 20200704-StockFiNN-0.2": ("Stockfish", "20200704-StockFiNN-0.2", "SFNNUE"),
-    "ScorpioNN 3.0.15.3_copy": ("ScorpioNN", "3.0.15.3", "copy"),
-    "ScorpioNN 3.0.15.5_copy": ("ScorpioNN", "3.0.15.5", "copy"),
     "SimpleEval2 20200731r14": ("SimpleEval", "20200731r14", "2"),
     "Sjeng c't 2010": ("Sjeng", "c't 2010", ""),
     "SlowChess Blitz Classic 2.26 16GiB": ("SlowChess Blitz", "Classic 2.26", "16GiB"),
     "Stockfish copy 20210113": ("Stockfish", "20210113", "copy"),
-    "Stockfish dev-20231105-442c294a_copy": ("Stockfish", "dev-20231105-442c294a", "copy"),
     "Stockfish dev-20240605-5688b188 interleave": ("Stockfish", "dev-20240605-5688b188", "interleave"),
     "Stockfish dev-20240605-5688b188 localalloc": ("Stockfish", "dev-20240605-5688b188", "localalloc"),
     "Stockfish dev-20240605-5688b188 none": ("Stockfish", "dev-20240605-5688b188", "none"),
-    "Stockfish dev-20250402-d7c04a94_copy": ("Stockfish", "dev-20250402-d7c04a94", "copy"),
-    "Stockfish dev16_202208061357_copy": ("Stockfish", "dev16_202208061357", "copy"),
     "StockfishClassical 202007311012": ("Stockfish", "202007311012 Classical", ""),
     "StockfishClassical": ("Stockfish", "Classical", ""),
     "StockfishNNUE 20200704-StockFiNN-0.2": ("Stockfish", "20200704-StockFiNN-0.2", "StockfishNNUE"),
@@ -233,18 +222,27 @@ def fixEngineNames():
             if player in exceptionalNames:
                 nameVersionTriplet = exceptionalNames[player]
 
-            elif regularNameVersionMatcher.fullmatch(player):
-                m = regularNameVersionMatcher.fullmatch(player)
-                playerName = m.group(1)
-                playerVersion = m.group(2)
-
-                if playerName in playerNameSubstitutions:
-                    playerName = playerNameSubstitutions[playerName]
-
-                nameVersionTriplet = (playerName, playerVersion, "")
-
             else:
-                nameVersionTriplet = (player, "", "")
+                m = regularNameVersionMatcher.fullmatch(player)
+                if m:
+                    playerName = m.group(1)
+                    playerVersion = m.group(2)
+
+                    # Check if there is a player name substitution
+                    if playerName in playerNameSubstitutions:
+                        playerName = playerNameSubstitutions[playerName]
+
+                    # Special handling for version strings ending with "_copy"
+                    if (playerVersion.endswith("_copy")):
+                        playerVersion = playerVersion[:-5]
+                        tag = "copy"
+                    else:
+                        tag = ''
+
+                    nameVersionTriplet = (playerName, playerVersion, tag)
+
+                else:
+                    nameVersionTriplet = (player, "", "")
 
             print(f'[{playerTagMatch.group(1)} "{serializeNameVersionTriplet(nameVersionTriplet)}"]')
 
