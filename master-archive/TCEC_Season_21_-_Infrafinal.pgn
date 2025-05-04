@@ -2728,7 +2728,7 @@ Bxh5 {d=15, sd=62, mt=776, tl=2121713, s=43179, n=33248, pv=Bxh5 a4 Kc6 Kc3 Kd6 
 46. c4 {d=62, sd=62, pd=Bxh5, mt=54844, tl=471901, s=175441156, n=9621719071, pv=c4 Bg4 Kc3 Bd1 a4 Kc6 Kb2 Bg4 Ka3 Bd1 Kb2, tb=25079286, h=6.9, ph=82.8, wv=0.00, R50=50, Rd=-11, Rr=-1000, mb=+3+0-1+0+0,}
 Be2 {d=22, sd=62, mt=149721, tl=1980992, s=45568, n=6822579, pv=Be2 Kc2 Ke6 a4 Kd6 Kb2 Bg4 Ka3 Be2 f5 Ke5 a5 bxa5 Ka4 Bd1 g4 Bxg4 Kxa5 Bxf5 Ka4 Bg4 Ka5 Bf5, tb=5897770, h=8.5, ph=0.0, wv=-0.05, R50=49, Rd=9, Rr=-1000, mb=+3+0-1+0+0,}
 47. a4 {d=56, sd=56, pd=Bg4, mt=30699, tl=450202, s=84045341, n=2580107882, pv=a4 Bg4 b4 cxb4 Kb3 Bf5 Kxb4 Kc6 a5 bxa5+ Kxa5, tb=8348637, h=0.3, ph=80.5, wv=0.00, R50=50, Rd=-11, Rr=-1000, mb=+3+0-1+0+0, Manual adjudication}
-1/2-1/2
+1-0
 
 [Event "TCEC Season 21 - Infrafinal"]
 [Site "https://tcec-chess.com"]
