@@ -5482,6 +5482,14 @@
 	       "dno": "0011"
             },
             {
+               "id": "s28divisionscat3p",
+               "menu": "Category 3 Playoff",
+               "url": "season=28&div=cat3p",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Category_3_Playoff",
+	       "dno": "3512"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
