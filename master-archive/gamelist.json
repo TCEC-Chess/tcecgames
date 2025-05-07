@@ -5490,6 +5490,14 @@
 	       "dno": "3512"
             },
             {
+               "id": "s28divisionpswt5",
+               "menu": "Playoff and Swiss 8 Testing 5",
+               "url": "season=28&div=pswt5",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Playoff_And_Swiss_8_Testing_5",
+	       "dno": "0013"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
