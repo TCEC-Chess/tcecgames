@@ -5506,6 +5506,14 @@
 	       "dno": "3514"
             },
             {
+               "id": "s28divisionscat2pt1",
+               "menu": "Category 2 Playoff Tiebreak 1",
+               "url": "season=28&div=cat2pt1",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Category_2_Playoff_Tiebreak_1",
+	       "dno": "3515"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
