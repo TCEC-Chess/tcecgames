@@ -5514,6 +5514,30 @@
 	       "dno": "3515"
             },
             {
+               "id": "s28divisionpswt6",
+               "menu": "Playoff and Swiss 8 Testing 6",
+               "url": "season=28&div=pswt6",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Playoff_And_Swiss_8_Testing_6",
+	       "dno": "0016"
+            },
+            {
+               "id": "s28divisionglt",
+               "menu": "Game Length Testing",
+               "url": "season=28&div=glt",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Game_Length_Testing",
+	       "dno": "0017"
+            },
+            {
+               "id": "s28divisionsw",
+               "menu": "Swiss 8",
+               "url": "season=28&div=sw",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Swiss_8",
+	       "dno": "3518"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
