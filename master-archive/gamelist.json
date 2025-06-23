@@ -5594,6 +5594,30 @@
                "id": "scup15fl"
             },
             {
+               "id": "s28divisionvsob28",
+               "menu": "Viewer Submitted Openings Bonus 28",
+               "url": "season=28&div=vsob28",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Viewer_Submitted_Openings_Bonus_28",
+	       "dno": "1026"
+            },
+            {
+               "id": "s28divisionelt",
+               "menu": "EL Testing",
+               "url": "season=28&div=elt",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_El_Testing",
+	       "dno": "0027"
+            },
+            {
+               "id": "s28divisionglt",
+               "menu": "Game Length Update Testing 1",
+               "url": "season=28&div=glut1",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Game_Length_Update_Testing_1",
+	       "dno": "0028"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
