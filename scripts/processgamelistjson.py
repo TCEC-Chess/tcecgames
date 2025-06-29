@@ -34,6 +34,8 @@ Options:
    --sync-from-web           Add missing event PGNs to master-archive from
                              TCEC web site.
     --generate-makefile      Output a makefile for generating all derivatives
+    --hoover-chess-utils=<dir>  Use Hoover chess utilities found at
+                             directory <dir>.
 -v --verbose                 Enable verbose output
 ''')
     sys.exit(1)
@@ -328,6 +330,111 @@ def timestamp_from_event(event):
 def timestamp_from_eventfile(eventfile):
     return eventfile.timestamp
 
+def output_make_defs_for_event(season, eventClass, eventTimestamp, eventNumber, srcFiles, fixEventTagCmds, outputFile):
+    global hoover_chess_utils
+
+    if hoover_chess_utils is None:
+
+        print(f".INTERMEDIATE: {outputFile}-tagfixed")
+        print(f"{outputFile}-tagfixed: eco.pgn $(PYTHON3)", end = "")
+
+        for src_file in srcFiles:
+            print(" " + src_file.filename, end = "")
+
+        print(f" # {eventClass} / {eventTimestamp}", end = "\n")
+
+        print("\tmkdir -p out/full/events/")
+
+        outputOp = ">$@"
+
+        for src_file in srcFiles:
+
+            fix_event_tag_cmd = fixEventTagCmds[src_file.filename]
+
+            # ok, not a known problem with event tags, so scan for problems
+            if fix_event_tag_cmd is None and \
+               not eventClass in ["CUP", "BONUS", "TEST"]:
+                print("\tawk -f scripts/scan-event-tag-consistency.awk < " + src_file.filename)
+
+            # ECO-classify the opening, pretty print with pgn-extract
+            print("\tset -e -o pipefail; pgn-extract -eeco.pgn -s -w250000 " + src_file.filename + " \\")
+
+            # remove the empty line between starting comment and moves, since it confuses parsers
+            print("\t\t| awk -f scripts/pgn-extract-fix.awk \\")
+
+            # FRC/DFRC classification
+            print("\t\t| $(PYTHON3) scripts/run-classifyfrc.py \\")
+
+            # Fix engine names
+            print("\t\t| $(PYTHON3) scripts/fix-engine-names.py \\")
+
+            # Fix 'site' tag
+            print("\t\t| awk -f scripts/site-tag-fix.awk -v urlprefix='https://tcec-chess.com/#" + src_file.url + "' \\")
+
+            # couple of PGNs have games with inconsistent event/round tags, fix them
+            if not fix_event_tag_cmd is None:
+                print(fix_event_tag_cmd);
+
+            print(f"\t\t{outputOp}")
+
+            outputOp = ">>$@"
+            print("\t@echo \"" + src_file.url + "\"")
+
+        print()
+
+        # normalize and renumber event tags after they've been fixed
+        print(f"{outputFile}: {outputFile}-tagfixed")
+        print("\tset -e -o pipefail; numSubEvents=$$(grep '^[[]Event \"' $< | uniq | wc -l) ;\\")
+        print(f"\tawk -f scripts/normalize-pgn-event-tag.awk -v season={season} -v eventNumber={eventNumber} -v numSubEvents=$$numSubEvents $<\\")
+        print("\t\t>$@")
+
+    else:
+        # we'll use intermediate files if we need to fix anything in the sources
+        intermediates = { }
+        for src_file in srcFiles:
+            fix_event_tag_cmd = fixEventTagCmds[src_file.filename]
+            if not fix_event_tag_cmd is None:
+                intermediates[src_file.filename] = f"{outputFile}.tmp.{len(intermediates)}"
+
+                print(f".INTERMEDIATE: {intermediates[src_file.filename]}")
+                print(f"{intermediates[src_file.filename]}: {src_file.filename}")
+                print("\tmkdir -p out/full/events/")
+                print(f"\tset -e -o pipefail; cat {src_file.filename} \\")
+                print(f"\t\t{fix_event_tag_cmd.strip()}")
+                print("\t\t>$@ || (rm -f $@ ; exit 1)")
+                print("")
+
+
+        print(f"{outputFile}: eco.pgn", end = "")
+        for src_file in srcFiles:
+            if src_file.filename in intermediates:
+                print(" " + intermediates[src_file.filename], end = "")
+            else:
+                print(" " + src_file.filename, end = "")
+
+        print(f" # {eventClass} / {eventTimestamp}", end = "\n")
+
+        print("\tmkdir -p out/full/events/")
+
+        for src_file in srcFiles:
+            fix_event_tag_cmd = fixEventTagCmds[src_file.filename]
+            if fix_event_tag_cmd is None and \
+               not eventClass in ["CUP", "BONUS", "TEST"]:
+                print("\tawk -f scripts/scan-event-tag-consistency.awk < " + src_file.filename)
+
+
+        print(f"\tset -e -o pipefail; '{hoover_chess_utils}/hoover-process-full-tcec-pgn' {season} {eventNumber} eco.pgn \\")
+        for src_file in srcFiles:
+            if src_file.filename in intermediates:
+                print(f"\t\t{intermediates[src_file.filename]} 'https://tcec-chess.com/#{src_file.url}' \\")
+            else:
+                print(f"\t\t{src_file.filename} 'https://tcec-chess.com/#{src_file.url}' \\")
+
+        print("\t\t| $(PYTHON3) scripts/fix-engine-names.py \\")
+        print("\t\t>$@ || (rm -f $@ ; exit 1)")
+
+    print("")
+
 def output_make_defs(make_defs):
 
     # dependencies for phony rules
@@ -455,25 +562,16 @@ def output_make_defs(make_defs):
         eventNumber = 0
         for eventItem in sorted(make_defs[season].events.items(), key=timestamp_from_event):
             event = eventItem[0]
-
-            print(f".INTERMEDIATE: {make_defs[season].events[event].output_file}-tagfixed")
-            print(f"{make_defs[season].events[event].output_file}-tagfixed: eco.pgn $(PYTHON3)", end = "")
-            all_full_events.append(f"{make_defs[season].events[event].output_file}")
-            all_src_files = ""
-
-            for src_file in sorted(make_defs[season].events[event].src_files, key=timestamp_from_eventfile):
-                print(" " + src_file.filename, end = "")
-
-            print(f" # {make_defs[season].events[event].event_class} / {make_defs[season].events[event].timestamp}", end = "\n")
-            print("\tmkdir -p out/full/events/")
-
-            outputOp = ">$@"
-
             eventNumber = eventNumber + 1
 
+            srcFiles = [ ]
+            fixEventTagCmds = { }
+
             for src_file in sorted(make_defs[season].events[event].src_files, key=timestamp_from_eventfile):
+                srcFiles.append(src_file)
 
                 fix_event_tag_cmd = None
+
                 if src_file.filename == "master-archive/TCEC_Season_15_-_Superfinal.pgn":
                     fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 15 - Superfinal.*\"\\]$$/[Event \"TCEC Season 15 - Superfinal\"]/' \\"
                 elif src_file.filename == "master-archive/TCEC_Season_14_-_Division_4.pgn":
@@ -521,43 +619,15 @@ def output_make_defs(make_defs):
                         "\t\t| sed -r 's/^\\[Event \"TCEC Season ([[:digit:]]+) - FRC([[:digit:]]+)/" + \
                                            "[Event \"TCEC Season \\1 - FRC \\2/' \\"
 
-                # ok, not a known problem with event tags, so scan for problems
-                if fix_event_tag_cmd is None and \
-                   not make_defs[season].events[event].event_class in ["CUP", "BONUS", "TEST"]:
-                    print("\tawk -f scripts/scan-event-tag-consistency.awk < " + src_file.filename)
+                fixEventTagCmds[src_file.filename] = fix_event_tag_cmd
 
-                # ECO-classify the opening, pretty print with pgn-extract
-                print("\tset -e ; pgn-extract -eeco.pgn -s -w50000 " + src_file.filename + " \\")
+            output_make_defs_for_event(
+                season,
+                make_defs[season].events[event].event_class, make_defs[season].events[event].timestamp, eventNumber,
+                srcFiles, fixEventTagCmds,
+                make_defs[season].events[event].output_file)
 
-                # remove the empty line between starting comment and moves, since it confuses parsers
-                print("\t\t| awk -f scripts/pgn-extract-fix.awk \\")
-
-                # FRC/DFRC classification
-                print("\t\t| $(PYTHON3) scripts/run-classifyfrc.py \\")
-
-                # Fix engine names
-                print("\t\t| $(PYTHON3) scripts/fix-engine-names.py \\")
-
-                # Fix 'site' tag
-                print("\t\t| awk -f scripts/site-tag-fix.awk -v urlprefix='https://tcec-chess.com/#" + src_file.url + "' \\")
-
-                # couple of PGNs have games with inconsistent event/round tags, fix them
-                if not fix_event_tag_cmd is None:
-                    print(fix_event_tag_cmd);
-
-                print(f"\t\t{outputOp}")
-
-                outputOp = ">>$@"
-                print("\t@echo \"" + src_file.url + "\"")
-
-            print()
-
-            # normalize and renumber event tags after they've been fixed
-            print(f"{make_defs[season].events[event].output_file}: {make_defs[season].events[event].output_file}-tagfixed")
-            print("\tset -e ; numSubEvents=$$(grep '^[[]Event \"' $< | uniq | wc -l) ;\\")
-            print(f"\tawk -f scripts/normalize-pgn-event-tag.awk -v season={season} -v eventNumber={eventNumber} -v numSubEvents=$$numSubEvents $<\\")
-            print("\t\t>$@")
-            print("")
+            all_full_events.append(f"{make_defs[season].events[event].output_file}")
 
 
     # The everything rules (compact only)
@@ -705,8 +775,10 @@ def main(argv):
     global operating_mode
     global input_directory
     global master_directory
+    global hoover_chess_utils
 
     inputfile = ''
+    hoover_chess_utils = None
 
     # version check -- this script was developed with Python 3.9
     if sys.version_info < (3, 9):
@@ -715,7 +787,7 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv, "hvn",
                                    ["help", "verbose", "dry-run", "master-dir=", "pgn-check",
-                                    "sync-from-dir=", "sync-from-web", "generate-makefile"])
+                                    "sync-from-dir=", "sync-from-web", "generate-makefile", "hoover-chess-utils="])
         inputfiles = args[0:]
     except getopt.GetoptError:
         help_and_exit()
@@ -740,6 +812,8 @@ def main(argv):
             operating_mode = "SYNC-FROM-WEB"
         if opt == "--generate-makefile":
             operating_mode = "GENERATE-MAKEFILE"
+        if opt == "--hoover-chess-utils":
+            hoover_chess_utils = arg
 
     gamelists = [ ]
     for inputfile in inputfiles:
