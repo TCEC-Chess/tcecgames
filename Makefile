@@ -33,6 +33,9 @@ GAMELIST-JSONS := master-archive/gamelist.json scripts/gamelist-overlay.json
 
 PYTHON3 := python-venv/bin/python3
 
+# if this is set, use Hoover chess utils instead of pgn-extract and python chess
+HOOVER_CHESS_UTILS :=
+
 # include generated rules, but only if we're not cleaning
 ifneq ($(MAKECMDGOALS),clean)
 ifneq ($(MAKECMDGOALS),distclean)
@@ -64,6 +67,7 @@ $(MAKEFILE-GEN): $(GAMELIST-JSONS) scripts/processgamelistjson.py $(PYTHON3)
 	$(PYTHON3) -OO -m compileall scripts
 	$(PYTHON3) -OO scripts/run-process-gamelist-json.py \
 		--master-dir=master-archive \
+		$(if $(HOOVER_CHESS_UTILS),--hoover-chess-utils $(HOOVER_CHESS_UTILS),) \
 		--generate-makefile $(GAMELIST-JSONS) \
 		> $(MAKEFILE-GEN)
 
@@ -98,7 +102,11 @@ eco.pgn:
 # compact event pgns
 out/compact/events/%.pgn: out/full/events/%.pgn $(PYTHON3)
 	mkdir -p out/compact/events
+ifeq ($(HOOVER_CHESS_UTILS),)
 	$(PYTHON3) -OO scripts/run-compactify-pgn.py $< >$@
+else
+	"$(HOOVER_CHESS_UTILS)/hoover-compactify-tcec-pgn" $< >$@
+endif
 
 scripts/gen-all-engines.txt: out/compact/everything/TCEC-everything.pgn
 	echo "# This is a generated file." >$@
