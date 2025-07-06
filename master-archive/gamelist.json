@@ -5618,6 +5618,38 @@
 	       "dno": "0028"
             },
             {
+               "id": "s28divisionel",
+               "menu": "Entrance League",
+               "url": "season=28&div=el",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Entrance_League",
+               "dno": "5029"
+            },
+            {
+               "id": "s28divisionelt1",
+               "menu": "Entrance League Tiebreak 1",
+               "url": "season=28&div=elt1",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Entrance_League_Tiebreak_1",
+               "dno": "5030"
+            },
+            {
+               "id": "s28divisionelt2",
+               "menu": "Entrance League Tiebreak 2",
+               "url": "season=28&div=elt2",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Entrance_League_Tiebreak_2",
+               "dno": "5031"
+            },
+            {
+               "id": "s28divisionlczct",
+               "menu": "LCZeroCPU Testing",
+               "url": "season=28&div=lczct",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Lczerocpu_Testing",
+	       "dno": "0032"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",

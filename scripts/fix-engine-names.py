@@ -42,6 +42,8 @@ exceptionalNames = {
     "LCZero copy 0.27.0d+Tilps/dje-magic_JH.94-100": ("LCZero", "0.27.0d+Tilps/dje-magic_JH.94-100", "copy"),
     "LCZero half 0.30-dag-bord-lf_784968": ("LCZero", "half 0.30-dag-bord-lf_784968", ""),
     "LCZeroCPU3pct v0.25-n591215 blitz": ("LCZeroCPU_3pct", "v0.25-n591215 blitz", ""),
+    "LCZeroCPU 0.32.0-dev-eb75a36-BT4-6147500-it332-copied-options": ("LCZeroCPU", "0.32.0-dev-eb75a36-BT4-6147500-it332", "copied-options"),
+    "LCZeroCPU 0.32.0-dev-eb75a36-BT4-6147500-it332-original-options": ("LCZeroCPU", "0.32.0-dev-eb75a36-BT4-6147500-it332", "original-options"),
     "Laser 1.8 beta 256th": ("Laser", "1.8 beta", "256th"),
     "Laser 1.8 beta": ("Laser", "1.8 beta", ""),
     "Marvin 3.4.0 256th": ("Marvin", "3.4.0", "256th"),

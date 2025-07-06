@@ -1029,6 +1029,9 @@ LCZero (v20.1-32742)
 LCZero (v20.2-32930)
 LCZero (v20rc2-32194)
 LCZeroCPU (0.28_752187)
+LCZeroCPU (0.32.0-dev-eb75a36-BT4-6147500-it332)
+LCZeroCPU (0.32.0-dev-eb75a36-BT4-6147500-it332) [copied-options]
+LCZeroCPU (0.32.0-dev-eb75a36-BT4-6147500-it332) [original-options]
 LCZeroCPU (Latest)
 LCZeroCPU (v0.21.2-n42547)
 LCZeroCPU (v0.21.2-nLD2)
