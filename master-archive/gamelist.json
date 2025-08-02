@@ -5650,6 +5650,54 @@
 	       "dno": "0032"
             },
             {
+               "id": "s28divisionslgel",
+               "menu": "SFclass and LCZcpu vs S28EL Gauntlet Bonus",
+               "url": "season=28&div=slgel",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Sfclass_And_Lczcpu_Vs_S28el_Gauntlet_Bonus",
+               "dno": "1033"
+            },
+            {
+               "id": "s28divisionl2t",
+               "menu": "L2 Testing",
+               "url": "season=28&div=l2t",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_L2_Testing",
+	       "dno": "0034"
+            },
+            {
+               "id": "s28divisionl2",
+               "menu": "League 2",
+               "url": "season=28&div=l2",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_League_2",
+               "dno": "5035"
+            },
+            {
+               "id": "s28divisionl1t",
+               "menu": "L1 Testing",
+               "url": "season=28&div=l1t",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_L1_Testing",
+	       "dno": "0036"
+            },
+            {
+               "id": "s28divisionl1",
+               "menu": "League 1",
+               "url": "season=28&div=l1",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_League_1",
+               "dno": "5037"
+            },
+            {
+               "id": "s28divisionl1t1",
+               "menu": "League 1 Tiebreak 1",
+               "url": "season=28&div=l1t1",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_League_1_Tiebreak_1",
+               "dno": "5038"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
