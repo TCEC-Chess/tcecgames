@@ -5698,6 +5698,22 @@
                "dno": "5038"
             },
             {
+               "id": "s28divisiondivpt",
+               "menu": "DivP Testing",
+               "url": "season=28&div=divpt",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Divp_Testing",
+               "dno": "0039"
+            },
+            {
+               "id": "s28divisionp",
+               "menu": "Division P",
+               "url": "season=28&div=p",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Division_P",
+               "dno": "5040"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
