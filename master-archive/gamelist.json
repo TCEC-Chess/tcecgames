@@ -5714,6 +5714,22 @@
                "dno": "5040"
             },
             {
+               "id": "s28divisionsft",
+               "menu": "Sufi Testing",
+               "url": "season=28&div=sft",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Sufi_Testing",
+	       "dno": "0041"
+            },
+            {
+               "id": "s28divisionsf",
+               "menu": "Superfinal",
+               "url": "season=28&div=sf",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Superfinal",
+	       "dno": "5042"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
