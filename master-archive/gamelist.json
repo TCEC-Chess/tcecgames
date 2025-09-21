@@ -5610,7 +5610,7 @@
 	       "dno": "0027"
             },
             {
-               "id": "s28divisionglt",
+               "id": "s28divisionglut1",
                "menu": "Game Length Update Testing 1",
                "url": "season=28&div=glut1",
                "no": "28",
@@ -5728,6 +5728,54 @@
                "no": "28",
                "abb": "TCEC_Season_28_-_Superfinal",
 	       "dno": "5042"
+            },
+            {
+               "id": "s28divisionbcb",
+               "menu": "Blitz Chess Bonus",
+               "url": "season=28&div=bcb",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Blitz_Chess_Bonus",
+	       "dno": "1043"
+            },
+            {
+               "id": "s28divisionbucb",
+               "menu": "Bullet Chess Bonus",
+               "url": "season=28&div=bucb",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Bullet_Chess_Bonus",
+	       "dno": "1044"
+            },
+            {
+               "id": "s28divisionbu2cb",
+               "menu": "Bullet 2 Chess Bonus",
+               "url": "season=28&div=bu2cb",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Bullet_2_Chess_Bonus",
+	       "dno": "1045"
+            },
+            {
+               "id": "s28divisionshcg",
+               "menu": "StockfishClassical Blitz Chess Gauntlet Bonus",
+               "url": "season=28&div=shcg",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Stockfishclassical_Blitz_Chess_Gauntlet_Bonus",
+	       "dno": "1046"
+            },
+            {
+               "id": "s28divisionglut2",
+               "menu": "Game Length Update Testing 2",
+               "url": "season=28&div=glut2",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Game_Length_Update_Testing_2",
+	       "dno": "0047"       
+            },
+            {
+               "id": "s28divisionaltsufi",
+               "menu": "Altsufi Kibitzer Bonus",
+               "url": "season=28&div=altsufi",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Altsufi_Kibitzer_Bonus",
+	       "dno": "1048"
             },
             {
                "id": "s28divisiondivider",
