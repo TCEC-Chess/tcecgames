@@ -5778,6 +5778,23 @@
 	       "dno": "1048"
             },
             {
+               "id": "s28divisionfdt",
+               "menu": "FRD 4 Testing",
+               "url": "season=28&div=fdt",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_Testing",
+	       "dno": "0049"
+            },
+            {
+               "id": "s28divisionsfrdla",
+               "frc": 1,
+               "menu": "FRD 4 League A",
+               "url": "season=28&div=frdla",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_League_A",
+	       "dno": "2050"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
