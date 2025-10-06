@@ -5795,6 +5795,24 @@
 	       "dno": "2050"
             },
             {
+               "id": "s28divisionsfrdlb",
+               "frc": 1,
+               "menu": "FRD 4 League B",
+               "url": "season=28&div=frdlb",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_League_B",
+	       "dno": "2051"
+            },
+            {
+               "id": "s28divisionsfrdlc",
+               "frc": 1,
+               "menu": "FRD 4 League C",
+               "url": "season=28&div=frdlc",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_League_C",
+	       "dno": "2052"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
