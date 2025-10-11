@@ -158,7 +158,7 @@ def classify_event(season, event_id, event_name):
         if event_id in ["s28divisionl1t1"]:
             return "MAIN"
 
-        if event_id in ["s28divisionsfrdla", "s28divisionsfrdlb", "s28divisionsfrdlc", "s28divisionsfrdld",
+        if event_id in ["s28divisionsfrdla", "s28divisionsfrdlb", "s28divisionsfrdlc", "s28divisionsfrdld", "s28divisionsfrdldt",
                         "s28divisionsfrdsl1", "s28divisionsfrdsl2", "s28divisionsfrdfl", "s28divisionsfrdf"]:
             return "DFRC"
 
