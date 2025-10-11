@@ -5813,6 +5813,24 @@
 	       "dno": "2052"
             },
             {
+               "id": "s28divisionsfrdld",
+               "frc": 1,
+               "menu": "FRD 4 League D",
+               "url": "season=28&div=frdld",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_League_D",
+	       "dno": "2053"
+            },
+            {
+               "id": "s28divisionsfrdldt",
+               "frc": 1,
+               "menu": "FRD 4 League D Tiebreak",
+               "url": "season=28&div=frdldt",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_League_D_Tiebreak",
+	       "dno": "2054"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
