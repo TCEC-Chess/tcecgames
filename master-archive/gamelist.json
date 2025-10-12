@@ -5831,6 +5831,15 @@
 	       "dno": "2054"
             },
             {
+               "id": "s28divisionsfrdsl1",
+               "frc": 1,
+               "menu": "FRD 4 Semileague 1",
+               "url": "season=28&div=frdsl1",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_Semileague_1",
+	       "dno": "2055"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
