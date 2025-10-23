@@ -5840,6 +5840,33 @@
 	       "dno": "2055"
             },
             {
+               "id": "s28divisionsfrdsl2",
+               "frc": 1,
+               "menu": "FRD 4 Semileague 2",
+               "url": "season=28&div=frdsl2",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_Semileague_2",
+	       "dno": "2056"
+            },
+            {
+               "id": "s28divisionsfrdfl",
+               "frc": 1,
+               "menu": "FRD 4 Final League",
+               "url": "season=28&div=frdfl",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_Final_League",
+	       "dno": "2057"
+            },
+            {
+               "id": "s28divisionsfrdf",
+               "frc": 1,
+               "menu": "FRD 4 Final",
+               "url": "season=28&div=frdf",
+               "no": "28",
+               "abb": "TCEC_Season_28_-_Frd_4_Final",
+	       "dno": "2058"
+            },
+            {
                "id": "s28divisiondivider",
                "menu": "-= Cup 15 =-",
                "url": "season=28&div=undefined",
