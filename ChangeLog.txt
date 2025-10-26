@@ -1,5 +1,21 @@
+Season S28 final (2025-10-26)
+- This release contains all TCEC games of Season 28 and previous
+  seasons.
+- Support for Hoover chess utilities was added. See README.md for
+  details. (Issue #53)
+- A number of engine naming inconsistencies were fixed. Now all engine names
+  are in the form "Name (version) [extra]" where:
+  - 'Name' is the engine name
+  - 'version' is the engine version
+  - '[extra]' (optional) is an event-specific tag, usually used when
+    multiple engine instances were playing. For example:
+    "Igel (3.0.5) [128GiB]" and "Igel (3.0.5) [256GiB]" in
+    TCEC Season 21 Igel Hash Test.
+  - See issue #45 for details.
+- Season 21 infrafinal game 20 PGN result tag was fixed. (Issue #51)
+
 Season S27 final (2025-03-30)
-- This release contains all TCEC games of Season 26 and previous
+- This release contains all TCEC games of Season 27 and previous
   seasons.
 - Minor fix to classifyfrc.py to fix a warning (Issue #49)
 
