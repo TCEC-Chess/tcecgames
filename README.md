@@ -45,13 +45,22 @@ The typical archive update procedure is:
     make fetch-new-pgns
 
     # regenerate outputs
-    make clean && make -j all
+    make clean
+    make HOOVER_CHESS_UTILS=../hoover-chess-utils/build/release-native/utils -j all
 
     # create release packages
     make -j release
 
     # test the release packages
     make -j test-release
+
+Note: `HOOVER_CHESS_UTILS` is the path to the compiled [Hoover Chess
+Utilities](https://github.com/skiminki/hoover-chess-utils/)
+binaries. It is currently optional. If not specified, the
+[pgn-extract](https://www.cs.kent.ac.uk/people/staff/djb/pgn-extract/)
+and [Python Chess](https://python-chess.readthedocs.io/en/latest/)
+toolchain is
+used, instead.
 
 License
 -------
