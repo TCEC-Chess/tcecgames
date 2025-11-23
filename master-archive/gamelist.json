@@ -5963,12 +5963,36 @@
 	       "dno": "3404"
             },
             {
-               "id": "s29divisionpswt",
+               "id": "s29division4ke",
+               "menu": "4K ELF II",
+               "url": "season=29&div=4ke",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_4k_Elf_Ii",
+	       "dno": "3405"
+            },
+            {
+               "id": "s29divisionpswt1",
                "menu": "Playoff and Swiss 9 Testing 1",
                "url": "season=29&div=pswt1",
                "no": "29",
                "abb": "TCEC_Season_29_-_Playoff_And_Swiss_9_Testing_1",
 	       "dno": "0006"
+            },
+            {
+               "id": "s29divisionpswt2",
+               "menu": "Playoff and Swiss 9 Testing 2",
+               "url": "season=29&div=pswt2",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Playoff_And_Swiss_9_Testing_2",
+	       "dno": "0007"
+            },
+            {
+               "id": "s29divisionscat3p",
+               "menu": "Category 3 Playoff",
+               "url": "season=29&div=cat3p",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Category_3_Playoff",
+	       "dno": "3508"
             },
             {
                "id": "s29divisiondivider",
