@@ -1,0 +1,105 @@
+Rank Name                   Elo    +    -    games score oppo. draws 
+   1 Stockfish             3757   26   26      253   62%  3670   54% 
+   2 LCZero                3712   26   26      263   53%  3693   52% 
+   3 Obsidian              3686   34   34      144   57%  3641   60% 
+   4 Berserk               3658   34   34      137   50%  3657   65% 
+   5 Integral              3656   25   25      274   61%  3573   59% 
+   6 PlentyChess           3652   24   24      282   59%  3586   59% 
+   7 Caissa                3646   40   40      100   56%  3607   65% 
+   8 Ceres                 3639   41   41       94   55%  3603   62% 
+   9 Reckless              3636   32   32      164   63%  3548   58% 
+  10 KomodoDragon          3635   40   40      103   48%  3647   57% 
+  11 Stormphrax            3628   33   33      152   56%  3584   64% 
+  12 Ethereal              3624   39   39      107   47%  3646   56% 
+  13 Stockfish_15_300M     3605   12   12     1170   55%  3570   68% 
+  14 RubiChess             3601   44   44       88   53%  3581   58% 
+  15 Stockfish_15_1G       3596   41   41      100   47%  3620   51% 
+  16 Ginkgo                3594   38   38      115   54%  3567   57% 
+  17 Booot                 3591   36   36      128   57%  3545   64% 
+  18 Viridithas            3585   41   41       98   49%  3590   59% 
+  19 Pawnocchio            3583   57   57       54   62%  3501   50% 
+  20 Torch                 3582   71   71       40   73%  3397   55% 
+  21 rofChade              3582   45   45       82   47%  3603   57% 
+  22 Seer                  3581   44   44       86   50%  3581   56% 
+  23 Uralochka             3579   43   43       88   51%  3572   59% 
+  24 Horsie                3572   32   32      173   58%  3508   51% 
+  25 Stockfish_15_100M     3566    7    7     3271   54%  3541   67% 
+  26 Starzix               3563   32   32      164   55%  3526   60% 
+  27 Clover                3556   32   32      164   59%  3493   59% 
+  28 Spaghet               3541   55   55       56   61%  3455   64% 
+  29 Halogen               3540   46   46       82   61%  3464   59% 
+  30 Stoofvlees            3537   44   44       86   43%  3584   58% 
+  31 StockfishClassical    3522   65   65       38   54%  3495   61% 
+  32 Stockfish_13_CCRL     3522    9    9     2048   51%  3517   69% 
+  33 Revenge               3522   44   44       83   43%  3569   57% 
+  34 Velvet                3522   42   42       98   47%  3540   56% 
+  35 Igel                  3519   43   43       86   44%  3560   59% 
+  36 Stockfish_15_30M_4th  3517    6    6     5120   51%  3508   69% 
+  37 BlackMarlin           3506   49   49       72   51%  3496   50% 
+  38 Arasan                3501   35   35      134   46%  3531   57% 
+  39 Stockfish_15_30M      3496    7    7     3301   48%  3507   66% 
+  40 Cinder                3492   57   57       54   52%  3482   56% 
+  41 Renegade              3491   35   35      138   50%  3492   60% 
+  42 Tarnished             3477   56   56       52   46%  3505   62% 
+  43 Heimdall              3467   43   43       90   51%  3459   53% 
+  44 Monty                 3457   72   72       44   65%  3294   25% 
+  45 Altair                3455   50   50       68   49%  3467   50% 
+  46 Quanticade            3452   39   39      127   54%  3411   50% 
+  47 Texel                 3450   62   62       46   53%  3425   54% 
+  48 Clarity               3447   68   68       38   51%  3428   55% 
+  49 DeepSjeng             3446   48   48       73   47%  3470   55% 
+  50 Tucano                3446   34   34      146   48%  3455   54% 
+  51 LCZeroCPU             3444   62   62       46   47%  3466   54% 
+  52 Serendipity           3439   39   39      116   44%  3478   48% 
+  53 Stockfish_15_10M      3432    7    7     3247   46%  3461   62% 
+  54 Minic                 3429   44   44       92   51%  3421   53% 
+  55 ScorpioNN             3427   45   45       86   43%  3468   51% 
+  56 Wasp                  3422   47   47       74   41%  3486   57% 
+  57 Superultra            3406   53   53       56   42%  3460   59% 
+  58 Sirius                3402   40   40      114   50%  3398   50% 
+  59 Winter                3400   84   84       28   61%  3311   36% 
+  60 Weiss                 3393   74   74       32   52%  3377   47% 
+  61 Stash                 3391   51   51       66   40%  3456   53% 
+  62 Patricia              3382   45   45       92   48%  3388   42% 
+  63 Stockfish_15_3M       3369    9    9     2182   51%  3362   59% 
+  64 Expositor             3344   62   62       48   39%  3425   48% 
+  65 Prelude               3327   71   71       34   40%  3410   74% 
+  66 Sapling               3293   65   65       46   32%  3422   46% 
+  67 Stockfish_15_1M       3285    9    9     2174   51%  3276   55% 
+  68 Bagatur               3256   43   43      112   27%  3422   40% 
+  69 Lynx                  3252   55   55       60   42%  3308   50% 
+  70 ice4                  3236   31   31      249   73%  2951   39% 
+  71 ChessFighter          3206   52   52       68   40%  3284   47% 
+  72 c4ke                  3203   41   41      130   61%  3022   46% 
+  73 Princhess             3184   47   47       97   31%  3318   42% 
+  74 Stockfish_15_300k     3172    9    9     2139   52%  3157   49% 
+  75 Cheese                3074   90   90       28   23%  3276   32% 
+  76 4ku                   3045   40   40      170   54%  2894   29% 
+  77 Stockfish_15_100k     3021    9    9     2126   54%  2994   39% 
+  78 STRO4K                2971   46   46      150   54%  2842   23% 
+  79 LESS_STRO4K           2892   58   58       92   70%  2761   32% 
+  80 Stockfish_15_30k      2801   10   10     2074   51%  2792   30% 
+  81 4k.c                  2584   45   45      195   28%  2759   19% 
+  82 Stockfish_15_10k      2558   12   12     2077   55%  2496   18% 
+  83 molly                 2497   72   72      106   32%  2709   11% 
+  84 M4sseur               2442   91   91       56   34%  2634   18% 
+  85 Stockfish_15_3k       2192   14   14     2074   50%  2178    9% 
+  86 pygone                1831  101  101      127    6%  2667    5% 
+  87 Stockfish_15_1k       1799   21   21     1049    8%  2186    8% 
+  88 moonfish              1491  245  245        8    0%  1996    0% 
+
+Note that all CCRL engines use 4 threads and 1GiB hash.
+Other engines usually use 512 threads and 256GiB hash. Parameters advantage and drawelo are calculated automatically from the same games before rating calculation.
+Time now: 2025-12-08T01:20:21 UTC
+
+bayeselo input:
+readpgn all/TCEC_Season_24_Calibration.pgn
+readpgn players/TCEC_Season_28.pgn
+readpgn players/TCEC_Season_29.pgn
+elo
+advantage 98.9011
+drawelo 248.002
+mm
+scale 0.6286238844113294
+offset 3522 Stockfish_13_CCRL
+ratings
