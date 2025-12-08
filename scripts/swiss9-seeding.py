@@ -55,15 +55,17 @@ engines = [
     'Princhess',
 ]
 
+# the master configuration parameters
 def printSeedingParameters(engines, num_groups, elo_list_file):
     print("number of engines:", len(engines))
     print("number of groups: ", num_groups)
     print("Elo listing:      ", elo_list_file)
 
-def loadEngineElos(elo_list_file):
+# load elos from a list file to a map
+def loadEngineElos(eloListFile):
     abspath = os.path.abspath(__file__)
     dname = os.path.dirname(abspath)
-    eloFilePath = os.path.join(dname, elo_list_file)
+    eloFilePath = os.path.join(dname, eloListFile)
 
     #                       Rank       Name    Elo        +          -          games      score       OppElo     draws
     pattern = re.compile(r'([0-9]+)\s+(\S+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)\s+([0-9]+)%\s+([0-9]+)\s+([0-9]+)%')
@@ -84,8 +86,8 @@ def reorderEnginesByElo(engines, eloMap, prevWinner):
     eloMap = eloMap.copy()
     eloMap[prevWinner] = 9999
 
-    # order by Elo and engine name (descending)
-    reorderedList = sorted(engines, reverse = True, key = lambda e : str(eloMap[e]) + e)
+    # order by Elo (descending) and engine name (ascending)
+    reorderedList = sorted(engines, key = lambda e : (-eloMap[e], e))
 
     return reorderedList
 
