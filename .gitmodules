@@ -1,0 +1,3 @@
+[submodule "extern/hoover-chess-utils"]
+	path = extern/hoover-chess-utils
+	url = https://github.com/skiminki/hoover-chess-utils.git
