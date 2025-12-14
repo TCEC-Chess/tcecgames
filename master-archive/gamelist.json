@@ -6027,6 +6027,14 @@
 	       "dno": "3512"
             },
             {
+               "id": "s29divisionswt",
+               "menu": "Swiss 9 Testing",
+               "url": "season=29&div=swt",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Swiss_9_Testing",
+	       "dno": "0013"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
