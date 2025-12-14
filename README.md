@@ -35,7 +35,10 @@ Archive maintenance is performed through the top-level Makefile.
 
 The typical archive update procedure is:
 
-    # update master game index
+    # update submodules
+    git submodule update --init --recursive
+
+    # update master event index
     make fetch-gamelist-json
 
     # show event classification
@@ -46,21 +49,18 @@ The typical archive update procedure is:
 
     # regenerate outputs
     make clean
-    make HOOVER_CHESS_UTILS=../hoover-chess-utils/build/release-native/utils -j all
+    make -j
 
-    # create release packages
+    # create release packages (if making a release)
     make -j release
 
-    # test the release packages
+    # test the release packages (if making a release)
     make -j test-release
 
-Note: `HOOVER_CHESS_UTILS` is the path to the compiled [Hoover Chess
-Utilities](https://github.com/skiminki/hoover-chess-utils/)
-binaries. It is currently optional. If not specified, the
-[pgn-extract](https://www.cs.kent.ac.uk/people/staff/djb/pgn-extract/)
-and [Python Chess](https://python-chess.readthedocs.io/en/latest/)
-toolchain is
-used, instead.
+Note: By default, [Hoover Chess
+Utilities](https://github.com/skiminki/hoover-chess-utils/) is used to
+compile the TCEC games database outputs. The old implementation can be
+used, instead, by adding `HOOVER_CHESS_UTILS=` to make arguments.
 
 License
 -------
@@ -68,7 +68,7 @@ License
 All scripts (i.e., anything that does not end in .pgn) are released
 under the Apache License 2.0:
 
-    Copyright 2021 Top Chess Engine Championship organization
+    Copyright 2021-2025 Top Chess Engine Championship organization
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
