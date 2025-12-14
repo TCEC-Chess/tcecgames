@@ -419,6 +419,7 @@ def output_make_defs_for_event(season, eventClass, eventTimestamp, eventNumber, 
             else:
                 print(" " + src_file.filename, end = "")
 
+        print(f" {hoover_chess_utils}/hoover-process-full-tcec-pgn", end = "")
         print(f" # {eventClass} / {eventTimestamp}", end = "\n")
 
         print("\tmkdir -p out/full/events/")
