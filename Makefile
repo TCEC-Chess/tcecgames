@@ -1,4 +1,4 @@
-# Copyright 2021 Top Chess Engine Championship organization
+# Copyright 2021-2025 Top Chess Engine Championship organization
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@ GAMELIST-JSONS := master-archive/gamelist.json scripts/gamelist-overlay.json
 PYTHON3 := python-venv/bin/python3
 
 # if this is set, use Hoover chess utils instead of pgn-extract and python chess
-HOOVER_CHESS_UTILS :=
+HOOVER_CHESS_UTILS ?= extern/hoover-chess-utils
 
 # include generated rules, but only if we're not cleaning
 ifneq ($(MAKECMDGOALS),clean)
@@ -61,13 +61,35 @@ $(PYTHON3):
 	python3 -m venv python-venv
 	python-venv/bin/pip3 install python-chess tabulate
 
+# Set up and build hoover-chess-utils if enabled
+ifneq ($(HOOVER_CHESS_UTILS),)
+HOOVER_CHESS_UTILS_BINS := $(HOOVER_CHESS_UTILS)/build/release-native/utils
+HOOVER_CHESS_UTILS_PROCESS_FULL_TCEC_PGN := $(HOOVER_CHESS_UTILS_BINS)/hoover-process-full-tcec-pgn
+HOOVER_CHESS_UTILS_COMPACTIFY_TCEC_PGN := $(HOOVER_CHESS_UTILS_BINS)/hoover-compactify-tcec-pgn
+HOOVER_CHESS_UTILS_BUILD_TIMESTAMP := $(HOOVER_CHESS_UTILS)/build/release-native.timestamp
+
+$(HOOVER_CHESS_UTILS_PROCESS_FULL_TCEC_PGN) $(HOOVER_CHESS_UTILS_COMPACTIFY_TCEC_PGN): $(HOOVER_CHESS_UTILS_BUILD_TIMESTAMP)
+
+$(HOOVER_CHESS_UTILS_BUILD_TIMESTAMP): $(shell git ls-files --recurse-submodules extern/hoover-chess-utils/)
+	$(HOOVER_CHESS_UTILS)/build-release.sh native
+	$(HOOVER_CHESS_UTILS)/build/release-native/pgn-reader/hoover-pgn-reader-tests
+	touch $(HOOVER_CHESS_UTILS_BUILD_TIMESTAMP)
+
+distclean: clean-hoover-chess-utils
+
+.PHONY:
+clean-hoover-chess-utils:
+	$(RM) -r $(HOOVER_CHESS_UTILS)/build/release-native $(HOOVER_CHESS_UTILS_BUILD_TIMESTAMP)
+
+endif
+
 # generated rules
 $(MAKEFILE-GEN): $(GAMELIST-JSONS) scripts/processgamelistjson.py $(PYTHON3)
 	mkdir -p out
 	$(PYTHON3) -OO -m compileall scripts
 	$(PYTHON3) -OO scripts/run-process-gamelist-json.py \
 		--master-dir=master-archive \
-		$(if $(HOOVER_CHESS_UTILS),--hoover-chess-utils $(HOOVER_CHESS_UTILS),) \
+		$(if $(HOOVER_CHESS_UTILS),--hoover-chess-utils $(HOOVER_CHESS_UTILS_BINS),) \
 		--generate-makefile $(GAMELIST-JSONS) \
 		> $(MAKEFILE-GEN)
 
@@ -100,12 +122,14 @@ eco.pgn:
 	@exit 1
 
 # compact event pgns
+ifeq ($(HOOVER_CHESS_UTILS),)
 out/compact/events/%.pgn: out/full/events/%.pgn $(PYTHON3)
 	mkdir -p out/compact/events
-ifeq ($(HOOVER_CHESS_UTILS),)
 	$(PYTHON3) -OO scripts/run-compactify-pgn.py $< >$@
 else
-	"$(HOOVER_CHESS_UTILS)/hoover-compactify-tcec-pgn" $< >$@
+out/compact/events/%.pgn: out/full/events/%.pgn $(HOOVER_CHESS_UTILS_COMPACTIFY_TCEC_PGN)
+	mkdir -p out/compact/events
+	"$(HOOVER_CHESS_UTILS_COMPACTIFY_TCEC_PGN)" $< >$@
 endif
 
 scripts/gen-all-engines.txt: out/compact/everything/TCEC-everything.pgn
