@@ -6035,6 +6035,46 @@
 	       "dno": "0013"
             },
             {
+               "id": "s29divisionsw",
+               "menu": "Swiss 9",
+               "url": "season=29&div=sw",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Swiss_9",
+	       "dno": "3514"
+            },
+            {
+               "id": "s29divisionswtb1",
+               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 1 Cup Entrance",
+               "url": "season=29&div=swtb1",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_1_Cup_Entrance",
+               "dno": "3515"
+            },
+            {
+               "id": "s29divisionswtb2",
+               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 2 Cup Entrance",
+               "url": "season=29&div=swtb2",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_2_Cup_Entrance",
+               "dno": "3516"
+            },
+            {
+               "id": "s29divisionswtb3",
+               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 3 Seeds 6-8",
+               "url": "season=29&div=swtb3",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_3_Seeds_6-8",
+               "dno": "3517"
+            },
+            {
+               "id": "s29divisionswtb4",
+               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 4 Seeds 7-8",
+               "url": "season=29&div=swtb4",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_4_Seeds_7-8",
+               "dno": "3518"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
