@@ -6075,6 +6075,78 @@
                "dno": "3518"
             },
             {
+               "id": "s29divisionswtb5",
+               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 5 Seeds 3-5",
+               "url": "season=29&div=swtb5",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_5_Seeds_3-5",
+               "dno": "3519"
+            },
+            {
+               "id": "s29divisionswtb6",
+               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 6 Seeds 4-5",
+               "url": "season=29&div=swtb6",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_6_Seeds_4-5",
+               "dno": "3520"
+            },
+            {
+               "id": "s29divisioncupt",
+               "menu": "Cup 16 Testing",
+               "url": "season=29&div=cupt",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Cup_16_Testing",
+	       "dno": "0021"
+            },
+            {
+               "no": "1",
+               "dno": "4023",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_16_Round32",
+               "url": "season=cup16&round=round32",
+               "id": "scup16round32"
+            },
+            {
+               "no": "2",
+               "dno": "4024",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_16_Round16",
+               "url": "season=cup16&round=round16",
+               "id": "scup16round16"
+            },
+            {
+               "no": "3",
+               "dno": "4025",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_16_Quarterfinal",
+               "url": "season=cup16&round=qf",
+               "id": "scup16qf"
+            },
+            {
+               "no": "4",
+               "dno": "4026",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_16_Semifinal",
+               "url": "season=cup16&round=sf",
+               "id": "scup16sf"
+            },
+            {
+               "no": "5",
+               "dno": "4027",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_16_Bronze",
+               "url": "season=cup16&round=bz",
+               "id": "scup16bz"
+            },
+            {
+               "no": "6",
+               "dno": "4028",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_16_Final",
+               "url": "season=cup16&round=fl",
+               "id": "scup16fl"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
@@ -6972,6 +7044,64 @@
                "abb": "TCEC_Cup_15_Final",
                "url": "season=cup15&round=fl",
                "id": "scup15fl"
+            }
+	 ]
+      },
+      "Cup 16": {
+         "seasonName": "Cup 16",
+         "download": "TCEC_Cup_16_full.pgn.zip",
+         "eventtag": "TCEC_Cup_16_event",
+         "previouspgn": "TCEC_Cup_16_Round32",
+         "teams": "cup16.json",
+         "cup": 16,
+         "sub": [
+            {
+               "no": "1",
+               "dno": "1",
+               "menu": "Round32",
+               "abb": "TCEC_Cup_16_Round32",
+               "url": "season=cup16&round=round32",
+	       "id": "scup16round32"
+            },
+            {
+               "no": "2",
+               "dno": "2",
+               "menu": "Round16",
+               "abb": "TCEC_Cup_16_Round16",
+               "url": "season=cup16&round=round16",
+               "id": "scup16round16"
+            },
+            {
+               "no": "3",
+               "dno": "3",
+               "menu": "Quarterfinals",
+               "abb": "TCEC_Cup_16_Quarterfinal",
+               "url": "season=cup16&round=qf",
+               "id": "scup16qf"
+            },
+            {
+               "no": "4",
+               "dno": "4",
+               "menu": "Semifinals",
+               "abb": "TCEC_Cup_16_Semifinal",
+               "url": "season=cup16&round=sf",
+               "id": "scup16sf"
+            },
+            {
+               "no": "5",
+               "dno": "5",
+               "menu": "Bronze",
+               "abb": "TCEC_Cup_16_Bronze",
+               "url": "season=cup16&round=bz",
+               "id": "scup16bz"
+            },
+            {
+               "no": "6",
+               "dno": "6",
+               "menu": "Finals",
+               "abb": "TCEC_Cup_16_Final",
+               "url": "season=cup16&round=fl",
+               "id": "scup16fl"
             }
 	 ]
       },
