@@ -6099,6 +6099,14 @@
 	       "dno": "0021"
             },
             {
+               "id": "s29division1gc",
+               "menu": "Stockfish_15_1G Testing Calibration",
+               "url": "season=29&div=1gc",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Stockfish_15_1g_Testing_Calibration",
+	       "dno": "0022"
+	    },
+            {
                "no": "1",
                "dno": "4023",
                "menu": "Round32",
@@ -6146,6 +6154,38 @@
                "url": "season=cup16&round=fl",
                "id": "scup16fl"
             },
+            {
+               "id": "s29divisionelt",
+               "menu": "EL Testing",
+               "url": "season=29&div=elt",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_El_Testing",
+	       "dno": "0029"
+            },
+            {
+               "id": "s29divisionglut3",
+               "menu": "Game Length Update Testing 3",
+               "url": "season=29&div=glut3",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Game_Length_Update_Testing_3",
+	       "dno": "0030"
+            },
+	    {
+               "id": "s29divisiongui",
+               "menu": "GUI Testing",
+               "url": "season=29&div=gui",
+               "no": "29",
+	       "abb": "TCEC_Season_29_-_Gui_Testing",
+               "dno": "5032"
+	    },
+            {
+               "id": "s29divisionfc",
+               "menu": "FRC Complete Blitz Bonus",
+               "url": "season=29&div=fc",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frc_Complete_Blitz_Bonus",
+	       "dno": "1033"
+	    },
             {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
