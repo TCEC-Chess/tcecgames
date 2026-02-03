@@ -6170,13 +6170,21 @@
                "abb": "TCEC_Season_29_-_Game_Length_Update_Testing_3",
 	       "dno": "0030"
             },
+            {
+               "id": "s29divisionel",
+               "menu": "Entrance League",
+               "url": "season=29&div=el",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Entrance_League",
+               "dno": "5031"
+	    },
 	    {
                "id": "s29divisiongui",
                "menu": "GUI Testing",
                "url": "season=29&div=gui",
                "no": "29",
 	       "abb": "TCEC_Season_29_-_Gui_Testing",
-               "dno": "5032"
+               "dno": "0032"
 	    },
             {
                "id": "s29divisionfc",
@@ -6185,6 +6193,22 @@
                "no": "29",
                "abb": "TCEC_Season_29_-_Frc_Complete_Blitz_Bonus",
 	       "dno": "1033"
+	    },
+            {
+               "id": "s29divisionelt1",
+               "menu": "Entrance League Tiebreak 1",
+               "url": "season=29&div=elt1",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Entrance_League_Tiebreak_1",
+               "dno": "5034"
+            },
+	    {
+               "id": "s29divisionelt2",
+               "menu": "Entrance League Tiebreak 2",
+               "url": "season=29&div=elt2",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Entrance_League_Tiebreak_2",
+               "dno": "5035"
 	    },
             {
                "id": "s29divisiondivider",
