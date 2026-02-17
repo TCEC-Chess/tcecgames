@@ -6211,6 +6211,30 @@
                "dno": "5035"
 	    },
             {
+               "id": "s29divisionl2t",
+               "menu": "L2 Testing",
+               "url": "season=29&div=l2t",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_L2_Testing",
+	       "dno": "0036"
+            },
+            {
+               "id": "s29divisionl2",
+               "menu": "League 2",
+               "url": "season=29&div=l2",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_League_2",
+               "dno": "5037"
+            },
+            {
+               "id": "s29divisionl1t",
+               "menu": "L1 Testing",
+               "url": "season=29&div=l1t",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_L1_Testing",
+	       "dno": "0038"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
