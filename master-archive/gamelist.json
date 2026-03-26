@@ -6235,6 +6235,38 @@
 	       "dno": "0038"
             },
             {
+               "id": "s29divisionl1",
+               "menu": "League 1",
+               "url": "season=29&div=l1",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_League_1",
+               "dno": "5039"
+            },
+            {
+               "id": "s29divisiondivpt",
+               "menu": "DivP Testing",
+               "url": "season=29&div=divpt",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Divp_Testing",
+               "dno": "0040"
+            },
+            {
+               "id": "s29divisionp",
+               "menu": "Division P",
+               "url": "season=29&div=p",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Division_P",
+               "dno": "5041"
+            },
+            {
+               "id": "s29divisionsft",
+               "menu": "Sufi Testing",
+               "url": "season=29&div=sft",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Sufi_Testing",
+	       "dno": "0042"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
