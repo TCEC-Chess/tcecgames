@@ -6267,6 +6267,14 @@
 	       "dno": "0042"
             },
             {
+               "id": "s29divisionsfb",
+               "menu": "Half Speed Abandoned Sufi Bonus",
+               "url": "season=29&div=sfb",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Half_Speed_Abandoned_Sufi_Bonus",
+	       "dno": "1043"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
