@@ -6283,6 +6283,14 @@
 	       "dno": "5044"
             },
             {
+               "id": "s29divisionast",
+               "menu": "AltSubfi Testing",
+               "url": "season=29&div=ast",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Altsubfi_Testing",
+	       "dno": "0045"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
