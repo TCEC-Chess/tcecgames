@@ -6291,6 +6291,14 @@
 	       "dno": "0045"
             },
             {
+               "id": "s29divisionsas",
+               "menu": "AltSubfi Bonus",
+               "url": "season=29&div=as",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Altsubfi_Bonus",
+	       "dno": "1046"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
