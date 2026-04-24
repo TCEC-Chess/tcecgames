@@ -706,7 +706,10 @@ def gamelists_to_eventlist(gamelists):
                 eventlist[season] = { }
             for event in gamelist["Seasons"][season]["sub"]:
 
-                event_id = event["id"]
+                if "id" in event:
+                    event_id = event["id"]
+                else:
+                    fatal("No id in event: " + str(event), 6)
 
                 # allow overrides by overlays
                 if event_id in eventlist[season]:
