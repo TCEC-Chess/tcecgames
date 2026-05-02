@@ -6315,6 +6315,39 @@
 	       "dno": "1048"
             },
             {
+               "id": "s29divisionbucb",
+               "menu": "Bullet Chess Bonus",
+               "url": "season=29&div=bucb",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Bullet_Chess_Bonus",
+	       "dno": "1049"
+            },
+            {
+               "id": "s29divisionbugb",
+               "menu": "Bullet Grob Bonus",
+               "url": "season=29&div=bugb",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Bullet_Grob_Bonus",
+	       "dno": "1050"
+            },
+            {
+               "id": "s29divisionfdt",
+               "menu": "FRD 5 Testing",
+               "url": "season=29&div=fdt",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Testing",
+	       "dno": "0051"
+            },
+            {
+               "id": "s29divisionsfrdp",
+               "frc": 1,
+               "menu": "FRD 5 Playoff",
+               "url": "season=29&div=frdp",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Playoff",
+	       "dno": "2052"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
