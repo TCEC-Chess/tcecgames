@@ -167,7 +167,7 @@ def classify_event(season, event_id, event_name):
                         "s29divisionelt1", "s29divisionelt2"]:
             return "MAIN"
 
-        if event_id in ["s29divisionsfrdp"]:
+        if event_id in ["s29divisionsfrdp", "s29divisionsfrdla", "s29divisionsfrdlb", "s29divisionsfrdlbt", "s29divisionsfrdlc", "s29divisionsfrdld"]:
             return "DFRC"
 
     fatal(f"Don't know how to classify Season '{season}', event id '{event_id}', event name '{event_name}'", 5)
@@ -631,6 +631,8 @@ def output_make_defs(make_defs):
                     fix_event_tag_cmd = \
                         "\t\t| sed -r 's/^\\[Event \"TCEC Season ([[:digit:]]+) - FRC([[:digit:]]+)/" + \
                                            "[Event \"TCEC Season \\1 - FRC \\2/' \\"
+                elif src_file.filename == "master-archive/TCEC_Season_29_-_Frd_5_League_D.pgn":
+                    fix_event_tag_cmd = "\t\t| sed 's/^\\[Event \"TCEC Season 29 - FRD 5 League D Ethereal\"\\]$$/[Event \"TCEC Season 29 - FRD 5 League D Ethereal\"]/' \\"
 
                 fixEventTagCmds[src_file.filename] = fix_event_tag_cmd
 
