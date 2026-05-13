@@ -27,6 +27,7 @@ exceptionalNames = {
     "Ethereal 12.89A_PRO_Cup_8": ("Ethereal", "12.89A PRO Cup 8", ""),
     "Ethereal 12.89B_PRO_FRC": ("Ethereal", "12.89B PRO FRC", ""),
     "Ethereal 12.89_PRO_Cup_8": ("Ethereal", "12.89 PRO Cup 8", ""),
+    "Ethereal-FRC 14.40-frc": ("Ethereal", "14.40-frc", ""),
     "Fritz in Bahrain": ("Fritz", "in Bahrain", ""),
     "Glaurung 2.2 JA": ("Glaurung", "2.2 JA", ""),
     "Glaurung_2.2_CCRL 64-bit_4CPU": ("Glaurung", "2.2 CCRL", "64-bit 4CPU"),

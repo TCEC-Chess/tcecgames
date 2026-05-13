@@ -6348,6 +6348,51 @@
 	       "dno": "2052"
             },
             {
+               "id": "s29divisionsfrdla",
+               "frc": 1,
+               "menu": "FRD 5 League A",
+               "url": "season=29&div=frdla",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_League_A",
+	       "dno": "2053"
+            },
+            {
+               "id": "s29divisionsfrdlb",
+               "frc": 1,
+               "menu": "FRD 5 League B",
+               "url": "season=29&div=frdlb",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_League_B",
+	       "dno": "2054"
+            },
+            {
+               "id": "s29divisionsfrdlbt",
+               "frc": 1,
+               "menu": "FRD 5 League B Tiebreak",
+               "url": "season=29&div=frdlbt",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_League_B_Tiebreak",
+	       "dno": "2055"
+            },
+            {
+               "id": "s29divisionsfrdlc",
+               "frc": 1,
+               "menu": "FRD 5 League C",
+               "url": "season=29&div=frdlc",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_League_C",
+	       "dno": "2056"
+            },
+            {
+               "id": "s29divisionsfrdld",
+               "frc": 1,
+               "menu": "FRD 5 League D",
+               "url": "season=29&div=frdld",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_League_D",
+	       "dno": "2057"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
