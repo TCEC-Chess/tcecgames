@@ -6393,6 +6393,83 @@
 	       "dno": "2057"
             },
             {
+               "id": "s29divisionfdts",
+               "menu": "FRD 5 Semileague Testing",
+               "url": "season=29&div=fdts",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Semileague_Testing",
+	       "dno": "0058"
+            },
+            {
+               "id": "s29divisionsfrdsl1",
+               "frc": 1,
+               "menu": "FRD 5 Semileague 1",
+               "url": "season=29&div=frdsl1",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Semileague_1",
+	       "dno": "2059"
+            },
+            {
+               "id": "s29divisionsfrdsl1t",
+               "frc": 1,
+               "menu": "FRD 5 Semileague 1 Tiebreak",
+               "url": "season=29&div=frdsl1t",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Semileague_1_Tiebreak",
+	       "dno": "2060"
+            },
+            {
+               "id": "s29divisionsfrdsl2",
+               "frc": 1,
+               "menu": "FRD 5 Semileague 2",
+               "url": "season=29&div=frdsl2",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Semileague_2",
+	       "dno": "2061"
+            },
+            {
+               "id": "s29divisionfdtflt",
+               "menu": "FRD 5 Final League Testing",
+               "url": "season=29&div=fdtflt",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Final_League_Testing",
+	       "dno": "0062"
+            },
+            {
+               "id": "s29divisionsfrdfl",
+               "frc": 1,
+               "menu": "FRD 5 Final League",
+               "url": "season=29&div=frdfl",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Final_League",
+	       "dno": "2063"
+            },
+            {
+               "id": "s29divisionfdtft",
+               "menu": "FRD 5 Final Testing",
+               "url": "season=29&div=fdtft",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Final_Testing",
+	       "dno": "0064"
+            },
+            {
+               "id": "s29divisionsfrdf",
+               "frc": 1,
+               "menu": "FRD 5 Final",
+               "url": "season=29&div=frdf",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frd_5_Final",
+	       "dno": "2065"
+            },
+            {
+               "id": "s29divisiongb",
+               "menu": "Gambit Bonus",
+               "url": "season=29&div=gb",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Gambit_Bonus",
+	       "dno": "1066"
+            },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
