@@ -6470,6 +6470,14 @@
 	       "dno": "1066"
             },
             {
+               "id": "s29divisionfd",
+               "menu": "FRC Decisive Rapid Bonus",
+               "url": "season=29&div=fd",
+               "no": "29",
+               "abb": "TCEC_Season_29_-_Frc_Decisive_Rapid_Bonus",
+	       "dno": "1067"
+	    },
+            {
                "id": "s29divisiondivider",
                "menu": "-= Cup 16 =-",
                "url": "season=29&div=undefined",
