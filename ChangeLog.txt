@@ -1,3 +1,10 @@
+Season S29 final (2026-06-07)
+- This release contains all TCEC games of Season 29 and previous
+  seasons.
+- Hoover chess utilities are now used by default. (Issue #55)
+- The game result of S21 Infrafinal G20 has been updated to match the
+  PGNs in the web server. (Issue #56)
+
 Season S28 final (2025-10-26)
 - This release contains all TCEC games of Season 28 and previous
   seasons.
