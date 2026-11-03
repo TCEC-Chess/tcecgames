@@ -6662,6 +6662,14 @@
 	       "dno": "0016"
             },
             {
+               "id": "s30divisionsw",
+               "menu": "Swiss 10",
+               "url": "season=30&div=sw",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_Swiss_10",
+	       "dno": "6017"
+            },
+            {
                "id": "s30divisiondivider",
                "menu": "-= Cup 17 =-",
                "url": "season=30&div=undefined",
