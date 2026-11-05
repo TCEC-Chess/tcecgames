@@ -1,0 +1,162 @@
+Rank Name                   Elo    +    -    games score oppo. draws 
+   1 Stockfish             3833   26   26      265   62%  3743   47% 
+   2 LCZero                3784   27   27      246   55%  3743   55% 
+   3 Reckless              3776   21   21      384   52%  3762   48% 
+   4 Cinder                3752   46   46       80   68%  3624   56% 
+   5 Torch                 3745   25   25      283   62%  3658   53% 
+   6 Integral              3738   38   38      120   52%  3728   52% 
+   7 PlentyChess           3734   37   37      125   53%  3712   52% 
+   8 Obsidian              3721   35   35      135   49%  3731   56% 
+   9 Ceres                 3707   38   38      126   60%  3624   52% 
+  10 CatGPT                3702   42   42       94   60%  3633   57% 
+  11 Pawnocchio            3700   30   30      188   57%  3648   52% 
+  12 KomodoDragon          3693   47   47       72   51%  3688   65% 
+  13 Viridithas            3693   42   42       92   54%  3662   63% 
+  14 RubiChess             3693   36   36      132   56%  3654   54% 
+  15 Raphael               3692   40   40      118   66%  3574   48% 
+  16 Halogen               3690   32   32      166   57%  3640   57% 
+  17 Berserk               3685   45   45       86   43%  3735   47% 
+  18 Stormphrax            3680   43   43       90   51%  3679   54% 
+  19 Caissa                3664   42   42       91   49%  3668   59% 
+  20 Tcheran               3662   47   47       80   64%  3559   51% 
+  21 Quanticade            3659   36   36      131   56%  3615   53% 
+  22 Stockfish_15_1G       3657   15   15      740   53%  3632   54% 
+  23 Clover                3653   32   32      160   50%  3655   59% 
+  24 Prune                 3644   51   51       66   63%  3553   56% 
+  25 PZChessBot            3643   42   42       98   60%  3571   57% 
+  26 Ginkgo                3631   44   44       90   51%  3623   56% 
+  27 Horsie                3626   52   52       64   52%  3610   48% 
+  28 Ethereal              3623   42   42       96   46%  3649   57% 
+  29 Tarnished             3616   35   35      138   55%  3583   56% 
+  30 Uralochka             3605   49   49       72   48%  3619   54% 
+  31 rofChade              3602   45   45       83   46%  3632   60% 
+  32 Stockfish_15_300M     3602    9    9     1866   49%  3612   63% 
+  33 Booot                 3593   48   48       74   45%  3631   49% 
+  34 Seer                  3592   44   44       84   45%  3624   62% 
+  35 Velvet                3592   47   47       80   52%  3579   46% 
+  36 Renegade              3580   44   44       88   52%  3568   56% 
+  37 Serendipity           3577   48   48       78   40%  3642   45% 
+  38 Igel                  3575   44   44       90   50%  3574   51% 
+  39 Heimdall              3574   46   46       82   50%  3574   54% 
+  40 Stoofvlees            3573   48   48       71   42%  3623   59% 
+  41 Stockfish_15_100M     3568    7    7     3268   54%  3543   67% 
+  42 BlackMarlin           3531   50   50       71   44%  3569   52% 
+  43 SSSimpler             3526   50   50       68   46%  3549   49% 
+  44 Stockfish_13_CCRL     3522    9    9     2048   51%  3517   69% 
+  45 Avalanche             3518   52   52       60   54%  3488   58% 
+  46 Stockfish_15_30M_4th  3517    6    6     5120   51%  3508   69% 
+  47 Bread                 3513   45   45       86   52%  3496   55% 
+  48 DeepSjeng             3499   50   50       72   43%  3548   44% 
+  49 Stockfish_15_30M      3498    7    7     3226   49%  3506   66% 
+  50 Clarity               3494   60   60       48   47%  3521   52% 
+  51 Winter                3492   42   42      104   49%  3495   42% 
+  52 Arasan                3479   43   43       94   47%  3495   54% 
+  53 StockfishClassical    3473   64   64       46   71%  3319   46% 
+  54 Minic                 3461   51   51       72   58%  3400   44% 
+  55 Monty                 3459   44   44       93   54%  3431   52% 
+  56 Weiss                 3432   66   66       44   66%  3310   36% 
+  57 Sirius                3432   39   39      124   58%  3370   44% 
+  58 Stockfish_15_10M      3429    7    7     3218   46%  3456   62% 
+  59 Clockwork             3423   46   46       86   60%  3345   51% 
+  60 Wasp                  3420   51   51       70   44%  3467   47% 
+  61 Patricia              3418   38   38      130   43%  3467   47% 
+  62 GinkgoHCE             3390   66   66       46   61%  3303   30% 
+  63 Komodo                3389   62   62       46   59%  3323   48% 
+  64 EtherealHCE           3388   63   63       44   61%  3305   50% 
+  65 Texel                 3386  232  232        2   25%  3498   50% 
+  66 Potential             3377   44   44       98   55%  3343   50% 
+  67 Lynx                  3371   37   37      128   53%  3349   46% 
+  68 RubiChessHCE          3362   62   62       46   58%  3305   46% 
+  69 Stockfish_15_3M       3356    9    9     2186   51%  3348   59% 
+  70 Mr_Bob                3352   53   53       66   34%  3466   50% 
+  71 Bagatur.cpp           3350   52   52       76   40%  3424   43% 
+  72 Stash                 3325   48   48       74   50%  3323   46% 
+  73 Northphrax            3306   60   60       46   49%  3307   59% 
+  74 c4ke                  3305   31   31      212   61%  3158   45% 
+  75 Princhess             3290   48   48       84   40%  3360   45% 
+  76 RenegadeHCE           3266   61   61       48   42%  3324   42% 
+  77 Stockfish_15_1M       3265    9    9     2148   52%  3254   56% 
+  78 ChessFighter          3264   42   42      108   42%  3326   51% 
+  79 IgelHCE               3261   63   63       46   43%  3309   39% 
+  80 HeimdallHCE           3255   62   62       46   42%  3309   46% 
+  81 Jackal                3250   50   50       76   34%  3363   42% 
+  82 ice4                  3220   31   31      214   47%  3182   44% 
+  83 LESS_STRO4K           3212   96   96       22   27%  3394   36% 
+  84 WaspHCE               3179   62   62       46   30%  3313   52% 
+  85 Stockfish_15_300k     3147    9    9     2128   52%  3131   49% 
+  86 4k.c                  3120   29   29      242   51%  3069   46% 
+  87 Cheese                3092   59   59       68   19%  3341   32% 
+  88 4ku                   3065   46   46      100   50%  2961   47% 
+  89 STRO4K                3014   44   44      112   43%  2975   41% 
+  90 Stockfish_15_100k     2988   10   10     2098   54%  2959   39% 
+  91 SerendipityHCE        2952   92   92       46    8%  3323   11% 
+  92 Stockfish_15_30k      2759   10   10     2050   51%  2748   29% 
+  93 Stockfish_15_10k      2507   12   12     2050   55%  2444   19% 
+  94 molly                 2380  275  275       50   18%  2870    0% 
+  95 Stockfish_15_3k       2132   15   15     2058   50%  2118    9% 
+  96 Stockfish_15_1k       1731   22   22     1034    7%  2127    8% 
+  97 pygone                1683  132  132       68    6%  2709    3% 
+
+Note that all CCRL engines use 4 threads and 1GiB hash.
+Other engines usually use 512 threads and 256GiB hash. Parameters advantage and drawelo are calculated automatically from the same games before rating calculation.
+Time now: 2026-10-01T22:23:33 UTC
+
+Events included:
+TCEC offline rating calibration
+TCEC Season 29 - Stockfish_15_1G Testing Calibration
+TCEC Season 29 - Category 1 Playoff
+TCEC Season 29 - Swiss 9 Testing
+TCEC Season 29 - Swiss 9
+TCEC Season 29 - Swiss 9 Tiebreak 1 Cup Entrance
+TCEC Season 29 - Swiss 9 Tiebreak 2 Cup Entrance
+TCEC Season 29 - Swiss 9 Tiebreak 3 Seeds 6-8
+TCEC Season 29 - Swiss 9 Tiebreak 4 Seeds 7-8
+TCEC Season 29 - Swiss 9 Tiebreak 5 Seeds 3-5
+TCEC Season 29 - Swiss 9 Tiebreak 6 Seeds 4-5
+TCEC Season 29 - Cup 16 Testing
+TCEC Cup 16 Round32
+TCEC Cup 16 Round16
+TCEC Cup 16 Quarterfinal
+TCEC Cup 16 Semifinal
+TCEC Cup 16 Bronze
+TCEC Cup 16 Final
+TCEC Season 29 - EL Testing
+TCEC Season 29 - Entrance League
+TCEC Season 29 - Entrance League Tiebreak 1
+TCEC Season 29 - Entrance League Tiebreak 2
+TCEC Season 29 - L2 Testing
+TCEC Season 29 - League 2
+TCEC Season 29 - L1 Testing
+TCEC Season 29 - League 1
+TCEC Season 29 - DivP Testing
+TCEC Season 29 - Division P
+TCEC Season 29 - Sufi Testing
+TCEC Season 29 - Superfinal
+TCEC Season 29 - AltSubfi Bonus
+TCEC Season 30 - 4K Testing
+TCEC Season 30 - 4K VII
+TCEC Season 30 - 4K VII MiniFinal
+TCEC Season 30 - 4K VII Alt MiniFinal Bonus
+TCEC Season 30 - 4K ELF III
+TCEC Season 30 - HCE Testing
+TCEC Season 30 - HCE Competition 1
+TCEC Season 30 - Playoff and Swiss 10 Testing 1
+TCEC Season 30 - Playoff and Swiss 10 Testing 2
+TCEC Season 30 - Category 3+4 Playoff
+TCEC Season 30 - Category 2 Playoff Testing
+TCEC Season 30 - Category 2 Playoff
+TCEC Season 30 - Category 1 Playoff Testing
+TCEC Season 30 - Category 1 Playoff
+
+bayeselo input:
+readpgn all/TCEC_Season_24_Calibration.pgn
+readpgn all/TCEC_Season_29_-_Stockfish_15_1g_Testing_Calibration.pgn
+readpgn players/Stripped_TCEC_Season_29.pgn
+readpgn players/TCEC_Season_30.pgn
+elo
+advantage 104.895
+drawelo 245.005
+mm
+scale 0.6344803288486441
+offset 3522 Stockfish_13_CCRL
+ratings
