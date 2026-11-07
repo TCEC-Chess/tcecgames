@@ -6044,7 +6044,7 @@
             },
             {
                "id": "s29divisionswtb1",
-               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 1 Cup Entrance",
+               "menu": "Swiss 9 Tiebreak 1 Cup Entrance",
                "url": "season=29&div=swtb1",
                "no": "29",
                "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_1_Cup_Entrance",
@@ -6052,7 +6052,7 @@
             },
             {
                "id": "s29divisionswtb2",
-               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 2 Cup Entrance",
+               "menu": "Swiss 9 Tiebreak 2 Cup Entrance",
                "url": "season=29&div=swtb2",
                "no": "29",
                "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_2_Cup_Entrance",
@@ -6060,7 +6060,7 @@
             },
             {
                "id": "s29divisionswtb3",
-               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 3 Seeds 6-8",
+               "menu": "Swiss 9 Tiebreak 3 Seeds 6-8",
                "url": "season=29&div=swtb3",
                "no": "29",
                "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_3_Seeds_6-8",
@@ -6068,7 +6068,7 @@
             },
             {
                "id": "s29divisionswtb4",
-               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 4 Seeds 7-8",
+               "menu": "Swiss 9 Tiebreak 4 Seeds 7-8",
                "url": "season=29&div=swtb4",
                "no": "29",
                "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_4_Seeds_7-8",
@@ -6076,7 +6076,7 @@
             },
             {
                "id": "s29divisionswtb5",
-               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 5 Seeds 3-5",
+               "menu": "Swiss 9 Tiebreak 5 Seeds 3-5",
                "url": "season=29&div=swtb5",
                "no": "29",
                "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_5_Seeds_3-5",
@@ -6084,7 +6084,7 @@
             },
             {
                "id": "s29divisionswtb6",
-               "menu": "TCEC Season 29 - Swiss 9 Tiebreak 6 Seeds 4-5",
+               "menu": "Swiss 9 Tiebreak 6 Seeds 4-5",
                "url": "season=29&div=swtb6",
                "no": "29",
                "abb": "TCEC_Season_29_-_Swiss_9_Tiebreak_6_Seeds_4-5",
@@ -6668,6 +6668,22 @@
                "no": "30",
                "abb": "TCEC_Season_30_-_Swiss_10",
 	       "dno": "6017"
+            },
+            {
+               "id": "s30divisionswtb1",
+               "menu": "Swiss 10 Tiebreak 1 Promotion To Entrance League",
+               "url": "season=30&div=swtb1",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_Swiss_10_Tiebreak_1_Promotion_To_Entrance_League",
+               "dno": "6018"
+            },
+            {
+               "id": "s30divisionswtb2",
+               "menu": "Swiss 10 Tiebreak 2 Promotion To Entrance League",
+               "url": "season=30&div=swtb2",
+               "no": "30",
+               "abb": "TCEC_Season_30_-_Swiss_10_Tiebreak_2_Promotion_To_Entrance_League",
+               "dno": "6019"
             },
             {
                "id": "s30divisiondivider",

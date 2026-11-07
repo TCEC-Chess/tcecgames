@@ -177,7 +177,7 @@ def classify_event(season, event_id, event_name):
         if event_id in ["s30divisionhce"]:
             return "HCE"
 
-        if event_id in ["s30divisionscat34p", "s30divisionscat2p", "s30divisionscat1p"]:
+        if event_id in ["s30divisionscat34p", "s30divisionscat2p", "s30divisionscat1p", "s30divisionswtb1", "s30divisionswtb2"]:
             return "MAIN"
 
 
